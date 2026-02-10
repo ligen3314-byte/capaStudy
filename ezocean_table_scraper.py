@@ -20,16 +20,16 @@ DETAIL_WAIT_MS_MIN = 300
 DETAIL_WAIT_MS_MAX = 900
 
 # 0 means no page limit.
-MAX_PAGES = int(os.getenv("MAX_PAGES", "0"))
+MAX_PAGES = int(os.getenv("MAX_PAGES", "2"))
 # Debug throttles (to reduce load / bans while debugging)
-MAX_ROWS_PER_PAGE = int(os.getenv("MAX_ROWS_PER_PAGE", "0"))  # 0 means no limit
+MAX_ROWS_PER_PAGE = int(os.getenv("MAX_ROWS_PER_PAGE", "2"))  # 0 means no limit
 FETCH_DETAIL = os.getenv("FETCH_DETAIL", "1").strip() not in ("0", "false", "False", "no", "NO")
 
 # Date filter + chunking
 # - START_DATE/END_DATE: yyyymmdd / yyyy-mm-dd / yyyy/mm/dd
 # - CHUNK_DAYS: 0 means no chunking
 START_DATE = os.getenv("START_DATE", "20260210").strip()
-END_DATE = os.getenv("END_DATE", "20260214").strip()
+END_DATE = os.getenv("END_DATE", "20260222").strip()
 CHUNK_DAYS = int(os.getenv("CHUNK_DAYS", "0"))
 DATE_INPUT_FORMAT = "%Y/%m/%d"  # ezocean UI usually shows yyyy/mm/dd
 AUTO_FILTER_WAIT_MS = 3000
@@ -104,6 +104,37 @@ def iter_date_chunks(start: dt.date, end: dt.date, chunk_days: int):
         cur = chunk_end + dt.timedelta(days=1)
 
 
+def _next_sunday_on_or_after(d: dt.date) -> dt.date:
+    # Python weekday(): Mon=0 .. Sun=6
+    return d + dt.timedelta(days=(6 - d.weekday()) % 7)
+
+
+def iter_week_chunks(start: dt.date, end: dt.date):
+    """
+    Chunking rule:
+    - Each chunk is Monday..Sunday (inclusive).
+    - First chunk starts at START_DATE and ends at min(END_DATE, first Sunday on/after START_DATE).
+    - Last chunk ends at END_DATE.
+    """
+    if start is None or end is None:
+        yield None, None
+        return
+
+    if end < start:
+        raise ValueError(f"END_DATE({end}) 不能早于 START_DATE({start})")
+
+    first_end = min(end, _next_sunday_on_or_after(start))
+    yield start, first_end
+
+    cur = first_end + dt.timedelta(days=1)  # typically Monday
+    while cur <= end:
+        # End at Sunday of this week (or END_DATE).
+        week_end = cur + dt.timedelta(days=(6 - cur.weekday()))
+        chunk_end = min(end, week_end)
+        yield cur, chunk_end
+        cur = chunk_end + dt.timedelta(days=1)
+
+
 def extract_current_page(page) -> int:
     try:
         value = page.locator("#txtnowpage").input_value().strip()
@@ -163,7 +194,7 @@ MONTH_FULL = [
 ]
 
 
-def _click_first_visible(locator, timeout_ms: int = 2000) -> bool:
+def _click_first_visible(locator, timeout_ms: int = 20000) -> bool:
     try:
         n = locator.count()
     except Exception:
@@ -200,7 +231,7 @@ def _select_date_via_role_datepicker(page, textbox_name: str, date_value: dt.dat
 
     # Open the calendar widget.
     try:
-        tb.click(timeout=2000)
+        tb.click(timeout=10000)
     except Exception:
         return False
 
@@ -223,7 +254,7 @@ def _select_date_via_role_datepicker(page, textbox_name: str, date_value: dt.dat
         if mh.count() == 0:
             return False
         try:
-            mh.click(timeout=1200)
+            mh.click(timeout=10000)
             return True
         except Exception:
             return False
@@ -258,31 +289,31 @@ def _select_date_via_role_datepicker(page, textbox_name: str, date_value: dt.dat
     year_header = find_year_header()
     if year_header is not None:
         try:
-            year_header.click(timeout=1200)
+            year_header.click(timeout=10000)
             page.wait_for_timeout(180)
         except Exception:
             pass
 
         # Some widgets render multiple year lists; click the first visible matching year.
-        _click_first_visible(page.get_by_text(year_str, exact=True), timeout_ms=2000)
+        _click_first_visible(page.get_by_text(year_str, exact=True), timeout_ms=10000)
         page.wait_for_timeout(180)
 
     # Step 3: select month (usually rendered as Jan/Feb/... buttons).
-    _click_first_visible(page.get_by_text(month_abbr, exact=True), timeout_ms=2000)
+    _click_first_visible(page.get_by_text(month_abbr, exact=True), timeout_ms=10000)
 
     # Step 4: select day.
     # Use role=cell with exact match to avoid clicking unrelated numbers in other UI elements.
     day_cell = page.get_by_role("cell", name=day_str, exact=True)
-    clicked = _click_first_visible(day_cell, timeout_ms=2000)
+    clicked = _click_first_visible(day_cell, timeout_ms=20000)
     if not clicked:
         return False
 
-    page.wait_for_timeout(200)
+    page.wait_for_timeout(1000)
     try:
         after = tb.input_value()
         if after == before:
             # Some widgets require a second click on the day to confirm/apply.
-            _click_first_visible(day_cell, timeout_ms=2000)
+            _click_first_visible(day_cell, timeout_ms=10000)
     except Exception:
         pass
 
@@ -383,7 +414,7 @@ def ensure_detail_loaded(main_row, detail_row, page):
         if target.count() == 0:
             continue
         try:
-            target.click(timeout=2000)
+            target.click(timeout=10000)
             random_wait(page, DETAIL_WAIT_MS_MIN, DETAIL_WAIT_MS_MAX)
             calling_port, arrival_date = parse_initial_from_detail(detail_row)
             if calling_port or arrival_date:
@@ -511,6 +542,7 @@ def scrape_current_query(page):
     expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else len(page_rows)
     all_rows = page_rows[:expected_count]
 
+    # Paginate through result pages (MAX_PAGES=0 means no limit).
     current_page = extract_current_page(page)
     pages_collected = 1
 
@@ -588,33 +620,33 @@ def main():
         if not loaded:
             raise RuntimeError("页面疑似被风控或封禁，请降低频率或更换网络出口后重试。")
 
-        sheets = []
-        for chunk_start, chunk_end in iter_date_chunks(start, end, CHUNK_DAYS):
+        # Requirement: chunk by Monday..Sunday weeks and merge all chunks into ONE sheet.
+        merged_headers = None
+        merged_rows = []
+
+        for chunk_start, chunk_end in iter_week_chunks(start, end):
             if chunk_start and chunk_end:
                 applied = set_date_range_filters(page, chunk_start, chunk_end)
                 if applied:
                     random_wait(page, PAGE_WAIT_MS_MIN, PAGE_WAIT_MS_MAX)
 
             headers, rows = scrape_current_query(page)
-
-            if chunk_start and chunk_end:
-                sheet_name = f"{chunk_start:%Y%m%d}_{chunk_end:%Y%m%d}"[:31]
-            else:
-                sheet_name = "Schedule"
-            sheets.append((sheet_name, headers, rows))
+            if merged_headers is None:
+                merged_headers = headers
+            merged_rows.extend(rows)
 
             # Gentle pause between chunks to reduce rate.
-            if chunk_start and chunk_end and CHUNK_DAYS > 0:
-                random_wait(page, 5000, 12000)
+            if chunk_start and chunk_end:
+                random_wait(page, 500, 1200)
 
         context.close()
         browser.close()
 
-    if not sheets or not any(r for _, _, r in sheets):
+    if not merged_rows:
         raise RuntimeError("未抓取到表格行，请检查日期筛选或页面参数是否有效。")
 
-    output_path = write_xlsx_sheets(sheets, OUT_XLSX)
-    total_rows = sum(len(r) for _, _, r in sheets)
+    output_path = write_xlsx_sheets([("Schedule", merged_headers or [], merged_rows)], OUT_XLSX)
+    total_rows = len(merged_rows)
     print(f"抓取完成：{total_rows} 行")
     print(f"输出文件：{output_path.resolve()}")
 
