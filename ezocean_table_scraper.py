@@ -1,4 +1,7 @@
-﻿import re
+﻿import os
+import random
+import re
+import datetime as dt
 from pathlib import Path
 
 from openpyxl import Workbook
@@ -6,10 +9,31 @@ from playwright.sync_api import sync_playwright
 
 URL = "https://www.ezocean.com/SCHEDULE/ScheduleSearch/BYPORT?sorigin=&sdest=&sorigin=&sdest=&svesselname=&HVESSEL=&sport=&porttrade=NEU&originval=&destval=&portval="
 OUT_XLSX = Path("ezocean_table.xlsx")
-TIMEOUT_MS = 120000
-PAGE_WAIT_MS = 1200
-INITIAL_WAIT_MS = 0
-MAX_PAGES = 2
+TIMEOUT_MS = 150000
+
+# Slow down knobs (reduce ban probability)
+INITIAL_WAIT_MS_MIN = 3000
+INITIAL_WAIT_MS_MAX = 8000
+PAGE_WAIT_MS_MIN = 1800
+PAGE_WAIT_MS_MAX = 3500
+DETAIL_WAIT_MS_MIN = 300
+DETAIL_WAIT_MS_MAX = 900
+
+# 0 means no page limit.
+MAX_PAGES = int(os.getenv("MAX_PAGES", "0"))
+# Debug throttles (to reduce load / bans while debugging)
+MAX_ROWS_PER_PAGE = int(os.getenv("MAX_ROWS_PER_PAGE", "0"))  # 0 means no limit
+FETCH_DETAIL = os.getenv("FETCH_DETAIL", "1").strip() not in ("0", "false", "False", "no", "NO")
+
+# Date filter + chunking
+# - START_DATE/END_DATE: yyyymmdd / yyyy-mm-dd / yyyy/mm/dd
+# - CHUNK_DAYS: 0 means no chunking
+START_DATE = os.getenv("START_DATE", "20260210").strip()
+END_DATE = os.getenv("END_DATE", "20260214").strip()
+CHUNK_DAYS = int(os.getenv("CHUNK_DAYS", "0"))
+DATE_INPUT_FORMAT = "%Y/%m/%d"  # ezocean UI usually shows yyyy/mm/dd
+AUTO_FILTER_WAIT_MS = 3000
+
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -19,6 +43,65 @@ USER_AGENT = (
 
 def norm_text(value: str) -> str:
     return " ".join((value or "").split())
+
+
+def random_wait(page, min_ms: int, max_ms: int):
+    page.wait_for_timeout(random.randint(min_ms, max_ms))
+
+
+def is_blocked_page(page) -> bool:
+    title = norm_text(page.title()).lower()
+    body = norm_text(page.locator("body").inner_text()).lower()
+    block_markers = [
+        "access denied",
+        "forbidden",
+        "too many requests",
+        "temporarily unavailable",
+        "未将对象引用设置到对象的实例",
+        "cloudflare",
+        "captcha",
+    ]
+    return any(marker in title or marker in body for marker in block_markers)
+
+
+def build_context_kwargs():
+    return {"user_agent": USER_AGENT, "locale": "en-US"}
+
+
+def parse_date(value: str):
+    s = (value or "").strip()
+    if not s:
+        return None
+
+    if re.fullmatch(r"\d{8}", s):
+        return dt.date(int(s[0:4]), int(s[4:6]), int(s[6:8]))
+
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
+        try:
+            return dt.datetime.strptime(s, fmt).date()
+        except ValueError:
+            pass
+
+    raise ValueError(f"无法解析日期: {value} (支持 yyyymmdd / yyyy-mm-dd / yyyy/mm/dd)")
+
+
+def iter_date_chunks(start: dt.date, end: dt.date, chunk_days: int):
+    if start is None or end is None:
+        yield None, None
+        return
+
+    if end < start:
+        raise ValueError(f"END_DATE({end}) 不能早于 START_DATE({start})")
+
+    if chunk_days <= 0:
+        yield start, end
+        return
+
+    cur = start
+    while cur <= end:
+        chunk_end = min(end, cur + dt.timedelta(days=chunk_days - 1))
+        yield cur, chunk_end
+        cur = chunk_end + dt.timedelta(days=1)
 
 
 def extract_current_page(page) -> int:
@@ -43,6 +126,207 @@ def read_pagination(page):
     shown_to = int(m.group(2))
     total = int(m.group(3))
     return shown_from, shown_to, total
+
+
+def _set_input_value(locator, value: str):
+    # Some date inputs are readonly (datepicker). Fallback to JS set + dispatch events.
+    try:
+        locator.fill(value)
+        return
+    except Exception:
+        pass
+
+    locator.evaluate(
+        """(el, v) => {
+            el.value = v;
+            el.dispatchEvent(new Event('input', { bubbles: true }));
+            el.dispatchEvent(new Event('change', { bubbles: true }));
+        }""",
+        value,
+    )
+
+
+MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+MONTH_FULL = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+]
+
+
+def _click_first_visible(locator, timeout_ms: int = 2000) -> bool:
+    try:
+        n = locator.count()
+    except Exception:
+        n = 0
+    for i in range(min(n, 20)):
+        cand = locator.nth(i)
+        try:
+            if cand.is_visible():
+                cand.click(timeout=timeout_ms)
+                return True
+        except Exception:
+            continue
+    return False
+
+
+def _select_date_via_role_datepicker(page, textbox_name: str, date_value: dt.date) -> bool:
+    """
+    Use the same interaction pattern as Playwright codegen:
+    - Click DATE FROM/DATE TO textbox (by accessible name)
+    - Navigate year/month pickers via columnheader clicks
+    - Click target month (abbr) and day cell
+    """
+    # Locate the DATE FROM/DATE TO input by accessible role+name.
+    tb = page.get_by_role("textbox", name=textbox_name).first
+    if tb.count() == 0:
+        return False
+
+    # Capture the current textbox value so we can detect whether the widget accepted our clicks.
+    before = ""
+    try:
+        before = tb.input_value()
+    except Exception:
+        pass
+
+    # Open the calendar widget.
+    try:
+        tb.click(timeout=2000)
+    except Exception:
+        return False
+
+    page.wait_for_timeout(200)
+
+    # Prepare target labels that match typical datepicker UIs.
+    month_full = MONTH_FULL[date_value.month - 1]
+    month_abbr = MONTH_ABBR[date_value.month - 1]
+    year_str = str(date_value.year)
+    day_str = str(int(date_value.day))
+
+    # Step 1: open the month selection view.
+    # Many datepickers are hierarchical: day view -> month view -> year view.
+    # Clicking the month header once may switch views; clicking twice is a common pattern.
+    def click_month_header_once() -> bool:
+        # Re-resolve the locator each time because the datepicker often re-renders DOM on click.
+        mh = page.get_by_role("columnheader", name=month_full).first
+        if mh.count() == 0:
+            mh = page.get_by_role("columnheader", name=re.compile("|".join(MONTH_FULL), re.I)).first
+        if mh.count() == 0:
+            return False
+        try:
+            mh.click(timeout=1200)
+            return True
+        except Exception:
+            return False
+
+    # Try to switch day view -> month view. Some widgets need two clicks, and re-locating is crucial.
+    if click_month_header_once():
+        page.wait_for_timeout(180)
+        # Only attempt the 2nd click if month choices aren't visible yet.
+        if page.get_by_text(month_abbr, exact=True).count() == 0:
+            click_month_header_once()
+            page.wait_for_timeout(180)
+
+    def find_year_header():
+        # Different datepickers expose the year control with different roles.
+        # Re-locate each time to survive DOM re-renders.
+        candidates = [
+            page.get_by_role("columnheader", name=year_str),
+            # page.get_by_role("columnheader", name=re.compile(r"^\\d{4}$")),
+            # page.get_by_role("button", name=year_str),
+            # page.get_by_role("button", name=re.compile(r"^\\d{4}$")),
+            # page.get_by_text(re.compile(r"^\\d{4}$")),
+        ]
+        for loc in candidates:
+            try:
+                if loc.count() > 0 and loc.first.is_visible():
+                    return loc.first
+            except Exception:
+                continue
+        return None
+
+    # Step 2: ALWAYS select year if the widget exposes a year control.
+    year_header = find_year_header()
+    if year_header is not None:
+        try:
+            year_header.click(timeout=1200)
+            page.wait_for_timeout(180)
+        except Exception:
+            pass
+
+        # Some widgets render multiple year lists; click the first visible matching year.
+        _click_first_visible(page.get_by_text(year_str, exact=True), timeout_ms=2000)
+        page.wait_for_timeout(180)
+
+    # Step 3: select month (usually rendered as Jan/Feb/... buttons).
+    _click_first_visible(page.get_by_text(month_abbr, exact=True), timeout_ms=2000)
+
+    # Step 4: select day.
+    # Use role=cell with exact match to avoid clicking unrelated numbers in other UI elements.
+    day_cell = page.get_by_role("cell", name=day_str, exact=True)
+    clicked = _click_first_visible(day_cell, timeout_ms=2000)
+    if not clicked:
+        return False
+
+    page.wait_for_timeout(200)
+    try:
+        after = tb.input_value()
+        if after == before:
+            # Some widgets require a second click on the day to confirm/apply.
+            _click_first_visible(day_cell, timeout_ms=2000)
+    except Exception:
+        pass
+
+    return True
+
+
+def _element_signature(locator):
+    try:
+        el_id = locator.get_attribute("id") or ""
+        el_name = locator.get_attribute("name") or ""
+        el_ph = locator.get_attribute("placeholder") or ""
+        el_aria = locator.get_attribute("aria-label") or ""
+        return (el_id.strip(), el_name.strip(), el_ph.strip(), el_aria.strip())
+    except Exception:
+        return ("", "", "", "")
+
+
+def set_date_range_filters(page, start: dt.date, end: dt.date):
+    if start is None or end is None:
+        return False
+
+    start_str = start.strftime(DATE_INPUT_FORMAT)
+    end_str = end.strftime(DATE_INPUT_FORMAT)
+
+    # Prefer codegen-style interactions by role/name (more stable than CSS selectors here).
+    # Fallback to direct input fill if role-based selection isn't available.
+    ok_from = _select_date_via_role_datepicker(page, "DATE FROM", start)
+    if not ok_from:
+        from_tb = page.get_by_role("textbox", name="DATE FROM").first
+        if from_tb.count() == 0:
+            return False
+        _set_input_value(from_tb, start_str)
+
+    ok_to = _select_date_via_role_datepicker(page, "DATE TO", end)
+    if not ok_to:
+        to_tb = page.get_by_role("textbox", name="DATE TO").first
+        if to_tb.count() == 0:
+            return False
+        _set_input_value(to_tb, end_str)
+
+    # The page auto-filters after setting DATE FROM/TO. Do not click SEARCH.
+    page.wait_for_timeout(AUTO_FILTER_WAIT_MS)
+
+    return True
 
 
 def parse_initial_from_detail(detail_row):
@@ -83,6 +367,8 @@ def normalize_initial_time(value: str) -> str:
 
 
 def ensure_detail_loaded(main_row, detail_row, page):
+    if not FETCH_DETAIL:
+        return "", ""
     calling_port, arrival_date = parse_initial_from_detail(detail_row)
     if calling_port or arrival_date:
         return calling_port, normalize_initial_time(arrival_date)
@@ -98,7 +384,7 @@ def ensure_detail_loaded(main_row, detail_row, page):
             continue
         try:
             target.click(timeout=2000)
-            page.wait_for_timeout(250)
+            random_wait(page, DETAIL_WAIT_MS_MIN, DETAIL_WAIT_MS_MAX)
             calling_port, arrival_date = parse_initial_from_detail(detail_row)
             if calling_port or arrival_date:
                 return calling_port, normalize_initial_time(arrival_date)
@@ -119,7 +405,10 @@ def extract_table_from_page(page):
 
     row_locator = page.locator("tbody#tbbody > tr:not(.Detail)")
     rows = []
-    for i in range(row_locator.count()):
+    limit = row_locator.count()
+    if MAX_ROWS_PER_PAGE > 0:
+        limit = min(limit, MAX_ROWS_PER_PAGE)
+    for i in range(limit):
         row = row_locator.nth(i)
         detail_row = row.locator("xpath=following-sibling::tr[1][contains(@class,'Detail')]").first
         cells = row.locator(":scope > td, :scope > th")
@@ -151,7 +440,7 @@ def collect_page_rows(page, expected_count: int, retries: int = 4):
     for _ in range(retries):
         if expected_count > 0 and best_len >= expected_count:
             break
-        page.wait_for_timeout(500)
+        random_wait(page, 400, 900)
         _, rows = extract_table_from_page(page)
         if len(rows) > best_len:
             best_rows = rows
@@ -187,98 +476,146 @@ def transform_vessel_voyage_columns(headers, rows):
     return new_headers, new_rows
 
 
-def write_xlsx(headers, rows, output_path: Path):
+def write_xlsx_sheets(sheets, output_path: Path):
     target = output_path
     for _ in range(2):
         wb = Workbook()
-        ws = wb.active
-        ws.title = "Schedule"
-        if headers:
-            ws.append(headers)
-        for row in rows:
-            ws.append(row)
+        if wb.worksheets:
+            wb.remove(wb.worksheets[0])
+
+        for sheet_name, headers, rows in sheets:
+            ws = wb.create_sheet(title=sheet_name)
+            if headers:
+                ws.append(headers)
+            for row in rows:
+                ws.append(row)
+
         try:
             wb.save(target)
             return target
         except PermissionError:
             target = output_path.with_name(f"{output_path.stem}_new{output_path.suffix}")
 
-    raise PermissionError(f"????????: {output_path}")
+    raise PermissionError(f"无法写入输出文件: {output_path}")
+
+
+def scrape_current_query(page):
+    page.wait_for_selector("table#ScheduleResult", state="attached", timeout=TIMEOUT_MS)
+    random_wait(page, PAGE_WAIT_MS_MIN, PAGE_WAIT_MS_MAX)
+
+    shown_from, shown_to, _ = read_pagination(page)
+    expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else 0
+    headers, page_rows = collect_page_rows(page, expected_count=expected_count)
+
+    shown_from, shown_to, total_rows = read_pagination(page)
+    expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else len(page_rows)
+    all_rows = page_rows[:expected_count]
+
+    current_page = extract_current_page(page)
+    pages_collected = 1
+
+    while True:
+        if MAX_PAGES > 0 and pages_collected >= MAX_PAGES:
+            break
+
+        shown_from, shown_to, total_rows = read_pagination(page)
+        if shown_to is not None and total_rows is not None and shown_to >= total_rows:
+            break
+
+        next_link = page.get_by_role("link", name="next page")
+        if next_link.count() == 0:
+            break
+
+        random_wait(page, PAGE_WAIT_MS_MIN, PAGE_WAIT_MS_MAX)
+        next_link.first.click()
+
+        try:
+            page.wait_for_function(
+                """
+                (oldPage) => {
+                    const el = document.querySelector('#txtnowpage');
+                    if (!el) return false;
+                    const now = parseInt(el.value || '0', 10);
+                    return now > oldPage;
+                }
+                """,
+                arg=current_page,
+                timeout=TIMEOUT_MS,
+            )
+        except Exception:
+            random_wait(page, PAGE_WAIT_MS_MIN, PAGE_WAIT_MS_MAX)
+
+        if is_blocked_page(page):
+            raise RuntimeError("翻页过程中疑似触发风控，请降低频率或更换网络出口。")
+
+        new_page = extract_current_page(page)
+        if new_page <= current_page:
+            break
+
+        current_page = new_page
+        pages_collected += 1
+
+        shown_from, shown_to, total_rows = read_pagination(page)
+        expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else len(page_rows)
+        _, page_rows = collect_page_rows(page, expected_count=expected_count)
+        all_rows.extend(page_rows[:expected_count])
+
+        if total_rows is not None and len(all_rows) >= total_rows:
+            break
+
+    headers, all_rows = transform_vessel_voyage_columns(headers, all_rows)
+    return headers, all_rows
 
 
 def main():
+    start = parse_date(START_DATE)
+    end = parse_date(END_DATE)
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
-        context = browser.new_context(user_agent=USER_AGENT, locale="en-US")
+        context = browser.new_context(**build_context_kwargs())
         page = context.new_page()
 
-        page.goto(URL, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
-        page.wait_for_timeout(INITIAL_WAIT_MS)
-        page.wait_for_selector("table#ScheduleResult", state="attached", timeout=TIMEOUT_MS)
-        page.wait_for_timeout(PAGE_WAIT_MS)
-
-        shown_from, shown_to, _ = read_pagination(page)
-        expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else 0
-        headers, page_rows = collect_page_rows(page, expected_count=expected_count)
-        shown_from, shown_to, total_rows = read_pagination(page)
-        expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else len(page_rows)
-        all_rows = page_rows[:expected_count]
-        current_page = extract_current_page(page)
-        pages_collected = 1
-
-        while True:
-            if pages_collected >= MAX_PAGES:
+        loaded = False
+        for attempt in range(1, 4):
+            page.goto(URL, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
+            random_wait(page, INITIAL_WAIT_MS_MIN, INITIAL_WAIT_MS_MAX)
+            if not is_blocked_page(page):
+                loaded = True
                 break
+            page.wait_for_timeout((2 ** attempt) * 5000)
 
-            shown_from, shown_to, total_rows = read_pagination(page)
-            if shown_to is not None and total_rows is not None and shown_to >= total_rows:
-                break
+        if not loaded:
+            raise RuntimeError("页面疑似被风控或封禁，请降低频率或更换网络出口后重试。")
 
-            next_link = page.get_by_role("link", name="next page")
-            if next_link.count() == 0:
-                break
+        sheets = []
+        for chunk_start, chunk_end in iter_date_chunks(start, end, CHUNK_DAYS):
+            if chunk_start and chunk_end:
+                applied = set_date_range_filters(page, chunk_start, chunk_end)
+                if applied:
+                    random_wait(page, PAGE_WAIT_MS_MIN, PAGE_WAIT_MS_MAX)
 
-            next_link.first.click()
+            headers, rows = scrape_current_query(page)
 
-            try:
-                page.wait_for_function(
-                    """
-                    (oldPage) => {
-                        const el = document.querySelector('#txtnowpage');
-                        if (!el) return false;
-                        const now = parseInt(el.value || '0', 10);
-                        return now > oldPage;
-                    }
-                    """,
-                    arg=current_page,
-                    timeout=TIMEOUT_MS,
-                )
-            except Exception:
-                page.wait_for_timeout(PAGE_WAIT_MS)
+            if chunk_start and chunk_end:
+                sheet_name = f"{chunk_start:%Y%m%d}_{chunk_end:%Y%m%d}"[:31]
+            else:
+                sheet_name = "Schedule"
+            sheets.append((sheet_name, headers, rows))
 
-            new_page = extract_current_page(page)
-            if new_page <= current_page:
-                break
-
-            current_page = new_page
-            pages_collected += 1
-            shown_from, shown_to, total_rows = read_pagination(page)
-            expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else len(page_rows)
-            _, page_rows = collect_page_rows(page, expected_count=expected_count)
-            all_rows.extend(page_rows[:expected_count])
-
-            if total_rows is not None and len(all_rows) >= total_rows:
-                break
+            # Gentle pause between chunks to reduce rate.
+            if chunk_start and chunk_end and CHUNK_DAYS > 0:
+                random_wait(page, 5000, 12000)
 
         context.close()
         browser.close()
 
-    if not all_rows:
-        raise RuntimeError("未抓取到表格行，请检查 URL 或页面参数是否有效。")
+    if not sheets or not any(r for _, _, r in sheets):
+        raise RuntimeError("未抓取到表格行，请检查日期筛选或页面参数是否有效。")
 
-    headers, all_rows = transform_vessel_voyage_columns(headers, all_rows)
-    output_path = write_xlsx(headers, all_rows, OUT_XLSX)
-    print(f"抓取完成：{len(all_rows)} 行")
+    output_path = write_xlsx_sheets(sheets, OUT_XLSX)
+    total_rows = sum(len(r) for _, _, r in sheets)
+    print(f"抓取完成：{total_rows} 行")
     print(f"输出文件：{output_path.resolve()}")
 
 
