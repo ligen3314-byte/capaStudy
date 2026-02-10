@@ -20,12 +20,12 @@ OUT_XLSX = Path("ezocean_table.xlsx")
 TIMEOUT_MS = 150000
 
 # Slow down knobs (reduce ban probability)
-INITIAL_WAIT_MS_MIN = 800
-INITIAL_WAIT_MS_MAX = 1200
-PAGE_WAIT_MS_MIN = 500
+INITIAL_WAIT_MS_MIN = 300
+INITIAL_WAIT_MS_MAX = 800
+PAGE_WAIT_MS_MIN = 300
 PAGE_WAIT_MS_MAX = 800
 DETAIL_WAIT_MS_MIN = 300
-DETAIL_WAIT_MS_MAX = 900
+DETAIL_WAIT_MS_MAX = 800
 
 # 0 means no page limit.
 MAX_PAGES = int(os.getenv("MAX_PAGES", "0"))
@@ -36,11 +36,12 @@ FETCH_DETAIL = os.getenv("FETCH_DETAIL", "1").strip() not in ("0", "false", "Fal
 # Date filter + chunking
 # - START_DATE/END_DATE: yyyymmdd / yyyy-mm-dd / yyyy/mm/dd
 # - CHUNK_DAYS: 0 means no chunking
-START_DATE = os.getenv("START_DATE", "20260210").strip()
-END_DATE = os.getenv("END_DATE", "20260308").strip()
+START_DATE = os.getenv("START_DATE", "20260323").strip()
+END_DATE = os.getenv("END_DATE", "20260405").strip()
 CHUNK_DAYS = int(os.getenv("CHUNK_DAYS", "0"))
 DATE_INPUT_FORMAT = "%Y/%m/%d"  # ezocean UI usually shows yyyy/mm/dd
-AUTO_FILTER_WAIT_MS = 3000
+AUTO_FILTER_WAIT_MS = 500
+DEBUG_DATE = os.getenv("DEBUG_DATE", "0").strip() in ("1", "true", "True", "yes", "YES")
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -171,9 +172,15 @@ def _set_input_value(locator, value: str):
     # Some date inputs are readonly (datepicker). Fallback to JS set + dispatch events.
     try:
         locator.fill(value)
-        return
     except Exception:
         pass
+    else:
+        try:
+            current = locator.input_value()
+        except Exception:
+            current = ""
+        if current and value in current:
+            return
 
     locator.evaluate(
         """(el, v) => {
@@ -239,12 +246,12 @@ def _resolve_datepicker_scope(page):
 
 def _select_date_via_role_datepicker(page, textbox_name: str, date_value: dt.date) -> bool:
     """
-    Simplified, codegen-style date selection (no smart retries/validation):
-    1) Click DATE FROM/DATE TO textbox
-    2) Click month header twice (switch to month picker)
-    3) Click year header, then click target year
-    4) Click target month (Jan/Feb/Mar...)
-    5) Click target day cell (optionally twice)
+    Minimal codegen-style clicks only (no validation/retry/scope tricks):
+    - Click DATE FROM/DATE TO textbox
+    - Click month header twice
+    - Click year header, then click target year
+    - Click target month (Jan/Feb/Mar...)
+    - Click day cell (sometimes twice)
     """
     tb = page.get_by_role("textbox", name=textbox_name).first
     if tb.count() == 0:
@@ -258,25 +265,22 @@ def _select_date_via_role_datepicker(page, textbox_name: str, date_value: dt.dat
         tb.click(timeout=10000)
         page.wait_for_timeout(150)
 
-        # Month header -> month picker (click twice like codegen).
-        mh = page.get_by_role("columnheader", name=re.compile("|".join(MONTH_FULL), re.I)).first
-        if mh.count() > 0:
-            mh.click(timeout=10000)
+        month_header = page.get_by_role("columnheader", name=re.compile("|".join(MONTH_FULL), re.I)).first
+        if month_header.count() > 0:
+            month_header.click(timeout=10000)
             page.wait_for_timeout(150)
-            mh = page.get_by_role("columnheader", name=re.compile("|".join(MONTH_FULL), re.I)).first
-            if mh.count() > 0:
-                mh.click(timeout=10000)
+            month_header = page.get_by_role("columnheader", name=re.compile("|".join(MONTH_FULL), re.I)).first
+            if month_header.count() > 0:
+                month_header.click(timeout=10000)
                 page.wait_for_timeout(150)
 
-        # Year header -> year picker -> select year.
-        yh = page.get_by_role("columnheader", name=re.compile(r"^\\d{4}$")).first
-        if yh.count() > 0:
-            yh.click(timeout=10000)
+        year_header = page.get_by_role("columnheader", name=re.compile(r"^\\d{4}$")).first
+        if year_header.count() > 0:
+            year_header.click(timeout=10000)
             page.wait_for_timeout(150)
             _click_first_visible(page.get_by_text(year_str, exact=True), timeout_ms=10000)
             page.wait_for_timeout(150)
 
-        # Select month then day.
         _click_first_visible(page.get_by_text(month_abbr, exact=True), timeout_ms=10000)
         page.wait_for_timeout(150)
 
@@ -285,7 +289,6 @@ def _select_date_via_role_datepicker(page, textbox_name: str, date_value: dt.dat
             return False
         page.wait_for_timeout(150)
         _click_first_visible(day_cell, timeout_ms=10000)
-
         return True
     except Exception:
         return False
@@ -329,27 +332,43 @@ def set_date_range_filters(page, start: dt.date, end: dt.date):
     if start is None or end is None:
         return False
 
+    # Prefer the simplest, most deterministic interaction:
+    # fill yyyy/mm/dd into DATE FROM/DATE TO and press Tab to commit.
     start_str = start.strftime(DATE_INPUT_FORMAT)
     end_str = end.strftime(DATE_INPUT_FORMAT)
 
-    # Prefer codegen-style interactions by role/name (more stable than CSS selectors here).
-    # Fallback to direct input fill if role-based selection isn't available.
-    ok_from = _select_date_via_role_datepicker(page, "DATE FROM", start)
     from_tb = page.get_by_role("textbox", name="DATE FROM").first
-    if from_tb.count() == 0:
-        return False
-    # Validate whether DATE FROM was actually set to the expected date.
-    if (not ok_from) or (not _textbox_has_date(from_tb, start)):
-        _set_input_value(from_tb, start_str)
-
-    ok_to = _select_date_via_role_datepicker(page, "DATE TO", end)
     to_tb = page.get_by_role("textbox", name="DATE TO").first
-    if to_tb.count() == 0:
+    if from_tb.count() == 0 or to_tb.count() == 0:
         return False
-    # Validate whether DATE TO was actually set to the expected date.
-    if (not ok_to) or (not _textbox_has_date(to_tb, end)):
-        _set_input_value(to_tb, end_str)
-    
+
+    try:
+        from_tb.click(timeout=10000)
+    except Exception:
+        pass
+    try:
+        from_tb.fill("", timeout=10000)
+        from_tb.type(start_str, delay=80, timeout=10000)
+        page.wait_for_timeout(500)
+        from_tb.press("Enter", timeout=10000)
+        from_tb.press("Tab", timeout=10000)
+    except Exception:
+        return False
+
+    try:
+        to_tb.fill("", timeout=10000)
+        to_tb.type(end_str, delay=80, timeout=10000)
+        page.wait_for_timeout(500)
+        to_tb.press("Enter", timeout=10000)
+        to_tb.press("Tab", timeout=10000)
+    except Exception:
+        return False
+
+    # Optional extra Tab to move focus away (best-effort).
+    try:
+        page.get_by_role("link", name=re.compile(r".*\\bTop\\b.*", re.I)).first.press("Tab", timeout=2000)
+    except Exception:
+        pass
 
     # The page auto-filters after setting DATE FROM/TO. Do not click SEARCH.
     page.wait_for_timeout(AUTO_FILTER_WAIT_MS)
@@ -539,17 +558,23 @@ def add_id_time_column(headers, rows):
 
     idx_id = headers.index("ID") if "ID" in headers else None
     idx_time = headers.index("Initial Time") if "Initial Time" in headers else None
+    idx_vessel = headers.index("Vessel") if "Vessel" in headers else None
 
     new_headers = list(headers) + ["IDTime"]
     new_rows = []
     for row in rows:
         rid = ""
         it = ""
+        vessel = ""
         if idx_id is not None and idx_id < len(row):
             rid = str(row[idx_id] or "").strip()
         if idx_time is not None and idx_time < len(row):
             it = str(row[idx_time] or "").strip()
-        new_rows.append(list(row) + [f"{rid}{it}" if (rid or it) else ""])
+        if idx_vessel is not None and idx_vessel < len(row):
+            vessel = str(row[idx_vessel] or "").strip()
+
+        key = f"{rid}{it}{vessel}".strip()
+        new_rows.append(list(row) + [key if key else ""])
 
     return new_headers, new_rows
 
@@ -644,6 +669,18 @@ def main():
         context = browser.new_context(**build_context_kwargs())
         page = context.new_page()
 
+        def reload_base_url():
+            loaded_local = False
+            for attempt in range(1, 4):
+                page.goto(URL, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
+                random_wait(page, INITIAL_WAIT_MS_MIN, INITIAL_WAIT_MS_MAX)
+                if not is_blocked_page(page):
+                    loaded_local = True
+                    break
+                page.wait_for_timeout((2**attempt) * 5000)
+            if not loaded_local:
+                raise RuntimeError("页面疑似被风控或封禁，请降低频率或更换网络出口后重试。")
+
         loaded = False
         for attempt in range(1, 4):
             page.goto(URL, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
@@ -660,7 +697,13 @@ def main():
         merged_headers = None
         merged_rows = []
 
+        first_period = True
         for chunk_start, chunk_end in iter_week_chunks(start, end):
+            if not first_period:
+                # Reload page between periods to reset datepicker state and reduce mis-clicks.
+                reload_base_url()
+            first_period = False
+
             if chunk_start and chunk_end:
                 period_label = f"{chunk_start:%Y%m%d}-{chunk_end:%Y%m%d}"
                 print(f"[INFO] Query period: {period_label}")
@@ -675,7 +718,7 @@ def main():
 
             # Gentle pause between chunks to reduce rate.
             if chunk_start and chunk_end:
-                random_wait(page, 500, 1200)
+                random_wait(page, 300, 500)
 
         context.close()
         browser.close()
