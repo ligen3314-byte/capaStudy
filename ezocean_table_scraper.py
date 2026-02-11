@@ -1,4 +1,5 @@
 ﻿import os
+import os
 import random
 import re
 import datetime as dt
@@ -7,15 +8,13 @@ from pathlib import Path
 from openpyxl import Workbook
 from playwright.sync_api import sync_playwright
 
-# # 欧线URL
-# URL =   "https://www.ezocean.com/SCHEDULE/ScheduleSearch/BYPORT?sorigin=&sdest=" \
-#         "&sorigin=&sdest=&svesselname=&HVESSEL=&sport=&porttrade=NEU" \
-#         "&originval=&destval=&portval="
-
-# 地线URL
-URL =   "https://www.ezocean.com/SCHEDULE/ScheduleSearch/BYPORT?sorigin=&sdest=" \
-        "&sorigin=&sdest=&svesselname=&HVESSEL=&sport=&porttrade=MED" \
-        "&originval=&destval=&portval="
+DEFAULT_PORTTRADE = "NEU"
+PORTTRADE = os.getenv("PORTTRADE", DEFAULT_PORTTRADE).strip().upper()
+URL = (
+    "https://www.ezocean.com/SCHEDULE/ScheduleSearch/BYPORT?"
+    "sorigin=&sdest=&sorigin=&sdest=&svesselname=&HVESSEL=&sport=&"
+    f"porttrade={PORTTRADE}&originval=&destval=&portval="
+)
 OUT_XLSX = Path("ezocean_table.xlsx")
 TIMEOUT_MS = 150000
 
@@ -36,12 +35,13 @@ FETCH_DETAIL = os.getenv("FETCH_DETAIL", "1").strip() not in ("0", "false", "Fal
 # Date filter + chunking
 # - START_DATE/END_DATE: yyyymmdd / yyyy-mm-dd / yyyy/mm/dd
 # - CHUNK_DAYS: 0 means no chunking
-START_DATE = os.getenv("START_DATE", "20260323").strip()
-END_DATE = os.getenv("END_DATE", "20260405").strip()
+START_DATE = os.getenv("START_DATE", "20260210").strip()
+END_DATE = os.getenv("END_DATE", "20260322").strip()
 CHUNK_DAYS = int(os.getenv("CHUNK_DAYS", "0"))
 DATE_INPUT_FORMAT = "%Y/%m/%d"  # ezocean UI usually shows yyyy/mm/dd
 AUTO_FILTER_WAIT_MS = 500
 DEBUG_DATE = os.getenv("DEBUG_DATE", "0").strip() in ("1", "true", "True", "yes", "YES")
+HEADLESS = os.getenv("HEADLESS", "0").strip() in ("1", "true", "True", "yes", "YES")
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -552,6 +552,25 @@ def with_timestamp(path: Path) -> Path:
     return path.with_name(f"{path.stem}_{ts}{path.suffix}")
 
 
+def get_porttrade_from_url(url: str) -> str:
+    # e.g. ...&porttrade=NEU&... or ...&porttrade=MED&...
+    m = re.search(r"(?:^|[?&])porttrade=([^&]+)", url, flags=re.I)
+    if not m:
+        return "UNK"
+    return (m.group(1) or "UNK").strip().upper()
+
+
+def build_output_path(base_path: Path, porttrade: str, start: dt.date, end: dt.date) -> Path:
+    ts = dt.datetime.now().strftime("%y%m%d %H%M")
+    if start and end:
+        period = f"{start:%Y%m%d}-{end:%Y%m%d}"
+    else:
+        period = "NA-NA"
+    porttrade = (porttrade or "UNK").strip().upper()
+    # Format: 基本文件名_porttrade(查询起止日期)_时间戳.xlsx
+    return base_path.with_name(f"{base_path.stem}_{porttrade}({period})_{ts}{base_path.suffix}")
+
+
 def add_id_time_column(headers, rows):
     if "IDTime" in headers:
         return headers, rows
@@ -598,9 +617,9 @@ def scrape_current_query(page, period_label: str = ""):
     total_pages = (int((total_rows + page_size - 1) / page_size) if (total_rows and page_size) else None)
 
     if period_label:
-        print(f"[INFO] {period_label} page {pages_collected}/{total_pages or '?'}")
+        print(f"[INFO] {period_label} page {pages_collected}/{total_pages or '?'} rows={len(all_rows)}")
     else:
-        print(f"[INFO] page {pages_collected}/{total_pages or '?'}")
+        print(f"[INFO] page {pages_collected}/{total_pages or '?'} rows={len(all_rows)}")
 
     while True:
         if MAX_PAGES > 0 and pages_collected >= MAX_PAGES:
@@ -643,15 +662,15 @@ def scrape_current_query(page, period_label: str = ""):
         current_page = new_page
         pages_collected += 1
 
-        if period_label:
-            print(f"[INFO] {period_label} page {pages_collected}/{total_pages or '?'}")
-        else:
-            print(f"[INFO] page {pages_collected}/{total_pages or '?'}")
-
         shown_from, shown_to, total_rows = read_pagination(page)
         expected_count = (shown_to - shown_from + 1) if shown_from and shown_to else len(page_rows)
         _, page_rows = collect_page_rows(page, expected_count=expected_count)
         all_rows.extend(page_rows[:expected_count])
+
+        if period_label:
+            print(f"[INFO] {period_label} page {pages_collected}/{total_pages or '?'} rows={len(all_rows)}")
+        else:
+            print(f"[INFO] page {pages_collected}/{total_pages or '?'} rows={len(all_rows)}")
 
         if total_rows is not None and len(all_rows) >= total_rows:
             break
@@ -663,9 +682,10 @@ def scrape_current_query(page, period_label: str = ""):
 def main():
     start = parse_date(START_DATE)
     end = parse_date(END_DATE)
+    porttrade = get_porttrade_from_url(URL)
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=HEADLESS)
         context = browser.new_context(**build_context_kwargs())
         page = context.new_page()
 
@@ -729,8 +749,10 @@ def main():
     merged_headers, merged_rows = add_id_time_column(merged_headers or [], merged_rows)
     output_path = write_xlsx_sheets(
         [("Schedule", merged_headers or [], merged_rows)],
-        with_timestamp(OUT_XLSX),
+        build_output_path(OUT_XLSX, porttrade, start, end),
     )
+    print(f"[INFO] Total rows={len(merged_rows)}")
+    print(f"[INFO] Output={output_path.resolve()}")
 
 if __name__ == "__main__":
     main()
