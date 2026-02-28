@@ -1,0 +1,428 @@
+{
+    "routings": [
+        {
+            "routingIdentifier": "v3~MSL~link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+            "isHubCargoStorageAvailable": false,
+            "isRoutingAdhoc": false,
+            "estimatedTransitTime": "P37DT22H",
+            "routeId": "635815105",
+            "priority": 0,
+            "routeCode": "E1",
+            "routeCodeDirection": "W",
+            "routeSequenceNumber": "1",
+            "routingLegs": [
+                {
+                    "routingLegIdentifier": "link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+                    "isScheduleBased": true,
+                    "journeyType": "OTHER",
+                    "carriage": {
+                        "carriageType": "OCEAN",
+                        "vessel": {
+                            "flagCountryCode": "DE",
+                            "vesselMaerskCode": "IF2",
+                            "vesselName": "HAMBURG EXPRESS"
+                        },
+                        "vesselPortCallEnd": {
+                            "arrivalDirection": "WEST",
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "arrivalVoyageNumber": "610W",
+                            "carrierCode": "E1411M",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "estimatedTimeOfArrival": "2026-04-13T12:00:00",
+                            "estimatedTimeOfDeparture": "2026-04-14T23:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "HHMT8D8RO96BR",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "NLROTTM"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        },
+                        "vesselPortCallStart": {
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "carrierCode": "E1411M",
+                            "departureDirection": "WEST",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "departureVoyageNumber": "610W",
+                            "estimatedStayTime": "PT0S",
+                            "estimatedTimeOfArrival": "2026-03-05T08:00:00",
+                            "estimatedTimeOfDeparture": "2026-03-06T20:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "37O5HQ17XCL3X",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "CNSGHY3"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        }
+                    },
+                    "estimatedTransitTime": "P37DT23H",
+                    "shipmentRoutingType": "MAIN_ROUTING",
+                    "transportMode": {
+                        "transportModeCode": "MVS"
+                    },
+                    "charges": [
+                        {
+                            "amount": 0,
+                            "amountCurrency": "USD",
+                            "chargeType": {
+                                "chargeTypeName": "Transportation cost"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "routingNotes": [
+                {
+                    "routingNoteType": {
+                        "routingNoteTypeCode": "0"
+                    }
+                }
+            ],
+            "routeProviders": [
+                "MEPC"
+            ],
+            "sourceSystem": "MEPC"
+        },
+        {
+            "routingIdentifier": "v3~MSL~link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+            "isHubCargoStorageAvailable": false,
+            "isRoutingAdhoc": false,
+            "estimatedTransitTime": "P38DT22H",
+            "routeId": "635815105",
+            "priority": 0,
+            "routeCode": "E1",
+            "routeCodeDirection": "W",
+            "routeSequenceNumber": "1",
+            "routingLegs": [
+                {
+                    "routingLegIdentifier": "link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+                    "isScheduleBased": true,
+                    "journeyType": "OTHER",
+                    "carriage": {
+                        "carriageType": "OCEAN",
+                        "vessel": {
+                            "flagCountryCode": "DE",
+                            "vesselMaerskCode": "JO2",
+                            "vesselName": "GENOVA EXPRESS"
+                        },
+                        "vesselPortCallEnd": {
+                            "arrivalDirection": "WEST",
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "arrivalVoyageNumber": "611W",
+                            "carrierCode": "E1411M",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "estimatedTimeOfArrival": "2026-04-20T12:00:00",
+                            "estimatedTimeOfDeparture": "2026-04-21T23:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "HHMT8D8RO96BR",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "NLROTTM"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        },
+                        "vesselPortCallStart": {
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "carrierCode": "E1411M",
+                            "departureDirection": "WEST",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "departureVoyageNumber": "611W",
+                            "estimatedStayTime": "PT0S",
+                            "estimatedTimeOfArrival": "2026-03-11T08:00:00",
+                            "estimatedTimeOfDeparture": "2026-03-12T20:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "37O5HQ17XCL3X",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "CNSGHY3"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        }
+                    },
+                    "estimatedTransitTime": "P37DT23H",
+                    "shipmentRoutingType": "MAIN_ROUTING",
+                    "transportMode": {
+                        "transportModeCode": "MVS"
+                    },
+                    "charges": [
+                        {
+                            "amount": 0,
+                            "amountCurrency": "USD",
+                            "chargeType": {
+                                "chargeTypeName": "Transportation cost"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "routingNotes": [
+                {
+                    "routingNoteType": {
+                        "routingNoteTypeCode": "0"
+                    }
+                }
+            ],
+            "routeProviders": [
+                "MEPC"
+            ],
+            "sourceSystem": "MEPC"
+        },
+        {
+            "routingIdentifier": "v3~MSL~link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+            "isHubCargoStorageAvailable": false,
+            "isRoutingAdhoc": false,
+            "estimatedTransitTime": "P38DT22H",
+            "routeId": "635815105",
+            "priority": 0,
+            "routeCode": "E1",
+            "routeCodeDirection": "W",
+            "routeSequenceNumber": "1",
+            "routingLegs": [
+                {
+                    "routingLegIdentifier": "link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+                    "isScheduleBased": true,
+                    "journeyType": "OTHER",
+                    "carriage": {
+                        "carriageType": "OCEAN",
+                        "vessel": {
+                            "flagCountryCode": "DE",
+                            "vesselMaerskCode": "IE9",
+                            "vesselName": "DAMIETTA EXPRESS"
+                        },
+                        "vesselPortCallEnd": {
+                            "arrivalDirection": "WEST",
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "arrivalVoyageNumber": "612W",
+                            "carrierCode": "E1411M",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "estimatedTimeOfArrival": "2026-04-27T12:00:00",
+                            "estimatedTimeOfDeparture": "2026-04-28T23:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "HHMT8D8RO96BR",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "NLROTTM"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        },
+                        "vesselPortCallStart": {
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "carrierCode": "E1411M",
+                            "departureDirection": "WEST",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "departureVoyageNumber": "612W",
+                            "estimatedStayTime": "PT0S",
+                            "estimatedTimeOfArrival": "2026-03-18T08:00:00",
+                            "estimatedTimeOfDeparture": "2026-03-19T20:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "37O5HQ17XCL3X",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "CNSGHY3"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        }
+                    },
+                    "estimatedTransitTime": "P37DT23H",
+                    "shipmentRoutingType": "MAIN_ROUTING",
+                    "transportMode": {
+                        "transportModeCode": "MVS"
+                    },
+                    "charges": [
+                        {
+                            "amount": 0,
+                            "amountCurrency": "USD",
+                            "chargeType": {
+                                "chargeTypeName": "Transportation cost"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "routingNotes": [
+                {
+                    "routingNoteType": {
+                        "routingNoteTypeCode": "0"
+                    }
+                }
+            ],
+            "routeProviders": [
+                "MEPC"
+            ],
+            "sourceSystem": "MEPC"
+        },
+        {
+            "routingIdentifier": "v3~MSL~link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+            "isHubCargoStorageAvailable": false,
+            "isRoutingAdhoc": false,
+            "estimatedTransitTime": "P38DT22H",
+            "routeId": "635815105",
+            "priority": 0,
+            "routeCode": "E1",
+            "routeCodeDirection": "W",
+            "routeSequenceNumber": "1",
+            "routingLegs": [
+                {
+                    "routingLegIdentifier": "link:MVS:37O5HQ17XCL3X:HHMT8D8RO96BR:2725074",
+                    "isScheduleBased": true,
+                    "journeyType": "OTHER",
+                    "carriage": {
+                        "carriageType": "OCEAN",
+                        "vessel": {
+                            "flagCountryCode": "DE",
+                            "vesselMaerskCode": "IF1",
+                            "vesselName": "HANOI EXPRESS"
+                        },
+                        "vesselPortCallEnd": {
+                            "arrivalDirection": "WEST",
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "arrivalVoyageNumber": "613W",
+                            "carrierCode": "E1411M",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "estimatedTimeOfArrival": "2026-05-04T12:00:00",
+                            "estimatedTimeOfDeparture": "2026-05-05T23:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "HHMT8D8RO96BR",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "NLROTTM"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        },
+                        "vesselPortCallStart": {
+                            "arrivalService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "carrierCode": "E1411M",
+                            "departureDirection": "WEST",
+                            "departureService": {
+                                "serviceCode": "411",
+                                "serviceName": "AE1"
+                            },
+                            "departureVoyageNumber": "613W",
+                            "estimatedStayTime": "PT0S",
+                            "estimatedTimeOfArrival": "2026-03-25T08:00:00",
+                            "estimatedTimeOfDeparture": "2026-03-26T20:00:00",
+                            "location": {
+                                "facility": {
+                                    "alternativeCodes": [
+                                        {
+                                            "alternativeCode": "37O5HQ17XCL3X",
+                                            "alternativeCodeType": "GEO_ID"
+                                        }
+                                    ],
+                                    "facilityCode": "CNSGHY3"
+                                }
+                            },
+                            "vesselPortCallGenerationMode": "PROFORMA"
+                        }
+                    },
+                    "estimatedTransitTime": "P37DT23H",
+                    "shipmentRoutingType": "MAIN_ROUTING",
+                    "transportMode": {
+                        "transportModeCode": "MVS"
+                    },
+                    "charges": [
+                        {
+                            "amount": 0,
+                            "amountCurrency": "USD",
+                            "chargeType": {
+                                "chargeTypeName": "Transportation cost"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "routingNotes": [
+                {
+                    "routingNoteType": {
+                        "routingNoteTypeCode": "0"
+                    }
+                }
+            ],
+            "routeProviders": [
+                "MEPC"
+            ],
+            "sourceSystem": "MEPC"
+        }
+    ]
+}

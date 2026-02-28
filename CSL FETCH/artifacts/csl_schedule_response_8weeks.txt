@@ -1,0 +1,2 @@
+[1] method=GET status=200 resource_type=xhr content_type=application/json url=https://elines.coscoshipping.com/ebschedule/public/purpoShipment/service/port?portCode=SHA&serviceCode=AEU1&period=28&portName=Shanghai,Shanghai,Shanghai,Shanghai,China&timestamp=1772268154735
+[2] method=GET status=200 resource_type=xhr content_type=application/json url=https://elines.coscoshipping.com/ebschedule/public/purpoShipment/service/port?portCode=SHA&serviceCode=AEU1&period=56&portName=Shanghai,Shanghai,Shanghai,Shanghai,China&timestamp=1772268156447

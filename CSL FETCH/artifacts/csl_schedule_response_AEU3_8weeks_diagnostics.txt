@@ -1,0 +1,2 @@
+[1] method=GET status=200 resource_type=xhr content_type=application/json url=https://elines.coscoshipping.com/ebschedule/public/purpoShipment/service/port?portCode=NAG&serviceCode=AEU3&period=28&portName=Tianjin%20Nangang,Tianjin,Tianjin,Tianjin,China&timestamp=1772269048733
+[2] method=GET status=200 resource_type=xhr content_type=application/json url=https://elines.coscoshipping.com/ebschedule/public/purpoShipment/service/port?portCode=NAG&serviceCode=AEU3&period=56&portName=Tianjin%20Nangang,Tianjin,Tianjin,Tianjin,China&timestamp=1772269050420

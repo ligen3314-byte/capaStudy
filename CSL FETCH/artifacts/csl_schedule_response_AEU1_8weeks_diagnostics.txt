@@ -1,0 +1,2 @@
+[1] method=GET status=200 resource_type=xhr content_type=application/json url=https://elines.coscoshipping.com/ebschedule/public/purpoShipment/service/port?portCode=TAO&serviceCode=AEU1&period=28&portName=Qingdao,Qingdao,Qingdao,Shandong,China&timestamp=1772269564047
+[2] method=GET status=200 resource_type=xhr content_type=application/json url=https://elines.coscoshipping.com/ebschedule/public/purpoShipment/service/port?portCode=TAO&serviceCode=AEU1&period=56&portName=Qingdao,Qingdao,Qingdao,Shandong,China&timestamp=1772269565911
