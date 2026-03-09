@@ -1,0 +1,2534 @@
+{
+    "IsSuccess": true,
+    "Data": [
+        {
+            "Key": {
+                "MaritimeServiceName": "SILK SERVICE",
+                "PortOfLoading": "SHANGHAI",
+                "PortOfDischarge": "ROTTERDAM",
+                "IsDirectRoute": true
+            },
+            "RouteHeaderId": 6262779,
+            "PortOfLoadId": 444,
+            "PortOfLoad": "SHANGHAI",
+            "PortOfLoadUnCode": "CNSHA",
+            "PortOfDischargeId": 208,
+            "PortOfDischarge": "ROTTERDAM",
+            "PortOfDischargeUnCode": "NLRTM",
+            "TransitTime": "47 days",
+            "TransitTimeHours": 1128,
+            "CO2FootPrint": "2.3176 Tons",
+            "EstimatedDepartureTime": "2026-03-08T12:00:00",
+            "EstimatedDepartureTimeFormatted": "Sun 8th Mar 2026",
+            "LoadingService": "SILK SERVICE",
+            "IsDirectRoute": true,
+            "RoutingType": "Direct",
+            "Routes": [
+                {
+                    "CO2FootPrint": "2.3176 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Thu 5th Mar 2026 22:00",
+                        "ReeferCutOffDate": "Thu 5th Mar 2026 22:00",
+                        "DangerousCargoCutOffDate": "Fri 27th Feb 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Wed 4th Mar 2026 22:00",
+                        "VerifiedGrossMassCutOffDate": "Thu 5th Mar 2026 22:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 8th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-08T12:00:00",
+                    "EstimatedArrivalDateFormatted": "Fri 24th Apr 2026",
+                    "EstimatedArrivalDate": "2026-04-24T21:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Fri 6th Mar 2026 22:00",
+                    "VesselName": "HMM SOUTHAMPTON",
+                    "DepartureVoyageNo": "0018W",
+                    "TotalTransitTime": "47 days",
+                    "TotalTransitTimeHours": 1128,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "0018W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-03-08T12:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 8th Mar 2026 12:00",
+                            "EstimatedArrivalTime": "2026-04-24T21:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Fri 24th Apr 2026 21:00",
+                            "CO2FootPrint": "2.3176 Tons",
+                            "Vessel": {
+                                "VesselName": "HMM SOUTHAMPTON",
+                                "VesselImoCode": "9868340",
+                                "VesselBuiltYear": "2020",
+                                "VesselFlag": "KOREA, REPUBLIC OF"
+                            },
+                            "MaritimeServiceName": "SILK SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NINGBO",
+                                    "PortCode": "CNNGB",
+                                    "EstimatedArrivalDate": "Mon 9th Mar 2026",
+                                    "EstimatedDepartureDate": "Tue 10th Mar 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "13:00"
+                                },
+                                {
+                                    "PortName": "KAOHSIUNG",
+                                    "PortCode": "TWKHH",
+                                    "EstimatedArrivalDate": "Thu 12th Mar 2026",
+                                    "EstimatedDepartureDate": "Thu 12th Mar 2026",
+                                    "EstimatedArrivalHour": "02:00",
+                                    "EstimatedDepartureHour": "21:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 13th Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 14th Mar 2026",
+                                    "EstimatedArrivalHour": "22:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Thu 19th Mar 2026",
+                                    "EstimatedDepartureDate": "Fri 20th Mar 2026",
+                                    "EstimatedArrivalHour": "15:00",
+                                    "EstimatedDepartureHour": "21:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Mon 23rd Mar 2026",
+                                    "EstimatedDepartureDate": "Mon 23rd Mar 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "22:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Wed 22nd Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 24th Apr 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "07:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3176 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Thu 12th Mar 2026 22:00",
+                        "ReeferCutOffDate": "Thu 12th Mar 2026 22:00",
+                        "DangerousCargoCutOffDate": "Fri 6th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Wed 11th Mar 2026 22:00",
+                        "VerifiedGrossMassCutOffDate": "Thu 12th Mar 2026 22:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 15th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-15T10:00:00",
+                    "EstimatedArrivalDateFormatted": "Fri 1st May 2026",
+                    "EstimatedArrivalDate": "2026-05-01T20:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Fri 13th Mar 2026 22:00",
+                    "VesselName": "YM WREATH",
+                    "DepartureVoyageNo": "034W",
+                    "TotalTransitTime": "47 days",
+                    "TotalTransitTimeHours": 1128,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "034W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-03-15T10:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 15th Mar 2026 10:00",
+                            "EstimatedArrivalTime": "2026-05-01T20:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Fri 1st May 2026 20:00",
+                            "CO2FootPrint": "2.3176 Tons",
+                            "Vessel": {
+                                "VesselName": "YM WREATH",
+                                "VesselImoCode": "9708473",
+                                "VesselBuiltYear": "2015",
+                                "VesselFlag": "SINGAPORE"
+                            },
+                            "MaritimeServiceName": "SILK SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NINGBO",
+                                    "PortCode": "CNNGB",
+                                    "EstimatedArrivalDate": "Sun 15th Mar 2026",
+                                    "EstimatedDepartureDate": "Tue 17th Mar 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "13:00"
+                                },
+                                {
+                                    "PortName": "KAOHSIUNG",
+                                    "PortCode": "TWKHH",
+                                    "EstimatedArrivalDate": "Thu 19th Mar 2026",
+                                    "EstimatedDepartureDate": "Thu 19th Mar 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "13:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 20th Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 21st Mar 2026",
+                                    "EstimatedArrivalHour": "12:00",
+                                    "EstimatedDepartureHour": "18:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Thu 26th Mar 2026",
+                                    "EstimatedDepartureDate": "Fri 27th Mar 2026",
+                                    "EstimatedArrivalHour": "15:00",
+                                    "EstimatedDepartureHour": "21:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Mon 30th Mar 2026",
+                                    "EstimatedDepartureDate": "Mon 30th Mar 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "22:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Wed 29th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 1st May 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "07:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3176 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Thu 19th Mar 2026 22:00",
+                        "ReeferCutOffDate": "Thu 19th Mar 2026 22:00",
+                        "DangerousCargoCutOffDate": "Fri 13th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Wed 18th Mar 2026 22:00",
+                        "VerifiedGrossMassCutOffDate": "Thu 19th Mar 2026 22:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 22nd Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-22T10:00:00",
+                    "EstimatedArrivalDateFormatted": "Wed 6th May 2026",
+                    "EstimatedArrivalDate": "2026-05-06T14:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sat 21st Mar 2026 16:00",
+                    "VesselName": "ONE TRUTH",
+                    "DepartureVoyageNo": "029W",
+                    "TotalTransitTime": "45 days",
+                    "TotalTransitTimeHours": 1080,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "029W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-03-22T10:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 22nd Mar 2026 10:00",
+                            "EstimatedArrivalTime": "2026-05-06T14:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Wed 6th May 2026 14:00",
+                            "CO2FootPrint": "2.3176 Tons",
+                            "Vessel": {
+                                "VesselName": "ONE TRUTH",
+                                "VesselImoCode": "9773210",
+                                "VesselBuiltYear": "2017",
+                                "VesselFlag": "PANAMA"
+                            },
+                            "MaritimeServiceName": "SILK SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NINGBO",
+                                    "PortCode": "CNNGB",
+                                    "EstimatedArrivalDate": "Sun 22nd Mar 2026",
+                                    "EstimatedDepartureDate": "Tue 24th Mar 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "05:00"
+                                },
+                                {
+                                    "PortName": "KAOHSIUNG",
+                                    "PortCode": "TWKHH",
+                                    "EstimatedArrivalDate": "Wed 25th Mar 2026",
+                                    "EstimatedDepartureDate": "Thu 26th Mar 2026",
+                                    "EstimatedArrivalHour": "22:00",
+                                    "EstimatedDepartureHour": "17:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 27th Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 28th Mar 2026",
+                                    "EstimatedArrivalHour": "17:00",
+                                    "EstimatedDepartureHour": "18:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Thu 2nd Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 3rd Apr 2026",
+                                    "EstimatedArrivalHour": "15:00",
+                                    "EstimatedDepartureHour": "21:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Mon 6th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 6th Apr 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "22:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Mon 4th May 2026",
+                                    "EstimatedDepartureDate": "Wed 6th May 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "01:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3176 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Thu 23rd Apr 2026 22:00",
+                        "ReeferCutOffDate": "Thu 23rd Apr 2026 22:00",
+                        "DangerousCargoCutOffDate": "Fri 17th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Wed 22nd Apr 2026 22:00",
+                        "VerifiedGrossMassCutOffDate": "Thu 23rd Apr 2026 22:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 29th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-29T10:00:00",
+                    "EstimatedArrivalDateFormatted": "Fri 15th May 2026",
+                    "EstimatedArrivalDate": "2026-05-15T20:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sat 28th Mar 2026 16:00",
+                    "VesselName": "ONE TRIUMPH",
+                    "DepartureVoyageNo": "030W",
+                    "TotalTransitTime": "47 days",
+                    "TotalTransitTimeHours": 1128,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "030W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-03-29T10:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 29th Mar 2026 10:00",
+                            "EstimatedArrivalTime": "2026-05-15T20:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Fri 15th May 2026 20:00",
+                            "CO2FootPrint": "2.3176 Tons",
+                            "Vessel": {
+                                "VesselName": "ONE TRIUMPH",
+                                "VesselImoCode": "9769271",
+                                "VesselBuiltYear": "2017",
+                                "VesselFlag": "MARSHALL ISLANDS"
+                            },
+                            "MaritimeServiceName": "SILK SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NINGBO",
+                                    "PortCode": "CNNGB",
+                                    "EstimatedArrivalDate": "Sun 29th Mar 2026",
+                                    "EstimatedDepartureDate": "Tue 31st Mar 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "13:00"
+                                },
+                                {
+                                    "PortName": "KAOHSIUNG",
+                                    "PortCode": "TWKHH",
+                                    "EstimatedArrivalDate": "Wed 1st Apr 2026",
+                                    "EstimatedDepartureDate": "Thu 2nd Apr 2026",
+                                    "EstimatedArrivalHour": "22:00",
+                                    "EstimatedDepartureHour": "17:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 3rd Apr 2026",
+                                    "EstimatedDepartureDate": "Sat 4th Apr 2026",
+                                    "EstimatedArrivalHour": "17:00",
+                                    "EstimatedDepartureHour": "18:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Thu 9th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 10th Apr 2026",
+                                    "EstimatedArrivalHour": "15:00",
+                                    "EstimatedDepartureHour": "21:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Mon 13th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 13th Apr 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "22:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Wed 13th May 2026",
+                                    "EstimatedDepartureDate": "Fri 15th May 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "07:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3176 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 5th Apr 2026 22:00",
+                        "ReeferCutOffDate": "Sun 5th Apr 2026 22:00",
+                        "DangerousCargoCutOffDate": "Mon 30th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 4th Apr 2026 22:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 5th Apr 2026 22:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Fri 10th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-10T23:00:00",
+                    "EstimatedArrivalDateFormatted": "Sat 23rd May 2026",
+                    "EstimatedArrivalDate": "2026-05-23T14:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 6th Apr 2026 23:00",
+                    "VesselName": "ONE INTEGRITY",
+                    "DepartureVoyageNo": "009W",
+                    "TotalTransitTime": "43 days",
+                    "TotalTransitTimeHours": 1032,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "009W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-04-10T23:00:00",
+                            "EstimatedDepartureTimeFormatted": "Fri 10th Apr 2026 23:00",
+                            "EstimatedArrivalTime": "2026-05-23T14:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Sat 23rd May 2026 14:00",
+                            "CO2FootPrint": "2.3176 Tons",
+                            "Vessel": {
+                                "VesselName": "ONE INTEGRITY",
+                                "VesselImoCode": "9933119",
+                                "VesselBuiltYear": "2023",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "SILK SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "BUSAN",
+                                    "PortCode": "KRPUS",
+                                    "EstimatedArrivalDate": "Mon 13th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 17th Apr 2026",
+                                    "EstimatedArrivalHour": "00:00",
+                                    "EstimatedDepartureHour": "04:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3176 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 12th Apr 2026 22:00",
+                        "ReeferCutOffDate": "Sun 12th Apr 2026 22:00",
+                        "DangerousCargoCutOffDate": "Mon 6th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 11th Apr 2026 22:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 12th Apr 2026 22:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sat 18th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-18T00:00:00",
+                    "EstimatedArrivalDateFormatted": "Sat 30th May 2026",
+                    "EstimatedArrivalDate": "2026-05-30T15:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 13th Apr 2026 23:00",
+                    "VesselName": "ONE TRUST",
+                    "DepartureVoyageNo": "031W",
+                    "TotalTransitTime": "42 days",
+                    "TotalTransitTimeHours": 1008,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "031W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-04-18T00:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sat 18th Apr 2026 00:00",
+                            "EstimatedArrivalTime": "2026-05-30T15:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Sat 30th May 2026 15:00",
+                            "CO2FootPrint": "2.3176 Tons",
+                            "Vessel": {
+                                "VesselName": "ONE TRUST",
+                                "VesselImoCode": "9769283",
+                                "VesselBuiltYear": "2017",
+                                "VesselFlag": "MARSHALL ISLANDS"
+                            },
+                            "MaritimeServiceName": "SILK SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "BUSAN",
+                                    "PortCode": "KRPUS",
+                                    "EstimatedArrivalDate": "Mon 20th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 24th Apr 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "05:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3176 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 19th Apr 2026 22:00",
+                        "ReeferCutOffDate": "Sun 19th Apr 2026 22:00",
+                        "DangerousCargoCutOffDate": "Mon 13th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 18th Apr 2026 22:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 19th Apr 2026 22:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sat 25th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-25T18:00:00",
+                    "EstimatedArrivalDateFormatted": "Sun 7th Jun 2026",
+                    "EstimatedArrivalDate": "2026-06-07T09:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 20th Apr 2026 23:00",
+                    "VesselName": "ONE INFINITY",
+                    "DepartureVoyageNo": "009W",
+                    "TotalTransitTime": "43 days",
+                    "TotalTransitTimeHours": 1032,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "009W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-04-25T18:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sat 25th Apr 2026 18:00",
+                            "EstimatedArrivalTime": "2026-06-07T09:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Sun 7th Jun 2026 09:00",
+                            "CO2FootPrint": "2.3176 Tons",
+                            "Vessel": {
+                                "VesselName": "ONE INFINITY",
+                                "VesselImoCode": "9933004",
+                                "VesselBuiltYear": "2023",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "SILK SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "BUSAN",
+                                    "PortCode": "KRPUS",
+                                    "EstimatedArrivalDate": "Mon 27th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 1st May 2026",
+                                    "EstimatedArrivalHour": "19:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Key": {
+                "MaritimeServiceName": "BRITANNIA",
+                "PortOfLoading": "SHANGHAI",
+                "PortOfDischarge": "ROTTERDAM",
+                "IsDirectRoute": true
+            },
+            "RouteHeaderId": 7014229,
+            "PortOfLoadId": 444,
+            "PortOfLoad": "SHANGHAI",
+            "PortOfLoadUnCode": "CNSHA",
+            "PortOfDischargeId": 208,
+            "PortOfDischarge": "ROTTERDAM",
+            "PortOfDischargeUnCode": "NLRTM",
+            "TransitTime": "46 days",
+            "TransitTimeHours": 1104,
+            "CO2FootPrint": "1.1658 Tons",
+            "EstimatedDepartureTime": "2026-03-08T22:00:00",
+            "EstimatedDepartureTimeFormatted": "Sun 8th Mar 2026",
+            "LoadingService": "BRITANNIA",
+            "IsDirectRoute": true,
+            "RoutingType": "Direct",
+            "Routes": [
+                {
+                    "CO2FootPrint": "1.1658 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 1st Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sun 1st Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 23rd Feb 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 28th Feb 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 1st Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 8th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-08T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Thu 23rd Apr 2026",
+                    "EstimatedArrivalDate": "2026-04-23T19:30:00",
+                    "EstimatedArrivalDatePolFormatted": "Fri 6th Mar 2026 15:00",
+                    "VesselName": "MSC SALERNO",
+                    "DepartureVoyageNo": "QB610W",
+                    "TotalTransitTime": "46 days",
+                    "TotalTransitTimeHours": 1104,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "QB610W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-03-08T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 8th Mar 2026 22:00",
+                            "EstimatedArrivalTime": "2026-04-23T19:30:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Thu 23rd Apr 2026 19:30",
+                            "CO2FootPrint": "1.1658 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC SALERNO",
+                                "VesselImoCode": "9968322",
+                                "VesselBuiltYear": "2025",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "BRITANNIA",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NANSHA",
+                                    "PortCode": "CNNSA",
+                                    "EstimatedArrivalDate": "Tue 10th Mar 2026",
+                                    "EstimatedDepartureDate": "Wed 11th Mar 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "17:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Thu 12th Mar 2026",
+                                    "EstimatedDepartureDate": "Thu 12th Mar 2026",
+                                    "EstimatedArrivalHour": "00:00",
+                                    "EstimatedDepartureHour": "18:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Sun 15th Mar 2026",
+                                    "EstimatedDepartureDate": "Mon 16th Mar 2026",
+                                    "EstimatedArrivalHour": "17:00",
+                                    "EstimatedDepartureHour": "13:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 18th Mar 2026",
+                                    "EstimatedDepartureDate": "Fri 20th Mar 2026",
+                                    "EstimatedArrivalHour": "13:00",
+                                    "EstimatedDepartureHour": "01:00"
+                                },
+                                {
+                                    "PortName": "COLOMBO",
+                                    "PortCode": "LKCMB",
+                                    "EstimatedArrivalDate": "Tue 24th Mar 2026",
+                                    "EstimatedDepartureDate": "Wed 25th Mar 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "19:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Wed 22nd Apr 2026",
+                                    "EstimatedDepartureDate": "Thu 23rd Apr 2026",
+                                    "EstimatedArrivalHour": "07:30",
+                                    "EstimatedDepartureHour": "07:30"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1658 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 15th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sun 15th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 9th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 14th Mar 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 15th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Wed 18th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-18T06:00:00",
+                    "EstimatedArrivalDateFormatted": "Sat 2nd May 2026",
+                    "EstimatedArrivalDate": "2026-05-02T19:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 16th Mar 2026 06:00",
+                    "VesselName": "MSC TAYLOR",
+                    "DepartureVoyageNo": "QB612W",
+                    "TotalTransitTime": "45 days",
+                    "TotalTransitTimeHours": 1080,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "QB612W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-03-18T06:00:00",
+                            "EstimatedDepartureTimeFormatted": "Wed 18th Mar 2026 06:00",
+                            "EstimatedArrivalTime": "2026-05-02T19:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Sat 2nd May 2026 19:00",
+                            "CO2FootPrint": "1.1658 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC TAYLOR",
+                                "VesselImoCode": "9932048",
+                                "VesselBuiltYear": "2023",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "BRITANNIA",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NANSHA",
+                                    "PortCode": "CNNSA",
+                                    "EstimatedArrivalDate": "Sat 21st Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 21st Mar 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "19:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Sun 22nd Mar 2026",
+                                    "EstimatedDepartureDate": "Mon 23rd Mar 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "01:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Thu 26th Mar 2026",
+                                    "EstimatedDepartureDate": "Thu 26th Mar 2026",
+                                    "EstimatedArrivalHour": "00:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Sat 28th Mar 2026",
+                                    "EstimatedDepartureDate": "Mon 30th Mar 2026",
+                                    "EstimatedArrivalHour": "20:00",
+                                    "EstimatedDepartureHour": "08:00"
+                                },
+                                {
+                                    "PortName": "COLOMBO",
+                                    "PortCode": "LKCMB",
+                                    "EstimatedArrivalDate": "Fri 3rd Apr 2026",
+                                    "EstimatedDepartureDate": "Sun 5th Apr 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "02:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Fri 1st May 2026",
+                                    "EstimatedDepartureDate": "Sat 2nd May 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "07:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1658 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "",
+                        "ReeferCutOffDate": "",
+                        "DangerousCargoCutOffDate": "",
+                        "ShippingInstructionsCutOffDate": "",
+                        "VerifiedGrossMassCutOffDate": ""
+                    },
+                    "EstimatedDepartureDateFormatted": "Wed 25th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-25T06:00:00",
+                    "EstimatedArrivalDateFormatted": "Sat 9th May 2026",
+                    "EstimatedArrivalDate": "2026-05-09T19:00:00",
+                    "EstimatedArrivalDatePolFormatted": "",
+                    "VesselName": "TBN",
+                    "DepartureVoyageNo": "QB613W",
+                    "TotalTransitTime": "45 days",
+                    "TotalTransitTimeHours": 1080,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "QB613W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-03-25T06:00:00",
+                            "EstimatedDepartureTimeFormatted": "Wed 25th Mar 2026 06:00",
+                            "EstimatedArrivalTime": "2026-05-09T19:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Sat 9th May 2026 19:00",
+                            "CO2FootPrint": "1.1658 Tons",
+                            "Vessel": {
+                                "VesselName": "TBN",
+                                "VesselImoCode": null,
+                                "VesselBuiltYear": null,
+                                "VesselFlag": null
+                            },
+                            "MaritimeServiceName": "BRITANNIA",
+                            "PortCalls": []
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1658 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 29th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sun 29th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 23rd Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 28th Mar 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 29th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Wed 1st Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-01T06:00:00",
+                    "EstimatedArrivalDateFormatted": "Sat 16th May 2026",
+                    "EstimatedArrivalDate": "2026-05-16T19:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 30th Mar 2026 06:00",
+                    "VesselName": "MSC LA SPEZIA",
+                    "DepartureVoyageNo": "QB614W",
+                    "TotalTransitTime": "45 days",
+                    "TotalTransitTimeHours": 1080,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "QB614W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-01T06:00:00",
+                            "EstimatedDepartureTimeFormatted": "Wed 1st Apr 2026 06:00",
+                            "EstimatedArrivalTime": "2026-05-16T19:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Sat 16th May 2026 19:00",
+                            "CO2FootPrint": "1.1658 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC LA SPEZIA",
+                                "VesselImoCode": "9461403",
+                                "VesselBuiltYear": "2010",
+                                "VesselFlag": "GERMANY"
+                            },
+                            "MaritimeServiceName": "BRITANNIA",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NANSHA",
+                                    "PortCode": "CNNSA",
+                                    "EstimatedArrivalDate": "Sat 4th Apr 2026",
+                                    "EstimatedDepartureDate": "Sat 4th Apr 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "19:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Sun 5th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 6th Apr 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "01:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Thu 9th Apr 2026",
+                                    "EstimatedDepartureDate": "Thu 9th Apr 2026",
+                                    "EstimatedArrivalHour": "00:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Sat 11th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 13th Apr 2026",
+                                    "EstimatedArrivalHour": "20:00",
+                                    "EstimatedDepartureHour": "08:00"
+                                },
+                                {
+                                    "PortName": "COLOMBO",
+                                    "PortCode": "LKCMB",
+                                    "EstimatedArrivalDate": "Fri 17th Apr 2026",
+                                    "EstimatedDepartureDate": "Sun 19th Apr 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "02:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Fri 15th May 2026",
+                                    "EstimatedDepartureDate": "Sat 16th May 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "07:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1658 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 5th Apr 2026 18:00",
+                        "ReeferCutOffDate": "Sun 5th Apr 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 30th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 4th Apr 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 5th Apr 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 12th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-12T06:00:00",
+                    "EstimatedArrivalDateFormatted": "Sat 23rd May 2026",
+                    "EstimatedArrivalDate": "2026-05-23T19:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Fri 10th Apr 2026 06:00",
+                    "VesselName": "MSC AAYA",
+                    "DepartureVoyageNo": "QB615W",
+                    "TotalTransitTime": "41 days",
+                    "TotalTransitTimeHours": 984,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "QB615W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-12T06:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 12th Apr 2026 06:00",
+                            "EstimatedArrivalTime": "2026-05-23T19:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Sat 23rd May 2026 19:00",
+                            "CO2FootPrint": "1.1658 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC AAYA",
+                                "VesselImoCode": "9927263",
+                                "VesselBuiltYear": "2022",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "BRITANNIA",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NANSHA",
+                                    "PortCode": "CNNSA",
+                                    "EstimatedArrivalDate": "Wed 15th Apr 2026",
+                                    "EstimatedDepartureDate": "Wed 15th Apr 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "19:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Thu 16th Apr 2026",
+                                    "EstimatedDepartureDate": "Thu 16th Apr 2026",
+                                    "EstimatedArrivalHour": "04:45",
+                                    "EstimatedDepartureHour": "22:45"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Sun 19th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 20th Apr 2026",
+                                    "EstimatedArrivalHour": "21:45",
+                                    "EstimatedDepartureHour": "17:45"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 22nd Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 24th Apr 2026",
+                                    "EstimatedArrivalHour": "17:45",
+                                    "EstimatedDepartureHour": "05:45"
+                                },
+                                {
+                                    "PortName": "COLOMBO",
+                                    "PortCode": "LKCMB",
+                                    "EstimatedArrivalDate": "Tue 28th Apr 2026",
+                                    "EstimatedDepartureDate": "Wed 29th Apr 2026",
+                                    "EstimatedArrivalHour": "11:45",
+                                    "EstimatedDepartureHour": "23:45"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Fri 22nd May 2026",
+                                    "EstimatedDepartureDate": "Sat 23rd May 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "07:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1658 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 12th Apr 2026 18:00",
+                        "ReeferCutOffDate": "Sun 12th Apr 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 6th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 11th Apr 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 12th Apr 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Fri 17th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-17T08:30:00",
+                    "EstimatedArrivalDateFormatted": "Sun 31st May 2026",
+                    "EstimatedArrivalDate": "2026-05-31T12:30:00",
+                    "EstimatedArrivalDatePolFormatted": "Wed 15th Apr 2026 08:30",
+                    "VesselName": "MSC GENOVA",
+                    "DepartureVoyageNo": "QB616W",
+                    "TotalTransitTime": "44 days",
+                    "TotalTransitTimeHours": 1056,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "QB616W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-17T08:30:00",
+                            "EstimatedDepartureTimeFormatted": "Fri 17th Apr 2026 08:30",
+                            "EstimatedArrivalTime": "2026-05-31T12:30:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Sun 31st May 2026 12:30",
+                            "CO2FootPrint": "1.1658 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC GENOVA",
+                                "VesselImoCode": "9461386",
+                                "VesselBuiltYear": "2010",
+                                "VesselFlag": "GERMANY"
+                            },
+                            "MaritimeServiceName": "BRITANNIA",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NANSHA",
+                                    "PortCode": "CNNSA",
+                                    "EstimatedArrivalDate": "Sun 19th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 20th Apr 2026",
+                                    "EstimatedArrivalHour": "17:15",
+                                    "EstimatedDepartureHour": "11:15"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Mon 20th Apr 2026",
+                                    "EstimatedDepartureDate": "Tue 21st Apr 2026",
+                                    "EstimatedArrivalHour": "21:00",
+                                    "EstimatedDepartureHour": "15:00"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Fri 24th Apr 2026",
+                                    "EstimatedDepartureDate": "Sat 25th Apr 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "10:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Mon 27th Apr 2026",
+                                    "EstimatedDepartureDate": "Tue 28th Apr 2026",
+                                    "EstimatedArrivalHour": "10:00",
+                                    "EstimatedDepartureHour": "22:00"
+                                },
+                                {
+                                    "PortName": "COLOMBO",
+                                    "PortCode": "LKCMB",
+                                    "EstimatedArrivalDate": "Sun 3rd May 2026",
+                                    "EstimatedDepartureDate": "Mon 4th May 2026",
+                                    "EstimatedArrivalHour": "04:00",
+                                    "EstimatedDepartureHour": "16:00"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Fri 29th May 2026",
+                                    "EstimatedDepartureDate": "Sat 30th May 2026",
+                                    "EstimatedArrivalHour": "22:00",
+                                    "EstimatedDepartureHour": "22:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1658 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 19th Apr 2026 18:00",
+                        "ReeferCutOffDate": "Sun 19th Apr 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 13th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 18th Apr 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 19th Apr 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Fri 24th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-24T12:00:00",
+                    "EstimatedArrivalDateFormatted": "Tue 9th Jun 2026",
+                    "EstimatedArrivalDate": "2026-06-09T00:45:00",
+                    "EstimatedArrivalDatePolFormatted": "Wed 22nd Apr 2026 12:00",
+                    "VesselName": "MSC CATANIA",
+                    "DepartureVoyageNo": "QB617W",
+                    "TotalTransitTime": "46 days",
+                    "TotalTransitTimeHours": 1104,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "QB617W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-24T12:00:00",
+                            "EstimatedDepartureTimeFormatted": "Fri 24th Apr 2026 12:00",
+                            "EstimatedArrivalTime": "2026-06-09T00:45:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Tue 9th Jun 2026 00:45",
+                            "CO2FootPrint": "1.1658 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC CATANIA",
+                                "VesselImoCode": "9964247",
+                                "VesselBuiltYear": "2024",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "BRITANNIA",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NANSHA",
+                                    "PortCode": "CNNSA",
+                                    "EstimatedArrivalDate": "Mon 27th Apr 2026",
+                                    "EstimatedDepartureDate": "Tue 28th Apr 2026",
+                                    "EstimatedArrivalHour": "09:00",
+                                    "EstimatedDepartureHour": "03:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Tue 28th Apr 2026",
+                                    "EstimatedDepartureDate": "Wed 29th Apr 2026",
+                                    "EstimatedArrivalHour": "12:45",
+                                    "EstimatedDepartureHour": "06:45"
+                                },
+                                {
+                                    "PortName": "VUNG TAU",
+                                    "PortCode": "VNVUT",
+                                    "EstimatedArrivalDate": "Sat 2nd May 2026",
+                                    "EstimatedDepartureDate": "Sun 3rd May 2026",
+                                    "EstimatedArrivalHour": "05:45",
+                                    "EstimatedDepartureHour": "01:45"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Tue 5th May 2026",
+                                    "EstimatedDepartureDate": "Wed 6th May 2026",
+                                    "EstimatedArrivalHour": "01:45",
+                                    "EstimatedDepartureHour": "13:45"
+                                },
+                                {
+                                    "PortName": "COLOMBO",
+                                    "PortCode": "LKCMB",
+                                    "EstimatedArrivalDate": "Sun 10th May 2026",
+                                    "EstimatedDepartureDate": "Tue 12th May 2026",
+                                    "EstimatedArrivalHour": "19:45",
+                                    "EstimatedDepartureHour": "07:45"
+                                },
+                                {
+                                    "PortName": "FELIXSTOWE",
+                                    "PortCode": "GBFXT",
+                                    "EstimatedArrivalDate": "Sun 7th Jun 2026",
+                                    "EstimatedDepartureDate": "Mon 8th Jun 2026",
+                                    "EstimatedArrivalHour": "12:45",
+                                    "EstimatedDepartureHour": "12:45"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Key": {
+                "MaritimeServiceName": "CONDOR SERVICE",
+                "PortOfLoading": "SHANGHAI",
+                "PortOfDischarge": "ROTTERDAM",
+                "IsDirectRoute": true
+            },
+            "RouteHeaderId": 7049502,
+            "PortOfLoadId": 444,
+            "PortOfLoad": "SHANGHAI",
+            "PortOfLoadUnCode": "CNSHA",
+            "PortOfDischargeId": 208,
+            "PortOfDischarge": "ROTTERDAM",
+            "PortOfDischargeUnCode": "NLRTM",
+            "TransitTime": "42 days",
+            "TransitTimeHours": 1008,
+            "CO2FootPrint": "2.3323 Tons",
+            "EstimatedDepartureTime": "2026-03-11T20:00:00",
+            "EstimatedDepartureTimeFormatted": "Wed 11th Mar 2026",
+            "LoadingService": "CONDOR SERVICE",
+            "IsDirectRoute": true,
+            "RoutingType": "Direct",
+            "Routes": [
+                {
+                    "CO2FootPrint": "2.3323 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 8th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sun 8th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 2nd Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 7th Mar 2026 02:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 8th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Wed 11th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-11T20:00:00",
+                    "EstimatedArrivalDateFormatted": "Wed 22nd Apr 2026",
+                    "EstimatedArrivalDate": "2026-04-22T18:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 9th Mar 2026 14:00",
+                    "VesselName": "YM WORTH",
+                    "DepartureVoyageNo": "051W",
+                    "TotalTransitTime": "42 days",
+                    "TotalTransitTimeHours": 1008,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "051W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-03-11T20:00:00",
+                            "EstimatedDepartureTimeFormatted": "Wed 11th Mar 2026 20:00",
+                            "EstimatedArrivalTime": "2026-04-22T18:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Wed 22nd Apr 2026 18:00",
+                            "CO2FootPrint": "2.3323 Tons",
+                            "Vessel": {
+                                "VesselName": "YM WORTH",
+                                "VesselImoCode": "9704635",
+                                "VesselBuiltYear": "2015",
+                                "VesselFlag": "SINGAPORE"
+                            },
+                            "MaritimeServiceName": "CONDOR SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "XIAMEN",
+                                    "PortCode": "CNXMN",
+                                    "EstimatedArrivalDate": "Fri 13th Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 14th Mar 2026",
+                                    "EstimatedArrivalHour": "10:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Thu 19th Mar 2026",
+                                    "EstimatedDepartureDate": "Sun 22nd Mar 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "01:00"
+                                },
+                                {
+                                    "PortName": "ALGECIRAS",
+                                    "PortCode": "ESALG",
+                                    "EstimatedArrivalDate": "Sat 18th Apr 2026",
+                                    "EstimatedDepartureDate": "Sun 19th Apr 2026",
+                                    "EstimatedArrivalHour": "08:00",
+                                    "EstimatedDepartureHour": "02:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3323 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 15th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sun 15th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 9th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 14th Mar 2026 02:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 15th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sat 21st Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-21T07:00:00",
+                    "EstimatedArrivalDateFormatted": "Tue 28th Apr 2026",
+                    "EstimatedArrivalDate": "2026-04-28T06:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Thu 19th Mar 2026 23:00",
+                    "VesselName": "ONE TRIBUTE",
+                    "DepartureVoyageNo": "030W",
+                    "TotalTransitTime": "38 days",
+                    "TotalTransitTimeHours": 912,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "030W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-03-21T07:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sat 21st Mar 2026 07:00",
+                            "EstimatedArrivalTime": "2026-04-28T06:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Tue 28th Apr 2026 06:00",
+                            "CO2FootPrint": "2.3323 Tons",
+                            "Vessel": {
+                                "VesselName": "ONE TRIBUTE",
+                                "VesselImoCode": "9769295",
+                                "VesselBuiltYear": "2017",
+                                "VesselFlag": "JAPAN"
+                            },
+                            "MaritimeServiceName": "CONDOR SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "XIAMEN",
+                                    "PortCode": "CNXMN",
+                                    "EstimatedArrivalDate": "Sun 22nd Mar 2026",
+                                    "EstimatedDepartureDate": "Mon 23rd Mar 2026",
+                                    "EstimatedArrivalHour": "22:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Sun 29th Mar 2026",
+                                    "EstimatedDepartureDate": "Mon 30th Mar 2026",
+                                    "EstimatedArrivalHour": "11:00",
+                                    "EstimatedDepartureHour": "15:00"
+                                },
+                                {
+                                    "PortName": "ALGECIRAS",
+                                    "PortCode": "ESALG",
+                                    "EstimatedArrivalDate": "Thu 23rd Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 24th Apr 2026",
+                                    "EstimatedArrivalHour": "20:00",
+                                    "EstimatedDepartureHour": "14:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3323 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 22nd Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sun 22nd Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 16th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 21st Mar 2026 02:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 22nd Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Tue 24th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-24T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Tue 5th May 2026",
+                    "EstimatedArrivalDate": "2026-05-05T06:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 23rd Mar 2026 02:00",
+                    "VesselName": "HMM HAMBURG",
+                    "DepartureVoyageNo": "0018W",
+                    "TotalTransitTime": "42 days",
+                    "TotalTransitTimeHours": 1008,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "0018W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-03-24T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Tue 24th Mar 2026 22:00",
+                            "EstimatedArrivalTime": "2026-05-05T06:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Tue 5th May 2026 06:00",
+                            "CO2FootPrint": "2.3323 Tons",
+                            "Vessel": {
+                                "VesselName": "HMM HAMBURG",
+                                "VesselImoCode": "9863338",
+                                "VesselBuiltYear": "2020",
+                                "VesselFlag": "KOREA, REPUBLIC OF"
+                            },
+                            "MaritimeServiceName": "CONDOR SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "XIAMEN",
+                                    "PortCode": "CNXMN",
+                                    "EstimatedArrivalDate": "Thu 26th Mar 2026",
+                                    "EstimatedDepartureDate": "Fri 27th Mar 2026",
+                                    "EstimatedArrivalHour": "22:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 1st Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 3rd Apr 2026",
+                                    "EstimatedArrivalHour": "13:00",
+                                    "EstimatedDepartureHour": "13:00"
+                                },
+                                {
+                                    "PortName": "ALGECIRAS",
+                                    "PortCode": "ESALG",
+                                    "EstimatedArrivalDate": "Thu 30th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 1st May 2026",
+                                    "EstimatedArrivalHour": "20:00",
+                                    "EstimatedDepartureHour": "14:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.3323 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sun 29th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sun 29th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Mon 23rd Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Sat 28th Mar 2026 02:00",
+                        "VerifiedGrossMassCutOffDate": "Sun 29th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Fri 3rd Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-03T11:00:00",
+                    "EstimatedArrivalDateFormatted": "Tue 12th May 2026",
+                    "EstimatedArrivalDate": "2026-05-12T06:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Thu 2nd Apr 2026 06:00",
+                    "VesselName": "ONE FRONTIER",
+                    "DepartureVoyageNo": "010W",
+                    "TotalTransitTime": "39 days",
+                    "TotalTransitTimeHours": 936,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "010W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-04-03T11:00:00",
+                            "EstimatedDepartureTimeFormatted": "Fri 3rd Apr 2026 11:00",
+                            "EstimatedArrivalTime": "2026-05-12T06:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Tue 12th May 2026 06:00",
+                            "CO2FootPrint": "2.3323 Tons",
+                            "Vessel": {
+                                "VesselName": "ONE FRONTIER",
+                                "VesselImoCode": "9934383",
+                                "VesselBuiltYear": "2023",
+                                "VesselFlag": "SINGAPORE"
+                            },
+                            "MaritimeServiceName": "CONDOR SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "XIAMEN",
+                                    "PortCode": "CNXMN",
+                                    "EstimatedArrivalDate": "Sun 5th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 6th Apr 2026",
+                                    "EstimatedArrivalHour": "04:00",
+                                    "EstimatedDepartureHour": "01:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Sat 11th Apr 2026",
+                                    "EstimatedDepartureDate": "Sun 12th Apr 2026",
+                                    "EstimatedArrivalHour": "07:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "ALGECIRAS",
+                                    "PortCode": "ESALG",
+                                    "EstimatedArrivalDate": "Thu 7th May 2026",
+                                    "EstimatedDepartureDate": "Fri 8th May 2026",
+                                    "EstimatedArrivalHour": "20:00",
+                                    "EstimatedDepartureHour": "14:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Key": {
+                "MaritimeServiceName": "LION",
+                "PortOfLoading": "SHANGHAI",
+                "PortOfDischarge": "ROTTERDAM",
+                "IsDirectRoute": true
+            },
+            "RouteHeaderId": 7247917,
+            "PortOfLoadId": 444,
+            "PortOfLoad": "SHANGHAI",
+            "PortOfLoadUnCode": "CNSHA",
+            "PortOfDischargeId": 208,
+            "PortOfDischarge": "ROTTERDAM",
+            "PortOfDischargeUnCode": "NLRTM",
+            "TransitTime": "48 days",
+            "TransitTimeHours": 1152,
+            "CO2FootPrint": "1.1801 Tons",
+            "EstimatedDepartureTime": "2026-03-10T10:00:00",
+            "EstimatedDepartureTimeFormatted": "Tue 10th Mar 2026",
+            "LoadingService": "LION",
+            "IsDirectRoute": true,
+            "RoutingType": "Direct",
+            "Routes": [
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sat 7th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sat 7th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Sun 1st Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Fri 6th Mar 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sat 7th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Tue 10th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-10T10:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 27th Apr 2026",
+                    "EstimatedArrivalDate": "2026-04-27T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Mon 9th Mar 2026 10:00",
+                    "VesselName": "MSC MAURA",
+                    "DepartureVoyageNo": "GL609W",
+                    "TotalTransitTime": "48 days",
+                    "TotalTransitTimeHours": 1152,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL609W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-03-10T10:00:00",
+                            "EstimatedDepartureTimeFormatted": "Tue 10th Mar 2026 10:00",
+                            "EstimatedArrivalTime": "2026-04-27T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 27th Apr 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC MAURA",
+                                "VesselImoCode": "9962536",
+                                "VesselBuiltYear": "2024",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 13th Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 14th Mar 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 18th Mar 2026",
+                                    "EstimatedDepartureDate": "Fri 20th Mar 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 15th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 17th Apr 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 20th Apr 2026",
+                                    "EstimatedDepartureDate": "Wed 22nd Apr 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 23rd Apr 2026",
+                                    "EstimatedDepartureDate": "Sun 26th Apr 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sat 14th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sat 14th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Sun 8th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Fri 13th Mar 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sat 14th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Mon 16th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-16T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 4th May 2026",
+                    "EstimatedArrivalDate": "2026-05-04T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sun 15th Mar 2026 06:00",
+                    "VesselName": "MSC SAUDI ARABIA",
+                    "DepartureVoyageNo": "GL610W",
+                    "TotalTransitTime": "49 days",
+                    "TotalTransitTimeHours": 1176,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL610W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-03-16T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Mon 16th Mar 2026 22:00",
+                            "EstimatedArrivalTime": "2026-05-04T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 4th May 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC SAUDI ARABIA",
+                                "VesselImoCode": "9987380",
+                                "VesselBuiltYear": "2025",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 20th Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 21st Mar 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 25th Mar 2026",
+                                    "EstimatedDepartureDate": "Fri 27th Mar 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 22nd Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 24th Apr 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 27th Apr 2026",
+                                    "EstimatedDepartureDate": "Wed 29th Apr 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 30th Apr 2026",
+                                    "EstimatedDepartureDate": "Sun 3rd May 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sat 21st Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sat 21st Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Sun 15th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Fri 20th Mar 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sat 21st Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Mon 23rd Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-23T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 11th May 2026",
+                    "EstimatedArrivalDate": "2026-05-11T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sun 22nd Mar 2026 06:00",
+                    "VesselName": "MSC IVA",
+                    "DepartureVoyageNo": "GL611W",
+                    "TotalTransitTime": "49 days",
+                    "TotalTransitTimeHours": 1176,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL611W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-03-23T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Mon 23rd Mar 2026 22:00",
+                            "EstimatedArrivalTime": "2026-05-11T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 11th May 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC IVA",
+                                "VesselImoCode": "9962550",
+                                "VesselBuiltYear": "2023",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 27th Mar 2026",
+                                    "EstimatedDepartureDate": "Sat 28th Mar 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 1st Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 3rd Apr 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 29th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 1st May 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 4th May 2026",
+                                    "EstimatedDepartureDate": "Wed 6th May 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 7th May 2026",
+                                    "EstimatedDepartureDate": "Sun 10th May 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sat 28th Mar 2026 18:00",
+                        "ReeferCutOffDate": "Sat 28th Mar 2026 18:00",
+                        "DangerousCargoCutOffDate": "Sun 22nd Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Fri 27th Mar 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sat 28th Mar 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Mon 30th Mar 2026",
+                    "EstimatedDepartureDate": "2026-03-30T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 18th May 2026",
+                    "EstimatedArrivalDate": "2026-05-18T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sun 29th Mar 2026 06:00",
+                    "VesselName": "MSC ISCHIA",
+                    "DepartureVoyageNo": "GL612W",
+                    "TotalTransitTime": "49 days",
+                    "TotalTransitTimeHours": 1176,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL612W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-03-30T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Mon 30th Mar 2026 22:00",
+                            "EstimatedArrivalTime": "2026-05-18T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 18th May 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC ISCHIA",
+                                "VesselImoCode": "9963633",
+                                "VesselBuiltYear": "2025",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 3rd Apr 2026",
+                                    "EstimatedDepartureDate": "Sat 4th Apr 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 8th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 10th Apr 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 6th May 2026",
+                                    "EstimatedDepartureDate": "Fri 8th May 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 11th May 2026",
+                                    "EstimatedDepartureDate": "Wed 13th May 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 14th May 2026",
+                                    "EstimatedDepartureDate": "Sun 17th May 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sat 4th Apr 2026 18:00",
+                        "ReeferCutOffDate": "Sat 4th Apr 2026 18:00",
+                        "DangerousCargoCutOffDate": "Sun 29th Mar 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Fri 3rd Apr 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sat 4th Apr 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Mon 6th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-06T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 25th May 2026",
+                    "EstimatedArrivalDate": "2026-05-25T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sun 5th Apr 2026 06:00",
+                    "VesselName": "MSC VIOLA",
+                    "DepartureVoyageNo": "GL613W",
+                    "TotalTransitTime": "49 days",
+                    "TotalTransitTimeHours": 1176,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL613W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-06T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Mon 6th Apr 2026 22:00",
+                            "EstimatedArrivalTime": "2026-05-25T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 25th May 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC VIOLA",
+                                "VesselImoCode": "9947172",
+                                "VesselBuiltYear": "2024",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 10th Apr 2026",
+                                    "EstimatedDepartureDate": "Sat 11th Apr 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 15th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 17th Apr 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 13th May 2026",
+                                    "EstimatedDepartureDate": "Fri 15th May 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 18th May 2026",
+                                    "EstimatedDepartureDate": "Wed 20th May 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 21st May 2026",
+                                    "EstimatedDepartureDate": "Sun 24th May 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sat 11th Apr 2026 18:00",
+                        "ReeferCutOffDate": "Sat 11th Apr 2026 18:00",
+                        "DangerousCargoCutOffDate": "Sun 5th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Fri 10th Apr 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sat 11th Apr 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Mon 13th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-13T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 1st Jun 2026",
+                    "EstimatedArrivalDate": "2026-06-01T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sun 12th Apr 2026 06:00",
+                    "VesselName": "MSC ILENIA",
+                    "DepartureVoyageNo": "GL614W",
+                    "TotalTransitTime": "49 days",
+                    "TotalTransitTimeHours": 1176,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL614W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-13T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Mon 13th Apr 2026 22:00",
+                            "EstimatedArrivalTime": "2026-06-01T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 1st Jun 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC ILENIA",
+                                "VesselImoCode": "9962548",
+                                "VesselBuiltYear": "2023",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 17th Apr 2026",
+                                    "EstimatedDepartureDate": "Sat 18th Apr 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 22nd Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 24th Apr 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 20th May 2026",
+                                    "EstimatedDepartureDate": "Fri 22nd May 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 25th May 2026",
+                                    "EstimatedDepartureDate": "Wed 27th May 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 28th May 2026",
+                                    "EstimatedDepartureDate": "Sun 31st May 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Sat 18th Apr 2026 18:00",
+                        "ReeferCutOffDate": "Sat 18th Apr 2026 18:00",
+                        "DangerousCargoCutOffDate": "Sun 12th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Fri 17th Apr 2026 06:00",
+                        "VerifiedGrossMassCutOffDate": "Sat 18th Apr 2026 18:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Mon 20th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-20T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 8th Jun 2026",
+                    "EstimatedArrivalDate": "2026-06-08T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sun 19th Apr 2026 06:00",
+                    "VesselName": "MSC CLORINDA",
+                    "DepartureVoyageNo": "GL615W",
+                    "TotalTransitTime": "49 days",
+                    "TotalTransitTimeHours": 1176,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL615W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-20T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Mon 20th Apr 2026 22:00",
+                            "EstimatedArrivalTime": "2026-06-08T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 8th Jun 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC CLORINDA",
+                                "VesselImoCode": "9484429",
+                                "VesselBuiltYear": "2012",
+                                "VesselFlag": "PANAMA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 24th Apr 2026",
+                                    "EstimatedDepartureDate": "Sat 25th Apr 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 29th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 1st May 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 27th May 2026",
+                                    "EstimatedDepartureDate": "Fri 29th May 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 1st Jun 2026",
+                                    "EstimatedDepartureDate": "Wed 3rd Jun 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 4th Jun 2026",
+                                    "EstimatedDepartureDate": "Sun 7th Jun 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "1.1801 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "",
+                        "ReeferCutOffDate": "",
+                        "DangerousCargoCutOffDate": "",
+                        "ShippingInstructionsCutOffDate": "",
+                        "VerifiedGrossMassCutOffDate": ""
+                    },
+                    "EstimatedDepartureDateFormatted": "Mon 27th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-27T22:00:00",
+                    "EstimatedArrivalDateFormatted": "Mon 15th Jun 2026",
+                    "EstimatedArrivalDate": "2026-06-15T23:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Sun 26th Apr 2026 06:00",
+                    "VesselName": "MSC REEF",
+                    "DepartureVoyageNo": "GL616W",
+                    "TotalTransitTime": "49 days",
+                    "TotalTransitTimeHours": 1176,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "GL616W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI GUANDONG INTERNATIONAL CONTAINER TERMINAL CO.,LTD",
+                            "EstimatedDepartureTime": "2026-04-27T22:00:00",
+                            "EstimatedDepartureTimeFormatted": "Mon 27th Apr 2026 22:00",
+                            "EstimatedArrivalTime": "2026-06-15T23:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ECT DELTA DDE TERMINAL",
+                            "EstimatedArrivalTimeFormatted": "Mon 15th Jun 2026 23:00",
+                            "CO2FootPrint": "1.1801 Tons",
+                            "Vessel": {
+                                "VesselName": "MSC REEF",
+                                "VesselImoCode": "9754965",
+                                "VesselBuiltYear": "2016",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "LION",
+                            "PortCalls": [
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Fri 1st May 2026",
+                                    "EstimatedDepartureDate": "Sat 2nd May 2026",
+                                    "EstimatedArrivalHour": "14:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Wed 6th May 2026",
+                                    "EstimatedDepartureDate": "Fri 8th May 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                },
+                                {
+                                    "PortName": "SINES",
+                                    "PortCode": "PTSIE",
+                                    "EstimatedArrivalDate": "Wed 3rd Jun 2026",
+                                    "EstimatedDepartureDate": "Fri 5th Jun 2026",
+                                    "EstimatedArrivalHour": "18:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "LE HAVRE",
+                                    "PortCode": "FRLEH",
+                                    "EstimatedArrivalDate": "Mon 8th Jun 2026",
+                                    "EstimatedDepartureDate": "Wed 10th Jun 2026",
+                                    "EstimatedArrivalHour": "06:00",
+                                    "EstimatedDepartureHour": "06:00"
+                                },
+                                {
+                                    "PortName": "HAMBURG",
+                                    "PortCode": "DEHAM",
+                                    "EstimatedArrivalDate": "Thu 11th Jun 2026",
+                                    "EstimatedDepartureDate": "Sun 14th Jun 2026",
+                                    "EstimatedArrivalHour": "23:00",
+                                    "EstimatedDepartureHour": "23:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Key": {
+                "MaritimeServiceName": "GRIFFIN SERVICE",
+                "PortOfLoading": "SHANGHAI",
+                "PortOfDischarge": "ROTTERDAM",
+                "IsDirectRoute": true
+            },
+            "RouteHeaderId": 7319894,
+            "PortOfLoadId": 444,
+            "PortOfLoad": "SHANGHAI",
+            "PortOfLoadUnCode": "CNSHA",
+            "PortOfDischargeId": 208,
+            "PortOfDischarge": "ROTTERDAM",
+            "PortOfDischargeUnCode": "NLRTM",
+            "TransitTime": "44 days",
+            "TransitTimeHours": 1056,
+            "CO2FootPrint": "2.2915 Tons",
+            "EstimatedDepartureTime": "2026-04-12T07:00:00",
+            "EstimatedDepartureTimeFormatted": "Sun 12th Apr 2026",
+            "LoadingService": "GRIFFIN SERVICE",
+            "IsDirectRoute": true,
+            "RoutingType": "Direct",
+            "Routes": [
+                {
+                    "CO2FootPrint": "2.2915 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Fri 10th Apr 2026 08:00",
+                        "ReeferCutOffDate": "Fri 10th Apr 2026 08:00",
+                        "DangerousCargoCutOffDate": "Fri 3rd Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Wed 8th Apr 2026 16:00",
+                        "VerifiedGrossMassCutOffDate": "Fri 10th Apr 2026 08:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 12th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-12T07:00:00",
+                    "EstimatedArrivalDateFormatted": "Tue 26th May 2026",
+                    "EstimatedArrivalDate": "2026-05-26T08:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Fri 10th Apr 2026 22:00",
+                    "VesselName": "YM WONDERLAND",
+                    "DepartureVoyageNo": "030W",
+                    "TotalTransitTime": "44 days",
+                    "TotalTransitTimeHours": 1056,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "030W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-04-12T07:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 12th Apr 2026 07:00",
+                            "EstimatedArrivalTime": "2026-05-26T08:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Tue 26th May 2026 08:00",
+                            "CO2FootPrint": "2.2915 Tons",
+                            "Vessel": {
+                                "VesselName": "YM WONDERLAND",
+                                "VesselImoCode": "9820910",
+                                "VesselBuiltYear": "2019",
+                                "VesselFlag": "LIBERIA"
+                            },
+                            "MaritimeServiceName": "GRIFFIN SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NINGBO",
+                                    "PortCode": "CNNGB",
+                                    "EstimatedArrivalDate": "Mon 13th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 13th Apr 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Thu 16th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 17th Apr 2026",
+                                    "EstimatedArrivalHour": "19:00",
+                                    "EstimatedDepartureHour": "16:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Tue 21st Apr 2026",
+                                    "EstimatedDepartureDate": "Wed 22nd Apr 2026",
+                                    "EstimatedArrivalHour": "11:00",
+                                    "EstimatedDepartureHour": "14:00"
+                                },
+                                {
+                                    "PortName": "SOUTHAMPTON",
+                                    "PortCode": "GBSOU",
+                                    "EstimatedArrivalDate": "Fri 22nd May 2026",
+                                    "EstimatedDepartureDate": "Sun 24th May 2026",
+                                    "EstimatedArrivalHour": "09:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.2915 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "",
+                        "ReeferCutOffDate": "",
+                        "DangerousCargoCutOffDate": "",
+                        "ShippingInstructionsCutOffDate": "",
+                        "VerifiedGrossMassCutOffDate": ""
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 19th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-19T07:00:00",
+                    "EstimatedArrivalDateFormatted": "Tue 2nd Jun 2026",
+                    "EstimatedArrivalDate": "2026-06-02T08:00:00",
+                    "EstimatedArrivalDatePolFormatted": "",
+                    "VesselName": "TBN",
+                    "DepartureVoyageNo": "001W",
+                    "TotalTransitTime": "44 days",
+                    "TotalTransitTimeHours": 1056,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "001W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-04-19T07:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 19th Apr 2026 07:00",
+                            "EstimatedArrivalTime": "2026-06-02T08:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Tue 2nd Jun 2026 08:00",
+                            "CO2FootPrint": "2.2915 Tons",
+                            "Vessel": {
+                                "VesselName": "TBN",
+                                "VesselImoCode": null,
+                                "VesselBuiltYear": null,
+                                "VesselFlag": null
+                            },
+                            "MaritimeServiceName": "GRIFFIN SERVICE",
+                            "PortCalls": []
+                        }
+                    ]
+                },
+                {
+                    "CO2FootPrint": "2.2915 Tons",
+                    "CutOffs": {
+                        "ContainerYardCutOffDate": "Fri 24th Apr 2026 08:00",
+                        "ReeferCutOffDate": "Fri 24th Apr 2026 08:00",
+                        "DangerousCargoCutOffDate": "Fri 17th Apr 2026 00:00",
+                        "ShippingInstructionsCutOffDate": "Wed 22nd Apr 2026 16:00",
+                        "VerifiedGrossMassCutOffDate": "Fri 24th Apr 2026 08:00"
+                    },
+                    "EstimatedDepartureDateFormatted": "Sun 26th Apr 2026",
+                    "EstimatedDepartureDate": "2026-04-26T07:00:00",
+                    "EstimatedArrivalDateFormatted": "Tue 9th Jun 2026",
+                    "EstimatedArrivalDate": "2026-06-09T08:00:00",
+                    "EstimatedArrivalDatePolFormatted": "Fri 24th Apr 2026 22:00",
+                    "VesselName": "YM WIND",
+                    "DepartureVoyageNo": "034W",
+                    "TotalTransitTime": "44 days",
+                    "TotalTransitTimeHours": 1056,
+                    "RouteScheduleLegDetails": [
+                        {
+                            "LegSequence": 1,
+                            "SingleLegOnly": true,
+                            "LastLeg": true,
+                            "DepartureVoyageNo": "034W",
+                            "DeparturePortUNCode": "CNSHA",
+                            "DeparturePortId": 444,
+                            "DeparturePortName": "SHANGHAI",
+                            "DepartureEquipmentHandlingFacilityName": "SHANGHAI YANGSHAN SHANGDONG TERMINAL",
+                            "EstimatedDepartureTime": "2026-04-26T07:00:00",
+                            "EstimatedDepartureTimeFormatted": "Sun 26th Apr 2026 07:00",
+                            "EstimatedArrivalTime": "2026-06-09T08:00:00",
+                            "ArrivalPortUNCode": "NLRTM",
+                            "ArrivalPortPortId": 208,
+                            "ArrivalPortName": "ROTTERDAM",
+                            "ArrivalEquipmentHandlingFacilityName": "ROTTERDAM WORLD GATEWAY",
+                            "EstimatedArrivalTimeFormatted": "Tue 9th Jun 2026 08:00",
+                            "CO2FootPrint": "2.2915 Tons",
+                            "Vessel": {
+                                "VesselName": "YM WIND",
+                                "VesselImoCode": "9708461",
+                                "VesselBuiltYear": "2015",
+                                "VesselFlag": "SINGAPORE"
+                            },
+                            "MaritimeServiceName": "GRIFFIN SERVICE",
+                            "PortCalls": [
+                                {
+                                    "PortName": "NINGBO",
+                                    "PortCode": "CNNGB",
+                                    "EstimatedArrivalDate": "Mon 27th Apr 2026",
+                                    "EstimatedDepartureDate": "Mon 27th Apr 2026",
+                                    "EstimatedArrivalHour": "01:00",
+                                    "EstimatedDepartureHour": "20:00"
+                                },
+                                {
+                                    "PortName": "YANTIAN",
+                                    "PortCode": "CNYTN",
+                                    "EstimatedArrivalDate": "Thu 30th Apr 2026",
+                                    "EstimatedDepartureDate": "Fri 1st May 2026",
+                                    "EstimatedArrivalHour": "19:00",
+                                    "EstimatedDepartureHour": "16:00"
+                                },
+                                {
+                                    "PortName": "SINGAPORE",
+                                    "PortCode": "SGSIN",
+                                    "EstimatedArrivalDate": "Tue 5th May 2026",
+                                    "EstimatedDepartureDate": "Wed 6th May 2026",
+                                    "EstimatedArrivalHour": "11:00",
+                                    "EstimatedDepartureHour": "14:00"
+                                },
+                                {
+                                    "PortName": "SOUTHAMPTON",
+                                    "PortCode": "GBSOU",
+                                    "EstimatedArrivalDate": "Fri 5th Jun 2026",
+                                    "EstimatedDepartureDate": "Sun 7th Jun 2026",
+                                    "EstimatedArrivalHour": "09:00",
+                                    "EstimatedDepartureHour": "11:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "ResultTimestamp": "Search schedule results provided by MSC on 02.03.2026 at 16:10 Central Europe Standard Time"
+}

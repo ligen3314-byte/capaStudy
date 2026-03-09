@@ -1,0 +1,7 @@
+start_only_voyages=0
+multi_port_voyages=9
+start_only_port_calls=0
+multi_port_port_calls=104
+added_voyages=[('AEU9', 'D20', '0804-008W'), ('AEU9', 'D6I', '0802-001W'), ('AEU9', 'DBO', '0803-005W'), ('AEU9', 'DHP', '0810-002W'), ('AEU9', 'MVE', '0807-008W'), ('AEU9', 'NGV', '0796-027W'), ('AEU9', 'NKI', '0806-027W'), ('AEU9', 'QLU', '0808-017W'), ('AEU9', 'S1D', '0791-045W')]
+missing_voyages=[]
+assessment=合理：多港查询补充出了起运港查询遗漏的航次。

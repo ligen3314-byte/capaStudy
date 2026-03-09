@@ -13,10 +13,44 @@ from playwright_stealth import Stealth
 TARGET_URL = "https://elines.coscoshipping.com/ebusiness/sailingSchedule/searchByService"
 SCRIPT_DIR = Path(__file__).resolve().parent
 ARTIFACT_DIR = SCRIPT_DIR / "artifacts"
+QUERY_DIR = SCRIPT_DIR / "csl_query"
 SERVICE_RULES_XLSX = SCRIPT_DIR / "csl_service_start_end.xlsx"
-DEFAULT_SERVICE = "AEU1"
 DEFAULT_SERVICE_CODE = "SERVICE"
 DEFAULT_PORT_CODE = "PORT"
+
+VOYAGE_COLUMNS = [
+    "LoopAbbrv",
+    "VesselCode",
+    "VesselName",
+    "Voyage",
+    "Direction",
+    "PortCallCount",
+    "FirstPort",
+    "LastPort",
+    "FirstArrDtlocAct",
+    "FirstDepDtlocAct",
+    "LastArrDtlocAct",
+    "LastDepDtlocAct",
+    "FirstArrDtlocCos",
+    "FirstDepDtlocCos",
+    "LastArrDtlocCos",
+    "LastDepDtlocCos",
+    "PortCallPath",
+]
+
+PORT_CALL_COLUMNS = [
+    "LoopAbbrv",
+    "VesselCode",
+    "VesselName",
+    "Voyage",
+    "PortCallSeq",
+    "PortName",
+    "ArrDtlocAct",
+    "DepDtlocAct",
+    "ArrDtlocCos",
+    "DepDtlocCos",
+    "Direction",
+]
 
 
 def sanitize_filename(name):
@@ -24,27 +58,57 @@ def sanitize_filename(name):
     return cleaned or "UNKNOWN"
 
 
+def ensure_query_dir():
+    QUERY_DIR.mkdir(parents=True, exist_ok=True)
+
+
 def normalize_port_name(name):
     return str(name).strip().upper() if name is not None else ""
+
+
+def prettify_port_name(port_name):
+    words = str(port_name).strip().split()
+    return " ".join(word.capitalize() for word in words)
 
 
 def extract_westbound_voyage(voyage):
     text = str(voyage).strip() if voyage is not None else ""
     if not text:
         return ""
-
     for part in text.split("/"):
         part = part.strip()
         if part.upper().endswith("W"):
             return part
-
     return text.split("/")[0].strip()
 
 
-def get_target_service():
-    if len(sys.argv) > 1 and sys.argv[1].strip():
-        return sys.argv[1].strip().upper()
-    return DEFAULT_SERVICE
+def load_service_rules():
+    df = pd.read_excel(SERVICE_RULES_XLSX)
+    rules = {}
+    for row in df.to_dict(orient="records"):
+        service = normalize_port_name(row.get("SERVICE"))
+        start_port = normalize_port_name(row.get("START"))
+        end_port = normalize_port_name(row.get("END"))
+        alt1 = normalize_port_name(row.get("ALT1"))
+        alt2 = normalize_port_name(row.get("ALT2"))
+        if service and start_port and end_port:
+            rules[service] = {
+                "start": start_port,
+                "alt1": alt1,
+                "alt2": alt2,
+                "end": end_port,
+            }
+    return rules
+
+
+def get_target_services(service_rules):
+    if len(sys.argv) > 1:
+        requested = [item.strip().upper() for item in sys.argv[1:] if item.strip()]
+        missing = [item for item in requested if item not in service_rules]
+        if missing:
+            raise ValueError(f"Services not found in {SERVICE_RULES_XLSX.name}: {', '.join(missing)}")
+        return requested
+    return list(service_rules.keys())
 
 
 def normalize_service_group(service_code):
@@ -56,29 +120,14 @@ def normalize_service_group(service_code):
     raise ValueError(f"Unsupported service group for service: {service_code}")
 
 
-def prettify_port_name(port_name):
-    words = str(port_name).strip().split()
-    return " ".join(word.capitalize() for word in words)
-
-
-def load_service_rules():
-    df = pd.read_excel(SERVICE_RULES_XLSX)
-    rules = {}
-    for row in df.to_dict(orient="records"):
-        service = normalize_port_name(row.get("SERVICE"))
-        start_port = normalize_port_name(row.get("START"))
-        end_port = normalize_port_name(row.get("END"))
-        if service and start_port and end_port:
-            rules[service] = {"start": start_port, "end": end_port}
-    return rules
-
-
-def load_service_start_port(service_code):
-    rules = load_service_rules()
-    service_rule = rules.get(service_code.upper())
-    if service_rule is None:
-        raise ValueError(f"Service {service_code} was not found in {SERVICE_RULES_XLSX.name}")
-    return prettify_port_name(service_rule["start"])
+def build_query_ports(service_rule, include_alternatives):
+    ordered_ports = [service_rule["start"]]
+    if include_alternatives:
+        for key in ("alt1", "alt2"):
+            port = service_rule.get(key)
+            if port and port not in ordered_ports:
+                ordered_ports.append(port)
+    return [prettify_port_name(port) for port in ordered_ports if port]
 
 
 def extract_port_call_rows(response_json):
@@ -86,10 +135,63 @@ def extract_port_call_rows(response_json):
     return data if isinstance(data, list) else []
 
 
+def completeness_score(row):
+    score_fields = [
+        row.get("arrDtlocAct"),
+        row.get("depDtlocAct"),
+        row.get("arrDtlocCos"),
+        row.get("depDtlocCos"),
+    ]
+    return sum(1 for value in score_fields if value not in (None, ""))
+
+
+def dedupe_port_calls(port_calls):
+    if not port_calls:
+        return []
+
+    unique = {}
+    for row in port_calls:
+        key = (
+            row.get("loopAbbrv"),
+            row.get("vesselCode"),
+            row.get("vesselName"),
+            row.get("voy"),
+            row.get("protName"),
+            row.get("arrDtlocCos") or row.get("arrDtlocAct"),
+            row.get("depDtlocCos") or row.get("depDtlocAct"),
+        )
+        existing = unique.get(key)
+        if existing is None:
+            unique[key] = row
+            continue
+
+        existing_score = completeness_score(existing)
+        new_score = completeness_score(row)
+        if new_score > existing_score:
+            unique[key] = row
+        elif new_score == existing_score:
+            existing_sources = set(existing.get("QueryPorts", []))
+            new_sources = set(row.get("QueryPorts", []))
+            merged = dict(existing)
+            merged["QueryPorts"] = sorted(existing_sources | new_sources)
+            unique[key] = merged
+
+    deduped = list(unique.values())
+    deduped.sort(
+        key=lambda x: (
+            str(x.get("loopAbbrv") or ""),
+            str(x.get("vesselCode") or ""),
+            str(x.get("voy") or ""),
+            str(x.get("arrDtlocCos") or x.get("arrDtlocAct") or ""),
+            str(x.get("protName") or ""),
+        )
+    )
+    return deduped
+
+
 def slice_westbound_calls(calls, service_rule):
     if not calls:
         return []
-
     if not service_rule:
         return calls
 
@@ -99,7 +201,6 @@ def slice_westbound_calls(calls, service_rule):
         if normalize_port_name(call.get("PortName")) == end_port:
             end_idx = idx
             break
-
     if end_idx is None:
         return []
 
@@ -112,16 +213,13 @@ def slice_westbound_calls(calls, service_rule):
     return westbound_calls
 
 
-def parse_tables(response_json):
-    port_calls = extract_port_call_rows(response_json)
-    if not port_calls:
+def parse_tables_from_rows(raw_port_calls, service_rules):
+    if not raw_port_calls:
         return [], []
 
-    service_rules = load_service_rules()
     voyage_groups = {}
     voyage_order = []
-
-    for row in port_calls:
+    for row in raw_port_calls:
         if not isinstance(row, dict):
             continue
 
@@ -152,7 +250,6 @@ def parse_tables(response_json):
 
     voyage_rows = []
     port_call_rows = []
-
     for group_key in voyage_order:
         calls = voyage_groups[group_key]
         service_code = normalize_port_name(group_key[0])
@@ -163,7 +260,6 @@ def parse_tables(response_json):
         first_call = westbound_calls[0]
         last_call = westbound_calls[-1]
         port_names = [call["PortName"] for call in westbound_calls if call.get("PortName")]
-
         voyage_rows.append(
             {
                 "LoopAbbrv": first_call.get("LoopAbbrv"),
@@ -190,23 +286,59 @@ def parse_tables(response_json):
     return voyage_rows, port_call_rows
 
 
-def save_to_excel(response_json):
-    voyage_rows, port_call_rows = parse_tables(response_json)
-    df_voyages = pd.DataFrame(voyage_rows)
-    df_port_calls = pd.DataFrame(port_call_rows)
-
-    first_row = port_call_rows[0] if port_call_rows else {}
-    service_code = first_row.get("LoopAbbrv") or DEFAULT_SERVICE_CODE
-    port_code = first_row.get("PortName") or DEFAULT_PORT_CODE
+def save_tables_to_excel(voyage_rows, port_call_rows, service_code, port_label, suffix):
+    ensure_query_dir()
+    df_voyages = pd.DataFrame(voyage_rows).reindex(columns=VOYAGE_COLUMNS)
+    df_port_calls = pd.DataFrame(port_call_rows).reindex(columns=PORT_CALL_COLUMNS)
     timestamp = datetime.now().strftime("%y%m%d%H%M%S")
-    file_name = f"CSL_FETCH_{sanitize_filename(service_code)}_{sanitize_filename(port_code)}_{timestamp}.xlsx"
-    output_path = SCRIPT_DIR / file_name
-
+    file_name = (
+        f"CSL_FETCH_{sanitize_filename(service_code)}_{sanitize_filename(port_label)}_"
+        f"{sanitize_filename(suffix)}_{timestamp}.xlsx"
+    )
+    output_path = QUERY_DIR / file_name
     with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
         df_voyages.to_excel(writer, index=False, sheet_name="Voyages")
         df_port_calls.to_excel(writer, index=False, sheet_name="PortCalls")
+    return str(output_path)
 
-    return str(output_path), len(df_voyages), len(df_port_calls)
+
+def save_batch_detail_tables(voyage_rows, port_call_rows):
+    ensure_query_dir()
+    timestamp = datetime.now().strftime("%y%m%d%H%M%S")
+    output_path = QUERY_DIR / f"CSL_FETCH_BATCH_DETAIL_{timestamp}.xlsx"
+    df_voyages = pd.DataFrame(voyage_rows).reindex(columns=VOYAGE_COLUMNS)
+    df_port_calls = pd.DataFrame(port_call_rows).reindex(columns=PORT_CALL_COLUMNS)
+    with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
+        df_voyages.to_excel(writer, index=False, sheet_name="Total Voyages")
+        df_port_calls.to_excel(writer, index=False, sheet_name="Total PortCalls")
+    return str(output_path)
+
+
+def compare_results(start_only_voyages, multi_voyages, start_only_calls, multi_calls):
+    start_voyage_keys = {
+        (row.get("LoopAbbrv"), row.get("VesselCode"), row.get("Voyage")) for row in start_only_voyages
+    }
+    multi_voyage_keys = {
+        (row.get("LoopAbbrv"), row.get("VesselCode"), row.get("Voyage")) for row in multi_voyages
+    }
+    added_voyages = sorted(multi_voyage_keys - start_voyage_keys)
+    missing_voyages = sorted(start_voyage_keys - multi_voyage_keys)
+
+    summary = {
+        "start_only_voyages": len(start_only_voyages),
+        "multi_port_voyages": len(multi_voyages),
+        "start_only_port_calls": len(start_only_calls),
+        "multi_port_port_calls": len(multi_calls),
+        "added_voyages": added_voyages,
+        "missing_voyages": missing_voyages,
+    }
+    if missing_voyages:
+        summary["assessment"] = "不合理：多港去重结果反而少于仅起运港结果。"
+    elif added_voyages:
+        summary["assessment"] = "合理：多港查询补充出了起运港查询遗漏的航次。"
+    else:
+        summary["assessment"] = "合理：多港查询与仅起运港查询结果一致，未发现额外航次。"
+    return summary
 
 
 async def prepare_page(page):
@@ -220,14 +352,6 @@ async def open_search_page(page):
     print(f"Page title: {await page.title()}")
 
 
-async def save_debug_artifacts(page, prefix="csl_search_page"):
-    ARTIFACT_DIR.mkdir(exist_ok=True)
-    await page.screenshot(path=str(ARTIFACT_DIR / f"{prefix}.png"), full_page=True)
-    html = await page.content()
-    (ARTIFACT_DIR / f"{prefix}.html").write_text(html, encoding="utf-8")
-    print(f"Artifacts saved to: {ARTIFACT_DIR}")
-
-
 async def click_by_text(page, text, timeout=500):
     candidates = [
         page.get_by_role("button", name=text),
@@ -237,7 +361,6 @@ async def click_by_text(page, text, timeout=500):
         page.locator(f"xpath=//*[normalize-space()='{text}']"),
         page.locator(f"xpath=//*[contains(normalize-space(), '{text}')]"),
     ]
-
     last_error = None
     for locator in candidates:
         try:
@@ -248,21 +371,51 @@ async def click_by_text(page, text, timeout=500):
             return
         except Exception as exc:
             last_error = exc
-
     raise RuntimeError(f"Could not click element with text '{text}': {last_error}")
 
 
-async def choose_port(page, port_name, timeout=500):
+async def select_service_in_group(page, service_group, service_code, timeout=2000):
+    group_item = page.locator(".ser-group .ivu-collapse-item", has_text=service_group).first
+    await group_item.wait_for(state="visible", timeout=timeout)
+
+    group_class = await group_item.get_attribute("class") or ""
+    if "ivu-collapse-item-active" not in group_class:
+        header = group_item.locator(".ivu-collapse-header").first
+        await header.scroll_into_view_if_needed(timeout=timeout)
+        await header.click(timeout=timeout)
+        print(f"Expanded group: {service_group}")
+
+    active_group = page.locator(".ser-group .ivu-collapse-item.ivu-collapse-item-active", has_text=service_group).first
+    await active_group.wait_for(state="visible", timeout=timeout)
+    service_item = active_group.locator(".feeder-line-lis", has_text=service_code).first
+    await service_item.wait_for(state="visible", timeout=timeout)
+    await service_item.scroll_into_view_if_needed(timeout=timeout)
+    await service_item.click(timeout=timeout)
+    print(f"Selected service: {service_code}")
+
+
+async def choose_port(page, port_name, timeout=2500):
     port_input = page.locator("input[placeholder='港口名称 (城市,省,国家/地区)']").first
     await port_input.wait_for(state="visible", timeout=timeout)
     await port_input.click(timeout=timeout)
     await port_input.fill(port_name, timeout=timeout)
     print(f"Typed port keyword: {port_name}")
-
-    suggestion = page.locator(".ivu-select-dropdown .ivu-select-item", has_text=port_name).first
-    await suggestion.wait_for(state="visible", timeout=timeout)
-    await suggestion.click(timeout=timeout)
-    print(f"Selected suggestion: {port_name}")
+    suggestion_candidates = [
+        page.locator(".ivu-select-dropdown .ivu-select-item", has_text=port_name).first,
+        page.locator(".ivu-select-dropdown .ivu-select-item", has_text=port_name.split()[0]).first,
+        page.locator(".ivu-select-dropdown .ivu-select-item").first,
+    ]
+    last_error = None
+    for suggestion in suggestion_candidates:
+        try:
+            await suggestion.wait_for(state="visible", timeout=timeout)
+            await suggestion.click(timeout=timeout)
+            chosen_text = (await suggestion.inner_text()).strip()
+            print(f"Selected suggestion: {chosen_text}")
+            return
+        except Exception as exc:
+            last_error = exc
+    raise RuntimeError(f"Could not select suggestion for port '{port_name}': {last_error}")
 
 
 async def trigger_search(page, timeout=500):
@@ -272,12 +425,11 @@ async def trigger_search(page, timeout=500):
     print("Triggered search.")
 
 
-async def choose_period(page, period_text, timeout=2000):
+async def choose_period(page, period_text, timeout=3000):
     period_dropdown = page.locator(".filter-selects .ivu-select-selection", has_text="四周内").first
     await period_dropdown.wait_for(state="visible", timeout=timeout)
     await period_dropdown.click(timeout=timeout)
     print("Opened period dropdown.")
-
     period_option = page.locator(".ivu-select-dropdown .ivu-select-item", has_text=period_text).first
     await period_option.wait_for(state="visible", timeout=timeout)
     await period_option.click(timeout=timeout)
@@ -299,7 +451,7 @@ async def fetch_response_text_in_page(page, url):
     )
 
 
-async def choose_period_and_capture(page, service_code, period_text="八周内", timeout=2000):
+async def choose_period_and_capture(page, timeout=3000):
     matched_responses = []
 
     def on_response(response):
@@ -316,26 +468,23 @@ async def choose_period_and_capture(page, service_code, period_text="八周内",
         )
 
     page.on("response", on_response)
-    await choose_period(page, period_text, timeout=timeout)
+    period_error = None
+    for _ in range(3):
+        try:
+            await choose_period(page, "八周内", timeout=timeout)
+            period_error = None
+            break
+        except Exception as exc:
+            period_error = exc
+            await page.wait_for_timeout(1200)
+    if period_error is not None:
+        page.remove_listener("response", on_response)
+        raise period_error
     await page.wait_for_timeout(3000)
     page.remove_listener("response", on_response)
 
     if not matched_responses:
         raise RuntimeError("No matching schedule responses were observed after selecting the period.")
-
-    diagnostics_lines = []
-    for idx, item in enumerate(matched_responses, start=1):
-        line = (
-            f"[{idx}] method={item['method']} status={item['status']} "
-            f"resource_type={item['resource_type']} content_type={item['content_type']} "
-            f"url={item['url']}"
-        )
-        diagnostics_lines.append(line)
-        print(line)
-
-    ARTIFACT_DIR.mkdir(exist_ok=True)
-    diagnostics_path = ARTIFACT_DIR / f"csl_schedule_response_{service_code}_8weeks_diagnostics.txt"
-    diagnostics_path.write_text("\n".join(diagnostics_lines), encoding="utf-8")
 
     target_response = None
     for item in reversed(matched_responses):
@@ -348,18 +497,13 @@ async def choose_period_and_capture(page, service_code, period_text="八周内",
     response_text = await fetch_response_text_in_page(page, target_response["url"])
     print(f"Captured response URL: {target_response['url']}")
     print(f"Captured response preview: {response_text[:100]}")
-
-    response_path = ARTIFACT_DIR / f"csl_schedule_response_{service_code}_8weeks.json"
-    response_path.write_text(response_text, encoding="utf-8")
     return json.loads(response_text)
 
 
-async def fetch_response_json(service_code):
+async def fetch_response_json(service_code, query_port):
     service_group = normalize_service_group(service_code)
-    start_port = load_service_start_port(service_code)
-    print(f"Target service: {service_code}")
     print(f"Service group: {service_group}")
-    print(f"Start port: {start_port}")
+    print(f"Query port: {query_port}")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
@@ -373,40 +517,135 @@ async def fetch_response_json(service_code):
         )
         await Stealth().apply_stealth_async(context)
         page = await context.new_page()
-
         try:
             await prepare_page(page)
             await open_search_page(page)
-            await save_debug_artifacts(page, prefix="csl_search_page")
-
-            for step_text in ["允许全部", "欧洲航线", service_group, service_code]:
-                await click_by_text(page, step_text, timeout=500)
+            for step_text in ["允许全部", "欧洲航线"]:
+                await click_by_text(page, step_text, timeout=1200)
                 await page.wait_for_timeout(1500)
-
-            await choose_port(page, start_port)
+            await select_service_in_group(page, service_group, service_code, timeout=3000)
+            await page.wait_for_timeout(1500)
+            await choose_port(page, query_port, timeout=2500)
             await page.wait_for_timeout(1000)
-            await trigger_search(page)
+            await trigger_search(page, timeout=1200)
             await page.wait_for_timeout(1000)
-            response_json = await choose_period_and_capture(page, service_code)
-            await page.wait_for_timeout(1000)
-            await save_debug_artifacts(page, prefix=f"csl_search_after_{service_code.lower()}")
-            return response_json
+            return await choose_period_and_capture(page, timeout=3000)
         except PlaywrightTimeoutError as exc:
-            await save_debug_artifacts(page, prefix="csl_timeout")
             raise RuntimeError(f"Timed out while loading or waiting for the page: {exc}") from exc
-        except Exception:
-            await save_debug_artifacts(page, prefix="csl_failure")
-            raise
         finally:
             await browser.close()
 
 
+async def fetch_response_json_with_retry(service_code, query_port, max_attempts=3):
+    last_error = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return await fetch_response_json(service_code, query_port)
+        except Exception as exc:
+            last_error = exc
+            print(f"Fetch failed for {service_code}/{query_port} attempt {attempt}/{max_attempts}: {exc}")
+            if attempt < max_attempts:
+                await asyncio.sleep(2 * attempt)
+    raise RuntimeError(f"Failed to fetch {service_code}/{query_port} after {max_attempts} attempts: {last_error}")
+
+
+async def process_service(service_code, service_rules):
+    service_rule = service_rules[service_code]
+    start_only_ports = build_query_ports(service_rule, include_alternatives=False)
+    multi_ports = build_query_ports(service_rule, include_alternatives=True)
+    print(f"Target service: {service_code}")
+    print(f"Start-only query ports: {start_only_ports}")
+    print(f"Multi-port query ports: {multi_ports}")
+
+    start_only_json = await fetch_response_json_with_retry(service_code, start_only_ports[0], max_attempts=3)
+    start_only_rows = extract_port_call_rows(start_only_json)
+    start_voyages, start_calls = parse_tables_from_rows(start_only_rows, service_rules)
+    start_file = save_tables_to_excel(start_voyages, start_calls, service_code, start_only_ports[0], "START_ONLY")
+
+    multi_raw_rows = []
+    for port in multi_ports:
+        try:
+            response_json = await fetch_response_json_with_retry(service_code, port, max_attempts=3)
+        except Exception as exc:
+            print(f"Skipped port {port} for {service_code}: {exc}")
+            continue
+        rows = extract_port_call_rows(response_json)
+        for row in rows:
+            cloned = dict(row)
+            cloned["QueryPorts"] = [port]
+            multi_raw_rows.append(cloned)
+
+    deduped_rows = dedupe_port_calls(multi_raw_rows)
+    multi_voyages, multi_calls = parse_tables_from_rows(deduped_rows, service_rules)
+    multi_file = save_tables_to_excel(multi_voyages, multi_calls, service_code, "MULTIPORT", "DEDUPED")
+
+    comparison = compare_results(start_voyages, multi_voyages, start_calls, multi_calls)
+    comparison_path = QUERY_DIR / (
+        f"CSL_FETCH_{sanitize_filename(service_code)}_COMPARISON_{datetime.now().strftime('%y%m%d%H%M%S')}.txt"
+    )
+    comparison_lines = [
+        f"start_only_voyages={comparison['start_only_voyages']}",
+        f"multi_port_voyages={comparison['multi_port_voyages']}",
+        f"start_only_port_calls={comparison['start_only_port_calls']}",
+        f"multi_port_port_calls={comparison['multi_port_port_calls']}",
+        f"added_voyages={comparison['added_voyages']}",
+        f"missing_voyages={comparison['missing_voyages']}",
+        f"assessment={comparison['assessment']}",
+    ]
+    comparison_path.write_text("\n".join(comparison_lines), encoding="utf-8")
+
+    print(f"仅起运港结果已保存: {start_file}")
+    print(f"起运港+备选港去重结果已保存: {multi_file}")
+    print(f"差异对比已保存: {comparison_path}")
+    print(f"结果判断: {comparison['assessment']}")
+
+    total_voyages = []
+    for row in multi_voyages:
+        enriched = dict(row)
+        enriched["Service"] = service_code
+        total_voyages.append(enriched)
+
+    total_port_calls = []
+    for row in multi_calls:
+        enriched = dict(row)
+        enriched["Service"] = service_code
+        total_port_calls.append(enriched)
+
+    return {
+        "service": service_code,
+        "start_only_file": start_file,
+        "multi_port_file": multi_file,
+        "comparison_file": str(comparison_path),
+        "total_voyages": total_voyages,
+        "total_port_calls": total_port_calls,
+        **comparison,
+    }
+
+
 async def main():
-    service_code = get_target_service()
-    response_json = await fetch_response_json(service_code)
-    output_file, voyage_count, port_call_count = save_to_excel(response_json)
-    print(f"Excel 已保存: {output_file}")
-    print(f"Voyages 行数: {voyage_count}, PortCalls 行数: {port_call_count}")
+    service_rules = load_service_rules()
+    target_services = get_target_services(service_rules)
+    ensure_query_dir()
+    print(f"Services to process: {target_services}")
+
+    results = []
+    batch_voyages = []
+    batch_port_calls = []
+    for service_code in target_services:
+        try:
+            result = await process_service(service_code, service_rules)
+            batch_voyages.extend(result.pop("total_voyages", []))
+            batch_port_calls.extend(result.pop("total_port_calls", []))
+            results.append(result)
+        except Exception as exc:
+            print(f"Service {service_code} failed: {exc}")
+            results.append({"service": service_code, "error": str(exc)})
+
+    summary_path = QUERY_DIR / f"CSL_FETCH_BATCH_SUMMARY_{datetime.now().strftime('%y%m%d%H%M%S')}.xlsx"
+    pd.DataFrame(results).to_excel(summary_path, index=False)
+    detail_path = save_batch_detail_tables(batch_voyages, batch_port_calls)
+    print(f"Batch summary saved: {summary_path}")
+    print(f"Batch detail tables saved: {detail_path}")
 
 
 if __name__ == "__main__":

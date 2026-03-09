@@ -1,0 +1,7 @@
+start_only_voyages=14
+multi_port_voyages=15
+start_only_port_calls=131
+multi_port_port_calls=140
+added_voyages=[('AEM3', 'CCQ', '072W')]
+missing_voyages=[]
+assessment=合理：多港查询补充出了起运港查询遗漏的航次。

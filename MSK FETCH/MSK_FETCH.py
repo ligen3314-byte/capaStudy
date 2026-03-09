@@ -1,268 +1,355 @@
-﻿import json
-import re
-from datetime import datetime
+﻿import re
+import sys
+import time
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
+import pandas as pd
 import requests
 
-try:
-    import pandas as pd
-except ImportError as exc:
-    raise ImportError("缺少依赖 pandas/openpyxl，请先执行: pip install pandas openpyxl") from exc
+SCRIPT_DIR = Path(__file__).resolve().parent
+QUERY_DIR = SCRIPT_DIR / 'msk_query'
+PORTS_XLSX = SCRIPT_DIR / 'msk_ports.xlsx'
+PORT_CALLS_URL = 'https://api.maersk.com/synergy/schedules/port-calls'
 
-# 1. 目标 URL
-url = "https://api.maersk.com/routing-unified/routing/routings-queries"
+VOYAGE_COLUMNS = [
+    'LoopAbbrv',
+    'VesselCode',
+    'VesselName',
+    'Voyage',
+    'Direction',
+    'PortCallCount',
+    'FirstPort',
+    'LastPort',
+    'FirstArrDtlocAct',
+    'FirstDepDtlocAct',
+    'LastArrDtlocAct',
+    'LastDepDtlocAct',
+    'FirstArrDtlocCos',
+    'FirstDepDtlocCos',
+    'LastArrDtlocCos',
+    'LastDepDtlocCos',
+    'PortCallPath',
+]
 
-# 2. Headers
-headers = {
-    "accept": "*/*",
-    "accept-language": "zh-CN,zh;q=0.9",
-    "akamai-bm-telemetry": "09E8A1671BD5D5DE73E633F6D421E62D...",
-    "api-version": "1",
-    "consumer-key": "uXe7bxTHLY0yY0e8jnS6kotShkLuAAqG",
-    "content-type": "application/json",
-    "origin": "https://www.maersk.com",
-    "referer": "https://www.maersk.com/",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+PORT_CALL_COLUMNS = [
+    'LoopAbbrv',
+    'VesselCode',
+    'VesselName',
+    'Voyage',
+    'PortCallSeq',
+    'PortName',
+    'ArrDtlocAct',
+    'DepDtlocAct',
+    'ArrDtlocCos',
+    'DepDtlocCos',
+    'Direction',
+]
+
+HEADERS = {
+    'accept': 'application/json',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'consumer-key': 'uXe7bxTHLY0yY0e8jnS6kotShkLuAAqG',
+    'origin': 'https://www.maersk.com',
+    'referer': 'https://www.maersk.com/',
+    'user-agent': (
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) '
+        'Chrome/145.0.0.0 Safari/537.36'
+    ),
 }
 
-# 3. Payload（查询参数）
-payload = {
-    "requestType": "DATED_SCHEDULES",
-    "includeFutureSchedules": True,
-    "routingCondition": "PREFERRED",
-    "exportServiceType": "CY",
-    "importServiceType": "CY",
-    "brandCode": "MSL",
-    "startLocation": {
-        "dataObject": "CITY",
-        "alternativeCodes": [{"alternativeCodeType": "GEO_ID", "alternativeCode": "2IW9P6J7XAW72"}],
-    },
-    "endLocation": {
-        "dataObject": "CITY",
-        "alternativeCodes": [{"alternativeCodeType": "GEO_ID", "alternativeCode": "1JUKNJGWHQBNJ"}],
-    },
-    "timeRange": {
-        "routingsBasedOn": "DEPARTURE_DATE",
-        "earliestTime": "2026-02-28",
-        "latestTime": "2026-04-10",
-    },
-    "cargo": {"cargoType": "DRY", "isTemperatureControlRequired": False},
-    "carriage": {"vessel": {"flagCountryCode": ""}},
-    "equipment": {
-        "equipmentSizeCode": "20",
-        "equipmentTypeCode": "DRY",
-        "isEmpty": False,
-        "isShipperOwned": False,
-    },
-    "IsUseOfInternetMarkedRoutesOnly": False,
-}
+
+def normalize_text(value):
+    if value is None or pd.isna(value):
+        return ''
+    return str(value).replace('\xa0', ' ').strip().upper()
 
 
-def sanitize_filename(name):
-    cleaned = re.sub(r'[\\/:*?"<>|]', "_", str(name)).strip()
-    return cleaned or "UNKNOWN"
+
+def guess_direction(voyage):
+    text = (voyage or '').strip().upper()
+    m = re.search(r'([A-Z])$', text)
+    return m.group(1) if m else None
 
 
-def get_alt_code(location, code_type="GEO_ID"):
-    if not isinstance(location, dict):
+
+def format_iso_datetime(value):
+    if not value:
         return None
+    try:
+        return datetime.fromisoformat(str(value)).strftime('%Y-%m-%d %H:%M')
+    except ValueError:
+        return str(value)
 
-    for item in location.get("alternativeCodes", []):
-        if isinstance(item, dict) and item.get("alternativeCodeType") == code_type:
-            return item.get("alternativeCode")
-    return None
 
 
-def get_location_fields(port_call):
-    if not isinstance(port_call, dict):
-        return {
-            "FacilityCode": None,
-            "GeoId": None,
-            "ETA": None,
-            "ETD": None,
-            "VoyageNumber": None,
-            "Direction": None,
-            "CarrierCode": None,
-            "ServiceCode": None,
-            "ServiceName": None,
-        }
+def ensure_query_dir():
+    QUERY_DIR.mkdir(parents=True, exist_ok=True)
 
-    location = (port_call.get("location") or {}).get("facility") or {}
-    arrival_service = port_call.get("arrivalService") or {}
 
+
+def load_ports():
+    df = pd.read_excel(PORTS_XLSX, sheet_name='ports')
+    required = {'city', 'geoid'}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f'Missing required columns in {PORTS_XLSX.name}: {sorted(missing)}')
+    df['city'] = df['city'].astype(str).str.replace('\xa0', ' ', regex=False).str.strip()
+    df['geoid'] = df['geoid'].astype(str).str.strip()
+    df = df[df['city'].ne('') & df['geoid'].ne('')].drop_duplicates(subset=['city', 'geoid']).reset_index(drop=True)
+    return df
+
+
+
+def load_allowed_services():
+    df = pd.read_excel(PORTS_XLSX, sheet_name='services', header=None)
+    values = []
+    for item in df.iloc[:, 0].tolist():
+        norm = normalize_text(item)
+        if norm:
+            values.append(norm)
+    return sorted(set(values))
+
+
+
+def get_target_ports(port_df):
+    if len(sys.argv) <= 1:
+        return port_df
+    requested = {normalize_text(arg) for arg in sys.argv[1:] if normalize_text(arg)}
+    result = port_df[port_df['city'].map(normalize_text).isin(requested)].copy()
+    missing = requested - set(result['city'].map(normalize_text))
+    if missing:
+        raise ValueError(f'Ports not found: {", ".join(sorted(missing))}')
+    return result.reset_index(drop=True)
+
+
+
+def build_params(port_code, from_date, to_date):
     return {
-        "FacilityCode": location.get("facilityCode"),
-        "GeoId": get_alt_code(location),
-        "ETA": port_call.get("estimatedTimeOfArrival"),
-        "ETD": port_call.get("estimatedTimeOfDeparture"),
-        "VoyageNumber": port_call.get("departureVoyageNumber") or port_call.get("arrivalVoyageNumber"),
-        "Direction": port_call.get("departureDirection") or port_call.get("arrivalDirection"),
-        "CarrierCode": port_call.get("carrierCode"),
-        "ServiceCode": arrival_service.get("serviceCode"),
-        "ServiceName": arrival_service.get("serviceName"),
+        'portCode': port_code,
+        'fromDate': from_date,
+        'toDate': to_date,
+        'carrierCodes': 'MAEU',
     }
 
 
-def parse_voyage_rows(response_json):
-    routings = response_json.get("routings") if isinstance(response_json, dict) else []
-    if not isinstance(routings, list):
-        return []
 
-    rows = []
-    for route in routings:
-        if not isinstance(route, dict):
-            continue
+def request_port_calls(port_code, from_date, to_date):
+    params = build_params(port_code, from_date, to_date)
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            response = requests.get(PORT_CALLS_URL, headers=HEADERS, params=params, timeout=60)
+            response.raise_for_status()
+            obj = response.json()
+            return obj.get('portCalls') if isinstance(obj, dict) else []
+        except Exception as exc:
+            last_error = exc
+            if attempt < 3:
+                time.sleep(attempt * 2)
+            else:
+                raise last_error
 
-        legs = route.get("routingLegs") if isinstance(route.get("routingLegs"), list) else []
-        first_leg = legs[0] if legs else {}
-        last_leg = legs[-1] if legs else {}
 
-        first_carriage = first_leg.get("carriage") if isinstance(first_leg, dict) else {}
-        last_carriage = last_leg.get("carriage") if isinstance(last_leg, dict) else {}
 
-        start_info = get_location_fields(first_carriage.get("vesselPortCallStart") if isinstance(first_carriage, dict) else {})
-        end_info = get_location_fields(last_carriage.get("vesselPortCallEnd") if isinstance(last_carriage, dict) else {})
+def choose_matched_service_and_voyage(item, allowed_services):
+    allowed_services = {normalize_text(x) for x in allowed_services}
+    candidates = []
 
-        vessel = first_carriage.get("vessel") if isinstance(first_carriage, dict) and isinstance(first_carriage.get("vessel"), dict) else {}
+    arrival_service_name = normalize_text(item.get('arrivalServiceName'))
+    arrival_service_code = normalize_text(item.get('arrivalServiceCode'))
+    arrival_voyage = (item.get('arrivalVoyageNumber') or '').strip()
+    arrival_direction = guess_direction(arrival_voyage)
 
-        rows.append(
+    departure_service_name = normalize_text(item.get('departureServiceName'))
+    departure_service_code = normalize_text(item.get('departureServiceCode'))
+    departure_voyage = (item.get('departureVoyageNumber') or '').strip()
+    departure_direction = guess_direction(departure_voyage)
+
+    if {arrival_service_name, arrival_service_code} & allowed_services and arrival_voyage:
+        candidates.append(
             {
-                "RoutingIdentifier": route.get("routingIdentifier"),
-                "RouteId": route.get("routeId"),
-                "RouteCode": route.get("routeCode"),
-                "RouteCodeDirection": route.get("routeCodeDirection"),
-                "RouteSequenceNumber": route.get("routeSequenceNumber"),
-                "Priority": route.get("priority"),
-                "EstimatedTransitTime": route.get("estimatedTransitTime"),
-                "SourceSystem": route.get("sourceSystem"),
-                "RouteProviders": ",".join(route.get("routeProviders", [])) if isinstance(route.get("routeProviders"), list) else None,
-                "LegCount": len(legs),
-                "TransshipmentCount": max(len(legs) - 1, 0),
-                "VesselName": vessel.get("vesselName"),
-                "VesselMaerskCode": vessel.get("vesselMaerskCode"),
-                "VesselFlagCountryCode": vessel.get("flagCountryCode"),
-                "StartFacilityCode": start_info["FacilityCode"],
-                "StartGeoId": start_info["GeoId"],
-                "StartETA": start_info["ETA"],
-                "StartETD": start_info["ETD"],
-                "StartVoyageNumber": start_info["VoyageNumber"],
-                "StartDirection": start_info["Direction"],
-                "StartCarrierCode": start_info["CarrierCode"],
-                "StartServiceCode": start_info["ServiceCode"],
-                "StartServiceName": start_info["ServiceName"],
-                "EndFacilityCode": end_info["FacilityCode"],
-                "EndGeoId": end_info["GeoId"],
-                "EndETA": end_info["ETA"],
-                "EndETD": end_info["ETD"],
-                "EndVoyageNumber": end_info["VoyageNumber"],
-                "EndDirection": end_info["Direction"],
-                "EndCarrierCode": end_info["CarrierCode"],
-                "EndServiceCode": end_info["ServiceCode"],
-                "EndServiceName": end_info["ServiceName"],
+                'service': item.get('arrivalServiceName') or item.get('arrivalServiceCode'),
+                'voyage': arrival_voyage,
+                'direction': arrival_direction,
+                'matched_side': 'arrival',
             }
         )
-    return rows
+
+    if {departure_service_name, departure_service_code} & allowed_services and departure_voyage:
+        candidates.append(
+            {
+                'service': item.get('departureServiceName') or item.get('departureServiceCode'),
+                'voyage': departure_voyage,
+                'direction': departure_direction,
+                'matched_side': 'departure',
+            }
+        )
+
+    westbound = [c for c in candidates if c['direction'] == 'W']
+    if westbound:
+        for side in ('departure', 'arrival'):
+            for candidate in westbound:
+                if candidate['matched_side'] == side:
+                    return candidate
+
+    return None
 
 
-def parse_leg_rows(response_json):
-    routings = response_json.get("routings") if isinstance(response_json, dict) else []
-    if not isinstance(routings, list):
-        return []
 
+def parse_port_call_rows(port_df, from_date, to_date, allowed_services):
     rows = []
-    for route in routings:
-        if not isinstance(route, dict):
-            continue
-
-        route_id = route.get("routingIdentifier")
-        legs = route.get("routingLegs") if isinstance(route.get("routingLegs"), list) else []
-        for idx, leg in enumerate(legs, start=1):
-            if not isinstance(leg, dict):
+    allowed_services = {normalize_text(x) for x in allowed_services}
+    for rec in port_df.to_dict(orient='records'):
+        city = rec['city']
+        geoid = rec['geoid']
+        print(f'Querying {city} ({geoid})')
+        for item in request_port_calls(geoid, from_date, to_date) or []:
+            matched = choose_matched_service_and_voyage(item, allowed_services)
+            if not matched:
                 continue
-
-            carriage = leg.get("carriage") if isinstance(leg.get("carriage"), dict) else {}
-            start_info = get_location_fields(carriage.get("vesselPortCallStart"))
-            end_info = get_location_fields(carriage.get("vesselPortCallEnd"))
-            vessel = carriage.get("vessel") if isinstance(carriage.get("vessel"), dict) else {}
-            transport_mode = leg.get("transportMode") if isinstance(leg.get("transportMode"), dict) else {}
-
             rows.append(
                 {
-                    "RoutingIdentifier": route_id,
-                    "LegIndex": idx,
-                    "RoutingLegIdentifier": leg.get("routingLegIdentifier"),
-                    "JourneyType": leg.get("journeyType"),
-                    "ShipmentRoutingType": leg.get("shipmentRoutingType"),
-                    "TransportModeCode": transport_mode.get("transportModeCode"),
-                    "LegEstimatedTransitTime": leg.get("estimatedTransitTime"),
-                    "CarriageType": carriage.get("carriageType"),
-                    "VesselName": vessel.get("vesselName"),
-                    "VesselMaerskCode": vessel.get("vesselMaerskCode"),
-                    "StartFacilityCode": start_info["FacilityCode"],
-                    "StartGeoId": start_info["GeoId"],
-                    "StartETA": start_info["ETA"],
-                    "StartETD": start_info["ETD"],
-                    "EndFacilityCode": end_info["FacilityCode"],
-                    "EndGeoId": end_info["GeoId"],
-                    "EndETA": end_info["ETA"],
-                    "EndETD": end_info["ETD"],
-                    "DepartureVoyageNumber": start_info["VoyageNumber"],
-                    "ArrivalVoyageNumber": end_info["VoyageNumber"],
+                    'LoopAbbrv': matched['service'],
+                    'VesselCode': (item.get('vesselMaerskCode') or '').strip(),
+                    'VesselName': item.get('vesselName'),
+                    'Voyage': matched['voyage'],
+                    'PortCallSeq': None,
+                    'PortName': city,
+                    'ArrDtlocAct': None,
+                    'DepDtlocAct': None,
+                    'ArrDtlocCos': format_iso_datetime(item.get('arrivalTime')),
+                    'DepDtlocCos': format_iso_datetime(item.get('departureTime')),
+                    'Direction': matched['direction'],
+                    'MatchedSide': matched['matched_side'],
+                    'QueryGeoId': geoid,
+                    'ArrivalVoyageNumber': item.get('arrivalVoyageNumber'),
+                    'DepartureVoyageNumber': item.get('departureVoyageNumber'),
+                    'ArrivalServiceName': item.get('arrivalServiceName'),
+                    'ArrivalServiceCode': item.get('arrivalServiceCode'),
+                    'DepartureServiceName': item.get('departureServiceName'),
+                    'DepartureServiceCode': item.get('departureServiceCode'),
+                    'MarineContainerTerminalName': item.get('marineContainerTerminalName'),
+                    'MarineContainerTerminalRKSTCode': item.get('marineContainerTerminalRKSTCode'),
+                    'MarineContainerTerminalGeoCode': item.get('marineContainerTerminalGeoCode'),
+                    'VesselIMONumber': item.get('vesselIMONumber'),
                 }
             )
+        time.sleep(1)
     return rows
 
 
-def get_filename_ports(voyage_rows, payload_data):
-    if voyage_rows:
-        from_port = voyage_rows[0].get("StartFacilityCode") or voyage_rows[0].get("StartGeoId")
-        to_port = voyage_rows[0].get("EndFacilityCode") or voyage_rows[0].get("EndGeoId")
-    else:
-        from_location = payload_data.get("startLocation", {})
-        to_location = payload_data.get("endLocation", {})
-        from_port = get_alt_code(from_location) or "FROM"
-        to_port = get_alt_code(to_location) or "TO"
-    return from_port, to_port
+def dedupe_port_calls(rows):
+    unique = {}
+    for row in rows:
+        key = (
+            row.get('LoopAbbrv'),
+            row.get('VesselCode'),
+            row.get('Voyage'),
+            row.get('PortName'),
+            row.get('ArrDtlocCos'),
+            row.get('DepDtlocCos'),
+        )
+        if key not in unique:
+            unique[key] = row
+    result = list(unique.values())
+    grouped = {}
+    for row in result:
+        key = (row.get('LoopAbbrv'), row.get('VesselCode'), row.get('Voyage'))
+        grouped.setdefault(key, []).append(row)
+
+    sequenced = []
+    for _, group in grouped.items():
+        group.sort(key=lambda x: (x.get('ArrDtlocCos') or x.get('DepDtlocCos') or '', x.get('PortName') or ''))
+        for seq, row in enumerate(group, start=1):
+            merged = dict(row)
+            merged['PortCallSeq'] = seq
+            sequenced.append(merged)
+
+    sequenced.sort(key=lambda x: (x.get('LoopAbbrv') or '', x.get('Voyage') or '', x.get('PortCallSeq') or 0, x.get('VesselCode') or ''))
+    return sequenced
 
 
-def save_to_excel(response_json, payload_data):
-    voyage_rows = parse_voyage_rows(response_json)
-    leg_rows = parse_leg_rows(response_json)
 
-    df_voyages = pd.DataFrame(voyage_rows)
-    df_legs = pd.DataFrame(leg_rows)
+def build_voyage_rows(port_call_rows):
+    grouped = {}
+    for row in port_call_rows:
+        key = (row.get('LoopAbbrv'), row.get('VesselCode'), row.get('Voyage'))
+        grouped.setdefault(key, []).append(row)
 
-    from_port, to_port = get_filename_ports(voyage_rows, payload_data)
-    timestamp = datetime.now().strftime("%y%m%d%H%M%S")
-    file_name = f"MSK_FETCH_{sanitize_filename(from_port)}_{sanitize_filename(to_port)}_{timestamp}.xlsx"
-    output_path = Path(__file__).resolve().parent / file_name
+    voyage_rows = []
+    for _, group in grouped.items():
+        group.sort(key=lambda x: (x.get('PortCallSeq') or 0, x.get('ArrDtlocCos') or '', x.get('DepDtlocCos') or ''))
+        first = group[0]
+        last = group[-1]
+        voyage_rows.append(
+            {
+                'LoopAbbrv': first.get('LoopAbbrv'),
+                'VesselCode': first.get('VesselCode'),
+                'VesselName': first.get('VesselName'),
+                'Voyage': first.get('Voyage'),
+                'Direction': first.get('Direction'),
+                'PortCallCount': len(group),
+                'FirstPort': first.get('PortName'),
+                'LastPort': last.get('PortName'),
+                'FirstArrDtlocAct': None,
+                'FirstDepDtlocAct': None,
+                'LastArrDtlocAct': None,
+                'LastDepDtlocAct': None,
+                'FirstArrDtlocCos': first.get('ArrDtlocCos'),
+                'FirstDepDtlocCos': first.get('DepDtlocCos'),
+                'LastArrDtlocCos': last.get('ArrDtlocCos'),
+                'LastDepDtlocCos': last.get('DepDtlocCos'),
+                'PortCallPath': ' > '.join([item.get('PortName') for item in group if item.get('PortName')]),
+                'ArrivalServiceName': first.get('ArrivalServiceName'),
+                'ArrivalServiceCode': first.get('ArrivalServiceCode'),
+                'DepartureServiceName': first.get('DepartureServiceName'),
+                'DepartureServiceCode': first.get('DepartureServiceCode'),
+            }
+        )
 
-    with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
-        df_voyages.to_excel(writer, index=False, sheet_name="Voyages")
-        df_legs.to_excel(writer, index=False, sheet_name="Legs")
-
-    return str(output_path), len(df_voyages), len(df_legs)
+    voyage_rows.sort(key=lambda x: (x.get('LoopAbbrv') or '', x.get('FirstDepDtlocCos') or '', x.get('VesselCode') or '', x.get('Voyage') or ''))
+    return voyage_rows
 
 
-try:
-    # 发送 POST 请求
-    response = requests.post(url, headers=headers, json=payload, timeout=15)
 
-    print(f"状态码: {response.status_code}")
+def save_detail(voyage_rows, port_call_rows):
+    ensure_query_dir()
+    timestamp = datetime.now().strftime('%y%m%d%H%M%S')
+    output_path = QUERY_DIR / f'MSK_FETCH_BATCH_DETAIL_{timestamp}.xlsx'
+    df_voyages = pd.DataFrame(voyage_rows).reindex(columns=VOYAGE_COLUMNS)
+    df_port_calls = pd.DataFrame(port_call_rows).reindex(columns=PORT_CALL_COLUMNS)
 
-    if response.status_code == 200:
-        print("请求成功")
-        response_json = response.json()
+    with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
+        df_voyages.to_excel(writer, index=False, sheet_name='Total Voyages')
+        df_port_calls.to_excel(writer, index=False, sheet_name='Total PortCalls')
 
-        print(json.dumps(response_json, ensure_ascii=False, indent=2)[:500])
+    return output_path
 
-        output_file, voyage_count, leg_count = save_to_excel(response_json, payload)
-        print(f"Excel 已保存: {output_file}")
-        print(f"Voyages 行数: {voyage_count}, Legs 行数: {leg_count}")
-    else:
-        print("请求失败，可能是 Header 过期或被风控拦截")
-        print(f"错误响应: {response.text}")
 
-except Exception as e:
-    print(f"执行出错: {e}")
+
+def main():
+    port_df = load_ports()
+    target_ports = get_target_ports(port_df)
+    allowed_services = load_allowed_services()
+    from_date = date.today().isoformat()
+    to_date = (date.today() + timedelta(days=42)).isoformat()
+
+    print(f'Ports to process: {target_ports["city"].tolist()}')
+    print(f'Allowed services: {allowed_services}')
+    print(f'fromDate: {from_date}')
+    print(f'toDate: {to_date}')
+
+    port_call_rows = parse_port_call_rows(target_ports, from_date, to_date, allowed_services)
+    port_call_rows = dedupe_port_calls(port_call_rows)
+    voyage_rows = build_voyage_rows(port_call_rows)
+
+    print(f'Retained voyages: {len(voyage_rows)}')
+    print(f'Retained port calls: {len(port_call_rows)}')
+    detail_path = save_detail(voyage_rows, port_call_rows)
+    print(f'Batch detail tables saved: {detail_path}')
+
+
+if __name__ == '__main__':
+    main()
