@@ -1,4 +1,5 @@
 ﻿import asyncio
+import os
 import sys
 from pathlib import Path
 
@@ -12,6 +13,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 ARTIFACT_DIR = SCRIPT_DIR / "artifacts"
 SERVICE_RULES_XLSX = SCRIPT_DIR / "csl_service_start_end.xlsx"
 DEFAULT_SERVICE = "AEU1"
+HEADLESS_ENV_VAR = "CSL_HEADLESS"
 
 
 async def prepare_page(page):
@@ -37,6 +39,11 @@ def get_target_service():
     if len(sys.argv) > 1 and sys.argv[1].strip():
         return sys.argv[1].strip().upper()
     return DEFAULT_SERVICE
+
+
+def is_headless_enabled():
+    value = os.getenv(HEADLESS_ENV_VAR, "1").strip().lower()
+    return value not in {"0", "false", "no", "off"}
 
 
 def normalize_service_group(service_code):
@@ -220,10 +227,12 @@ async def perform_query(page, service_code):
 
 async def run():
     service_code = get_target_service()
+    headless = is_headless_enabled()
     print(f"Target service: {service_code}")
+    print(f"Headless mode: {headless}")
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+        browser = await p.chromium.launch(headless=headless)
         context = await browser.new_context(
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "

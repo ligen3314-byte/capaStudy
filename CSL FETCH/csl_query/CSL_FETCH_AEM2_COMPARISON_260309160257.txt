@@ -1,0 +1,7 @@
+start_only_voyages=8
+multi_port_voyages=17
+start_only_port_calls=99
+multi_port_port_calls=207
+added_voyages=[('AEM2', 'D35', '0MEMRW1MA'), ('AEM2', 'D35', '0MENLW1MA'), ('AEM2', 'D82', '0MEMPW1MA'), ('AEM2', 'D82', '0MENJW1MA'), ('AEM2', 'MTC', '0MEMTW1MA'), ('AEM2', 'MTC', '0MENNW1MA'), ('AEM2', 'NZM', '0MEN7W1MA'), ('AEM2', 'QXK', '0MEMVW1MA'), ('AEM2', 'QXK', '0MENPW1MA')]
+missing_voyages=[]
+assessment=合理：多港查询补充出了起运港查询遗漏的航次。

@@ -112,6 +112,19 @@ def load_allowed_services():
     return sorted(set(values))
 
 
+def count_unique_voyages(rows):
+    return len(
+        {
+            (
+                row.get('LoopAbbrv'),
+                row.get('VesselCode'),
+                row.get('Voyage'),
+            )
+            for row in rows
+        }
+    )
+
+
 
 def get_target_ports(port_df):
     if len(sys.argv) <= 1:
@@ -205,11 +218,12 @@ def parse_port_call_rows(port_df, from_date, to_date, allowed_services):
         city = rec['city']
         geoid = rec['geoid']
         print(f'Querying {city} ({geoid})')
+        port_rows = []
         for item in request_port_calls(geoid, from_date, to_date) or []:
             matched = choose_matched_service_and_voyage(item, allowed_services)
             if not matched:
                 continue
-            rows.append(
+            port_rows.append(
                 {
                     'LoopAbbrv': matched['service'],
                     'VesselCode': (item.get('vesselMaerskCode') or '').strip(),
@@ -236,6 +250,15 @@ def parse_port_call_rows(port_df, from_date, to_date, allowed_services):
                     'VesselIMONumber': item.get('vesselIMONumber'),
                 }
             )
+        rows.extend(port_rows)
+        retained_rows = dedupe_port_calls(rows)
+        print(
+            f'Port {city}: '
+            f'queried voyages={count_unique_voyages(port_rows)}, '
+            f'queried port calls={len(port_rows)}, '
+            f'retained voyages={count_unique_voyages(retained_rows)}, '
+            f'retained port calls={len(retained_rows)}'
+        )
         time.sleep(1)
     return rows
 

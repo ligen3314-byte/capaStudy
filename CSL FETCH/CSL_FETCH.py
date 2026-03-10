@@ -1,5 +1,6 @@
 ﻿import asyncio
 import json
+import os
 import re
 import sys
 from datetime import datetime
@@ -17,6 +18,9 @@ QUERY_DIR = SCRIPT_DIR / "csl_query"
 SERVICE_RULES_XLSX = SCRIPT_DIR / "csl_service_start_end.xlsx"
 DEFAULT_SERVICE_CODE = "SERVICE"
 DEFAULT_PORT_CODE = "PORT"
+FETCH_RETRY_ATTEMPTS = 5
+RETRY_BASE_DELAY_SECONDS = 2
+HEADLESS_ENV_VAR = "CSL_HEADLESS"
 
 VOYAGE_COLUMNS = [
     "LoopAbbrv",
@@ -60,6 +64,15 @@ def sanitize_filename(name):
 
 def ensure_query_dir():
     QUERY_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def is_headless_enabled():
+    value = os.getenv(HEADLESS_ENV_VAR, "1").strip().lower()
+    return value not in {"0", "false", "no", "off"}
+
+
+def debug_log(message):
+    return None
 
 
 def normalize_port_name(name):
@@ -346,10 +359,10 @@ async def prepare_page(page):
 
 
 async def open_search_page(page):
-    print(f"Opening: {TARGET_URL}")
+    debug_log(f"Opening: {TARGET_URL}")
     await page.goto(TARGET_URL, wait_until="domcontentloaded", timeout=60000)
     await page.wait_for_load_state("networkidle", timeout=60000)
-    print(f"Page title: {await page.title()}")
+    debug_log(f"Page title: {await page.title()}")
 
 
 async def click_by_text(page, text, timeout=500):
@@ -367,7 +380,7 @@ async def click_by_text(page, text, timeout=500):
             await locator.first.wait_for(state="visible", timeout=timeout)
             await locator.first.scroll_into_view_if_needed(timeout=timeout)
             await locator.first.click(timeout=timeout)
-            print(f"Clicked: {text}")
+            debug_log(f"Clicked: {text}")
             return
         except Exception as exc:
             last_error = exc
@@ -383,7 +396,7 @@ async def select_service_in_group(page, service_group, service_code, timeout=200
         header = group_item.locator(".ivu-collapse-header").first
         await header.scroll_into_view_if_needed(timeout=timeout)
         await header.click(timeout=timeout)
-        print(f"Expanded group: {service_group}")
+        debug_log(f"Expanded group: {service_group}")
 
     active_group = page.locator(".ser-group .ivu-collapse-item.ivu-collapse-item-active", has_text=service_group).first
     await active_group.wait_for(state="visible", timeout=timeout)
@@ -391,7 +404,7 @@ async def select_service_in_group(page, service_group, service_code, timeout=200
     await service_item.wait_for(state="visible", timeout=timeout)
     await service_item.scroll_into_view_if_needed(timeout=timeout)
     await service_item.click(timeout=timeout)
-    print(f"Selected service: {service_code}")
+    debug_log(f"Selected service: {service_code}")
 
 
 async def choose_port(page, port_name, timeout=2500):
@@ -399,7 +412,7 @@ async def choose_port(page, port_name, timeout=2500):
     await port_input.wait_for(state="visible", timeout=timeout)
     await port_input.click(timeout=timeout)
     await port_input.fill(port_name, timeout=timeout)
-    print(f"Typed port keyword: {port_name}")
+    debug_log(f"Typed port keyword: {port_name}")
     suggestion_candidates = [
         page.locator(".ivu-select-dropdown .ivu-select-item", has_text=port_name).first,
         page.locator(".ivu-select-dropdown .ivu-select-item", has_text=port_name.split()[0]).first,
@@ -411,7 +424,7 @@ async def choose_port(page, port_name, timeout=2500):
             await suggestion.wait_for(state="visible", timeout=timeout)
             await suggestion.click(timeout=timeout)
             chosen_text = (await suggestion.inner_text()).strip()
-            print(f"Selected suggestion: {chosen_text}")
+            debug_log(f"Selected suggestion: {chosen_text}")
             return
         except Exception as exc:
             last_error = exc
@@ -422,18 +435,18 @@ async def trigger_search(page, timeout=500):
     search_button = page.locator(".search-port-row .btnSearch").first
     await search_button.wait_for(state="visible", timeout=timeout)
     await search_button.click(timeout=timeout)
-    print("Triggered search.")
+    debug_log("Triggered search.")
 
 
 async def choose_period(page, period_text, timeout=3000):
     period_dropdown = page.locator(".filter-selects .ivu-select-selection", has_text="四周内").first
     await period_dropdown.wait_for(state="visible", timeout=timeout)
     await period_dropdown.click(timeout=timeout)
-    print("Opened period dropdown.")
+    debug_log("Opened period dropdown.")
     period_option = page.locator(".ivu-select-dropdown .ivu-select-item", has_text=period_text).first
     await period_option.wait_for(state="visible", timeout=timeout)
     await period_option.click(timeout=timeout)
-    print(f"Selected period: {period_text}")
+    debug_log(f"Selected period: {period_text}")
 
 
 async def fetch_response_text_in_page(page, url):
@@ -495,18 +508,20 @@ async def choose_period_and_capture(page, timeout=3000):
         target_response = matched_responses[-1]
 
     response_text = await fetch_response_text_in_page(page, target_response["url"])
-    print(f"Captured response URL: {target_response['url']}")
-    print(f"Captured response preview: {response_text[:100]}")
+    debug_log(f"Captured response URL: {target_response['url']}")
+    debug_log(f"Captured response preview: {response_text[:100]}")
     return json.loads(response_text)
 
 
 async def fetch_response_json(service_code, query_port):
     service_group = normalize_service_group(service_code)
-    print(f"Service group: {service_group}")
-    print(f"Query port: {query_port}")
+    debug_log(f"Service group: {service_group}")
+    debug_log(f"Query port: {query_port}")
+    headless = is_headless_enabled()
+    debug_log(f"Headless mode: {headless}")
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+        browser = await p.chromium.launch(headless=headless)
         context = await browser.new_context(
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -536,7 +551,12 @@ async def fetch_response_json(service_code, query_port):
             await browser.close()
 
 
-async def fetch_response_json_with_retry(service_code, query_port, max_attempts=3):
+async def fetch_response_json_with_retry(
+    service_code,
+    query_port,
+    max_attempts=FETCH_RETRY_ATTEMPTS,
+    base_delay_seconds=RETRY_BASE_DELAY_SECONDS,
+):
     last_error = None
     for attempt in range(1, max_attempts + 1):
         try:
@@ -545,7 +565,7 @@ async def fetch_response_json_with_retry(service_code, query_port, max_attempts=
             last_error = exc
             print(f"Fetch failed for {service_code}/{query_port} attempt {attempt}/{max_attempts}: {exc}")
             if attempt < max_attempts:
-                await asyncio.sleep(2 * attempt)
+                await asyncio.sleep(base_delay_seconds * attempt)
     raise RuntimeError(f"Failed to fetch {service_code}/{query_port} after {max_attempts} attempts: {last_error}")
 
 
@@ -554,22 +574,28 @@ async def process_service(service_code, service_rules):
     start_only_ports = build_query_ports(service_rule, include_alternatives=False)
     multi_ports = build_query_ports(service_rule, include_alternatives=True)
     print(f"Target service: {service_code}")
-    print(f"Start-only query ports: {start_only_ports}")
-    print(f"Multi-port query ports: {multi_ports}")
 
-    start_only_json = await fetch_response_json_with_retry(service_code, start_only_ports[0], max_attempts=3)
+    print(f"Query {service_code} / {start_only_ports[0]}")
+    start_only_json = await fetch_response_json_with_retry(service_code, start_only_ports[0])
     start_only_rows = extract_port_call_rows(start_only_json)
     start_voyages, start_calls = parse_tables_from_rows(start_only_rows, service_rules)
+    print(
+        f"Result {service_code} / {start_only_ports[0]}: "
+        f"voyages={len(start_voyages)}, port calls={len(start_calls)}"
+    )
     start_file = save_tables_to_excel(start_voyages, start_calls, service_code, start_only_ports[0], "START_ONLY")
 
     multi_raw_rows = []
     for port in multi_ports:
         try:
-            response_json = await fetch_response_json_with_retry(service_code, port, max_attempts=3)
+            print(f"Query {service_code} / {port}")
+            response_json = await fetch_response_json_with_retry(service_code, port)
         except Exception as exc:
             print(f"Skipped port {port} for {service_code}: {exc}")
             continue
         rows = extract_port_call_rows(response_json)
+        port_voyages, port_calls = parse_tables_from_rows(rows, service_rules)
+        print(f"Result {service_code} / {port}: voyages={len(port_voyages)}, port calls={len(port_calls)}")
         for row in rows:
             cloned = dict(row)
             cloned["QueryPorts"] = [port]

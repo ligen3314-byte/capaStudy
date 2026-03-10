@@ -1,0 +1,7 @@
+start_only_voyages=13
+multi_port_voyages=15
+start_only_port_calls=137
+multi_port_port_calls=158
+added_voyages=[('AEU1', 'MSY', '007W'), ('AEU1', 'OJP', '038W')]
+missing_voyages=[]
+assessment=合理：多港查询补充出了起运港查询遗漏的航次。
