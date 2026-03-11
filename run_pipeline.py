@@ -109,7 +109,7 @@ def main() -> int:
     fetch_steps: List[Step] = [
         Step("[1/4] Run MSC full query...", MSC_DIR, MSC_DIR / "MSC_FETCH.py"),
         Step("[2/4] Run MSK full query...", MSK_DIR, MSK_DIR / "MSK_FETCH.py"),
-        Step("[3/4] Run CSL full query...", CSL_DIR, CSL_DIR / "CSL_FETCH.py"),
+        Step("[3/4] Run CSL full query (BACK flow)...", CSL_DIR, CSL_DIR / "CSL_FETCH.py"),
     ]
     merge_step = Step("[4/4] Merge latest outputs...", BASE_DIR, MERGE_SCRIPT)
 

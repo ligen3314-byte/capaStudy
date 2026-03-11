@@ -9,7 +9,7 @@ SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from capastudy.carriers.csl_fetch import main
+from capastudy.carriers.csl_fetch_back_test import main
 
 
 if __name__ == "__main__":
