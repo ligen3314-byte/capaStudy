@@ -10,6 +10,9 @@ jobs:
   run-pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      PYTHONUNBUFFERED: "1"
+      PYTHONUTF8: "1"
 
     steps:
       - name: Checkout
