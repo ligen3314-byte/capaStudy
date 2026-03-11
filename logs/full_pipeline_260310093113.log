@@ -1,0 +1,28 @@
+========================================
+[START] Full query pipeline
+Mode: merge
+Base: D:\Files\demo\capaStudy
+Time: 2026-03-10 09:31:13
+Log:  D:\Files\demo\capaStudy\logs\full_pipeline_260310093113.log
+========================================
+
+[1-3/4] Fetch steps skipped for --only-merge.
+
+[4/4] Merge latest outputs...
+Vessel DB check: no missing vessel names.
+Selected source files:
+- CSL: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_BATCH_DETAIL_260309172618.xlsx
+- MSC: D:\Files\demo\capaStudy\MSC FETCH\msc_query\MSC_FETCH_BATCH_DETAIL_260309170000.xlsx
+- MSK: D:\Files\demo\capaStudy\MSK FETCH\msk_query\MSK_FETCH_BATCH_DETAIL_260309170053.xlsx
+Merged voyages: 354
+Merged port calls: 3164
+Merged output: D:\Files\demo\capaStudy\data\merged\ALL_CARRIERS_MERGED_260310093116.xlsx
+Update current: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_CURRENT.xlsx
+Update history: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_HISTORY.xlsx
+Snapshot output: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_SNAPSHOT_260310093117.xlsx
+Changes output: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_CHANGES_260310093117.xlsx
+
+========================================
+[DONE] Full query pipeline finished.
+Time: 2026-03-10 09:31:42
+========================================
