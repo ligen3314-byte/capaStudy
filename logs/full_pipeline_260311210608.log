@@ -1,0 +1,116 @@
+========================================
+[START] Full query pipeline
+Mode: all
+Base: D:\Files\demo\capaStudy
+Time: 2026-03-11 21:06:08
+Log:  D:\Files\demo\capaStudy\logs\full_pipeline_260311210608.log
+========================================
+
+[1/4] Run MSC full query...
+Using service rules workbook: D:\Files\demo\capaStudy\MSC FETCH\msc_service_start_end_filled.xlsx
+Services to process: ['GRIFFIN', 'CONDOR', 'SILK', 'LION', 'SWAN', 'ALBATROS', 'PANTHER', 'LYNX', 'TIGER', 'DRAGON', 'JADE', 'BRITANNIA', 'PHOENIX']
+FromDate: 2026-03-11
+Target service: GRIFFIN
+Retained voyages: 7
+Retained port calls: 32
+Target service: CONDOR
+Retained voyages: 8
+Retained port calls: 70
+Target service: SILK
+Retained voyages: 8
+Retained port calls: 75
+Target service: LION
+Retained voyages: 10
+Retained port calls: 123
+Target service: SWAN
+Retained voyages: 8
+Retained port calls: 86
+Target service: ALBATROS
+Retained voyages: 12
+Retained port calls: 133
+Target service: PANTHER
+Retained voyages: 8
+Retained port calls: 84
+Target service: LYNX
+Retained voyages: 10
+Retained port calls: 127
+Target service: TIGER
+Retained voyages: 11
+Retained port calls: 121
+Target service: DRAGON
+Retained voyages: 8
+Retained port calls: 72
+Target service: JADE
+Retained voyages: 9
+Retained port calls: 120
+Target service: BRITANNIA
+Retained voyages: 8
+Retained port calls: 149
+Target service: PHOENIX
+Retained voyages: 4
+Retained port calls: 36
+Batch detail tables saved: D:\Files\demo\capaStudy\MSC FETCH\msc_query\MSC_FETCH_BATCH_DETAIL_260311210808.xlsx
+
+[2/4] Run MSK full query...
+Ports to process: ['Algeciras', 'Antwerp', 'Barcelona', 'Bremerhaven', 'Busan', 'Genoa', 'Hamburg', 'Ambarli Port Istanbul', 'Izmit Korfezi', 'Jeddah', 'Koper', 'La Spezia', 'London Gateway', 'Ningbo', 'Port Said East', 'Port Tangier Mediterranee', 'Qingdao', 'Rijeka', 'Rotterdam', 'Shanghai', 'Tanjung Pelepas', 'Genoa Vado Ligure', 'Valencia', 'Wilhelmshaven', 'Xingang', 'Yantian']
+Allowed services: ['AE1', 'AE11', 'AE12', 'AE15', 'AE19', 'AE2', 'AE3', 'AE5']
+Current week: 2026-03-07 ~ 2026-03-13 (week start=Saturday)
+fromDate: 2026-01-10
+toDate: 2026-06-05
+Querying Algeciras (05R47F3DBN69Q)
+Port Algeciras: queried voyages=23, queried port calls=24, retained voyages=23, retained port calls=24
+Querying Antwerp (0ZBIURQPE236H)
+Port Antwerp: queried voyages=8, queried port calls=8, retained voyages=31, retained port calls=32
+Querying Barcelona (1FQMCYMU9XLZ2)
+Port Barcelona: queried voyages=20, queried port calls=20, retained voyages=49, retained port calls=52
+Querying Bremerhaven (3EX4F5S3MB4OU)
+Port Bremerhaven: queried voyages=40, queried port calls=40, retained voyages=88, retained port calls=92
+Querying Busan (2XOHKM8FX8VI7)
+Port Busan: queried voyages=5, queried port calls=5, retained voyages=93, retained port calls=97
+Querying Genoa (0KSZPEKFXG8ZJ)
+Port Genoa: queried voyages=19, queried port calls=19, retained voyages=95, retained port calls=116
+Querying Hamburg (03KFCBH0IX2TA)
+Port Hamburg: queried voyages=42, queried port calls=42, retained voyages=110, retained port calls=158
+Querying Ambarli Port Istanbul (0FC4MM5Y0O0Z2)
+Port Ambarli Port Istanbul: queried voyages=19, queried port calls=19, retained voyages=129, retained port calls=177
+Querying Izmit Korfezi (02W224NQ4IGAE)
+Port Izmit Korfezi: queried voyages=19, queried port calls=19, retained voyages=130, retained port calls=196
+Querying Jeddah (0NJO1NEUBFC7W)
+Port Jeddah: queried voyages=3, queried port calls=3, retained voyages=130, retained port calls=199
+Querying Koper (2XELE43QKIMIN)
+Port Koper: queried voyages=20, queried port calls=20, retained voyages=150, retained port calls=219
+Querying La Spezia (2743COUCZS8SF)
+Port La Spezia: queried voyages=17, queried port calls=17, retained voyages=150, retained port calls=236
+Querying London Gateway (T4HWDGEKCG3L1)
+Port London Gateway: queried voyages=62, queried port calls=62, retained voyages=151, retained port calls=298
+Querying Ningbo (104T898SJZ6GU)
+Port Ningbo: queried voyages=85, queried port calls=85, retained voyages=178, retained port calls=383
+Querying Port Said East (3I6W2NB2MQV7I)
+Port Port Said East: queried voyages=43, queried port calls=46, retained voyages=179, retained port calls=429
+Querying Port Tangier Mediterranee (0C29F4LWXIITO)
+Port Port Tangier Mediterranee: queried voyages=43, queried port calls=61, retained voyages=180, retained port calls=490
+Querying Qingdao (1YCLYW8V7RZB2)
+Port Qingdao: queried voyages=45, queried port calls=45, retained voyages=186, retained port calls=535
+Querying Rijeka (3RIJXP3USK909)
+Port Rijeka: queried voyages=19, queried port calls=19, retained voyages=186, retained port calls=554
+Querying Rotterdam (1JUKNJGWHQBNJ)
+Port Rotterdam: queried voyages=82, queried port calls=87, retained voyages=190, retained port calls=641
+Querying Shanghai (2IW9P6J7XAW72)
+Port Shanghai: queried voyages=104, queried port calls=104, retained voyages=201, retained port calls=745
+Querying Tanjung Pelepas (2DTLIHUG9YN7S)
+Port Tanjung Pelepas: queried voyages=145, queried port calls=146, retained voyages=201, retained port calls=891
+Querying Genoa Vado Ligure (19UUBIUIHO0TG)
+Port Genoa Vado Ligure: queried voyages=20, queried port calls=20, retained voyages=201, retained port calls=911
+Querying Valencia (12LNX9VI6SCYH)
+Port Valencia: queried voyages=20, queried port calls=20, retained voyages=201, retained port calls=931
+Querying Wilhelmshaven (1ZPUMHQGZ3KOU)
+Port Wilhelmshaven: queried voyages=20, queried port calls=21, retained voyages=201, retained port calls=952
+Querying Xingang (02GYFH4R8RVY6)
+Port Xingang: queried voyages=5, queried port calls=5, retained voyages=201, retained port calls=957
+Querying Yantian (0L3DBFFJ3KZ9A)
+Port Yantian: queried voyages=60, queried port calls=60, retained voyages=201, retained port calls=1017
+Retained voyages: 201
+Retained port calls: 1017
+Batch detail tables saved: D:\Files\demo\capaStudy\MSK FETCH\msk_query\MSK_FETCH_BATCH_DETAIL_260311210903.xlsx
+
+[3/4] Run CSL full query (BACK flow)...

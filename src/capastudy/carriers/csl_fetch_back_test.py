@@ -32,6 +32,17 @@ from capastudy.carriers.csl_fetch import (
 QUERY_RETRY_ATTEMPTS = 4
 
 
+async def ensure_search_root(page, cookie_state):
+    if page.is_closed():
+        raise RuntimeError("Playwright page is closed.")
+    current_url = page.url or ""
+    # Recover from blank/unknown pages.
+    if (not current_url) or current_url.startswith("about:blank") or ("searchByService" not in current_url):
+        await open_search_once(page)
+        await maybe_accept_cookie_once(page, cookie_state)
+        return
+
+
 async def wait_result_ready(page, timeout=12000):
     # Wait until any typical result container appears after search.
     candidates = [
@@ -73,28 +84,36 @@ async def ensure_search_form_visible(page, timeout=6000):
 
 
 async def back_to_search(page):
-    await page.go_back(wait_until="domcontentloaded", timeout=8000)
-    await page.wait_for_load_state("networkidle", timeout=8000)
-    await page.wait_for_timeout(600)
+    try:
+        await page.go_back(wait_until="domcontentloaded", timeout=8000)
+        await page.wait_for_load_state("networkidle", timeout=8000)
+        await page.wait_for_timeout(600)
+    except Exception:
+        # Fallback to fresh search page when history is not usable.
+        await open_search_once(page)
+        await page.wait_for_timeout(500)
 
 
 async def back_to_service_selection(page):
-    # 1st back: resultByServicePorts -> serviceDetails (placeholder port input)
-    await page.go_back(wait_until="domcontentloaded", timeout=8000)
-    await page.wait_for_load_state("networkidle", timeout=8000)
-    await page.wait_for_timeout(500)
-    # 2nd back: serviceDetails -> searchByService (service selection + port input)
-    await page.go_back(wait_until="domcontentloaded", timeout=8000)
-    await page.wait_for_load_state("networkidle", timeout=8000)
-    await page.wait_for_timeout(700)
-    await ensure_search_form_visible(page, timeout=6000)
+    try:
+        # 1st back: resultByServicePorts -> serviceDetails
+        await page.go_back(wait_until="domcontentloaded", timeout=8000)
+        await page.wait_for_load_state("networkidle", timeout=8000)
+        await page.wait_for_timeout(500)
+        # 2nd back: serviceDetails -> searchByService
+        await page.go_back(wait_until="domcontentloaded", timeout=8000)
+        await page.wait_for_load_state("networkidle", timeout=8000)
+        await page.wait_for_timeout(700)
+    except Exception:
+        await open_search_once(page)
+        await page.wait_for_timeout(500)
 
 
 async def enter_service(page, service_code):
     service_group = normalize_service_group(service_code)
     await click_by_text(page, "欧洲航线", timeout=1500)
     # await page.wait_for_timeout(300)
-    # await click_by_text(page, service_group, timeout=3000)
+    await click_by_text(page, service_group, timeout=3000)
     # await page.wait_for_timeout(500)
     await select_service_in_group(page, service_group, service_code, timeout=3500)
     await ensure_search_form_visible(page, timeout=5000)
@@ -234,8 +253,14 @@ async def process_service(page, service_code, service_rules):
                 await enter_service(page, service_code)
                 response_json = await query_with_retry(page, service_code, port, use_placeholder=False)
             else:
-                await back_to_search(page)
-                response_json = await query_with_retry(page, service_code, port, use_placeholder=True)
+                try:
+                    await back_to_search(page)
+                    response_json = await query_with_retry(page, service_code, port, use_placeholder=True)
+                except Exception:
+                    # Recover by re-entering service from root and querying as first port style.
+                    await open_search_once(page)
+                    await enter_service(page, service_code)
+                    response_json = await query_with_retry(page, service_code, port, use_placeholder=False)
             rows = extract_port_call_rows(response_json)
             port_voyages, port_calls = parse_tables_from_rows(rows, service_rules)
             print(f"Result {service_code} / {port}: voyages={len(port_voyages)}, port calls={len(port_calls)}")
@@ -286,7 +311,7 @@ async def main():
     headless = is_headless_enabled()
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+        browser = await p.chromium.launch(headless=headless)
         context = await browser.new_context(
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -304,6 +329,7 @@ async def main():
             await maybe_accept_cookie_once(page, cookie_state)
             for service_code in target_services:
                 try:
+                    await ensure_search_root(page, cookie_state)
                     result = await process_service(page, service_code, service_rules)
                     batch_voyages.extend(result.pop("total_voyages", []))
                     batch_port_calls.extend(result.pop("total_port_calls", []))
@@ -317,9 +343,12 @@ async def main():
                 if service_code != target_services[-1]:
                     try:
                         await back_to_service_selection(page)
+                        await ensure_search_root(page, cookie_state)
                     except Exception as exc:
                         # Transition failure should not invalidate already-saved service result.
                         print(f"Warning: service switch back-steps failed after {service_code}: {exc}")
+                        await open_search_once(page)
+                        await maybe_accept_cookie_once(page, cookie_state)
         finally:
             await browser.close()
 
