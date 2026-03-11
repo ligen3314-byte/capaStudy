@@ -1,0 +1,4 @@
+url_before=https://elines.coscoshipping.com/ebusiness/sailingSchedule/searchByService/serviceDetails
+url_after=https://elines.coscoshipping.com/ebusiness/sailingSchedule/searchByService/serviceDetails/resultByServicePorts
+rows_before=13
+rows_after=75

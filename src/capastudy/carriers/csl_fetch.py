@@ -329,33 +329,6 @@ def save_batch_detail_tables(voyage_rows, port_call_rows):
     return str(output_path)
 
 
-def compare_results(start_only_voyages, multi_voyages, start_only_calls, multi_calls):
-    start_voyage_keys = {
-        (row.get("LoopAbbrv"), row.get("VesselCode"), row.get("Voyage")) for row in start_only_voyages
-    }
-    multi_voyage_keys = {
-        (row.get("LoopAbbrv"), row.get("VesselCode"), row.get("Voyage")) for row in multi_voyages
-    }
-    added_voyages = sorted(multi_voyage_keys - start_voyage_keys)
-    missing_voyages = sorted(start_voyage_keys - multi_voyage_keys)
-
-    summary = {
-        "start_only_voyages": len(start_only_voyages),
-        "multi_port_voyages": len(multi_voyages),
-        "start_only_port_calls": len(start_only_calls),
-        "multi_port_port_calls": len(multi_calls),
-        "added_voyages": added_voyages,
-        "missing_voyages": missing_voyages,
-    }
-    if missing_voyages:
-        summary["assessment"] = "不合理：多港去重结果反而少于仅起运港结果。"
-    elif added_voyages:
-        summary["assessment"] = "合理：多港查询补充出了起运港查询遗漏的航次。"
-    else:
-        summary["assessment"] = "合理：多港查询与仅起运港查询结果一致，未发现额外航次。"
-    return summary
-
-
 async def prepare_page(page):
     await page.set_viewport_size({"width": 1600, "height": 900})
 
@@ -573,19 +546,8 @@ async def fetch_response_json_with_retry(
 
 async def process_service(service_code, service_rules):
     service_rule = service_rules[service_code]
-    start_only_ports = build_query_ports(service_rule, include_alternatives=False)
     multi_ports = build_query_ports(service_rule, include_alternatives=True)
     print(f"Target service: {service_code}")
-
-    print(f"Query {service_code} / {start_only_ports[0]}")
-    start_only_json = await fetch_response_json_with_retry(service_code, start_only_ports[0])
-    start_only_rows = extract_port_call_rows(start_only_json)
-    start_voyages, start_calls = parse_tables_from_rows(start_only_rows, service_rules)
-    print(
-        f"Result {service_code} / {start_only_ports[0]}: "
-        f"voyages={len(start_voyages)}, port calls={len(start_calls)}"
-    )
-    start_file = save_tables_to_excel(start_voyages, start_calls, service_code, start_only_ports[0], "START_ONLY")
 
     multi_raw_rows = []
     for port in multi_ports:
@@ -606,26 +568,7 @@ async def process_service(service_code, service_rules):
     deduped_rows = dedupe_port_calls(multi_raw_rows)
     multi_voyages, multi_calls = parse_tables_from_rows(deduped_rows, service_rules)
     multi_file = save_tables_to_excel(multi_voyages, multi_calls, service_code, "MULTIPORT", "DEDUPED")
-
-    comparison = compare_results(start_voyages, multi_voyages, start_calls, multi_calls)
-    comparison_path = QUERY_DIR / (
-        f"CSL_FETCH_{sanitize_filename(service_code)}_COMPARISON_{datetime.now().strftime('%y%m%d%H%M%S')}.txt"
-    )
-    comparison_lines = [
-        f"start_only_voyages={comparison['start_only_voyages']}",
-        f"multi_port_voyages={comparison['multi_port_voyages']}",
-        f"start_only_port_calls={comparison['start_only_port_calls']}",
-        f"multi_port_port_calls={comparison['multi_port_port_calls']}",
-        f"added_voyages={comparison['added_voyages']}",
-        f"missing_voyages={comparison['missing_voyages']}",
-        f"assessment={comparison['assessment']}",
-    ]
-    comparison_path.write_text("\n".join(comparison_lines), encoding="utf-8")
-
-    print(f"仅起运港结果已保存: {start_file}")
     print(f"起运港+备选港去重结果已保存: {multi_file}")
-    print(f"差异对比已保存: {comparison_path}")
-    print(f"结果判断: {comparison['assessment']}")
 
     total_voyages = []
     for row in multi_voyages:
@@ -641,12 +584,11 @@ async def process_service(service_code, service_rules):
 
     return {
         "service": service_code,
-        "start_only_file": start_file,
         "multi_port_file": multi_file,
-        "comparison_file": str(comparison_path),
         "total_voyages": total_voyages,
         "total_port_calls": total_port_calls,
-        **comparison,
+        "multi_port_voyages": len(multi_voyages),
+        "multi_port_port_calls": len(multi_calls),
     }
 
 
