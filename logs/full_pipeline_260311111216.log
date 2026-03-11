@@ -1,0 +1,14 @@
+========================================
+[START] Full query pipeline
+Mode: merge
+Base: D:\Files\demo\capaStudy
+Time: 2026-03-11 11:12:16
+Log:  D:\Files\demo\capaStudy\logs\full_pipeline_260311111216.log
+========================================
+
+[1-3/4] Fetch steps skipped for --only-merge.
+
+[4/4] Merge latest outputs...
+Vessel DB check: 8 missing vessel names. Querying APIs...
+[1/8] AFIF -> IMO=None MMSI=None TEU=None status=unauthorized
+MyVessel token expired/unauthorized. Please input a new token now.

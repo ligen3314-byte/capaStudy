@@ -1,0 +1,720 @@
+[group 7 1/1900] QING YUAN 1 -> code=X1C IMO=20160922 TEU=None status=detail_no_teu
+[group 7 2/1900] QING YUN 2 HAO -> code=ZRC IMO=99999996 TEU=None status=detail_no_teu
+[group 7 3/1900] QING YUN 6 HAO -> code=ZSC IMO=99999996 TEU=None status=detail_no_teu
+[group 7 6/1900] QINGDAO -> code=RGL IMO=9359720 TEU=None status=detail_no_teu
+[group 7 7/1900] QINGDAO ALMATY RAIL NUMBER 2 -> code=TY2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 8/1900] QINGDAO ALMATY RAIL NUMBER ONE -> code=TY1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 9/1900] QINGDAO ALMATY RAIL NUMBER THR -> code=TY3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 10/1900] QINGDAO ALMATY RAIL NUMBER4 -> code=TY4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 11/1900] QINGDAO ATYRAU RAIL NUMBER FOU -> code=OY4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 12/1900] QINGDAO ATYRAU RAIL NUMBER ONE -> code=OY1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 13/1900] QINGDAO ATYRAU RAIL NUMBER THR -> code=OY3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 14/1900] QINGDAO ATYRAU RAIL NUMBER TWO -> code=OY2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 16/1900] QINGDAO TASHKENT NUMBER 1 -> code=GD1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 17/1900] QINGDAO TASHKENT NUMBER 2 -> code=GD2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 18/1900] QINGDAO TASHKENT NUMBER 3 -> code=GD3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 19/1900] QINGDAO TASHKENT RAIL NUMBER 4 -> code=GD4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 20/1900] QINGDAO TASHKENT RAIL NUMBER 5 -> code=GD5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 21/1900] QINGDAO TASHKENT RAIL NUMBER 6 -> code=GD6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 23/1900] QINGZHOU TASHKENT EXTRA 2 -> code=KB2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 24/1900] QINGZHOU TASHKENT NUMBER 2 -> code=GU2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 25/1900] QINGZHOU TASHKENT NUMBER 3 -> code=GU3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 26/1900] QINGZHOU TASHKENT RAIL NUMBER -> code=GU1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 27/1900] QINGZHOUTASHKENT EXTRA 1 -> code=KB1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 28/1900] QINGZHOUXING -> code=20B IMO=9999996 TEU=None status=detail_no_teu
+[group 7 30/1900] QINHE838 -> code=YXY IMO=99999996 TEU=350 status=ok
+[group 7 33/1900] QIU YUN -> code=2IU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 35/1900] QIZHAN -> code=RQU IMO=8973496 TEU=None status=detail_no_teu
+[group 7 38/1900] QUAN JIN 313 -> code=ZDI IMO=99999996 TEU=None status=detail_no_teu
+[group 7 39/1900] QUAN TONG 2 HAO -> code=XHG IMO=99999996 TEU=None status=detail_no_teu
+[group 7 40/1900] QUAN XING 96 -> code=ZMP IMO=9999996 TEU=None status=detail_no_teu
+[group 7 42/1900] QUEEN B III -> code=UK5 IMO=9333369 TEU=None status=detail_no_teu
+[group 7 45/1900] QUEZON BRIDGE -> code=ARS IMO=9515618 TEU=None status=detail_no_teu
+[group 7 46/1900] R. PARTNER -> code=U79 IMO=9057161 TEU=None status=detail_no_teu
+[group 7 48/1900] RAFFLESIA -> code=Q92 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 49/1900] RAGNA -> code=UBM IMO=9173329 TEU=None status=detail_no_teu
+[group 7 50/1900] RAINBOW BRIDGE -> code=S21 IMO=8512401 TEU=None status=detail_no_teu
+[group 7 51/1900] RAINER D -> code=UP9 IMO=9162679 TEU=None status=detail_no_teu
+[group 7 52/1900] RAJIV GANDHI -> code=KV1 IMO=9045558 TEU=None status=detail_no_teu
+[group 7 54/1900] RANGER -> code=PG8 IMO=9322542 TEU=None status=detail_no_teu
+[group 7 56/1900] RANT KENCANA -> code=AP7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 60/1900] RBD BOREA -> code=RO5 IMO=9341952 TEU=698 status=ok
+[group 7 61/1900] RBD DALMATIA -> code=UBW IMO=9339076 TEU=None status=detail_no_teu
+[group 7 68/1900] RED SPIRIT -> code=UR6 IMO=9135846 TEU=None status=detail_no_teu
+[group 7 69/1900] REECON WOLF -> code=A4P IMO=9999996 TEU=None status=detail_no_teu
+[group 7 70/1900] REESTBORG -> code=APQ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 73/1900] REINHARD SCHEPERS -> code=A6O IMO=9999996 TEU=None status=detail_no_teu
+[group 7 80/1900] REN JIAN 19 -> code=QBN IMO=9280809 TEU=4130 status=ok
+[group 7 90/1900] REN JIAN DA LIAN -> code=QEP IMO=4144400 TEU=2444 status=ok
+[group 7 100/1900] REN JIAN RI ZHAO -> code=RG3 IMO=4137058 TEU=2444 status=ok
+[group 7 109/1900] REN TAI 888 -> code=XVA IMO=99999996 TEU=None status=detail_no_teu
+[group 7 110/1900] RENA P -> code=N4J IMO=9301859 TEU=4253 status=ok
+[group 7 111/1900] RENHEHANGYUN -> code=V5E IMO=9999996 TEU=None status=detail_no_teu
+[group 7 112/1900] RENHEJIYUN -> code=1A9 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 113/1900] RENHEJIYUN 8 -> code=2A2 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 114/1900] RENHEJIYUN268 -> code=2IV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 115/1900] RENHEJIYUN6 -> code=2A3 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 117/1900] RENHEJIYUN68 -> code=2B6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 118/1900] RENJIAN 1 -> code=QWG IMO=9999991 TEU=None status=detail_no_teu
+[group 7 120/1900] RESOLUTION -> code=TN2 IMO=9999996 TEU=855 status=ok
+[group 7 122/1900] RESOURCEFUL2 -> code=AVM IMO=99999996 TEU=None status=detail_no_teu
+[group 7 124/1900] REUNION -> code=ACZ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 125/1900] REVERENCE -> code=ADW IMO=9250933 TEU=None status=detail_no_teu
+[group 7 127/1900] RGM PANEL 1 -> code=AQ1 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 129/1900] RHEINTAL -> code=U76 IMO=211454200 TEU=None status=detail_no_teu
+[group 7 130/1900] RHINE MAERSK -> code=P3M IMO=9456991 TEU=None status=detail_no_teu
+[group 7 133/1900] RHL CONSCIENTIA -> code=Q7W IMO=9539664 TEU=None status=detail_no_teu
+[group 7 135/1900] RHL FIDELITAS -> code=QPT IMO=9999996 TEU=None status=detail_no_teu
+[group 7 138/1900] RI GANG ZHENG HE -> code=RDR IMO=9807807 TEU=None status=detail_no_teu
+[group 7 140/1900] RI ZHAO SHENG SHI -> code=MPC IMO=9999996 TEU=3961 status=ok
+[group 7 150/1900] RIJEKA EXPRESS VIII -> code=TT8 IMO=4290831 TEU=76 status=ok
+[group 7 154/1900] RIJNBORG. -> code=TP5 IMO=9355811 TEU=None status=detail_no_teu
+[group 7 157/1900] RIO BRANCO -> code=AAR IMO=99999996 TEU=None status=detail_no_teu
+[group 7 158/1900] RIO BRAVO -> code=PT4 IMO=9348091 TEU=None status=detail_no_teu
+[group 7 160/1900] RIO CARDIFF -> code=AXR IMO=99999996 TEU=None status=detail_no_teu
+[group 7 165/1900] RIO LAWRENCE -> code=W37 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 166/1900] RIO MADEIRA -> code=NWC IMO=9348106 TEU=None status=detail_no_teu
+[group 7 167/1900] RIO NEGRO -> code=NMW IMO=9357975 TEU=None status=detail_no_teu
+[group 7 168/1900] RIO PARA -> code=P53 IMO=9262015 TEU=None status=detail_no_teu
+[group 7 169/1900] RIO RUBIO -> code=AY3 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 170/1900] RITA -> code=987 IMO=9301988 TEU=None status=detail_no_teu
+[group 7 173/1900] RIVER DRAGON -> code=BGF IMO=9999996 TEU=None status=detail_no_teu
+[group 7 175/1900] RIVER MAS -> code=AEW IMO=99999996 TEU=None status=detail_no_teu
+[group 7 178/1900] RJ999 -> code=Z9C IMO=2017110101 TEU=None status=detail_no_teu
+[group 7 179/1900] RMS VERITAS -> code=MSV IMO=9138745 TEU=None status=detail_no_teu
+[group 7 180/1900] ROBERT RICKMERS -> code=Q2Z IMO=9999996 TEU=1124 status=ok
+[group 7 182/1900] ROBIN 2 -> code=R4F IMO=9399739 TEU=None status=detail_no_teu
+[group 7 183/1900] ROBIN 4 -> code=S2H IMO=9399741 TEU=None status=detail_no_teu
+[group 7 185/1900] ROME EXPRESS -> code=NQF IMO=9447861 TEU=None status=detail_no_teu
+[group 7 186/1900] ROMINA -> code=Q4V IMO=9137571 TEU=None status=detail_no_teu
+[group 7 187/1900] ROMY TRADER -> code=UCY IMO=9150080 TEU=None status=detail_no_teu
+[group 7 188/1900] RONG AN 666 -> code=XOA IMO=20150074 TEU=None status=detail_no_teu
+[group 7 189/1900] RONG DA -> code=ZB6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 190/1900] RONG DA 383 -> code=ZU5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 192/1900] RONG GUANG SHUN 10 -> code=XAO IMO=9999996 TEU=None status=detail_no_teu
+[group 7 193/1900] RONG GUANG SHUN 116 -> code=XLJ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 194/1900] RONG GUANG SHUN 2 -> code=XGP IMO=9999996 TEU=None status=detail_no_teu
+[group 7 195/1900] RONG GUANG SHUN 3 -> code=ZNZ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 198/1900] RONG GUANG SHUN 928 -> code=WYN IMO=9999996 TEU=None status=detail_no_teu
+[group 7 199/1900] RONG HAI DA -> code=QY9 IMO=None TEU=None status=detail_no_teu
+[group 7 200/1900] RONG HANG 108 -> code=LL3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 201/1900] RONG HANG 18 -> code=XHE IMO=99999996 TEU=None status=detail_no_teu
+[group 7 203/1900] RONG HANG 218 -> code=LL1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 204/1900] RONG HANG 23 -> code=O22 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 205/1900] RONG HANG 238 -> code=LW4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 207/1900] RONG HANG 388 -> code=OFK IMO=9999996 TEU=None status=detail_no_teu
+[group 7 208/1900] RONG HANG 518 -> code=O20 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 209/1900] RONG HANG 528 -> code=OEU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 210/1900] RONG HANG 558 -> code=LL7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 211/1900] RONG HANG 568 -> code=OB4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 212/1900] RONG HANG 618 -> code=O71 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 214/1900] RONG HANG 918 -> code=WUF IMO=99999996 TEU=None status=detail_no_teu
+[group 7 215/1900] RONG JIE -> code=ZOZ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 217/1900] RONG JING 02 -> code=XU3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 219/1900] RONG JING 05 -> code=XM1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 220/1900] RONG JING 06 -> code=LKN IMO=20160727 TEU=None status=detail_no_teu
+[group 7 223/1900] RONG JING 11 -> code=XV0 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 224/1900] RONG JING 12 -> code=XW3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 225/1900] RONG JING 18 -> code=XQ5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 226/1900] RONG JING 22 -> code=WM8 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 228/1900] RONG JING 228 -> code=LSI IMO=9999996 TEU=None status=detail_no_teu
+[group 7 229/1900] RONG JING 23 -> code=WM2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 230/1900] RONG JING 25 -> code=WDR IMO=99999996 TEU=1 status=ok
+[group 7 231/1900] RONG JING 26 -> code=WM1 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 232/1900] RONG JING 28 -> code=WA3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 233/1900] RONG JING 288 -> code=XJ4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 235/1900] RONG JING 38 -> code=XSY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 236/1900] RONG JING 39 -> code=ZK7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 238/1900] RONG JING 555 -> code=XK0 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 239/1900] RONG JING 588 -> code=XK1 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 240/1900] RONG JING 618 -> code=XD5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 241/1900] RONG JING 628 -> code=W99 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 242/1900] RONG JING 658 -> code=LCM IMO=9999996 TEU=None status=detail_no_teu
+[group 7 243/1900] RONG JING 68 -> code=XFT IMO=9999996 TEU=None status=detail_no_teu
+[group 7 244/1900] RONG JING 688 -> code=XD2 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 245/1900] RONG JING 818 -> code=LO2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 246/1900] RONG JING 828 -> code=O11 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 247/1900] RONG JING 88 -> code=XS7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 248/1900] RONG JING 883 -> code=LSN IMO=9999996 TEU=None status=detail_no_teu
+[group 7 249/1900] RONG JING 98 -> code=XEM IMO=9999996 TEU=None status=detail_no_teu
+[group 7 250/1900] RONG JING 999 -> code=Z9L IMO=9999996 TEU=None status=detail_no_teu
+[group 7 252/1900] RONG MAO 3 -> code=FS9 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 253/1900] RONG XIAN 397 -> code=XQG IMO=20150170 TEU=None status=detail_no_teu
+[group 7 254/1900] RONG XIAN 398 -> code=XDA IMO=9999996 TEU=None status=detail_no_teu
+[group 7 255/1900] RONG XIAN 399 -> code=ZWT IMO=99999996 TEU=None status=detail_no_teu
+[group 7 256/1900] RONG XIAN 528 -> code=XFG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 260/1900] RONG YI 25 -> code=OUA IMO=9999996 TEU=None status=detail_no_teu
+[group 7 262/1900] RONGHAICHANGHONG -> code=VZB IMO=963852 TEU=None status=detail_no_teu
+[group 7 263/1900] RONGHANG1 -> code=VS9 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 266/1900] RONGJIANG010 -> code=NYH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 270/1900] RONGSHUN1 -> code=YFX IMO=99999996 TEU=None status=detail_no_teu
+[group 7 273/1900] ROTTERDAM -> code=RPY IMO=9398450 TEU=None status=detail_no_teu
+[group 7 276/1900] ROVINARI 19 -> code=MA3 IMO=4600053 TEU=None status=detail_no_teu
+[group 7 280/1900] RS MISTRAL -> code=UEQ IMO=9202077 TEU=719 status=ok
+[group 7 281/1900] RT DAGR -> code=UAN IMO=9176682 TEU=None status=detail_no_teu
+[group 7 283/1900] RU YI SONG -> code=MFS IMO=9608934 TEU=None status=detail_no_teu
+[group 7 285/1900] RUBINA SCHULTE -> code=A3C IMO=9999996 TEU=None status=detail_no_teu
+[group 7 286/1900] RUBY -> code=QUR IMO=910778 TEU=None status=detail_no_teu
+[group 7 288/1900] RUI CHI -> code=LC9 IMO=1 TEU=None status=detail_no_teu
+[group 7 289/1900] RUI FENG 329 -> code=WNP IMO=99999996 TEU=None status=detail_no_teu
+[group 7 290/1900] RUI FENG 589 -> code=WG7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 291/1900] RUI FENG 898 -> code=WH6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 293/1900] RUI HANG 28 -> code=WMB IMO=9999996 TEU=None status=detail_no_teu
+[group 7 294/1900] RUI HANG 6628 -> code=OWF IMO=9999996 TEU=None status=detail_no_teu
+[group 7 296/1900] RUIHANG939 -> code=2WU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 297/1900] RUIHANGTENGFEI -> code=2IT IMO=9999996 TEU=None status=detail_no_teu
+[group 7 298/1900] RUMBA -> code=MA6 IMO=9264714 TEU=None status=detail_no_teu
+[group 7 299/1900] RUMBA (DO NOT USE) -> code=UF6 IMO=926471 TEU=None status=detail_no_teu
+[group 7 300/1900] RUN CHANG -> code=NPP IMO=9430052 TEU=704 status=ok
+[group 7 301/1900] RUN CHEN 66 -> code=F78 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 302/1900] RUN FA 818 -> code=YTA IMO=99999996 TEU=None status=detail_no_teu
+[group 7 303/1900] RUN FA 9 -> code=YOP IMO=9999996 TEU=None status=detail_no_teu
+[group 7 305/1900] RUN FA ZHI BAO -> code=FCH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 306/1900] RUN FU 9168 -> code=Z9K IMO=1 TEU=None status=detail_no_teu
+[group 7 307/1900] RUN HAI XIANG YANG -> code=D48 IMO=9997048 TEU=None status=detail_no_teu
+[group 7 308/1900] RUN HENG 3286 -> code=OX4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 310/1900] RUN HENG 558 -> code=OMM IMO=9999996 TEU=1 status=ok
+[group 7 312/1900] RUN HENG 668 -> code=OWH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 313/1900] RUN HENG 6889 -> code=LSH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 315/1900] RUN HENG 8869 -> code=LTF IMO=9999996 TEU=None status=detail_no_teu
+[group 7 317/1900] RUN HENG 8889 -> code=LPZ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 320/1900] RUN LONG 638 -> code=B83 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 321/1900] RUN LONG 932 -> code=B27 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 322/1900] RUN LONG 933 -> code=B37 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 324/1900] RUN SHENG 1 -> code=NOK IMO=7978686 TEU=None status=detail_no_teu
+[group 7 325/1900] RUN XING XU HANG -> code=MGJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 326/1900] RUN XUN 1 HAO -> code=ZTJ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 327/1900] RUN XUN 28 -> code=XE8 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 328/1900] RUN XUN 38 -> code=ZTY IMO=99999996 TEU=None status=detail_no_teu
+[group 7 329/1900] RUN YANG JI 007 -> code=M85 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 330/1900] RUN YANG99 -> code=RLB IMO=99999996 TEU=None status=detail_no_teu
+[group 7 332/1900] RUNDAHANGHAI -> code=Y3G IMO=99999996 TEU=None status=detail_no_teu
+[group 7 333/1900] RUNDEJI1 -> code=1B2 IMO=88888889 TEU=None status=detail_no_teu
+[group 7 335/1900] RUNFA02 -> code=YOD IMO=9999996 TEU=None status=detail_no_teu
+[group 7 336/1900] RUNFA03 -> code=YOM IMO=9999996 TEU=None status=detail_no_teu
+[group 7 340/1900] RUNFACHANGAN -> code=NTQ IMO=301196 TEU=1088 status=ok
+[group 7 341/1900] RUNFACHANGQING -> code=Y3D IMO=99999996 TEU=None status=detail_no_teu
+[group 7 342/1900] RUNFAPINGAN -> code=VH3 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 343/1900] RUNFAXIANGYUN -> code=VW8 IMO=9999998 TEU=None status=detail_no_teu
+[group 7 344/1900] RUNFAXINGFU -> code=VZK IMO=234522134 TEU=None status=detail_no_teu
+[group 7 346/1900] RUNSHENG222 -> code=2F1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 347/1900] RUNTONGJI1HAO -> code=2TB IMO=9999996 TEU=None status=detail_no_teu
+[group 7 348/1900] RUNXIN999 -> code=2VY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 349/1900] RUNXINGHAIYANG -> code=V6U IMO=9999996 TEU=None status=detail_no_teu
+[group 7 350/1900] RUNXINGHAIYUN -> code=V6T IMO=9999996 TEU=None status=detail_no_teu
+[group 7 351/1900] RUNXINGHUIHUANG -> code=VSR IMO=9999996 TEU=None status=detail_no_teu
+[group 7 354/1900] RUNXINGJI555 -> code=VG6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 355/1900] RUNXINGJI588 -> code=VPC IMO=9999996 TEU=None status=detail_no_teu
+[group 7 356/1900] RUNXINGJI6 -> code=VKJ IMO=8686969 TEU=None status=detail_no_teu
+[group 7 357/1900] RUNXINGJI666 -> code=VXJ IMO=999999 TEU=None status=detail_no_teu
+[group 7 358/1900] RUNXINGJI666666 -> code=VZV IMO=23654789 TEU=None status=detail_no_teu
+[group 7 359/1900] RUNXINGJI669 -> code=VO9 IMO=88888888 TEU=None status=detail_no_teu
+[group 7 360/1900] RUNXINGJI6699 -> code=V24 IMO=99999996 TEU=64 status=ok
+[group 7 361/1900] RUNXINGJI6789 -> code=VVG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 362/1900] RUNXINGJI688 -> code=2H0 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 364/1900] RUNXINGJI699 -> code=VO6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 365/1900] RUNXINGJI88 -> code=VMA IMO=9676868 TEU=None status=detail_no_teu
+[group 7 366/1900] RUNXINGJI888 -> code=VXO IMO=999999 TEU=None status=detail_no_teu
+[group 7 369/1900] RUNXINGJI998 -> code=2G9 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 370/1900] RUNXINGJI999 -> code=Y9R IMO=99999996 TEU=84 status=ok
+[group 7 371/1900] RUNXINGJIYUN -> code=VLW IMO=8684742 TEU=None status=detail_no_teu
+[group 7 372/1900] RUNXINGXIANGYUN -> code=2I8 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 373/1900] RUNXINGXIHANG -> code=V4J IMO=9999996 TEU=None status=detail_no_teu
+[group 7 374/1900] RUNXINHUIHUANG -> code=VQP IMO=9999996 TEU=None status=detail_no_teu
+[group 7 375/1900] RUNXINJI999 -> code=2TU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 376/1900] RUNYANG 1 -> code=YLE IMO=9999996 TEU=None status=detail_no_teu
+[group 7 377/1900] RUNYANG018 -> code=V7I IMO=9999996 TEU=None status=detail_no_teu
+[group 7 378/1900] RUNYANG56789 -> code=V6Q IMO=9999996 TEU=None status=detail_no_teu
+[group 7 379/1900] RUNYANG677 -> code=2I2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 380/1900] RUNYANG7777 -> code=V6C IMO=9999996 TEU=None status=detail_no_teu
+[group 7 381/1900] RUNYANG9999 -> code=V5Z IMO=9999996 TEU=None status=detail_no_teu
+[group 7 382/1900] RUNYANGJI001 -> code=VIT IMO=9999988 TEU=None status=detail_no_teu
+[group 7 384/1900] RUNYANGJI003 -> code=VLZ IMO=9988667 TEU=None status=detail_no_teu
+[group 7 385/1900] RUNYANGJI006 -> code=VLX IMO=8866996 TEU=None status=detail_no_teu
+[group 7 386/1900] RUNYANGJI009 -> code=VVF IMO=9999996 TEU=None status=detail_no_teu
+[group 7 387/1900] RUNYANGJI111 -> code=V3K IMO=9999996 TEU=None status=detail_no_teu
+[group 7 388/1900] RUNYANGJI116 -> code=2Q1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 389/1900] RUNYANGJI299 -> code=VVB IMO=9999996 TEU=None status=detail_no_teu
+[group 7 390/1900] RUNYANGJI6 -> code=V13 IMO=99999996 TEU=120 status=ok
+[group 7 391/1900] RUNYANGJI6666 -> code=VNC IMO=6766779 TEU=None status=detail_no_teu
+[group 7 392/1900] RUNYANGJI6699 -> code=V6X IMO=9999996 TEU=None status=detail_no_teu
+[group 7 393/1900] RUNYANGJI6789 -> code=VUI IMO=9999996 TEU=None status=detail_no_teu
+[group 7 394/1900] RUNYANGJI688 -> code=VND IMO=8866767 TEU=None status=detail_no_teu
+[group 7 395/1900] RUNYANGJI6969 -> code=2XX IMO=9999996 TEU=None status=detail_no_teu
+[group 7 396/1900] RUNYANGJI777 -> code=VMZ IMO=4786996 TEU=None status=detail_no_teu
+[group 7 397/1900] RUNYANGJI7777 -> code=VUN IMO=9999996 TEU=None status=detail_no_teu
+[group 7 398/1900] RUNYANGJI7799 -> code=VUO IMO=9999996 TEU=None status=detail_no_teu
+[group 7 399/1900] RUNYANGJI789 -> code=VJD IMO=6688999 TEU=None status=detail_no_teu
+[group 7 400/1900] RUNYANGJI9999 -> code=VMY IMO=9988867 TEU=None status=detail_no_teu
+[group 7 401/1900] RUNYANGJIXIANG -> code=VUY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 402/1900] RUSSIA CHENGDU NUMBER 1 -> code=MC1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 403/1900] RUSSIA CHENGDU NUMBER 2 -> code=MC2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 404/1900] RUSSIA CHENGDU NUMBER 3 -> code=MC3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 405/1900] RUSSIA CHENGDU NUMBER 4 -> code=MC4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 406/1900] RUSSIA CHENGDU NUMBER 5 -> code=MC5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 407/1900] RUSSIA CHENGDU NUMBER 6 -> code=MC6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 408/1900] RUSSIA CHENGDU NUMBER 7 -> code=MC7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 409/1900] RUSSIA CHENGDU NUMBER 8 -> code=MC8 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 410/1900] RUSSIA CHENGDU NUMBER 9 -> code=MC9 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 411/1900] RUSSIA CHENGDU RETURN NUMBER 1 -> code=MU1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 412/1900] RUSSIA CHENGDU RETURN NUMBER 2 -> code=MU2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 413/1900] RUSSIA CHENGDU RETURN NUMBER 3 -> code=MU3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 414/1900] RUSSIA CHENGDU RETURN NUMBER 4 -> code=MU4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 415/1900] RUSSIA CHENGDU RETURN NUMBER 5 -> code=MU5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 419/1900] SABIC NANSHA -> code=Z8O IMO=2017091701 TEU=None status=detail_no_teu
+[group 7 420/1900] SABYA -> code=QHD IMO=9154529 TEU=4101 status=ok
+[group 7 430/1900] SAFEEN TIGER -> code=RQM IMO=9337262 TEU=None status=detail_no_teu
+[group 7 432/1900] SAFESEA RAMA -> code=A2G IMO=9364356 TEU=None status=detail_no_teu
+[group 7 434/1900] SAFMARINE CAMEROUN -> code=SA0 IMO=9289180 TEU=None status=detail_no_teu
+[group 7 436/1900] SAFMARINE MAFADI -> code=QE7 IMO=9314210 TEU=None status=detail_no_teu
+[group 7 438/1900] SAFMARINE MULANJE -> code=RSI IMO=9311701 TEU=None status=detail_no_teu
+[group 7 439/1900] SAFMARINE NILE -> code=PW9 IMO=9356098 TEU=None status=detail_no_teu
+[group 7 440/1900] SAFMARINE NOKWANDA -> code=Q52 IMO=9294393 TEU=None status=detail_no_teu
+[group 7 441/1900] SAFMARINE NOLIZWE -> code=STO IMO=99999996 TEU=None status=detail_no_teu
+[group 7 442/1900] SAFMARINE NOMAZWE -> code=QSB IMO=9294381 TEU=None status=detail_no_teu
+[group 7 444/1900] SAFMARINE PANTANAL -> code=STP IMO=4054 TEU=None status=detail_no_teu
+[group 7 447/1900] SAGAING -> code=AFU IMO=99999996 TEU=None status=detail_no_teu
+[group 7 449/1900] SAGITTARIUS -> code=RYP IMO=9122473 TEU=None status=detail_no_teu
+[group 7 450/1900] SAINT NIKOLAOS -> code=V7C IMO=9304734 TEU=None status=detail_no_teu
+[group 7 456/1900] SALAM MAJU -> code=BDE IMO=9999996 TEU=None status=detail_no_teu
+[group 7 457/1900] SALAM MAKMUR -> code=A81 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 458/1900] SALAM MEGAH -> code=A8U IMO=7525877 TEU=None status=detail_no_teu
+[group 7 459/1900] SALAM MESRA -> code=AKW IMO=99999996 TEU=None status=detail_no_teu
+[group 7 460/1900] SALAM MEWAH -> code=BAM IMO=9999996 TEU=None status=detail_no_teu
+[group 7 461/1900] SALAM MULIA -> code=A7B IMO=9999996 TEU=None status=detail_no_teu
+[group 7 462/1900] SALAM MURNI -> code=A82 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 463/1900] SALAM PANJANG -> code=A83 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 464/1900] SALAMMBO -> code=MU9 IMO=9142461 TEU=None status=detail_no_teu
+[group 7 466/1900] SAMAL -> code=MOC IMO=9944754 TEU=None status=detail_no_teu
+[group 7 468/1900] SAMBA -> code=UB1 IMO=9428205 TEU=None status=detail_no_teu
+[group 7 469/1900] SAMRATULANGI PB 1600 -> code=AIY IMO=99999996 TEU=None status=detail_no_teu
+[group 7 470/1900] SAMSKIP HOFFELL -> code=PB9 IMO=9196943 TEU=None status=detail_no_teu
+[group 7 471/1900] SAMSKIP KVITBJORN -> code=PT5 IMO=9642564 TEU=None status=detail_no_teu
+[group 7 472/1900] SAMSKIP KVITNOS -> code=PY8 IMO=9642576 TEU=None status=detail_no_teu
+[group 7 474/1900] SAMSKIP SKALAFELL (NIS) -> code=C05 IMO=944059 TEU=None status=detail_no_teu
+[group 7 475/1900] SAMUDRA BINTAN 88 -> code=MUA IMO=8749406 TEU=None status=detail_no_teu
+[group 7 476/1900] SAMUDRA III -> code=A9U IMO=9999996 TEU=None status=detail_no_teu
+[group 7 477/1900] SAN ADRIANO -> code=Q24 IMO=9347279 TEU=None status=detail_no_teu
+[group 7 478/1900] SAN ALESSIO -> code=QS7 IMO=9347293 TEU=None status=detail_no_teu
+[group 7 479/1900] SAN ALFONSO -> code=BB4 IMO=9344667 TEU=None status=detail_no_teu
+[group 7 480/1900] SAN ALVARO -> code=PY2 IMO=9344681 TEU=None status=detail_no_teu
+[group 7 482/1900] SAN ANTONIO -> code=C09 IMO=9347267 TEU=None status=detail_no_teu
+[group 7 483/1900] SAN ANTONIO MAERSK -> code=N8G IMO=9622241 TEU=None status=detail_no_teu
+[group 7 486/1900] SAN BU 1 -> code=WBT IMO=99999996 TEU=None status=detail_no_teu
+[group 7 487/1900] SAN BU 2 -> code=WBU IMO=20150025 TEU=None status=detail_no_teu
+[group 7 488/1900] SAN BU 3 -> code=WBV IMO=99999996 TEU=None status=detail_no_teu
+[group 7 489/1900] SAN BU 4 -> code=W8U IMO=20160510 TEU=None status=detail_no_teu
+[group 7 490/1900] SAN CHRISTOBAL -> code=S4B IMO=9699191 TEU=9034 status=ok
+[group 7 500/1900] SAN GIORGIO -> code=NBH IMO=9625918 TEU=1756 status=ok
+[group 7 502/1900] SAN LORENZO MAERSK -> code=N7G IMO=9622227 TEU=None status=detail_no_teu
+[group 7 503/1900] SAN MARCO MAERSK -> code=N7H IMO=9622215 TEU=None status=detail_no_teu
+[group 7 504/1900] SAN NICOLAS MAERSK -> code=N6H IMO=9622203 TEU=None status=detail_no_teu
+[group 7 510/1900] SAN VICENTE -> code=RO3 IMO=9699206 TEU=9000 status=ok
+[group 7 512/1900] SAN YANG 2 -> code=YKI IMO=9999996 TEU=None status=detail_no_teu
+[group 7 513/1900] SANGANG9 -> code=YKP IMO=9999999996 TEU=None status=detail_no_teu
+[group 7 515/1900] SANHANGJI019 -> code=2XT IMO=9999996 TEU=None status=detail_no_teu
+[group 7 516/1900] SANHANGJI088 -> code=2XS IMO=9999996 TEU=None status=detail_no_teu
+[group 7 517/1900] SANLI NO.1 -> code=YDD IMO=99999999 TEU=None status=detail_no_teu
+[group 7 519/1900] SANMA888 -> code=YVE IMO=99999996 TEU=None status=detail_no_teu
+[group 7 520/1900] SANMA999 -> code=VGM IMO=9999996 TEU=336 status=ok
+[group 7 522/1900] SANQING801 -> code=YGQ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 523/1900] SANQING802 -> code=YBI IMO=99999996 TEU=None status=detail_no_teu
+[group 7 524/1900] SANSUMG CHANGCHUN MOSCOW 2 -> code=SY2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 525/1900] SANSUNG CHANGCHUN MOSCOW 1 -> code=SY1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 526/1900] SANSUNG CHANGCHUN MOSCOW 3 -> code=SY4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 527/1900] SANSUNG CHANGCHUN MOSCOW 4 -> code=SY3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 528/1900] SANSUNG CHANGCHUN MOSCOW 5 -> code=SY5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 529/1900] SANSUNG CHANGCHUN MOSCOW 6 -> code=SY6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 530/1900] SANSUNG CHANGCHUN MOSCOW 7 -> code=SY7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 531/1900] SANTA BALBIN -> code=AWB IMO=99999996 TEU=None status=detail_no_teu
+[group 7 533/1900] SANTA BRUNELLA -> code=QCH IMO=9341122 TEU=None status=detail_no_teu
+[group 7 537/1900] SANTA ELENA -> code=S83 IMO=999999 TEU=None status=detail_no_teu
+[group 7 540/1900] SANTA GIOVANNA -> code=SE7 IMO=9126479 TEU=1664 status=ok
+[group 7 546/1900] SANTA MONICA -> code=QN3 IMO=9999999 TEU=None status=detail_no_teu
+[group 7 550/1900] SANTA RUFINA -> code=QS3 IMO=9244881 TEU=4112 status=ok
+[group 7 555/1900] SANTONGJI1 -> code=YAY IMO=99999996 TEU=None status=detail_no_teu
+[group 7 556/1900] SANTONGJI2 -> code=YCB IMO=99999996 TEU=None status=detail_no_teu
+[group 7 557/1900] SANTONGJI6 -> code=YIO IMO=99999996 TEU=None status=detail_no_teu
+[group 7 558/1900] SANTOS -> code=A85 IMO=8411205 TEU=None status=detail_no_teu
+[group 7 559/1900] SANTOS EXPRESS -> code=NX7 IMO=9777632 TEU=None status=detail_no_teu
+[group 7 560/1900] SANTUCA_B -> code=UY3 IMO=9287687 TEU=None status=detail_no_teu
+[group 7 561/1900] SANXIA802 -> code=Y74 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 563/1900] SANYANGJI1HAO -> code=VP7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 567/1900] SARAYU -> code=D31 IMO=9187863 TEU=None status=detail_no_teu
+[group 7 570/1900] SATHA BHUM -> code=AFB IMO=99999996 TEU=None status=detail_no_teu
+[group 7 571/1900] SATIE -> code=PP6 IMO=9330513 TEU=None status=detail_no_teu
+[group 7 573/1900] SATURN -> code=A86 IMO=9396634 TEU=None status=detail_no_teu
+[group 7 576/1900] SAWASDEE ATLANTIC -> code=MCH IMO=9879375 TEU=None status=detail_no_teu
+[group 7 578/1900] SAWASDEE CHITTAGONG -> code=MEL IMO=9999996 TEU=None status=detail_no_teu
+[group 7 579/1900] SAWASDEE XIAMEN -> code=BIX IMO=9940772 TEU=None status=detail_no_teu
+[group 7 580/1900] SAYLEMOON RICKMERS -> code=AMU IMO=99999996 TEU=None status=detail_no_teu
+[group 7 583/1900] SC MARA -> code=ND8 IMO=9302578 TEU=None status=detail_no_teu
+[group 7 590/1900] SC PHILLY -> code=3GQ IMO=9330276 TEU=None status=detail_no_teu
+[group 7 594/1900] SCAN CARRIER -> code=SIQ IMO=8500678 TEU=None status=detail_no_teu
+[group 7 596/1900] SCHELDE TRADER -> code=AQG IMO=99999996 TEU=None status=detail_no_teu
+[group 7 598/1900] SCI CHENNAI -> code=AOM IMO=9418298 TEU=None status=detail_no_teu
+[group 7 599/1900] SCI JYOTI -> code=APH IMO=9999997 TEU=None status=detail_no_teu
+[group 7 600/1900] SCI KOLKATA -> code=ARB IMO=99999 TEU=3200 status=ok
+[group 7 601/1900] SCI MUMBAI -> code=D12 IMO=9419539 TEU=None status=detail_no_teu
+[group 7 603/1900] SCIO SKY -> code=AWO IMO=9232773 TEU=None status=detail_no_teu
+[group 7 605/1900] SCORPIUS -> code=IUS IMO=9307279 TEU=None status=detail_no_teu
+[group 7 610/1900] SEA BETA -> code=ACV IMO=99999996 TEU=None status=detail_no_teu
+[group 7 613/1900] SEA ELEGANCE -> code=AKX IMO=99999996 TEU=None status=detail_no_teu
+[group 7 614/1900] SEA LAND CHAMPION -> code=QXX IMO=9106170 TEU=None status=detail_no_teu
+[group 7 616/1900] SEA MERCHANT -> code=AE6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 617/1900] SEA NAVIGATO -> code=AVO IMO=9999996 TEU=None status=detail_no_teu
+[group 7 620/1900] SEA SPACE -> code=ACO IMO=99999996 TEU=None status=detail_no_teu
+[group 7 622/1900] SEABOARD PATRIOT -> code=U98 IMO=9395551 TEU=None status=detail_no_teu
+[group 7 623/1900] SEABOXER -> code=AQ4 IMO=248632000 TEU=None status=detail_no_teu
+[group 7 626/1900] SEAGATE 2705 -> code=NF1 IMO=99999998 TEU=None status=detail_no_teu
+[group 7 630/1900] SEALAND MANZANILLO -> code=P90 IMO=9383261 TEU=2546 status=ok
+[group 7 632/1900] SEALAND RACER -> code=QGH IMO=9116890 TEU=None status=detail_no_teu
+[group 7 633/1900] SEALLOYD ARC -> code=BHO IMO=8682036 TEU=None status=detail_no_teu
+[group 7 639/1900] SEAN RICKMERS -> code=AYU IMO=99999996 TEU=None status=detail_no_teu
+[group 7 640/1900] SEASMILE -> code=NQ7 IMO=9632820 TEU=5071 status=ok
+[group 7 641/1900] SEASPAN ADONIS -> code=MIY IMO=9468293 TEU=None status=detail_no_teu
+[group 7 644/1900] SEASPAN BREEZE -> code=DAT IMO=9685358 TEU=None status=detail_no_teu
+[group 7 650/1900] SEASPAN ELBE -> code=NP6 IMO=9999997 TEU=10100 status=ok
+[group 7 660/1900] SEASPAN GUAYAQUIL -> code=NAQ IMO=9402641 TEU=None status=detail_no_teu
+[group 7 666/1900] SEASPAN LAHORE -> code=S2Z IMO=9301811 TEU=None status=detail_no_teu
+[group 7 668/1900] SEASPAN LOGA -> code=MB9 IMO=9320001 TEU=None status=detail_no_teu
+[group 7 670/1900] SEASPAN LUMACO -> code=S1B IMO=9443487 TEU=4256 status=ok
+[group 7 680/1900] SEASPAN TOKYO -> code=QP3 IMO=9494280 TEU=4520 status=ok
+[group 7 684/1900] SEATRADE BLUE -> code=N1M IMO=9756107 TEU=None status=detail_no_teu
+[group 7 685/1900] SEATRADE COLOMBIA -> code=KKL IMO=6360933 TEU=None status=detail_no_teu
+[group 7 690/1900] SEAWAYS PRESTIGE -> code=ALE IMO=99999996 TEU=None status=detail_no_teu
+[group 7 692/1900] SEJAHTERA DUA -> code=AIR IMO=9999999996 TEU=None status=detail_no_teu
+[group 7 693/1900] SEJAHTERA SATU -> code=AN7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 694/1900] SELATAN DAMAI -> code=AST IMO=9353931 TEU=None status=detail_no_teu
+[group 7 696/1900] SELATAN MAJU -> code=AIE IMO=99999996 TEU=None status=detail_no_teu
+[group 7 697/1900] SELATAN MAKMUR -> code=ALK IMO=99999997 TEU=None status=detail_no_teu
+[group 7 698/1900] SELATAN MEGAH -> code=AO6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 699/1900] SELATAN MULIA -> code=AKR IMO=8218512 TEU=None status=detail_no_teu
+[group 7 700/1900] SELENITE -> code=RTF IMO=9320099 TEU=2741 status=ok
+[group 7 701/1900] SELILI BARU -> code=BCQ IMO=9745586 TEU=None status=detail_no_teu
+[group 7 703/1900] SENTOSA STAR -> code=R7N IMO=9146649 TEU=None status=detail_no_teu
+[group 7 706/1900] SEOUL TOWER -> code=AZG IMO=9367839 TEU=None status=detail_no_teu
+[group 7 708/1900] SER NUMBER ONE -> code=CR1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 709/1900] SER NUMBER TWO -> code=CR2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 710/1900] SERENADA -> code=PX3 IMO=9201865 TEU=None status=detail_no_teu
+[group 7 711/1900] SEROJA LIMA -> code=SW8 IMO=9567661 TEU=None status=detail_no_teu
+[group 7 714/1900] SEVEN SEAS AURORA -> code=AGD IMO=99999996 TEU=None status=detail_no_teu
+[group 7 715/1900] SEVIL -> code=PP7 IMO=9148518 TEU=None status=detail_no_teu
+[group 7 718/1900] SFL FALCON -> code=A2Q IMO=9999996 TEU=None status=detail_no_teu
+[group 7 720/1900] SFL HUNTER -> code=A2V IMO=99999996 TEU=None status=detail_no_teu
+[group 7 723/1900] SHALAMAR -> code=SQ3 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 726/1900] SHAN CHENG 698 -> code=ZNG IMO=99999996 TEU=None status=detail_no_teu
+[group 7 727/1900] SHAN GANG KUAI XIAN 1 HAO -> code=F7K IMO=8899971 TEU=None status=detail_no_teu
+[group 7 730/1900] SHAN GANG RI ZHAO -> code=F8B IMO=9999996 TEU=648 status=ok
+[group 7 735/1900] SHAN TOU 1 HAO -> code=WOI IMO=99999996 TEU=None status=detail_no_teu
+[group 7 736/1900] SHAN TOU 2 HAO -> code=WOJ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 740/1900] SHANGHAI EXPRESS -> code=AF5 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 741/1900] SHANGHAI GENOA RAIL NUMBER 3 -> code=HO3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 744/1900] SHANGQING02 -> code=YL3 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 745/1900] SHANGQING03 -> code=YHB IMO=99999996 TEU=None status=detail_no_teu
+[group 7 750/1900] SHANGQINGHAO -> code=YB2 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 751/1900] SHANGTAO668 -> code=VQH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 752/1900] SHANTOU HAINAN -> code=OOY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 753/1900] SHANTOU NEIWAIMAO -> code=OOK IMO=9999996 TEU=None status=detail_no_teu
+[group 7 754/1900] SHAOHANGJI168 -> code=2BJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 755/1900] SHARK -> code=PD9 IMO=7726990 TEU=None status=detail_no_teu
+[group 7 758/1900] SHEFFIELD -> code=MDN IMO=9275024 TEU=None status=detail_no_teu
+[group 7 759/1900] SHEGN SHI FANG ZHOU -> code=F1W IMO=959 TEU=None status=detail_no_teu
+[group 7 760/1900] SHEN FENG ZHI HUA -> code=FS1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 761/1900] SHEN HANG 802 -> code=ZB9 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 762/1900] SHEN HANG 927 -> code=ZFN IMO=99999996 TEU=None status=detail_no_teu
+[group 7 763/1900] SHEN HANG 928 -> code=ZFT IMO=99999996 TEU=None status=detail_no_teu
+[group 7 764/1900] SHEN HANG 930 -> code=ZGD IMO=9999996 TEU=None status=detail_no_teu
+[group 7 765/1900] SHEN HANG 931 -> code=ZGV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 766/1900] SHEN HANG 932 -> code=ZKV IMO=99999996 TEU=None status=detail_no_teu
+[group 7 768/1900] SHEN HANG 936 -> code=ZIY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 770/1900] SHEN ZHOU 5 HAO -> code=YQI IMO=99999996 TEU=120 status=ok
+[group 7 771/1900] SHEN ZHOU 6 HAO -> code=YMP IMO=99999996 TEU=None status=detail_no_teu
+[group 7 772/1900] SHENFENGZHICHUN -> code=FS4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 775/1900] SHENG AN HUA -> code=XAQ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 779/1900] SHENG CHANG HUA -> code=ZIP IMO=9999996 TEU=None status=detail_no_teu
+[group 7 780/1900] SHENG CHENG -> code=ZMU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 784/1900] SHENG GANG YUN JI -> code=D2E IMO=9999996 TEU=None status=detail_no_teu
+[group 7 786/1900] SHENG JIE 16 -> code=DEL IMO=9961386 TEU=None status=detail_no_teu
+[group 7 787/1900] SHENG JIE PING AN -> code=F6L IMO=9999996 TEU=None status=detail_no_teu
+[group 7 788/1900] SHENG JING 318 -> code=ZFV IMO=99999996 TEU=None status=detail_no_teu
+[group 7 789/1900] SHENG PING 019 -> code=LN4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 790/1900] SHENG PING 158 -> code=LIV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 791/1900] SHENG PING 182 -> code=OLH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 793/1900] SHENG PING 23 -> code=OQ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 794/1900] SHENG PING 328 -> code=OMD IMO=9999996 TEU=None status=detail_no_teu
+[group 7 795/1900] SHENG PING 888 -> code=LL6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 796/1900] SHENG SHI 5 HAO -> code=XJT IMO=5101500013 TEU=None status=detail_no_teu
+[group 7 798/1900] SHENG SHI 8 HAO -> code=ZON IMO=9999996 TEU=None status=detail_no_teu
+[group 7 800/1900] SHENG SHI FANG ZHOU -> code=LTM IMO=9999996 TEU=None status=detail_no_teu
+[group 7 802/1900] SHENG SHUN 72 -> code=DB6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 803/1900] SHENG SONG 168 -> code=F65 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 805/1900] SHENG SONG 88 -> code=VJS IMO=1232145 TEU=None status=detail_no_teu
+[group 7 806/1900] SHENG TAO HUA YI -> code=M82 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 807/1900] SHENG TENG 618 -> code=MIG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 808/1900] SHENG XING -> code=YT2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 810/1900] SHENG YU -> code=ZIF IMO=99999996 TEU=None status=detail_no_teu
+[group 7 815/1900] SHENGCANG 1 -> code=YLZ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 816/1900] SHENGCHANG1826 -> code=2FG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 817/1900] SHENGDA 1 -> code=YLW IMO=9999996 TEU=None status=detail_no_teu
+[group 7 818/1900] SHENGDA 88 -> code=YHM IMO=9999996 TEU=None status=detail_no_teu
+[group 7 819/1900] SHENGDA01 -> code=VPP IMO=9999996 TEU=None status=detail_no_teu
+[group 7 820/1900] SHENGDA02 -> code=V4L IMO=9999996 TEU=None status=detail_no_teu
+[group 7 821/1900] SHENGDA068 -> code=VQG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 822/1900] SHENGDA19 -> code=YKG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 823/1900] SHENGDA789 -> code=V6L IMO=9999996 TEU=None status=detail_no_teu
+[group 7 824/1900] SHENGDAANSHUN -> code=VO8 IMO=12345678 TEU=None status=detail_no_teu
+[group 7 825/1900] SHENGDAHEXIE -> code=YUO IMO=99999996 TEU=None status=detail_no_teu
+[group 7 826/1900] SHENGDAKANGPING -> code=VV3 IMO=666666 TEU=None status=detail_no_teu
+[group 7 828/1900] SHENGGANGJI1HAO -> code=VJ1 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 829/1900] SHENGHANGJI1 -> code=VG8 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 830/1900] SHENGHANGJI2 -> code=VK8 IMO=None TEU=None status=detail_no_teu
+[group 7 831/1900] SHENGHONG2 -> code=20D IMO=9999996 TEU=None status=detail_no_teu
+[group 7 832/1900] SHENGHONG2HAO -> code=2V8 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 834/1900] SHENGPING 2 HAO -> code=ZLY IMO=99999996 TEU=None status=detail_no_teu
+[group 7 835/1900] SHENGRUI1 -> code=BMW IMO=8995575 TEU=None status=detail_no_teu
+[group 7 836/1900] SHENGSHIDA NO.1 -> code=YP6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 838/1900] SHENGSONG 9 HAO -> code=YCH IMO=99999996 TEU=None status=detail_no_teu
+[group 7 839/1900] SHENGSONG618 -> code=YUY IMO=99999996 TEU=None status=detail_no_teu
+[group 7 840/1900] SHENGSONG898 -> code=VXF IMO=999999 TEU=None status=detail_no_teu
+[group 7 841/1900] SHENGSONG988 -> code=Y9E IMO=9999996 TEU=None status=detail_no_teu
+[group 7 842/1900] SHENGSONG999 -> code=VGZ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 843/1900] SHENGSONGYUANYANGJI98 -> code=YKR IMO=999999996 TEU=None status=detail_no_teu
+[group 7 844/1900] SHENGTAO 618 -> code=2BM IMO=9999996 TEU=None status=detail_no_teu
+[group 7 845/1900] SHENGTAO2268 -> code=2B3 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 846/1900] SHENGTAO668 -> code=RNL IMO=9999996 TEU=None status=detail_no_teu
+[group 7 847/1900] SHENGTAO777 -> code=2B7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 848/1900] SHENGTAO9HAO -> code=VQW IMO=9999996 TEU=None status=detail_no_teu
+[group 7 849/1900] SHENGTAOHUIHUANG -> code=2FJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 850/1900] SHENGTAOSHUSHAN -> code=2MC IMO=9999996 TEU=None status=detail_no_teu
+[group 7 851/1900] SHENGTAOYAOHAI -> code=2JK IMO=9999996 TEU=None status=detail_no_teu
+[group 7 853/1900] SHENGXINDA668 -> code=2YI IMO=9999996 TEU=None status=detail_no_teu
+[group 7 854/1900] SHENGYUAN8HAO -> code=V1Q IMO=6688945 TEU=None status=detail_no_teu
+[group 7 856/1900] SHENHUAJI 8 -> code=RHL IMO=9999996 TEU=None status=detail_no_teu
+[group 7 857/1900] SHENHUAJI 9 -> code=T79 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 858/1900] SHENTON -> code=AJ7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 859/1900] SHENYUDEFA -> code=FS6 IMO=7865680 TEU=None status=detail_no_teu
+[group 7 860/1900] SHENZHOU 16 -> code=YRU IMO=99999996 TEU=255 status=ok
+[group 7 862/1900] SHENZHOU77 -> code=Y4C IMO=99999996 TEU=None status=detail_no_teu
+[group 7 863/1900] SHENZHOU9HAO -> code=YHY IMO=99999996 TEU=None status=detail_no_teu
+[group 7 864/1900] SHENZHOUHEXIE -> code=Y8B IMO=99999996 TEU=None status=detail_no_teu
+[group 7 866/1900] SHI GANG 263 -> code=ZFO IMO=99999996 TEU=None status=detail_no_teu
+[group 7 867/1900] SHI GANG 338 -> code=ZC7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 869/1900] SHI GANG 378 -> code=ZC8 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 870/1900] SHI GANG 388 -> code=ZC9 IMO=99999996 TEU=75 status=ok
+[group 7 871/1900] SHI HANG 1 -> code=ZWK IMO=999999996 TEU=None status=detail_no_teu
+[group 7 872/1900] SHI HANG 2 -> code=ZCS IMO=99999996 TEU=None status=detail_no_teu
+[group 7 873/1900] SHI HANG 2 HAO -> code=ZUP IMO=99999996 TEU=None status=detail_no_teu
+[group 7 875/1900] SHI JI 018 -> code=OYJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 876/1900] SHI JI 108 -> code=OXS IMO=9999996 TEU=None status=detail_no_teu
+[group 7 878/1900] SHI LIAN DA CHANG JIANG 1 -> code=MMJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 880/1900] SHI SHANG 18 -> code=QYQ IMO=9137557 TEU=1637 status=ok
+[group 7 882/1900] SHI TAI 008 -> code=WQ8 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 883/1900] SHI TAI 1100 -> code=B63 IMO=20180830 TEU=None status=detail_no_teu
+[group 7 884/1900] SHI TAI 1888 -> code=X1U IMO=5200550379 TEU=None status=detail_no_teu
+[group 7 885/1900] SHI TAI 218 -> code=XF7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 886/1900] SHI TAI 228 -> code=XHQ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 888/1900] SHI TAI 328 -> code=W2L IMO=20151223 TEU=None status=detail_no_teu
+[group 7 890/1900] SHI TAI 338 -> code=W9K IMO=20160520 TEU=None status=detail_no_teu
+[group 7 892/1900] SHI TAI 368 -> code=B55 IMO=2018081001 TEU=None status=detail_no_teu
+[group 7 893/1900] SHI TAI 369 -> code=NF9 IMO=9063110 TEU=None status=detail_no_teu
+[group 7 894/1900] SHI TAI 558 -> code=ZVX IMO=99999996 TEU=None status=detail_no_teu
+[group 7 895/1900] SHI TAI 568 -> code=Z3C IMO=1 TEU=None status=detail_no_teu
+[group 7 896/1900] SHI TAI 588 -> code=XG7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 897/1900] SHI TAI 598 -> code=F7O IMO=9992212 TEU=None status=detail_no_teu
+[group 7 898/1900] SHI TAI 6 HAO -> code=XSX IMO=20150112 TEU=None status=detail_no_teu
+[group 7 899/1900] SHI TAI 618 -> code=W9S IMO=9999996 TEU=None status=detail_no_teu
+[group 7 900/1900] SHI TAI 68 -> code=ZPL IMO=99999996 TEU=None status=detail_no_teu
+[group 7 901/1900] SHI TAI 68 HAO -> code=ZXB IMO=99999996 TEU=None status=detail_no_teu
+[group 7 903/1900] SHI TAI 818 -> code=XPQ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 904/1900] SHI TAI 828 -> code=WSH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 905/1900] SHI TAI 88 HAO -> code=ZYS IMO=9999996 TEU=None status=detail_no_teu
+[group 7 906/1900] SHI TAI 888 -> code=XJG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 908/1900] SHI TONG 883 -> code=XW5 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 909/1900] SHI YUN 168 -> code=OAV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 910/1900] SHI YUN 288 -> code=OEG IMO=9999996 TEU=None status=detail_no_teu
+[group 7 911/1900] SHI YUN 318 -> code=OCH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 912/1900] SHI YUN 411 -> code=ZGF IMO=99999996 TEU=None status=detail_no_teu
+[group 7 913/1900] SHI YUN 412 -> code=ZLV IMO=99999996 TEU=None status=detail_no_teu
+[group 7 914/1900] SHI YUN 501 -> code=XIT IMO=9999996 TEU=None status=detail_no_teu
+[group 7 915/1900] SHI YUN 502 -> code=ZGT IMO=9999996 TEU=None status=detail_no_teu
+[group 7 916/1900] SHI YUN 901 -> code=XNV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 917/1900] SHI YUN 902 -> code=LJQ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 918/1900] SHIBAO2002 -> code=NXJ IMO=33280 TEU=None status=detail_no_teu
+[group 7 920/1900] SHIIANGZHUANG MOSCOW TWO -> code=HQ2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 921/1900] SHIJIANGZHUANG MOSCOW ONE -> code=HQ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 922/1900] SHIJIAZHUANG MOSCOW 5 -> code=HQ5 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 923/1900] SHIJIAZHUANG MOSCOW NUMBER 3 -> code=HQ3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 924/1900] SHIJIAZHUANG MOSCOW NUMBER 4 -> code=HQ4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 927/1900] SHIMANAMI BAY -> code=BH6 IMO=9983425 TEU=None status=detail_no_teu
+[group 7 930/1900] SHION -> code=SKG IMO=9127007 TEU=1122 status=ok
+[group 7 932/1900] SHIRIN M -> code=PP1 IMO=9339583 TEU=None status=detail_no_teu
+[group 7 933/1900] SHU DONG -> code=QUJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 934/1900] SHU YUAN 15 -> code=QDA IMO=8585858 TEU=None status=detail_no_teu
+[group 7 937/1900] SHUI WEI DUN CHUAN -> code=LI8 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 938/1900] SHUI YUN -> code=BFA IMO=9299513 TEU=None status=detail_no_teu
+[group 7 939/1900] SHUM HUNG -> code=X25 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 940/1900] SHUN CHENG -> code=SUA IMO=789753 TEU=598 status=ok
+[group 7 941/1900] SHUN DA JI 999 -> code=MFF IMO=9999996 TEU=None status=detail_no_teu
+[group 7 942/1900] SHUN DE 1 HAO -> code=W0F IMO=20160628 TEU=None status=detail_no_teu
+[group 7 943/1900] SHUN FAT -> code=ZD0 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 944/1900] SHUN FENG 108 -> code=L34 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 945/1900] SHUN FENG 128 -> code=LBY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 946/1900] SHUN FENG 1689 -> code=LG7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 947/1900] SHUN FENG 18 -> code=WSU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 948/1900] SHUN FENG 188 -> code=W1F IMO=20151016 TEU=None status=detail_no_teu
+[group 7 949/1900] SHUN FENG 19 -> code=WSV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 950/1900] SHUN FENG 2018 -> code=L55 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 951/1900] SHUN FENG 218 -> code=LK8 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 952/1900] SHUN FENG 22 -> code=X6E IMO=20170111 TEU=None status=detail_no_teu
+[group 7 953/1900] SHUN FENG 228 -> code=W9A IMO=9999996 TEU=None status=detail_no_teu
+[group 7 954/1900] SHUN FENG 258 -> code=LF6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 955/1900] SHUN FENG 26 -> code=LDA IMO=9999996 TEU=None status=detail_no_teu
+[group 7 956/1900] SHUN FENG 268 -> code=B43 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 957/1900] SHUN FENG 28 -> code=LG2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 958/1900] SHUN FENG 288 -> code=W8X IMO=20160512 TEU=None status=detail_no_teu
+[group 7 959/1900] SHUN FENG 31 -> code=LJF IMO=9999996 TEU=None status=detail_no_teu
+[group 7 960/1900] SHUN FENG 33 -> code=B36 IMO=2018050201 TEU=None status=detail_no_teu
+[group 7 961/1900] SHUN FENG 338 -> code=LLH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 962/1900] SHUN FENG 368 -> code=B45 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 963/1900] SHUN FENG 38 -> code=LGH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 964/1900] SHUN FENG 388 -> code=LVD IMO=9999996 TEU=None status=detail_no_teu
+[group 7 965/1900] SHUN FENG 520 -> code=X7B IMO=20170113 TEU=None status=detail_no_teu
+[group 7 966/1900] SHUN FENG 538 -> code=OHT IMO=9999996 TEU=None status=detail_no_teu
+[group 7 967/1900] SHUN FENG 566 -> code=W6J IMO=9999996 TEU=None status=detail_no_teu
+[group 7 968/1900] SHUN FENG 638 -> code=ODD IMO=9999996 TEU=None status=detail_no_teu
+[group 7 970/1900] SHUN FENG 688 -> code=LL5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 971/1900] SHUN FENG 788 -> code=O85 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 972/1900] SHUN FENG 868 -> code=OFC IMO=9999996 TEU=None status=detail_no_teu
+[group 7 973/1900] SHUN FENG 93 -> code=LKZ IMO=20160905 TEU=None status=detail_no_teu
+[group 7 976/1900] SHUN FONG 520 -> code=W0R IMO=20160629 TEU=None status=detail_no_teu
+[group 7 977/1900] SHUN FONG 98 -> code=LKY IMO=20160903 TEU=None status=detail_no_teu
+[group 7 978/1900] SHUN GANG 1 -> code=ZD1 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 979/1900] SHUN GANG 12 -> code=ZD2 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 980/1900] SHUN GANG 18 -> code=ZD3 IMO=99999996 TEU=36 status=ok
+[group 7 981/1900] SHUN GANG 2 -> code=ZBZ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 982/1900] SHUN GANG 8 -> code=ZD6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 983/1900] SHUN GANG 9 -> code=VHW IMO=99999996 TEU=None status=detail_no_teu
+[group 7 984/1900] SHUN GANG 95 -> code=ZD7 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 985/1900] SHUN GANG CHANG LONG -> code=MVX IMO=9999996 TEU=None status=detail_no_teu
+[group 7 986/1900] SHUN GANG CHANG RONG -> code=DF5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 987/1900] SHUN GANG CHANG YUAN -> code=MMI IMO=9999996 TEU=None status=detail_no_teu
+[group 7 988/1900] SHUN HAI 13 -> code=WT6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 990/1900] SHUN HAI 8 -> code=F6R IMO=9999908 TEU=532 status=ok
+[group 7 991/1900] SHUN HANG 02 -> code=ZD8 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 992/1900] SHUN HANG 8 HAO -> code=YBU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 993/1900] SHUN HONG 007 -> code=LFI IMO=9999996 TEU=None status=detail_no_teu
+[group 7 994/1900] SHUN HONG HAI 10 -> code=ZU6 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 995/1900] SHUN HONG HAI 338 -> code=WNE IMO=99999998 TEU=None status=detail_no_teu
+[group 7 996/1900] SHUN HUNG -> code=ZYZ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 997/1900] SHUN JIN 188 -> code=YPJ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 998/1900] SHUN JIN 198 -> code=YI1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1000/1900] SHUN JIN HANG 818 -> code=FQV IMO=9999996 TEU=300 status=ok
+[group 7 1001/1900] SHUN JING 308 -> code=ZU3 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1002/1900] SHUN JING 318 -> code=ZD9 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1003/1900] SHUN JING 328 -> code=ZE0 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1004/1900] SHUN JING 3318 -> code=Z6K IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1005/1900] SHUN JING 338 -> code=ZE1 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1006/1900] SHUN JING 358 -> code=W9Y IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1007/1900] SHUN JING 368 -> code=ZJO IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1008/1900] SHUN JING 388 -> code=XZ4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1009/1900] SHUN JING 398 -> code=ZQA IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1010/1900] SHUN JING HANG 818 -> code=ODF IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1011/1900] SHUN KUN1 -> code=RVX IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1012/1900] SHUN LONG -> code=NDX IMO=9159646 TEU=None status=detail_no_teu
+[group 7 1014/1900] SHUN LONG HAI -> code=F91 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1015/1900] SHUN SHENG -> code=W14 IMO=20150125 TEU=None status=detail_no_teu
+[group 7 1018/1900] SHUN YAN 1101 -> code=B75 IMO=20181031 TEU=None status=detail_no_teu
+[group 7 1019/1900] SHUN YAN 1102 -> code=B76 IMO=20181102 TEU=None status=detail_no_teu
+[group 7 1020/1900] SHUN YI 007 -> code=LQJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1021/1900] SHUN YI 313 -> code=W83 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1022/1900] SHUN YI 328 -> code=XVV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1023/1900] SHUN YI 333 -> code=XU6 IMO=None TEU=None status=detail_no_teu
+[group 7 1024/1900] SHUN YI 338 -> code=XYN IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1025/1900] SHUN YI 358 -> code=O88 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1026/1900] SHUN YI 362 -> code=WH4 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1027/1900] SHUN YI 363 -> code=L16 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1029/1900] SHUN YI 666 -> code=LQB IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1030/1900] SHUN YI 7 -> code=L15 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1031/1900] SHUN YI 818 -> code=LG5 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1032/1900] SHUN YI XING 328 -> code=OVS IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1033/1900] SHUN YU ZHOU 666 -> code=LSB IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1034/1900] SHUN YUAN 15 -> code=QMZ IMO=5675856 TEU=None status=detail_no_teu
+[group 7 1035/1900] SHUN YUE AN YUN 33 -> code=XWC IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1036/1900] SHUN YUE JIANG 001 -> code=XX3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1037/1900] SHUN YUE JIANG 002 -> code=XBE IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1038/1900] SHUN YUE JIANG 003 -> code=XU1 IMO=99999998 TEU=None status=detail_no_teu
+[group 7 1039/1900] SHUN YUE JIANG 005 -> code=ZTU IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1040/1900] SHUN YUE JIANG 008 -> code=ZNH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1042/1900] SHUN YUN ZHI XING -> code=M26 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1044/1900] SHUN ZE 18 -> code=MHD IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1045/1900] SHUN ZE 19 -> code=SZ7 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1046/1900] SHUN ZE 26 -> code=DC6 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1047/1900] SHUN ZE 28 -> code=DE2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1048/1900] SHUN ZE 66 -> code=F4B IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1050/1900] SHUN ZHOU 9313 -> code=OAX IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1051/1900] SHUNCHENG01 -> code=YPM IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1052/1900] SHUNCHENG519 -> code=Y6A IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1053/1900] SHUNCHENG998 -> code=V66 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1054/1900] SHUNCHENG999 -> code=VC1 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1055/1900] SHUNCHENG999HAO -> code=YPY IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1056/1900] SHUNDAHEXIE -> code=V94 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1058/1900] SHUNDAJI99 -> code=VQJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1060/1900] SHUNDE NEW PORT XUNI -> code=OOE IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1062/1900] SHUNFENG789 -> code=2H1 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1063/1900] SHUNFENGQIANCHENG -> code=2MH IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1065/1900] SHUNGANG1689 -> code=2DE IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1066/1900] SHUNGANG19 -> code=VJ6 IMO=999999 TEU=None status=detail_no_teu
+[group 7 1067/1900] SHUNGANG216 -> code=VPJ IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1068/1900] SHUNGANG2688 -> code=VUL IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1069/1900] SHUNGANG333 -> code=2JY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1070/1900] SHUNGANG66 -> code=VV5 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1071/1900] SHUNGANG666 -> code=2QI IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1072/1900] SHUNGANG868 -> code=VGA IMO=999999998 TEU=None status=detail_no_teu
+[group 7 1073/1900] SHUNGANG88 -> code=VV4 IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1074/1900] SHUNGANG888 -> code=2AK IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1075/1900] SHUNGANG98 -> code=VZD IMO=999999 TEU=None status=detail_no_teu
+[group 7 1076/1900] SHUNGANG99 -> code=V1E IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1077/1900] SHUNGANG999 -> code=2C2 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1079/1900] SHUNGANGBAO -> code=VB3 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1080/1900] SHUNGANGCHANGFA -> code=V6F IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1081/1900] SHUNGANGCHANGFU -> code=2II IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1082/1900] SHUNGANGCHANGHONG -> code=V3B IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1083/1900] SHUNGANGCHANGJIE -> code=20F IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1084/1900] SHUNGANGCHANGJIU -> code=1B1 IMO=999999996 TEU=None status=detail_no_teu
+[group 7 1085/1900] SHUNGANGCHANGQING -> code=V9R IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1087/1900] SHUNGANGCHANGWANG -> code=2WE IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1088/1900] SHUNGANGCHANGXIN -> code=2T9 IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1089/1900] SHUNGANGCHANGYUN -> code=2AV IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1090/1900] SHUNGANGHUAMEI -> code=VDG IMO=999999999999 TEU=None status=detail_no_teu
+[group 7 1091/1900] SHUNGANGJIYUN -> code=VY1 IMO=999999 TEU=None status=detail_no_teu
+[group 7 1092/1900] SHUNGANGMINGJIA -> code=VYC IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1093/1900] SHUNGANGTIANYU -> code=2NL IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1094/1900] SHUNGANGTONGYUAN -> code=VYE IMO=999999 TEU=None status=detail_no_teu
+[group 7 1095/1900] SHUNGANGYUNJI -> code=2RE IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1097/1900] SHUNHANG9858 -> code=2HS IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1099/1900] SHUNHANGHUAMEI -> code=VHZ IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1100/1900] SHUNHUI888 -> code=VYR IMO=99999996 TEU=None status=detail_no_teu
+[group 7 1101/1900] SHUNJIANG166 -> code=2JN IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1104/1900] SHUNSHICHUANGXIN -> code=2OS IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1105/1900] SHUNSHIFAZHAN -> code=2PY IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1108/1900] SHUNTONGJI001 -> code=VTC IMO=1111113 TEU=None status=detail_no_teu
+[group 7 1109/1900] SHUNTONGJI002 -> code=VNI IMO=9896898 TEU=None status=detail_no_teu
+[group 7 1110/1900] SHUNXIN87 -> code=21K IMO=9999996 TEU=None status=detail_no_teu
+[group 7 1114/1900] SHUNZE5 -> code=1AF IMO=999999 TEU=None status=detail_no_teu
+[group 7 1116/1900] SHUNZE9 -> code=1AG IMO=999999 TEU=None status=detail_no_teu
+[group 7 1117/1900] SHUNZE99 -> code=2ME IMO=9999996 TEU=None status=detail_no_teu
+Traceback (most recent call last):
+  File "D:\Files\demo\capaStudy\vessels\update_vessels_from_csl_group.py", line 306, in <module>
+    main()
+    ~~~~^^
+  File "D:\Files\demo\capaStudy\vessels\update_vessels_from_csl_group.py", line 289, in main
+    print(
+    ~~~~~^
+        f"[group {args.group_index} {idx}/{total}] {vessel_name} -> "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        f"code={vessel_code} IMO={imo} TEU={teu} status={status}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+UnicodeEncodeError: 'gbk' codec can't encode character '\xa0' in position 24: illegal multibyte sequence

@@ -1,0 +1,37 @@
+========================================
+[START] Full query pipeline
+Mode: merge
+Base: D:\Files\demo\capaStudy
+Time: 2026-03-11 11:29:22
+Log:  D:\Files\demo\capaStudy\logs\full_pipeline_260311112922.log
+========================================
+
+[1-3/4] Fetch steps skipped for --only-merge.
+
+[4/4] Merge latest outputs...
+Vessel DB check: 3 missing vessel names. Querying APIs...
+[1/3] MDV MICHELLE -> IMO=None MMSI=None TEU=None status=unauthorized
+MyVessel token expired/unauthorized. Please input a new token now.
+MYVESSEL_BEARER_TOKEN=Saved new token to D:\Files\demo\capaStudy\vessels\.env. Retrying missing vessel query...
+[1/3] MDV MICHELLE -> IMO=None MMSI=None TEU=None status=api1_no_candidate
+[2/3] MDV NEU1 KURT -> IMO=None MMSI=None TEU=None status=api1_no_candidate
+[3/3] MDV WAF COBAIN -> IMO=None MMSI=None TEU=None status=api1_no_candidate
+Vessel DB updated: 337 rows in vessels sheet.
+Vessel DB debug file: D:\Files\demo\capaStudy\vessels\vessels_update_debug_260311113015.xlsx
+Unresolved new vessels this round: 4
+Selected source files:
+- CSL: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_BATCH_DETAIL_260311085434.xlsx
+- MSC: D:\Files\demo\capaStudy\MSC FETCH\msc_query\MSC_FETCH_BATCH_DETAIL_260311083855.xlsx
+- MSK: D:\Files\demo\capaStudy\MSK FETCH\msk_query\MSK_FETCH_BATCH_DETAIL_260311110910.xlsx
+Merged voyages: 460
+Merged port calls: 3857
+Merged output: D:\Files\demo\capaStudy\data\merged\ALL_CARRIERS_MERGED_260311113016.xlsx
+Update current: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_CURRENT.xlsx
+Update history: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_HISTORY.xlsx
+Snapshot output: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_SNAPSHOT_260311113017.xlsx
+Changes output: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_CHANGES_260311113017.xlsx
+
+========================================
+[DONE] Full query pipeline finished.
+Time: 2026-03-11 11:30:53
+========================================

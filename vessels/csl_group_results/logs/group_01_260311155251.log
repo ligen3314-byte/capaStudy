@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\Files\demo\capaStudy\vessels\update_vessels_from_csl_group.py", line 306, in <module>
+    main()
+    ~~~~^^
+  File "D:\Files\demo\capaStudy\vessels\update_vessels_from_csl_group.py", line 185, in main
+    raise RuntimeError("CSL_COOKIE is empty in vessels/.env.")
+RuntimeError: CSL_COOKIE is empty in vessels/.env.

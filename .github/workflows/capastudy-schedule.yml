@@ -1,0 +1,117 @@
+name: capaStudy Daily Pipeline
+
+on:
+  schedule:
+    # 08:20 Asia/Shanghai = 00:20 UTC
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests openpyxl python-dotenv psycopg[binary] playwright playwright-stealth
+          python -m playwright install --with-deps chromium
+
+      - name: Prepare env files
+        shell: bash
+        run: |
+          cat > .env <<EOF
+          RDS_HOST=${{ secrets.RDS_HOST }}
+          RDS_PORT=${{ secrets.RDS_PORT }}
+          RDS_DB=${{ secrets.RDS_DB }}
+          RDS_USER=${{ secrets.RDS_USER }}
+          RDS_PASSWORD=${{ secrets.RDS_PASSWORD }}
+          RDS_SSLMODE=${{ secrets.RDS_SSLMODE }}
+          EOF
+
+          mkdir -p vessels
+          cat > vessels/.env <<EOF
+          MYVESSEL_BEARER_TOKEN=${{ secrets.MYVESSEL_BEARER_TOKEN }}
+          MYVESSEL_REFERER=${{ secrets.MYVESSEL_REFERER }}
+          MYVESSEL_RECORD_NUM=10
+          MYVESSEL_TIMEOUT=30
+          MYVESSEL_NON_INTERACTIVE=1
+          CSL_COOKIE=${{ secrets.CSL_COOKIE }}
+          CSL_HEADLESS=1
+          EOF
+
+      - name: Run fetch + merge
+        id: pipeline
+        shell: bash
+        run: |
+          set +e
+          python run_pipeline.py
+          status=$?
+          set -e
+
+          latest_log="$(ls -t logs/full_pipeline_*.log 2>/dev/null | head -1 || true)"
+          token_failed=0
+          if [[ -n "$latest_log" ]]; then
+            if grep -Eqi "TOKEN_UNAUTHORIZED|token expired/unauthorized|MYVESSEL_BEARER_TOKEN" "$latest_log"; then
+              token_failed=1
+            fi
+          fi
+
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          echo "latest_log=$latest_log" >> "$GITHUB_OUTPUT"
+          echo "token_failed=$token_failed" >> "$GITHUB_OUTPUT"
+          echo "Pipeline status=$status, token_failed=$token_failed, latest_log=$latest_log"
+          exit 0
+
+      - name: Sync current to RDS
+        if: steps.pipeline.outputs.status == '0'
+        run: |
+          python sync_to_rds.py --mode current
+
+      - name: Send token-expired email
+        if: steps.pipeline.outputs.status != '0' && steps.pipeline.outputs.token_failed == '1'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "[capaStudy] MyVessel token expired, please update"
+          to: ${{ secrets.NOTIFY_TO_EMAIL }}
+          from: ${{ secrets.NOTIFY_FROM_EMAIL }}
+          secure: true
+          body: |
+            capaStudy GitHub Action failed because MyVessel token is unauthorized.
+            Please update MYVESSEL_BEARER_TOKEN and rerun merge manually.
+
+            Workflow: ${{ github.workflow }}
+            Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            Latest log file: ${{ steps.pipeline.outputs.latest_log }}
+
+      - name: Upload logs and outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capastudy-artifacts-${{ github.run_id }}
+          path: |
+            logs/**
+            data/merged/**
+            data/state/**
+            merged_query/**
+          if-no-files-found: warn
+
+      - name: Fail workflow when pipeline failed
+        if: steps.pipeline.outputs.status != '0'
+        run: |
+          echo "Pipeline failed with status ${{ steps.pipeline.outputs.status }}"
+          exit 1
+

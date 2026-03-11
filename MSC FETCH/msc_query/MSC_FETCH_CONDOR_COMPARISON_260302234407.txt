@@ -1,7 +1,0 @@
-start_only_voyages=4
-multi_port_voyages=8
-start_only_port_calls=28
-multi_port_port_calls=28
-added_voyages=[('CONDOR', '0018W', 'HMM HAMBURG', '2026-05-09T19:00:00'), ('CONDOR', '010W', 'ONE FRONTIER', '2026-05-22T09:00:00'), ('CONDOR', '030W', 'ONE TRIBUTE', '2026-05-09T19:00:00'), ('CONDOR', '051W', 'YM WORTH', '2026-04-11T19:00:00')]
-missing_voyages=[]
-assessment=合理：多港查询补充出了起运港查询遗漏的航次。

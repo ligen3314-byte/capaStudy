@@ -354,15 +354,28 @@ def save_detail(voyage_rows, port_call_rows):
 
 
 
+def build_query_window(reference_date=None):
+    if reference_date is None:
+        reference_date = date.today()
+    # Keep consistent with project week convention: Saturday is week start.
+    week_start_day = 5  # Monday=0 ... Saturday=5
+    delta = (reference_date.weekday() - week_start_day) % 7
+    current_week_start = reference_date - timedelta(days=delta)
+    current_week_end = current_week_start + timedelta(days=6)
+    from_date = current_week_start - timedelta(weeks=8)
+    to_date = current_week_end + timedelta(weeks=12)
+    return from_date.isoformat(), to_date.isoformat(), current_week_start.isoformat(), current_week_end.isoformat()
+
+
 def main():
     port_df = load_ports()
     target_ports = get_target_ports(port_df)
     allowed_services = load_allowed_services()
-    from_date = date.today().isoformat()
-    to_date = (date.today() + timedelta(days=42)).isoformat()
+    from_date, to_date, week_start, week_end = build_query_window()
 
     print(f'Ports to process: {target_ports["city"].tolist()}')
     print(f'Allowed services: {allowed_services}')
+    print(f'Current week: {week_start} ~ {week_end} (week start=Saturday)')
     print(f'fromDate: {from_date}')
     print(f'toDate: {to_date}')
 

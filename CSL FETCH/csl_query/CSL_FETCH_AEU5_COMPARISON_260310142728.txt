@@ -1,7 +1,0 @@
-start_only_voyages=18
-multi_port_voyages=18
-start_only_port_calls=186
-multi_port_port_calls=186
-added_voyages=[]
-missing_voyages=[]
-assessment=合理：多港查询与仅起运港查询结果一致，未发现额外航次。

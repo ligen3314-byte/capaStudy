@@ -1,0 +1,27 @@
+========================================
+[START] Full query pipeline
+Mode: merge
+Base: D:\Files\demo\capaStudy
+Time: 2026-03-11 11:11:11
+Log:  D:\Files\demo\capaStudy\logs\full_pipeline_260311111111.log
+========================================
+
+[1-3/4] Fetch steps skipped for --only-merge.
+
+[4/4] Merge latest outputs...
+Vessel DB check: 8 missing vessel names. Querying APIs...
+[1/8] AFIF -> IMO=None MMSI=None TEU=None status=unauthorized
+MyVessel token expired/unauthorized. Please input a new token now.
+MYVESSEL_BEARER_TOKEN=Traceback (most recent call last):
+  File "D:\Files\demo\capaStudy\merge_all_carriers.py", line 15, in <module>
+    main()
+    ~~~~^^
+  File "D:\Files\demo\capaStudy\src\capastudy\merge_all_carriers.py", line 943, in main
+    ensure_vessel_db_coverage(voyages, port_calls)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Files\demo\capaStudy\src\capastudy\merge_all_carriers.py", line 647, in ensure_vessel_db_coverage
+    new_token = input("MYVESSEL_BEARER_TOKEN=").strip()
+                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+[ERROR] Step failed (1): [4/4] Merge latest outputs...
+Log: D:\Files\demo\capaStudy\logs\full_pipeline_260311111111.log

@@ -1,7 +1,0 @@
-start_only_voyages=15
-multi_port_voyages=14
-start_only_port_calls=200
-multi_port_port_calls=184
-added_voyages=[('AEM1', 'NIN', '0741-028W'), ('AEM1', 'NQ3', '035W'), ('AEM1', 'NQ3', '036W')]
-missing_voyages=[('AEM1', 'CNC', '033W'), ('AEM1', 'CND', '031W'), ('AEM1', 'S37', '0736-028W'), ('AEM1', 'SB6', '0729-033W')]
-assessment=不合理：多港去重结果反而少于仅起运港结果。

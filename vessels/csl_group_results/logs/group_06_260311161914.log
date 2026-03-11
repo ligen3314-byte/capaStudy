@@ -1,0 +1,1095 @@
+[group 6 1/1900] MOL WIND -> code=AVN IMO=9999997 TEU=None status=detail_no_teu
+[group 6 2/1900] MOL WISDOM -> code=ARH IMO=9999997 TEU=None status=detail_no_teu
+[group 6 5/1900] MOMBASA EXPRESS -> code=A3L IMO=9495777 TEU=None status=detail_no_teu
+[group 6 8/1900] MONDENA -> code=ASK IMO=9999997 TEU=None status=detail_no_teu
+[group 6 10/1900] MONICA -> code=MZD IMO=9971006 TEU=1809 status=ok
+[group 6 12/1900] MONTANA -> code=AQM IMO=99999996 TEU=None status=detail_no_teu
+[group 6 14/1900] MONTE AZUL -> code=RLT IMO=9348053 TEU=None status=detail_no_teu
+[group 6 15/1900] MONTE BIANCO -> code=U48 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 16/1900] MONTEVIDEO EXPRESS -> code=MVP IMO=9520041 TEU=None status=detail_no_teu
+[group 6 20/1900] MONTREAL SENATOR -> code=SET IMO=8705424 TEU=1174 status=ok
+[group 6 23/1900] MORCOPOLO 158 -> code=KA1 IMO=394601 TEU=None status=detail_no_teu
+[group 6 25/1900] MORNING VISHIP -> code=BBW IMO=9146780 TEU=None status=detail_no_teu
+[group 6 26/1900] MOROTAI -> code=N8C IMO=9132399 TEU=None status=detail_no_teu
+[group 6 27/1900] MOSCOW CHENGDU NUMBER 1 -> code=MD1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 28/1900] MOSCOW CHENGDU NUMBER TWO -> code=MD2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 29/1900] MOSCOW CHENGDU RETURE NUMBER 7 -> code=MD7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 30/1900] MOSCOW CHENGDU RETURE NUMBER 8 -> code=MD8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 31/1900] MOSCOW CHENGDU RETURE NUMBER 9 -> code=MD9 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 32/1900] MOSCOW CHENGDU RETURN NUMBER 3 -> code=MD3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 33/1900] MOSCOW CHENGDU RETURN NUMBER 4 -> code=MD4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 34/1900] MOSCOW CHENGDU RETURN NUMBER 5 -> code=MD5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 35/1900] MOSCOW CHENGDU RETURN NUMBER 6 -> code=MD6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 36/1900] MOSCOW CHONGQING 4 -> code=CQ4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 37/1900] MOSCOW CHONGQING NUMBER 1 -> code=CQ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 38/1900] MOSCOW CHONGQING NUMBER 2 -> code=CQ2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 39/1900] MOSCOW CHONGQING NUMBER3 -> code=CQ3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 40/1900] MOSCOW DALIAN NUMBER 3 -> code=ZM5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 41/1900] MOSCOW DALIAN NUMBER 6 -> code=ZM7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 42/1900] MOSCOW DALIAN NUMBER 9 -> code=KM1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 43/1900] MOSCOW DALIAN RAIL NUMBER 3 -> code=ZM3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 44/1900] MOSCOW MARINER -> code=SJ6 IMO=999999 TEU=None status=detail_no_teu
+[group 6 45/1900] MOSCOW NANCHANG RAIL NUMBER 1 -> code=BV1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 46/1900] MOSCOW NANCHANG RAIL NUMBER 2 -> code=BV2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 47/1900] MOSCOW NANCHANG RAIL NUMBER 3 -> code=BV3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 48/1900] MOSCOW NANCHANG RAIL NUMBER 4 -> code=BV4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 49/1900] MOSCOW NANCHANG RAIL NUMBER FI -> code=BV5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 50/1900] MOSCOW NANCHANG RAIL NUMBER SE -> code=BV7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 51/1900] MOSCOW NANCHANG RAIL NUMBER SI -> code=BV6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 52/1900] MOSCOW WUHAN NUMBER 1 -> code=MW1 IMO=9999997 TEU=None status=detail_no_teu
+[group 6 53/1900] MOSCOW WUHAN RAIL 2 -> code=MW2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 54/1900] MOSCOW WUHAN RAIL 3 -> code=MW3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 55/1900] MOSCOW WUHAN RAIL NUMBER 4 -> code=MW4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 56/1900] MOSCOW WUHAN RAIL NUMBER 5 -> code=MW5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 57/1900] MOSCOW WUWEI NUMBER 2 -> code=MN2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 58/1900] MOSCOW WUWEI NUMBER 3 -> code=MN3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 59/1900] MOSCOW WUWEI NUMBER 4 -> code=MN4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 60/1900] MOSCOW WUWEI RAIL 1 -> code=MN1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 61/1900] MOSEL BRIDGE -> code=S35 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 63/1900] MOUNT BOKOR -> code=MBK IMO=304799000 TEU=None status=detail_no_teu
+[group 6 66/1900] MOZART -> code=MZR IMO=9337274 TEU=None status=detail_no_teu
+[group 6 69/1900] MS HAWK -> code=BA1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 70/1900] MSC ABIDJAN -> code=NFC IMO=9618264 TEU=8800 status=ok
+[group 6 71/1900] MSC ADELE -> code=UM9 IMO=8512906 TEU=None status=detail_no_teu
+[group 6 72/1900] MSC ADONIS -> code=R4K IMO=9706310 TEU=None status=detail_no_teu
+[group 6 79/1900] MSC ALABAMA -> code=RV8 IMO=9123166 TEU=None status=detail_no_teu
+[group 6 80/1900] MSC ALBANY -> code=S1V IMO=9619438 TEU=8900 status=ok
+[group 6 85/1900] MSC ALICE -> code=C43 IMO=8714190 TEU=None status=detail_no_teu
+[group 6 86/1900] MSC ALMERIA -> code=RV9 IMO=9005534 TEU=None status=detail_no_teu
+[group 6 90/1900] MSC AMY -> code=UFW IMO=9242651 TEU=1683 status=ok
+[group 6 95/1900] MSC ANIELLO -> code=RX9 IMO=9203942 TEU=None status=detail_no_teu
+[group 6 97/1900] MSC ANNAMARIA -> code=UM7 IMO=8521402 TEU=None status=detail_no_teu
+[group 6 100/1900] MSC ANTONELLA -> code=NKG IMO=9702273 TEU=None status=detail_no_teu
+[group 6 108/1900] MSC ATHENS -> code=N40 IMO=9618305 TEU=None status=detail_no_teu
+[group 6 109/1900] MSC ATHOS -> code=NBV IMO=9618317 TEU=None status=detail_no_teu
+[group 6 110/1900] MSC AUSTRIA -> code=RI4 IMO=8300121 TEU=3584 status=ok
+[group 6 111/1900] MSC BALEARES -> code=R49 IMO=7714349 TEU=None status=detail_no_teu
+[group 6 112/1900] MSC BALI -> code=RG6 IMO=7820930 TEU=None status=detail_no_teu
+[group 6 113/1900] MSC BANU -> code=RH5 IMO=9263332 TEU=None status=detail_no_teu
+[group 6 114/1900] MSC BASEL -> code=RV7 IMO=9008615 TEU=None status=detail_no_teu
+[group 6 118/1900] MSC BENEDETTA XIII -> code=N8U IMO=9465253 TEU=None status=detail_no_teu
+[group 6 119/1900] MSC BERYL -> code=S1Q IMO=9467392 TEU=None status=detail_no_teu
+[group 6 120/1900] MSC BHAVYA V -> code=QEL IMO=9297876 TEU=5015 status=ok
+[group 6 122/1900] MSC BRANKA -> code=S5M IMO=9720495 TEU=None status=detail_no_teu
+[group 6 125/1900] MSC BRIANNA -> code=N5N IMO=9103685 TEU=None status=detail_no_teu
+[group 6 128/1900] MSC BUSAN -> code=N7C IMO=9289087 TEU=None status=detail_no_teu
+[group 6 130/1900] MSC CANCUN -> code=NBZ IMO=9403396 TEU=None status=detail_no_teu
+[group 6 131/1900] MSC CANDICE -> code=S4Y IMO=9339284 TEU=None status=detail_no_teu
+[group 6 133/1900] MSC CARINA -> code=ROS IMO=8512401 TEU=None status=detail_no_teu
+[group 6 134/1900] MSC CARLA III -> code=QYK IMO=9124512 TEU=None status=detail_no_teu
+[group 6 135/1900] MSC CARMEN -> code=NTB IMO=9349813 TEU=None status=detail_no_teu
+[group 6 138/1900] MSC CAROUGE -> code=RF5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 140/1900] MSC CHAEWON -> code=BHK IMO=9966972 TEU=None status=detail_no_teu
+[group 6 144/1900] MSC COLETTE III -> code=UZ6 IMO=9232761 TEU=None status=detail_no_teu
+[group 6 148/1900] MSC CORSICA -> code=R61 IMO=7905924 TEU=None status=detail_no_teu
+[group 6 149/1900] MSC CRISTINA -> code=NT7 IMO=9465241 TEU=None status=detail_no_teu
+[group 6 150/1900] MSC CRISTOBAL -> code=R36 IMO=9153381 TEU=None status=detail_no_teu
+[group 6 152/1900] MSC DALTON -> code=RAF IMO=9005546 TEU=None status=detail_no_teu
+[group 6 153/1900] MSC DANIT -> code=S9O IMO=9404649 TEU=None status=detail_no_teu
+[group 6 154/1900] MSC DARDANELLES -> code=D6A IMO=9247754 TEU=None status=detail_no_teu
+[group 6 155/1900] MSC DARTFORD -> code=RLR IMO=9005560 TEU=None status=detail_no_teu
+[group 6 158/1900] MSC DELHI -> code=SYW IMO=9263344 TEU=None status=detail_no_teu
+[group 6 160/1900] MSC DENMARK VI -> code=N6D IMO=9231250 TEU=5990 status=ok
+[group 6 162/1900] MSC DONATA -> code=RBY IMO=9237151 TEU=None status=detail_no_teu
+[group 6 165/1900] MSC DYMPHNA -> code=RI7 IMO=8608195 TEU=None status=detail_no_teu
+[group 6 169/1900] MSC ELKE F -> code=PY0 IMO=9318773 TEU=None status=detail_no_teu
+[group 6 170/1900] MSC ELLEN -> code=MEF IMO=9166780 TEU=8160 status=ok
+[group 6 171/1900] MSC ELMA -> code=N5V IMO=9735218 TEU=None status=detail_no_teu
+[group 6 172/1900] MSC ELODIE -> code=NZY IMO=9704972 TEU=None status=detail_no_teu
+[group 6 173/1900] MSC EMDEN III -> code=MBH IMO=9326823 TEU=None status=detail_no_teu
+[group 6 175/1900] MSC ENDURANCE -> code=RD5 IMO=7820849 TEU=None status=detail_no_teu
+[group 6 176/1900] MSC ENGLAND -> code=MCY IMO=9232890 TEU=None status=detail_no_teu
+[group 6 179/1900] MSC EUGENIA -> code=S2J IMO=9000493 TEU=None status=detail_no_teu
+[group 6 180/1900] MSC EVEREST -> code=R58 IMO=9116890 TEU=None status=detail_no_teu
+[group 6 184/1900] MSC FAUSTINA -> code=S9Z IMO=944788 TEU=None status=detail_no_teu
+[group 6 186/1900] MSC FIAMMETTA -> code=DDX IMO=9369758 TEU=None status=detail_no_teu
+[group 6 188/1900] MSC FLORIANA -> code=UN1 IMO=8521397 TEU=None status=detail_no_teu
+[group 6 189/1900] MSC FLORIDA -> code=RBZ IMO=9236547 TEU=None status=detail_no_teu
+[group 6 190/1900] MSC FORTUNE F -> code=QV8 IMO=9332729 TEU=1022 status=ok
+[group 6 192/1900] MSC FREEDOM -> code=RJ7 IMO=7820954 TEU=None status=detail_no_teu
+[group 6 193/1900] MSC FRIBOURG -> code=RF0 IMO=7916234 TEU=None status=detail_no_teu
+[group 6 194/1900] MSC GABRIELLA -> code=UM8 IMO=8413875 TEU=None status=detail_no_teu
+[group 6 196/1900] MSC GIANNINA -> code=GAN IMO=9141780 TEU=None status=detail_no_teu
+[group 6 198/1900] MSC GINA -> code=RAK IMO=9202663 TEU=None status=detail_no_teu
+[group 6 199/1900] MSC GIULIA -> code=NXM IMO=9770737 TEU=None status=detail_no_teu
+[group 6 200/1900] MSC GRACE -> code=RI0 IMO=8918057 TEU=None status=detail_no_teu
+[group 6 201/1900] MSC GREECE -> code=RA6 IMO=9070163 TEU=None status=detail_no_teu
+[group 6 202/1900] MSC GRETA III -> code=A8P IMO=9415296 TEU=None status=detail_no_teu
+[group 6 205/1900] MSC HEIDI -> code=N5H IMO=9309473 TEU=None status=detail_no_teu
+[group 6 210/1900] MSC HONG KONG V -> code=SS0 IMO=9231810 TEU=4992 status=ok
+[group 6 211/1900] MSC INDIA -> code=RL7 IMO=8918069 TEU=None status=detail_no_teu
+[group 6 212/1900] MSC INES -> code=R09 IMO=9305714 TEU=None status=detail_no_teu
+[group 6 214/1900] MSC JAPAN -> code=RJ4 IMO=9110975 TEU=None status=detail_no_teu
+[group 6 215/1900] MSC JEANNE -> code=TO8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 216/1900] MSC JENNA -> code=BHI IMO=9966960 TEU=None status=detail_no_teu
+[group 6 218/1900] MSC JEONGMIN -> code=S5X IMO=9720471 TEU=None status=detail_no_teu
+[group 6 220/1900] MSC JOANNA -> code=NPE IMO=9304435 TEU=9178 status=ok
+[group 6 222/1900] MSC JULIA R. -> code=MJU IMO=9227338 TEU=None status=detail_no_teu
+[group 6 223/1900] MSC JUSTICE VIII -> code=NSX IMO=9450351 TEU=None status=detail_no_teu
+[group 6 229/1900] MSC KOREA -> code=RJ3 IMO=9123154 TEU=None status=detail_no_teu
+[group 6 230/1900] MSC KUMSAL -> code=Q06 IMO=9305506 TEU=8533 status=ok
+[group 6 231/1900] MSC KYMEA II -> code=MDR IMO=9999996 TEU=None status=detail_no_teu
+[group 6 233/1900] MSC LANA -> code=MS4 IMO=9193719 TEU=None status=detail_no_teu
+[group 6 234/1900] MSC LANGSAR -> code=RXC IMO=9439735 TEU=None status=detail_no_teu
+[group 6 235/1900] MSC LARA -> code=M1S IMO=9064748 TEU=None status=detail_no_teu
+[group 6 237/1900] MSC LAURENCE -> code=RI6 IMO=9467419 TEU=None status=detail_no_teu
+[group 6 239/1900] MSC LEA -> code=SYS IMO=9162643 TEU=None status=detail_no_teu
+[group 6 240/1900] MSC LEIGH -> code=RIK IMO=9320439 TEU=4870 status=ok
+[group 6 242/1900] MSC LILY -> code=S7R IMO=9704960 TEU=None status=detail_no_teu
+[group 6 244/1900] MSC LISBON -> code=NPW IMO=9304459 TEU=None status=detail_no_teu
+[group 6 246/1900] MSC LONGONI -> code=MSL IMO=304502000 TEU=None status=detail_no_teu
+[group 6 247/1900] MSC LORETTA -> code=RD6 IMO=9230490 TEU=None status=detail_no_teu
+[group 6 249/1900] MSC LUCIA -> code=M3L IMO=8413887 TEU=None status=detail_no_teu
+[group 6 250/1900] MSC LUGANO -> code=RLZ IMO=8714217 TEU=2443 status=ok
+[group 6 252/1900] MSC MADISON II -> code=MBJ IMO=9231119 TEU=None status=detail_no_teu
+[group 6 253/1900] MSC MADRID -> code=NSJ IMO=9480198 TEU=None status=detail_no_teu
+[group 6 256/1900] MSC MAKOTO II -> code=MEN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 259/1900] MSC MALTA -> code=SYP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 260/1900] MSC MANDY -> code=N26 IMO=8918966 TEU=3007 status=ok
+[group 6 264/1900] MSC MARATHON -> code=RBC IMO=8819940 TEU=None status=detail_no_teu
+[group 6 265/1900] MSC MARGRIT -> code=QWT IMO=9465318 TEU=None status=detail_no_teu
+[group 6 266/1900] MSC MARIA -> code=R82 IMO=8201703 TEU=None status=detail_no_teu
+[group 6 269/1900] MSC MARIA LAURA -> code=M2L IMO=8616520 TEU=None status=detail_no_teu
+[group 6 270/1900] MSC MARIA SAVERIA -> code=NBB IMO=9467421 TEU=None status=detail_no_teu
+[group 6 272/1900] MSC MARINA -> code=SSK IMO=9275971 TEU=None status=detail_no_teu
+[group 6 273/1900] MSC MARMARA -> code=RIW IMO=8905933 TEU=None status=detail_no_teu
+[group 6 274/1900] MSC MARTA -> code=SRE IMO=9295385 TEU=None status=detail_no_teu
+[group 6 276/1900] MSC MATILDE V -> code=R44 IMO=9181663 TEU=None status=detail_no_teu
+[group 6 278/1900] MSC MEDITERREANEAN -> code=RA2 IMO=9102710 TEU=None status=detail_no_teu
+[group 6 279/1900] MSC MEE MAY -> code=SWB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 280/1900] MSC MELAN IIII -> code=M2I IMO=9399740 TEU=20000 status=ok
+[group 6 282/1900] MSC MENDOZA -> code=RA4 IMO=9316361 TEU=None status=detail_no_teu
+[group 6 283/1900] MSC MEXICO -> code=RA3 IMO=7502930 TEU=None status=detail_no_teu
+[group 6 285/1900] MSC MICHELA -> code=NJK IMO=9720512 TEU=None status=detail_no_teu
+[group 6 286/1900] MSC MIRELLA -> code=UN2 IMO=8709640 TEU=None status=detail_no_teu
+[group 6 287/1900] MSC MONICA -> code=NSK IMO=9060649 TEU=None status=detail_no_teu
+[group 6 288/1900] MSC MONTEREY -> code=Q2R IMO=9349796 TEU=None status=detail_no_teu
+[group 6 290/1900] MSC NAGOYA V -> code=T72 IMO=9380271 TEU=4506 status=ok
+[group 6 291/1900] MSC NAOMI -> code=NBR IMO=9704984 TEU=None status=detail_no_teu
+[group 6 292/1900] MSC NATAL -> code=RA5 IMO=9102734 TEU=None status=detail_no_teu
+[group 6 294/1900] MSC NIKOLETA -> code=ERO IMO=9232644 TEU=None status=detail_no_teu
+[group 6 297/1900] MSC NURIA -> code=EDJ IMO=9349825 TEU=None status=detail_no_teu
+[group 6 300/1900] MSC OSLO -> code=RK4 IMO=8618451 TEU=None status=detail_no_teu
+[group 6 304/1900] MSC PARANA -> code=R57 IMO=8619065 TEU=None status=detail_no_teu
+[group 6 310/1900] MSC PILAR VI -> code=SAA IMO=9248148 TEU=5752 status=ok
+[group 6 311/1900] MSC PINA -> code=NEA IMO=9339272 TEU=None status=detail_no_teu
+[group 6 316/1900] MSC PRIDE -> code=R59 IMO=9005431 TEU=None status=detail_no_teu
+[group 6 319/1900] MSC RACHELE -> code=RM3 IMO=9290282 TEU=None status=detail_no_teu
+[group 6 320/1900] MSC RAFAELA -> code=RY0 IMO=9129885 TEU=None status=detail_no_teu
+[group 6 321/1900] MSC RAPALLO -> code=NB7 IMO=9484455 TEU=None status=detail_no_teu
+[group 6 322/1900] MSC REBECCA -> code=RLY IMO=9139505 TEU=None status=detail_no_teu
+[group 6 323/1900] MSC REGINA -> code=NRF IMO=9202651 TEU=None status=detail_no_teu
+[group 6 326/1900] MSC RENEE -> code=N8N IMO=9465306 TEU=None status=detail_no_teu
+[group 6 327/1900] MSC RHONE -> code=SXZ IMO=7900699 TEU=None status=detail_no_teu
+[group 6 329/1900] MSC RIONA -> code=BHR IMO=914413 TEU=None status=detail_no_teu
+[group 6 330/1900] MSC ROBERTA -> code=SWY IMO=9038907 TEU=4639 status=ok
+[group 6 331/1900] MSC ROCHELLE -> code=S2I IMO=9141297 TEU=None status=detail_no_teu
+[group 6 333/1900] MSC RONIT R -> code=S6Q IMO=9293167 TEU=None status=detail_no_teu
+[group 6 334/1900] MSC ROSA M -> code=S4X IMO=9461398 TEU=None status=detail_no_teu
+[group 6 339/1900] MSC SANDRA -> code=RJ5 IMO=9203954 TEU=None status=detail_no_teu
+[group 6 340/1900] MSC SAO PAULO V -> code=SM1 IMO=9147071 TEU=4545 status=ok
+[group 6 342/1900] MSC SARAH V -> code=RK3 IMO=9181675 TEU=None status=detail_no_teu
+[group 6 343/1900] MSC SARDINIA -> code=R52 IMO=8502896 TEU=None status=detail_no_teu
+[group 6 344/1900] MSC SARISKA -> code=S5Q IMO=8715857 TEU=None status=detail_no_teu
+[group 6 345/1900] MSC SASHA -> code=S9U IMO=9720500 TEU=None status=detail_no_teu
+[group 6 346/1900] MSC SAVONA -> code=S6V IMO=9460356 TEU=None status=detail_no_teu
+[group 6 347/1900] MSC SCANDINAVIA -> code=RW8 IMO=9213272 TEU=None status=detail_no_teu
+[group 6 350/1900] MSC SHRISTI -> code=SMD IMO=9293442 TEU=4800 status=ok
+[group 6 351/1900] MSC SIENA -> code=RRS IMO=99999996 TEU=None status=detail_no_teu
+[group 6 352/1900] MSC SIERRA II -> code=MSS IMO=9007829 TEU=None status=detail_no_teu
+[group 6 353/1900] MSC SIJING -> code=BIJ IMO=9967017 TEU=None status=detail_no_teu
+[group 6 354/1900] MSC SILVANA -> code=RDI IMO=9309459 TEU=None status=detail_no_teu
+[group 6 356/1900] MSC SINDY -> code=N27 IMO=9336048 TEU=None status=detail_no_teu
+[group 6 359/1900] MSC SOMIN -> code=BIK IMO=9967029 TEU=None status=detail_no_teu
+[group 6 360/1900] MSC STELLA -> code=RJM IMO=9279989 TEU=6730 status=ok
+[group 6 361/1900] MSC SUEZ -> code=NRO IMO=8918978 TEU=None status=detail_no_teu
+[group 6 362/1900] MSC SUJIN -> code=BJW IMO=996695 TEU=None status=detail_no_teu
+[group 6 366/1900] MSC TAMARA -> code=MST IMO=9351579 TEU=None status=detail_no_teu
+[group 6 369/1900] MSC TARANTO -> code=S6R IMO=9475258 TEU=None status=detail_no_teu
+[group 6 370/1900] MSC TERESA -> code=AGY IMO=7320253 TEU=1216 status=ok
+[group 6 371/1900] MSC TIA -> code=AQL IMO=99999996 TEU=None status=detail_no_teu
+[group 6 376/1900] MSC TOGO -> code=SWZ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 378/1900] MSC TOMOKO -> code=N71 IMO=9309461 TEU=None status=detail_no_teu
+[group 6 380/1900] MSC TRADER II -> code=GDY IMO=9230775 TEU=1730 status=ok
+[group 6 385/1900] MSC ULSAN -> code=RC8 IMO=9243306 TEU=None status=detail_no_teu
+[group 6 386/1900] MSC UMA -> code=MBQ IMO=9163192 TEU=None status=detail_no_teu
+[group 6 390/1900] MSC VALENCIA -> code=NMZ IMO=9301471 TEU=8204 status=ok
+[group 6 391/1900] MSC VEGA -> code=N39 IMO=9465265 TEU=None status=detail_no_teu
+[group 6 394/1900] MSC VITTORIA -> code=RP4 IMO=9299551 TEU=None status=detail_no_teu
+[group 6 398/1900] MSC YANG R -> code=DGK IMO=9227285 TEU=None status=detail_no_teu
+[group 6 400/1900] MSS GALENA -> code=BF4 IMO=9240471 TEU=None status=detail_no_teu
+[group 6 402/1900] MTT BANGKOK -> code=BJA IMO=9974230 TEU=None status=detail_no_teu
+[group 6 403/1900] MTT BINTANGOR -> code=BHB IMO=1026726 TEU=None status=detail_no_teu
+[group 6 404/1900] MTT BINTULU -> code=A6V IMO=9148532 TEU=None status=detail_no_teu
+[group 6 406/1900] MTT HAIPHONG -> code=BGC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 407/1900] MTT KINABALU -> code=S4P IMO=9070852 TEU=None status=detail_no_teu
+[group 6 408/1900] MTT KUCHING -> code=S3P IMO=8900854 TEU=None status=detail_no_teu
+[group 6 410/1900] MTT LABUAN -> code=BH3 IMO=9984986 TEU=1220 status=ok
+[group 6 414/1900] MTT MUARA -> code=A4M IMO=9999996 TEU=None status=detail_no_teu
+[group 6 415/1900] MTT PASIR GUDANG -> code=N16 IMO=9155389 TEU=None status=detail_no_teu
+[group 6 416/1900] MTT PELEPAS -> code=BIU IMO=9974228 TEU=None status=detail_no_teu
+[group 6 420/1900] MTT RAJANG -> code=MKY IMO=9945265 TEU=None status=detail_no_teu
+[group 6 429/1900] MTT SIBU -> code=BEB IMO=9912191 TEU=None status=detail_no_teu
+[group 6 430/1900] MTT SINGAPORE -> code=M59 IMO=9131060 TEU=1 status=ok
+[group 6 431/1900] MTT TANJUNG MANIS -> code=N5B IMO=9165449 TEU=None status=detail_no_teu
+[group 6 435/1900] MU DAN SONG -> code=MDS IMO=9608831 TEU=None status=detail_no_teu
+[group 6 436/1900] MU LAN HUA -> code=LAK IMO=1 TEU=None status=detail_no_teu
+[group 6 438/1900] MUARA MAS -> code=AV7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 440/1900] MUMBAI BRIDGE -> code=EGD IMO=9967299 TEU=8030 status=ok
+[group 6 446/1900] MUNSTER -> code=AWQ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 450/1900] MV ICON HOSEA VI 6 -> code=MXQ IMO=9982158 TEU=None status=detail_no_teu
+[group 6 452/1900] MV KRAFTCA -> code=KFT IMO=9307360 TEU=None status=detail_no_teu
+[group 6 453/1900] MV MARIANA OLIVERA -> code=199 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 455/1900] MV ZUNAIRAH ZARISHA 4 -> code=BJE IMO=9800075 TEU=None status=detail_no_teu
+[group 6 456/1900] MYD GUANGZHOU -> code=BIZ IMO=913462 TEU=None status=detail_no_teu
+[group 6 460/1900] MYD SHEZHEN -> code=CLP IMO=9252980 TEU=1895 status=ok
+[group 6 462/1900] NADIR -> code=QFD IMO=8127784 TEU=None status=detail_no_teu
+[group 6 463/1900] NADJA -> code=ZPG IMO=9252876 TEU=None status=detail_no_teu
+[group 6 467/1900] NAJADE -> code=ARM IMO=9326706 TEU=None status=detail_no_teu
+[group 6 469/1900] NAKSKOV MAERSK -> code=BFB IMO=9885130 TEU=None status=detail_no_teu
+[group 6 470/1900] NAN CHUAN 128 -> code=ZX9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 471/1900] NAN FANG 1 -> code=ZGE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 472/1900] NAN FANG 16 -> code=ZA4 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 473/1900] NAN FANG 2 -> code=ZA5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 474/1900] NAN FANG 5 -> code=ZDJ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 475/1900] NAN FANG 508 -> code=XEZ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 476/1900] NAN FANG 528 -> code=XEK IMO=9999996 TEU=None status=detail_no_teu
+[group 6 477/1900] NAN FANG 6 -> code=ZDX IMO=99999996 TEU=None status=detail_no_teu
+[group 6 478/1900] NAN FANG 907 -> code=ZA6 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 479/1900] NAN FANG 909 -> code=ZR7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 480/1900] NAN FANG 99 -> code=ZJJ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 481/1900] NAN FENG SHAN -> code=XH8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 482/1900] NAN GANG -> code=Z5E IMO=1 TEU=None status=detail_no_teu
+[group 6 487/1900] NAN GANG 12 -> code=ZPN IMO=99999996 TEU=None status=detail_no_teu
+[group 6 489/1900] NAN GANG 16 -> code=LKE IMO=9999996 TEU=None status=detail_no_teu
+[group 6 490/1900] NAN GANG 18 -> code=WQW IMO=9999996 TEU=240 status=ok
+[group 6 491/1900] NAN GANG 19 -> code=LF9 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 493/1900] NAN GANG 21 -> code=LBI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 494/1900] NAN GANG 22 -> code=ZZP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 495/1900] NAN GANG 23 -> code=W03 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 496/1900] NAN GANG 26 -> code=ZYG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 498/1900] NAN GANG 29 -> code=LK7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 499/1900] NAN GANG 6 -> code=XTQ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 500/1900] NAN GANG 66 -> code=ZRN IMO=99999996 TEU=125 status=ok
+[group 6 501/1900] NAN GANG 77 -> code=X24 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 502/1900] NAN GANG 82 -> code=OWV IMO=9999996 TEU=None status=detail_no_teu
+[group 6 503/1900] NAN GANG 86 -> code=OZ4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 504/1900] NAN GANG 88 -> code=OYT IMO=9999996 TEU=None status=detail_no_teu
+[group 6 505/1900] NAN GANG 91 -> code=LOA IMO=9999996 TEU=None status=detail_no_teu
+[group 6 506/1900] NAN GANG 92 -> code=LO5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 507/1900] NAN GANG 95 -> code=O16 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 508/1900] NAN GANG 99 -> code=OL0 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 509/1900] NAN GUI YUN 3617 -> code=ZAU IMO=99999996 TEU=None status=detail_no_teu
+[group 6 510/1900] NAN GUI YUN 3618 -> code=ZZ8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 512/1900] NAN HANG 727 -> code=LKO IMO=9999996 TEU=None status=detail_no_teu
+[group 6 513/1900] NAN HANG 737 -> code=Z1L IMO=None TEU=None status=detail_no_teu
+[group 6 515/1900] NAN HANG 767 -> code=Z6V IMO=20170630 TEU=None status=detail_no_teu
+[group 6 518/1900] NAN HANG 927 -> code=XP2 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 520/1900] NAN HANG 938 -> code=OWZ IMO=9999996 TEU=284 status=ok
+[group 6 522/1900] NAN HONG -> code=ZAA IMO=99999996 TEU=None status=detail_no_teu
+[group 6 523/1900] NAN HONG 8 -> code=W59 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 525/1900] NAN HONG 928 -> code=ZNI IMO=2000009000026 TEU=None status=detail_no_teu
+[group 6 526/1900] NAN HONG 929 -> code=ZPM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 527/1900] NAN HONG 933 -> code=XVP IMO=20150174 TEU=None status=detail_no_teu
+[group 6 528/1900] NAN HONG 933M -> code=XUM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 530/1900] NAN HONG 939 -> code=X2F IMO=20170314 TEU=None status=detail_no_teu
+[group 6 533/1900] NAN HONG 998 -> code=OSJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 534/1900] NAN HUI 2 -> code=QWI IMO=98798797 TEU=None status=detail_no_teu
+[group 6 538/1900] NAN HUI 82 -> code=F1Y IMO=992 TEU=None status=detail_no_teu
+[group 6 539/1900] NAN JING ZHONG YI JI YUN 1 -> code=YSA IMO=99999996 TEU=None status=detail_no_teu
+[group 6 540/1900] NAN LONG 17 -> code=WWO IMO=200150325 TEU=None status=detail_no_teu
+[group 6 541/1900] NAN LONG 3368 -> code=XHU IMO=999996 TEU=None status=detail_no_teu
+[group 6 542/1900] NAN LONG 666 -> code=XV5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 543/1900] NAN LONG 8668 -> code=WN9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 544/1900] NAN TAI 7 -> code=N44 IMO=685889567 TEU=None status=detail_no_teu
+[group 6 546/1900] NAN TAI 89 -> code=R7C IMO=9999996 TEU=None status=detail_no_teu
+[group 6 547/1900] NAN TONG 2010 -> code=WEZ IMO=100110000226 TEU=None status=detail_no_teu
+[group 6 548/1900] NAN TONG 2016 -> code=Z6Z IMO=1 TEU=None status=detail_no_teu
+[group 6 549/1900] NAN TONG 2018 -> code=Z4V IMO=1 TEU=None status=detail_no_teu
+[group 6 550/1900] NAN TONG 5188 -> code=LQW IMO=9999996 TEU=None status=detail_no_teu
+[group 6 551/1900] NAN TONG 666 -> code=WIF IMO=20150226 TEU=None status=detail_no_teu
+[group 6 552/1900] NAN TONG 6986 -> code=L63 IMO=1 TEU=None status=detail_no_teu
+[group 6 553/1900] NAN TONG 8253 -> code=WGY IMO=100112000125 TEU=None status=detail_no_teu
+[group 6 555/1900] NAN TONG 933 -> code=WK5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 556/1900] NAN TONG 963 -> code=WV0 IMO=100111000380 TEU=None status=detail_no_teu
+[group 6 557/1900] NAN TONG 9688 -> code=W1N IMO=20151102 TEU=None status=detail_no_teu
+[group 6 559/1900] NAN XING 188 -> code=OYB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 560/1900] NAN YANG 128 -> code=XTN IMO=99999996 TEU=None status=detail_no_teu
+[group 6 562/1900] NANCHANG KIEV RAIL NUMBER 3 -> code=HK3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 563/1900] NANCHANG MALA RAIL NUMBER FOUR -> code=CO4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 564/1900] NANCHANG MALA RAIL NUMBER ONE -> code=CO1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 565/1900] NANCHANG MALA RAIL NUMBER THRE -> code=CO3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 566/1900] NANCHANG MALA RAIL NUMBER TWO -> code=CO2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 567/1900] NANCHANG MINSK EXTRA NUMBER 4 -> code=KK4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 568/1900] NANCHANG MINSK EXTRA NUMBER 5 -> code=KK5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 569/1900] NANCHANG MINSK EXTRA NUMBER 7 -> code=KK7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 570/1900] NANCHANG MINSK EXTRA NUMBER 8 -> code=KK8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 571/1900] NANCHANG MINSK EXTRA NUMBER6 -> code=KK6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 572/1900] NANCHANG MINSK RAIL 5 -> code=KL5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 573/1900] NANCHANG MINSK RAIL 6 -> code=KL6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 574/1900] NANCHANG MINSK RAIL 7 -> code=KL7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 575/1900] NANCHANG MINSK RAIL 8 -> code=KL8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 576/1900] NANCHANG MINSK RAIL 9 -> code=KL9 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 577/1900] NANCHANG MINSK RAIL EXTRA 1 -> code=KK1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 578/1900] NANCHANG MINSK RAIL EXTRA 2 -> code=KK2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 579/1900] NANCHANG MINSK RAIL NUMBER 1 -> code=KL1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 580/1900] NANCHANG MINSK RAIL NUMBER 2 -> code=KL2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 581/1900] NANCHANG MINSK RAIL NUMBER 3 -> code=KL3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 582/1900] NANCHANG MINSK RAIL NUMBER 4 -> code=KL4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 583/1900] NANCHANG MOSCOW EXTRA NUMBER 1 -> code=JV1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 584/1900] NANCHANG MOSCOW EXTRA NUMBER 2 -> code=JV2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 585/1900] NANCHANG MOSCOW EXTRA NUMBER 3 -> code=JV3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 586/1900] NANCHANG MOSCOW EXTRA NUMBER 4 -> code=JV4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 587/1900] NANCHANG MOSCOW EXTRA NUMBER 5 -> code=JV5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 588/1900] NANCHANG MOSCOW EXTRA NUMBER 6 -> code=JV6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 589/1900] NANCHANG MOSCOW NUMBER 5 -> code=JR5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 590/1900] NANCHANG MOSCOW NUMBER 6 -> code=JR6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 591/1900] NANCHANG MOSCOW NUMBER 7 -> code=JR7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 592/1900] NANCHANG MOSCOW RAIL EXTRA COD -> code=JW1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 593/1900] NANCHANG MOSCOW RAIL EXTRA NUM -> code=JV7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 594/1900] NANCHANG OLSHA RAILNUMBER 5 -> code=NO5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 595/1900] NANCHANG OLSHA RAILNUMBER 6 -> code=NO6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 596/1900] NANCHANG OLSHA RAILNUMBER 8 -> code=NO8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 597/1900] NANCHANG ORSHA NUMBER 1 -> code=NO1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 598/1900] NANCHANG ORSHA NUMBER 2 -> code=NO2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 599/1900] NANCHANG ORSHA NUMBER 3 -> code=NO3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 600/1900] NANCHANG ORSHA NUMBER 4 -> code=NO4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 601/1900] NANCHANG SAMARA NO.1 -> code=EE1 IMO=9997945 TEU=None status=detail_no_teu
+[group 6 602/1900] NANCHANGALMTYRAILSERIVICE1 -> code=JO1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 603/1900] NANCHANGALMTYRAILSERIVICE2 -> code=JO2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 604/1900] NANCHANGTASHKENTRAILSERIVICE1 -> code=KO1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 605/1900] NANCHNAG MINSK NUMBER 3 -> code=KK3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 606/1900] NANFANG02 -> code=YJJ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 607/1900] NANFANGYUEJIN -> code=VF3 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 608/1900] NANHUI 22 -> code=QQF IMO=99999996 TEU=None status=detail_no_teu
+[group 6 610/1900] NANHUI9 -> code=Q23 IMO=85855987 TEU=None status=detail_no_teu
+[group 6 612/1900] NANJING ALMTY RAIL NUMBER 10 -> code=IO1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 613/1900] NANJING ALMTY RAIL NUMBER 11 -> code=IO2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 614/1900] NANJING ALMTY RAIL NUMBER 12 -> code=IO3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 615/1900] NANJING ALMTY RAIL NUMBER 13 -> code=IO4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 616/1900] NANJING ALMTY RAIL NUMBER 14 -> code=IO5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 617/1900] NANJING ALMTY RAIL NUMBER 2 -> code=IP2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 618/1900] NANJING ALMTY RAIL NUMBER 3 -> code=IP3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 619/1900] NANJING ALMTY RAIL NUMBER 5 -> code=IP5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 620/1900] NANJING ALMTY RAIL NUMBER 8 -> code=IP8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 621/1900] NANJING ALMTY RAIL NUMBER 9 -> code=IP9 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 622/1900] NANJING ALMTY RAIL NUMBER6 -> code=IP6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 623/1900] NANJING ALMTY RAIL NUMBER7 -> code=IP7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 624/1900] NANJING MINSK RAIL NUMBER 4 -> code=JG4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 625/1900] NANJING MINSK RAIL NUMBER 5 -> code=JG5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 626/1900] NANJING MINSK RAIL SERVICE -> code=JG1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 627/1900] NANJING MINSK RAIL SERVICE NUM -> code=JG2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 628/1900] NANJING MOSCOW EXTRA 1 -> code=JX1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 629/1900] NANJING MOSCOW EXTRA 2 -> code=JX2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 630/1900] NANJING MOSCOW EXTRA 3 -> code=JX3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 631/1900] NANJING MOSCOW EXTRA 4 -> code=JX4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 632/1900] NANJING MOSCOW EXTRA 5 -> code=JX6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 633/1900] NANJING MOSCOW EXTRA 8 -> code=JX8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 634/1900] NANJING MOSCOW EXTRA7 -> code=JX7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 635/1900] NANJING MOSCOW NUMBER 3 -> code=NI3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 636/1900] NANJING MOSCOW NUMBER 5 -> code=NI5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 637/1900] NANJING MOSCOW NUMBER 6 -> code=NI6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 638/1900] NANJING MOSCOW NUMBER 9 -> code=NI9 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 639/1900] NANJING MOSCOW NUMBER ONE -> code=NI1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 640/1900] NANJING MOSCOW NUMBER TWO -> code=NI2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 641/1900] NANJING MOSCOW RAIL NUMBER 4 -> code=NI4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 642/1900] NANJING MOSCOW RAIL NUMBER 7 -> code=NI7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 643/1900] NANJING MOSCOW RAIL NUMBER 8 -> code=NI8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 644/1900] NANJING MOSCOW RAIL SPECIAL ON -> code=CO9 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 645/1900] NANJING MOSCOW RAIL TIME NUMBE -> code=BJ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 647/1900] NANOU1 -> code=2VJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 649/1900] NANSHA SIQI MATOU 1 HAO -> code=O01 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 650/1900] NANTA BHUM -> code=ABM IMO=8813659 TEU=1036 status=ok
+[group 6 651/1900] NANTAI 29 -> code=YR7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 653/1900] NAP 201 -> code=BB3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 654/1900] NAP 252 -> code=BAF IMO=9999996 TEU=None status=detail_no_teu
+[group 6 655/1900] NAP 254 -> code=A8Z IMO=9999996 TEU=None status=detail_no_teu
+[group 6 656/1900] NAP 302 -> code=DUL IMO=99999996 TEU=None status=detail_no_teu
+[group 6 657/1900] NAP 310 -> code=BAD IMO=9999996 TEU=None status=detail_no_teu
+[group 6 658/1900] NAP 314 -> code=BFJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 659/1900] NAP 904 -> code=BAO IMO=9999996 TEU=None status=detail_no_teu
+[group 6 660/1900] NAP 906 -> code=BFS IMO=9999996 TEU=None status=detail_no_teu
+[group 6 662/1900] NAP 910 -> code=BFK IMO=9999996 TEU=None status=detail_no_teu
+[group 6 664/1900] NAP 916 -> code=BKB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 665/1900] NARMADAA -> code=N10 IMO=9137571 TEU=None status=detail_no_teu
+[group 6 666/1900] NASICO SKY -> code=BGH IMO=9560883 TEU=None status=detail_no_teu
+[group 6 668/1900] NATALIA A -> code=PJ1 IMO=9988999 TEU=None status=detail_no_teu
+[group 6 670/1900] NAUTIC -> code=RU3 IMO=9122203 TEU=2890 status=ok
+[group 6 673/1900] NAVIOS AMARANTH -> code=N9Q IMO=9334143 TEU=None status=detail_no_teu
+[group 6 680/1900] NAVIOS DESTINY -> code=QRT IMO=9352418 TEU=4253 status=ok
+[group 6 686/1900] NAVIOS LAPIS -> code=A8V IMO=9431680 TEU=None status=detail_no_teu
+[group 6 690/1900] NAVIOS SPRING -> code=Q6S IMO=9308027 TEU=3450 status=ok
+[group 6 695/1900] NAVIOS VERDE -> code=NO9 IMO=9324863 TEU=None status=detail_no_teu
+[group 6 697/1900] NAVIUS SUMMER -> code=NVS IMO=9308011 TEU=None status=detail_no_teu
+[group 6 700/1900] NBX VESSEL (NFS) -> code=MB7 IMO=930606 TEU=None status=detail_no_teu
+[group 6 701/1900] NCL HAUGESUND -> code=UZ4 IMO=9298612 TEU=None status=detail_no_teu
+[group 6 702/1900] NCL IKORNNES -> code=UE2 IMO=9347798 TEU=None status=detail_no_teu
+[group 6 704/1900] NCL NORDLAND -> code=UQ3 IMO=9981805 TEU=None status=detail_no_teu
+[group 6 705/1900] NCL VESTLAND -> code=VSL IMO=9981790 TEU=None status=detail_no_teu
+[group 6 706/1900] NEAPOLIS -> code=LI2 IMO=9202479 TEU=None status=detail_no_teu
+[group 6 709/1900] NER NUMBER FOUR -> code=JR4 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 710/1900] NER NUMBER ONE -> code=JR1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 711/1900] NER NUMBER THREE -> code=JR3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 712/1900] NER NUMBER TWO -> code=JR2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 713/1900] NESSEBAR -> code=SUJ IMO=9999999 TEU=None status=detail_no_teu
+[group 6 715/1900] NEUENFELDE -> code=UCS IMO=9231846 TEU=None status=detail_no_teu
+[group 6 716/1900] NEVA -> code=AP6 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 720/1900] NEW DYNAMIC -> code=AC6 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 722/1900] NEW GUINEA CHIEF -> code=NQB IMO=9689952 TEU=None status=detail_no_teu
+[group 6 730/1900] NEW MINGZHOU 66 -> code=NA1 IMO=9751743 TEU=1098 status=ok
+[group 6 732/1900] NEW ORIENT -> code=SEJ IMO=8900854 TEU=None status=detail_no_teu
+[group 6 734/1900] NEWMINGZHOU18 -> code=VWE IMO=9999996 TEU=None status=detail_no_teu
+[group 6 740/1900] NEWPORT CYPRESS 05 -> code=NC5 IMO=None TEU=128 status=ok
+[group 6 741/1900] NEWPORT CYPRESS 06 -> code=NC6 IMO=None TEU=None status=detail_no_teu
+[group 6 742/1900] NEWPORT CYPRESS 08 -> code=NC8 IMO=None TEU=None status=detail_no_teu
+[group 6 743/1900] NEWPORT CYPRESS 09 -> code=NC9 IMO=None TEU=None status=detail_no_teu
+[group 6 744/1900] NEWPORT CYPRESS 10 -> code=NC0 IMO=None TEU=None status=detail_no_teu
+[group 6 745/1900] NEWPORT CYPRESS 11 -> code=NCS IMO=None TEU=None status=detail_no_teu
+[group 6 746/1900] NEWPORT CYPRESS 16 -> code=C16 IMO=None TEU=None status=detail_no_teu
+[group 6 747/1900] NEWPORT CYPRESS 19 -> code=NTC IMO=None TEU=None status=detail_no_teu
+[group 6 748/1900] NEWPORT CYPRESS 36 -> code=C36 IMO=None TEU=None status=detail_no_teu
+[group 6 749/1900] NEWPORT CYPRESS 39 -> code=C39 IMO=None TEU=None status=detail_no_teu
+[group 6 750/1900] NEWPORT CYPRESS 68 -> code=C68 IMO=None TEU=None status=detail_no_teu
+[group 6 751/1900] NEWPORT CYPRESS 79 -> code=A8Y IMO=9999996 TEU=None status=detail_no_teu
+[group 6 752/1900] NEWPORT CYPRESS 89 -> code=BEA IMO=9999996 TEU=None status=detail_no_teu
+[group 6 753/1900] NEWPORT CYPRESS 96 -> code=BJ0 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 754/1900] NEWPORT CYPRESS 99 -> code=BB2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 756/1900] NEWSUN GREEN 03 -> code=BEW IMO=9527350 TEU=None status=detail_no_teu
+[group 6 758/1900] NEXO MAERSK -> code=UU8 IMO=9220885 TEU=None status=detail_no_teu
+[group 6 760/1900] NIAN FENG 26 -> code=ZCA IMO=99999996 TEU=None status=detail_no_teu
+[group 6 761/1900] NIARA -> code=NRA IMO=9999996 TEU=None status=detail_no_teu
+[group 6 763/1900] NICKIE B -> code=PRL IMO=None TEU=None status=detail_no_teu
+[group 6 770/1900] NILEDUTCH PANTHER -> code=N5T IMO=9085560 TEU=None status=detail_no_teu
+[group 6 771/1900] NIMET -> code=PA5 IMO=9127887 TEU=None status=detail_no_teu
+[group 6 772/1900] NIMTOFTE MAERSK -> code=MBG IMO=988516 TEU=None status=detail_no_teu
+[group 6 776/1900] NING HAI JI 1 -> code=Y85 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 777/1900] NING LONGHAI1 -> code=RGK IMO=99999996 TEU=None status=detail_no_teu
+[group 6 778/1900] NING TONG 111 -> code=XSJ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 780/1900] NING TONG 222 -> code=ZQE IMO=9999996 TEU=None status=detail_no_teu
+[group 6 782/1900] NING TONG 333 -> code=ZQO IMO=9999996 TEU=None status=detail_no_teu
+[group 6 783/1900] NING TONG 336 -> code=XQ6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 784/1900] NING TONG 555 -> code=XGC IMO=99999996 TEU=None status=detail_no_teu
+[group 6 785/1900] NING TONG 669 -> code=WD2 IMO=20150053 TEU=None status=detail_no_teu
+[group 6 786/1900] NING TONG 777 -> code=XDM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 787/1900] NING TONG 888 -> code=XCS IMO=99999996 TEU=None status=detail_no_teu
+[group 6 788/1900] NING TONG 938 -> code=XGY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 789/1900] NING TONG 999 -> code=XMF IMO=99999996 TEU=None status=detail_no_teu
+[group 6 790/1900] NING WU JI 083 -> code=YA8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 796/1900] NING YUAN TIAN JIN -> code=FCZ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 797/1900] NING YUAN TOU MEN -> code=FCX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 800/1900] NING YUAN ZHEN HAI -> code=FAX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 803/1900] NINGLONGHAI2 -> code=FSO IMO=9999996 TEU=None status=detail_no_teu
+[group 6 804/1900] NINGYUANNINGBO -> code=2LX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 805/1900] NINGYUANYONGAN -> code=2NP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 809/1900] NJORD -> code=UDE IMO=9349227 TEU=None status=detail_no_teu
+[group 6 810/1900] NL 2101 -> code=BD8 IMO=9796523 TEU=None status=detail_no_teu
+[group 6 812/1900] NOBELBREEZE -> code=NBL IMO=9126871 TEU=None status=detail_no_teu
+[group 6 817/1900] NOBLE BREEZE -> code=AZR IMO=9126871 TEU=None status=detail_no_teu
+[group 6 819/1900] NOEL -> code=R6N IMO=8910938 TEU=None status=detail_no_teu
+[group 6 820/1900] NOGO -> code=N0G IMO=9999996 TEU=None status=detail_no_teu
+[group 6 823/1900] NOR FEEDER -> code=UF9 IMO=9144689 TEU=None status=detail_no_teu
+[group 6 824/1900] NORA MAERSK -> code=UU9 IMO=9192478 TEU=None status=detail_no_teu
+[group 6 829/1900] NORDATLANTIC -> code=PW0 IMO=9241451 TEU=None status=detail_no_teu
+[group 6 830/1900] NORDBALTIC -> code=NRC IMO=9241475 TEU=None status=detail_no_teu
+[group 6 831/1900] NORDBEACH -> code=AO8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 832/1900] NORDBORG MAERSK -> code=BED IMO=9885142 TEU=None status=detail_no_teu
+[group 6 834/1900] NORDERNEY -> code=D79 IMO=9968449 TEU=None status=detail_no_teu
+[group 6 839/1900] NORDIC ITALIA.. -> code=IT2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 840/1900] NORDIC LUEBECK (NIS) -> code=NL0 IMO=9483684 TEU=740 status=ok
+[group 6 841/1900] NORDIC PORTO -> code=UF8 IMO=9448671 TEU=None status=detail_no_teu
+[group 6 843/1900] NORDICA... -> code=PV4 IMO=948369 TEU=None status=detail_no_teu
+[group 6 844/1900] NORDKAP -> code=C04 IMO=9210270 TEU=None status=detail_no_teu
+[group 6 850/1900] NORDMARSH -> code=NVQ IMO=9666699 TEU=None status=detail_no_teu
+[group 6 853/1900] NORDPOL -> code=A65 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 856/1900] NORDSEAS -> code=SHC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 857/1900] NORDSERENA -> code=PU1 IMO=9697026 TEU=None status=detail_no_teu
+[group 6 860/1900] NORDSUN -> code=A66 IMO=8801357 TEU=1158 status=ok
+[group 6 862/1900] NORDWINTER -> code=RCU IMO=9323041 TEU=None status=detail_no_teu
+[group 6 868/1900] NORTH EXPRESS -> code=U58 IMO=9141053 TEU=None status=detail_no_teu
+[group 6 870/1900] NORTHERN DECENCY -> code=RMZ IMO=9253296 TEU=3963 status=ok
+[group 6 871/1900] NORTHERN DECISION -> code=QV4 IMO=9346017 TEU=None status=detail_no_teu
+[group 6 873/1900] NORTHERN DEPENDANT -> code=NOR IMO=9345984 TEU=None status=detail_no_teu
+[group 6 874/1900] NORTHERN DIAMOND -> code=Q6H IMO=9405033 TEU=None status=detail_no_teu
+[group 6 875/1900] NORTHERN DIPLOMAT -> code=AWV IMO=9353230 TEU=None status=detail_no_teu
+[group 6 878/1900] NORTHERN ENTERPRISE -> code=AOO IMO=99999996 TEU=None status=detail_no_teu
+[group 6 880/1900] NORTHERN FORTUNE -> code=SCV IMO=8302167 TEU=1899 status=ok
+[group 6 883/1900] NORTHERN GUARD -> code=Q2J IMO=9348455 TEU=None status=detail_no_teu
+[group 6 884/1900] NORTHERN HAPPINESS -> code=RIC IMO=9070759 TEU=None status=detail_no_teu
+[group 6 885/1900] NORTHERN HARMONY -> code=ATV IMO=99999996 TEU=None status=detail_no_teu
+[group 6 889/1900] NORTHERN JASPER -> code=N8X IMO=9466960 TEU=None status=detail_no_teu
+[group 6 890/1900] NORTHERN JAVELIN -> code=R7T IMO=9465095 TEU=8402 status=ok
+[group 6 891/1900] NORTHERN JUBILEE -> code=NDE IMO=9450337 TEU=None status=detail_no_teu
+[group 6 896/1900] NORTHERN PIONEER -> code=RWJ IMO=9064853 TEU=None status=detail_no_teu
+[group 6 900/1900] NORTHERN PRIORITY -> code=ASD IMO=9450313 TEU=4606 status=ok
+[group 6 908/1900] NOVIA -> code=UB2 IMO=9101508 TEU=None status=detail_no_teu
+[group 6 909/1900] NOVITAS H -> code=UC7 IMO=9107382 TEU=None status=detail_no_teu
+[group 6 910/1900] NOVOROSSIYSK STAR -> code=SXA IMO=9203473 TEU=1702 status=ok
+[group 6 911/1900] NOVOROSYSK STAR -> code=R10 IMO=9203473 TEU=None status=detail_no_teu
+[group 6 912/1900] NP CHONBURI -> code=R2L IMO=9511698 TEU=None status=detail_no_teu
+[group 6 913/1900] NP SAMUT PRAKAN -> code=R8I IMO=9511674 TEU=None status=detail_no_teu
+[group 6 914/1900] NP SAMUT PRAKARN -> code=R7I IMO=None TEU=None status=detail_no_teu
+[group 6 915/1900] NUSANTARA 2501 -> code=N25 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 916/1900] NYK APHRODITE -> code=A8L IMO=9999996 TEU=None status=detail_no_teu
+[group 6 917/1900] NYK APOLLO -> code=S9G IMO=9247730 TEU=None status=detail_no_teu
+[group 6 920/1900] NYK CASTOR -> code=RFZ IMO=9152284 TEU=6135 status=ok
+[group 6 921/1900] NYK CLARA -> code=A4G IMO=9355408 TEU=None status=detail_no_teu
+[group 6 930/1900] NYK FUSHIMI -> code=QEA IMO=9487964 TEU=4250 status=ok
+[group 6 936/1900] NYK LEO -> code=RWX IMO=9229312 TEU=None status=detail_no_teu
+[group 6 937/1900] NYK LYTTELTON -> code=RVI IMO=999996 TEU=None status=detail_no_teu
+[group 6 940/1900] NYK OCEANUS -> code=NHU IMO=9312975 TEU=None status=detail_no_teu
+[group 6 948/1900] NYK SILVIA -> code=QBH IMO=9149656 TEU=None status=detail_no_teu
+[group 6 950/1900] NYK VEGA -> code=NHT IMO=9312781 TEU=None status=detail_no_teu
+[group 6 951/1900] NYK VENUS -> code=NHZ IMO=9312793 TEU=None status=detail_no_teu
+[group 6 952/1900] NYK VESTA -> code=NHW IMO=9312808 TEU=None status=detail_no_teu
+[group 6 953/1900] NYK VIRGO -> code=NHV IMO=9312810 TEU=None status=detail_no_teu
+[group 6 959/1900] OAKLAND -> code=KLX IMO=9200811 TEU=None status=detail_no_teu
+[group 6 960/1900] OAKLAND EXPRESS -> code=DBN IMO=9667174 TEU=13808 status=ok
+[group 6 962/1900] OCEAN ASIA -> code=AJL IMO=99999996 TEU=None status=detail_no_teu
+[group 6 963/1900] OCEAN BRIGHT -> code=AQE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 967/1900] OCEAN GRACE -> code=NWL IMO=9754733 TEU=None status=detail_no_teu
+[group 6 968/1900] OCEAN MERMAID -> code=AVD IMO=999997 TEU=None status=detail_no_teu
+[group 6 969/1900] OCEAN PARK -> code=AEY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 970/1900] OCEAN PROBE -> code=AUP IMO=9108233 TEU=1471 status=ok
+[group 6 972/1900] OCEAN PROLOGUE(DUPLICATED -> code=OPL IMO=99999997 TEU=None status=detail_no_teu
+[group 6 973/1900] OCEAN PROMISE -> code=PR7 IMO=9215892 TEU=None status=detail_no_teu
+[group 6 974/1900] OCEAN PROMOTER -> code=AUC IMO=99999996 TEU=None status=detail_no_teu
+[group 6 975/1900] OCEANA -> code=NOO IMO=9634684 TEU=None status=detail_no_teu
+[group 6 976/1900] OCEANIC UNIT 1 -> code=X21 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 977/1900] ODESAA STAR -> code=R16 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 980/1900] ODYSSEY -> code=SY9 IMO=9252773 TEU=None status=detail_no_teu
+[group 6 982/1900] OEL BENGAL -> code=A3A IMO=99999996 TEU=None status=detail_no_teu
+[group 6 983/1900] OEL COLOMBO -> code=OEC IMO=None TEU=None status=detail_no_teu
+[group 6 984/1900] OEL DUBAI -> code=AKB IMO=9128192 TEU=None status=detail_no_teu
+[group 6 985/1900] OEL EMIRATES -> code=NDD IMO=9104902 TEU=None status=detail_no_teu
+[group 6 987/1900] OEL EXCELLENCE -> code=ANO IMO=99999996 TEU=None status=detail_no_teu
+[group 6 989/1900] OEL FREEDOM -> code=AEQ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 990/1900] OEL INDEPENDENCE -> code=AJX IMO=429337000 TEU=None status=detail_no_teu
+[group 6 991/1900] OEL INDIA -> code=ANT IMO=99999996 TEU=None status=detail_no_teu
+[group 6 993/1900] OEL SHASTA -> code=S2P IMO=9134684 TEU=None status=detail_no_teu
+[group 6 994/1900] OEL SHRAVAN -> code=AUK IMO=9162368 TEU=None status=detail_no_teu
+[group 6 995/1900] OEL SINGAPORE -> code=AIS IMO=99999996 TEU=None status=detail_no_teu
+[group 6 998/1900] OEL VICTORY -> code=AHP IMO=9999999 TEU=None status=detail_no_teu
+[group 6 1000/1900] OKEE ALBA -> code=AXN IMO=9236212 TEU=1740 status=ok
+[group 6 1001/1900] OKEE ANN MARI -> code=PQ2 IMO=9236224 TEU=None status=detail_no_teu
+[group 6 1002/1900] OKEE AUGUST -> code=RZZ IMO=9151864 TEU=None status=detail_no_teu
+[group 6 1005/1900] OLGA MAERSK -> code=QX1 IMO=9251614 TEU=None status=detail_no_teu
+[group 6 1008/1900] OLIVIA MAERSK -> code=Q98 IMO=9251638 TEU=None status=detail_no_teu
+[group 6 1009/1900] OLUF MAERSK -> code=QX2 IMO=9251626 TEU=None status=detail_no_teu
+[group 6 1010/1900] OLYMPIA -> code=RRU IMO=9765574 TEU=1717 status=ok
+[group 6 1011/1900] OLYMPIAN RACER -> code=ALL IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1012/1900] OLYMPIC BAY -> code=MZZ IMO=9983463 TEU=None status=detail_no_teu
+[group 6 1016/1900] ONE EAGLE -> code=MAH IMO=9741396 TEU=None status=detail_no_teu
+[group 6 1017/1900] ONE FOCUS -> code=MVS IMO=9944792 TEU=None status=detail_no_teu
+[group 6 1020/1900] ONE HANGZHOU BAY -> code=Q19 IMO=9566394 TEU=8600 status=ok
+[group 6 1030/1900] ONE HUMEN -> code=SWT IMO=9302164 TEU=8212 status=ok
+[group 6 1031/1900] ONE INGENUITY -> code=DF1 IMO=9933016 TEU=None status=detail_no_teu
+[group 6 1033/1900] ONE MAGNIFICENCE -> code=DDC IMO=9424900 TEU=None status=detail_no_teu
+[group 6 1036/1900] ONE MARVEL -> code=DH6 IMO=9475612 TEU=None status=detail_no_teu
+[group 6 1040/1900] ONE MINATO -> code=NNV IMO=9805477 TEU=13900 status=ok
+[group 6 1044/1900] ONE MUNCHEN -> code=M11 IMO=9706750 TEU=None status=detail_no_teu
+[group 6 1045/1900] ONE OLYMPUS -> code=NHX IMO=9312987 TEU=None status=detail_no_teu
+[group 6 1049/1900] ONE REASSURANCE -> code=MRD IMO=9952696 TEU=None status=detail_no_teu
+[group 6 1050/1900] ONE RECOGNITION -> code=MUH IMO=9952701 TEU=8500 status=ok
+[group 6 1052/1900] ONE REINFORCEMENT -> code=MXK IMO=9952725 TEU=None status=detail_no_teu
+[group 6 1053/1900] ONE RELIABILITY -> code=MXL IMO=9952737 TEU=None status=detail_no_teu
+[group 6 1055/1900] ONE RESOLUTION -> code=D68 IMO=9952763 TEU=None status=detail_no_teu
+[group 6 1058/1900] ONE TREASURE -> code=DC7 IMO=9773222 TEU=None status=detail_no_teu
+[group 6 1060/1900] ONGPENG66 -> code=S5F IMO=89754647 TEU=None status=detail_no_teu
+[group 6 1062/1900] ONUR G.A -> code=1WJ IMO=9238076 TEU=None status=detail_no_teu
+[group 6 1066/1900] OOCL AMBITION -> code=SJJ IMO=9159866 TEU=None status=detail_no_teu
+[group 6 1070/1900] OOCL ATLANTA -> code=NK3 IMO=9285005 TEU=8063 status=ok
+[group 6 1074/1900] OOCL BAUHINIA -> code=MZK IMO=9949716 TEU=None status=detail_no_teu
+[group 6 1080/1900] OOCL BRISBANE -> code=RHR IMO=9445502 TEU=3800 status=ok
+[group 6 1089/1900] OOCL CHINA -> code=RWS IMO=9108178 TEU=None status=detail_no_teu
+[group 6 1090/1900] OOCL CHONGQING -> code=NJ3 IMO=9622629 TEU=13208 status=ok
+[group 6 1095/1900] OOCL ENVOY -> code=AGH IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1100/1900] OOCL FIDELITY -> code=RJO IMO=111111111 TEU=None status=detail_no_teu
+[group 6 1110/1900] OOCL HARMONY -> code=SAK IMO=9143518 TEU=2500 status=ok
+[group 6 1120/1900] OOCL KEELUNG -> code=RG8 IMO=999996 TEU=None status=detail_no_teu
+[group 6 1124/1900] OOCL KYUSHU -> code=AND IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1130/1900] OOCL MAGNOLIA -> code=DEB IMO=9949780 TEU=16828 status=ok
+[group 6 1131/1900] OOCL MELBOURNE -> code=RMD IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1140/1900] OOCL NORFOLK -> code=QN1 IMO=9440045 TEU=4578 status=ok
+[group 6 1141/1900] OOCL NOVGOROD -> code=UBQ IMO=999999999999999 TEU=None status=detail_no_teu
+[group 6 1143/1900] OOCL PANAMA -> code=RGT IMO=9355769 TEU=None status=detail_no_teu
+[group 6 1150/1900] OOCL SEOUL -> code=NK9 IMO=9417244 TEU=8063 status=ok
+[group 6 1151/1900] OOCL SHANGHAI -> code=RWV IMO=9198111 TEU=None status=detail_no_teu
+[group 6 1156/1900] OOCL SUNFLOWER -> code=DAY IMO=9949728 TEU=None status=detail_no_teu
+[group 6 1159/1900] OOCL THAILAND -> code=AFK IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1160/1900] OOCL TOKYO -> code=ND2 IMO=9310238 TEU=8063 status=ok
+[group 6 1168/1900] OOCL VIOLET -> code=DD6 IMO=9949778 TEU=None status=detail_no_teu
+[group 6 1170/1900] OOCL YOKOHAMA -> code=RDB IMO=9329538 TEU=4578 status=ok
+[group 6 1172/1900] OPDR CADIZ -> code=UCJ IMO=9216858 TEU=None status=detail_no_teu
+[group 6 1174/1900] OPDR LISBON -> code=UBO IMO=999999999 TEU=None status=detail_no_teu
+[group 6 1175/1900] OPDR TENERIFE -> code=UCL IMO=9216846 TEU=None status=detail_no_teu
+[group 6 1178/1900] ORA BHUM -> code=AN5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1180/1900] ORCA I -> code=NFU IMO=9318113 TEU=5095 status=ok
+[group 6 1183/1900] ORIANNA -> code=BG7 IMO=9261085 TEU=None status=detail_no_teu
+[group 6 1185/1900] ORIENT ENTERPRISE -> code=AP1 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1186/1900] ORIENT EXCELLENCE -> code=AQ6 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1187/1900] ORIENT FREEDOM -> code=AN8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1188/1900] ORIENT GRACE -> code=AS1 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1189/1900] ORIENT SPIRIT -> code=UV5 IMO=9117777 TEU=None status=detail_no_teu
+[group 6 1190/1900] ORIENT VICTORY -> code=AK4 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1192/1900] ORIENTAL GOLD -> code=BEF IMO=9399870 TEU=None status=detail_no_teu
+[group 6 1193/1900] ORIENTAL PACIFIC -> code=BCZ IMO=9548964 TEU=None status=detail_no_teu
+[group 6 1194/1900] ORIENTAL SAMUDRA -> code=BCM IMO=9563964 TEU=None status=detail_no_teu
+[group 6 1198/1900] ORITA -> code=RKR IMO=9318931 TEU=None status=detail_no_teu
+[group 6 1200/1900] ORSHA NANCHANG RAIL 1 -> code=OR1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1201/1900] ORSHA NANCHANG RAIL 2 -> code=OR2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1204/1900] OS MARMARIS -> code=Q73 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1210/1900] OSG BEAUTEC -> code=MGC IMO=9361275 TEU=698 status=ok
+[group 6 1211/1900] OSG BOSSTEC -> code=SPM IMO=9358008 TEU=None status=detail_no_teu
+[group 6 1212/1900] OSHAIRIJ -> code=OS2 IMO=9416018 TEU=None status=detail_no_teu
+[group 6 1213/1900] OSLO TRADER -> code=BAB IMO=9817925 TEU=None status=detail_no_teu
+[group 6 1214/1900] OSNABRUCK -> code=AUY IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1220/1900] OUED ZIZ -> code=PD1 IMO=9143855 TEU=None status=detail_no_teu
+[group 6 1223/1900] P O NEDLLOYD SINGAPORE -> code=AK8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1224/1900] P O NEDLLOYD THEKWINI -> code=AL0 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1226/1900] P&O NEDLLOYD -> code=SII IMO=210098 TEU=None status=detail_no_teu
+[group 6 1230/1900] P&O NEDLLOYD OLINDA -> code=SJN IMO=9210050 TEU=None status=detail_no_teu
+[group 6 1232/1900] P&O NEDLLOYD SOUTHAMPTON -> code=UD8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1236/1900] PAC AQUIRIUS -> code=PAC IMO=564683000 TEU=None status=detail_no_teu
+[group 6 1237/1900] PAC ARIES -> code=AXV IMO=9999997 TEU=None status=detail_no_teu
+[group 6 1240/1900] PAC BANGKA -> code=ABJ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1242/1900] PAC CERGAS -> code=A7P IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1243/1900] PAC EXPRESS -> code=AIT IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1244/1900] PAC KALIMANTAN -> code=AUQ IMO=9999997 TEU=None status=detail_no_teu
+[group 6 1246/1900] PAC MAKASSAR -> code=AFG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1247/1900] PAC NATUNA -> code=AOY IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1248/1900] PAC PALAWAN -> code=AFN IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1249/1900] PAC RUPAT -> code=AKJ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1250/1900] PAC SULU -> code=AO0 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1252/1900] PACER -> code=AFL IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1253/1900] PACHUCA -> code=UX3 IMO=9344253 TEU=None status=detail_no_teu
+[group 6 1254/1900] PACIFIC CONDOR -> code=NFS IMO=9216339 TEU=None status=detail_no_teu
+[group 6 1256/1900] PACIFIC DIAMOND -> code=AKZ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1258/1900] PACIFIC EXPRESS -> code=A71 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1259/1900] PACIFIC GLORIA -> code=RD9 IMO=9150858 TEU=None status=detail_no_teu
+[group 6 1260/1900] PACIFIC GRACE -> code=RW4 IMO=9154828 TEU=836 status=ok
+[group 6 1262/1900] PACIFIC MONACO -> code=UH3 IMO=935110 TEU=None status=detail_no_teu
+[group 6 1263/1900] PACIFIC OSPREY -> code=AID IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1264/1900] PACIFIC PEARL -> code=RR5 IMO=9150858 TEU=None status=detail_no_teu
+[group 6 1266/1900] PACIFIC RESOL -> code=AVT IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1270/1900] PACIFIC SUN 2 -> code=BFD IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1271/1900] PACIFIC SUN 3 -> code=S7W IMO=525003455 TEU=None status=detail_no_teu
+[group 6 1272/1900] PACIFIC SUN 5 -> code=S8Y IMO=525003319 TEU=None status=detail_no_teu
+[group 6 1280/1900] PADIAN 2 -> code=QVC IMO=9379571 TEU=1060 status=ok
+[group 6 1284/1900] PAGO -> code=S3H IMO=8787878 TEU=None status=detail_no_teu
+[group 6 1285/1900] PAHALA -> code=BD4 IMO=9419589 TEU=None status=detail_no_teu
+[group 6 1288/1900] PALEMBANG CARAKA JAYA NIAGA II -> code=NHL IMO=9189562 TEU=None status=detail_no_teu
+[group 6 1290/1900] PALERMO -> code=QGI IMO=9168207 TEU=2902 status=ok
+[group 6 1293/1900] PALUNG MAS -> code=ABH IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1297/1900] PAN YUN 117 -> code=ZXE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1298/1900] PAN YUN 121 -> code=ZLU IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1299/1900] PAN YUN 122 -> code=WAD IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1300/1900] PAN YUN 123 -> code=XYQ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1301/1900] PAN YUN 126 -> code=ZKE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1302/1900] PAN YUN 178 -> code=W2M IMO=6524745 TEU=None status=detail_no_teu
+[group 6 1308/1900] PANCON AMETHYST -> code=ACK IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1310/1900] PANCON DIAMOND -> code=ACU IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1311/1900] PANCON EMERALD -> code=AW7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1312/1900] PANCON EXPRESS -> code=RFB IMO=8301709 TEU=None status=detail_no_teu
+[group 6 1313/1900] PANCON GRANITE -> code=ABO IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1314/1900] PANCON JADE -> code=ALF IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1315/1900] PANCON PROGRESS -> code=AZ9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1316/1900] PANCON RUBY -> code=AQ7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1317/1900] PANCON SUNSHINE -> code=S5T IMO=9749128 TEU=None status=detail_no_teu
+[group 6 1318/1900] PANCON VICTORY -> code=S4T IMO=9749116 TEU=None status=detail_no_teu
+[group 6 1319/1900] PANDA 002 -> code=UCP IMO=9328053 TEU=None status=detail_no_teu
+[group 6 1320/1900] PANDA 003 -> code=UW6 IMO=9968891 TEU=None status=detail_no_teu
+[group 6 1322/1900] PANG CHEONG -> code=ZW6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1323/1900] PANG CHING 8 -> code=ZSW IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1325/1900] PANTHER -> code=NF5 IMO=9138276 TEU=None status=detail_no_teu
+[group 6 1326/1900] PANTONIO -> code=U99 IMO=9440576 TEU=None status=detail_no_teu
+[group 6 1330/1900] PAPU -> code=PPU IMO=9377560 TEU=42000 status=ok
+[group 6 1331/1900] PAPUAN CHIEF -> code=NSZ IMO=9689964 TEU=None status=detail_no_teu
+[group 6 1332/1900] PAPUAN GULF -> code=R40 IMO=2626 TEU=None status=detail_no_teu
+[group 6 1338/1900] PARKGRACHT -> code=SIE IMO=1011121 TEU=None status=detail_no_teu
+[group 6 1339/1900] PATHEIN STAR -> code=UH8 IMO=9064762 TEU=None status=detail_no_teu
+[group 6 1340/1900] PATMOS SENATOR -> code=SK2 IMO=9008550 TEU=2661 status=ok
+[group 6 1341/1900] PATRICIA SCHULTE -> code=SYH IMO=9294185 TEU=None status=detail_no_teu
+[group 6 1342/1900] PAUL ABRAO -> code=PQ5 IMO=9135925 TEU=None status=detail_no_teu
+[group 6 1344/1900] PAVO J -> code=POJ IMO=9355458 TEU=None status=detail_no_teu
+[group 6 1346/1900] PCE MADEIRA -> code=UE7 IMO=9060273 TEU=None status=detail_no_teu
+[group 6 1347/1900] PDZ MAJU -> code=ANA IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1348/1900] PDZ MASYHUR -> code=AUE IMO=9169720 TEU=None status=detail_no_teu
+[group 6 1349/1900] PDZ MEWAH -> code=AXO IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1350/1900] PDZ MUTIARA -> code=AUG IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1354/1900] PEGASUS J -> code=UEC IMO=9355434 TEU=None status=detail_no_teu
+[group 6 1356/1900] PEGASUS. -> code=PS8 IMO=9387594 TEU=None status=detail_no_teu
+[group 6 1359/1900] PELAGICA -> code=BF1 IMO=9453781 TEU=None status=detail_no_teu
+[group 6 1360/1900] PELICAN -> code=A3R IMO=9626560 TEU=None status=detail_no_teu
+[group 6 1362/1900] PELION -> code=MQM IMO=9967407 TEU=None status=detail_no_teu
+[group 6 1364/1900] PENAGA WARNI -> code=TMU IMO=6417098 TEU=None status=detail_no_teu
+[group 6 1369/1900] PENG CHENG 6889 -> code=LC0 IMO=1 TEU=None status=detail_no_teu
+[group 6 1370/1900] PENG DA SHENG -> code=D64 IMO=986347 TEU=1330 status=ok
+[group 6 1372/1900] PENG SHAN -> code=YK1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1373/1900] PENG XIANG 89 -> code=MWQ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1377/1900] PENGALIA -> code=U97 IMO=9440588 TEU=None status=detail_no_teu
+[group 6 1379/1900] PENGXIANG69 -> code=2E2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1380/1900] PEPI STAR -> code=D11 IMO=9971020 TEU=1809 status=ok
+[group 6 1381/1900] PERAK -> code=AC2 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1382/1900] PERFECT 22 -> code=A9S IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1384/1900] PERLA -> code=A6I IMO=9374129 TEU=None status=detail_no_teu
+[group 6 1385/1900] PERMAI 3 -> code=AY5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1387/1900] PERTH BRIDGE -> code=AL4 IMO=9236341 TEU=None status=detail_no_teu
+[group 6 1389/1900] PETALIDI -> code=PJ4 IMO=9071272 TEU=None status=detail_no_teu
+[group 6 1390/1900] PETAR BERON -> code=PH5 IMO=47000026 TEU=None status=detail_no_teu
+[group 6 1393/1900] PHILEMON -> code=A4L IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1394/1900] PHILIP -> code=RYX IMO=8908519 TEU=None status=detail_no_teu
+[group 6 1395/1900] PHOENIX -> code=AGE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1396/1900] PHOENIX HUNTER -> code=A3X IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1399/1900] PHONG CHAU -> code=AC5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1400/1900] PHU MY -> code=AFD IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1401/1900] PHU TAN -> code=AZ3 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1402/1900] PHUC THAI -> code=BA4 IMO=9358527 TEU=None status=detail_no_teu
+[group 6 1403/1900] PHUOC LONG 10 -> code=PL0 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1404/1900] PHUOC LONG 12 -> code=BBB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1410/1900] PHUOC LONG 26 -> code=P26 IMO=None TEU=75 status=ok
+[group 6 1416/1900] PHUOC LONG 6 -> code=L06 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1419/1900] PHUOC LONG 8 -> code=A9G IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1420/1900] PHUOC TAO 29 -> code=BKJ IMO=9999996 TEU=250 status=ok
+[group 6 1422/1900] PHUOC THANH 01 -> code=D94 IMO=8953966 TEU=None status=detail_no_teu
+[group 6 1427/1900] PING AN 05 -> code=XE3 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1428/1900] PING AN 06 -> code=XI7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1429/1900] PING AN 08 -> code=XAM IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1430/1900] PING AN 089 -> code=XQA IMO=20150080 TEU=None status=detail_no_teu
+[group 6 1431/1900] PING AN 1318 -> code=WOU IMO=None TEU=None status=detail_no_teu
+[group 6 1432/1900] PING AN 32 -> code=XEW IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1433/1900] PING AN 513 -> code=XWP IMO=20150069 TEU=None status=detail_no_teu
+[group 6 1434/1900] PING AN 517 -> code=XKZ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1435/1900] PING AN 518 -> code=XPH IMO=20150018 TEU=None status=detail_no_teu
+[group 6 1436/1900] PING AN 535 -> code=XLG IMO=20150176 TEU=None status=detail_no_teu
+[group 6 1437/1900] PING AN 58 -> code=XLN IMO=20150178 TEU=None status=detail_no_teu
+[group 6 1438/1900] PING AN 589 -> code=XFF IMO=999996 TEU=None status=detail_no_teu
+[group 6 1439/1900] PING AN 617 -> code=XAA IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1440/1900] PING AN 626 -> code=XZ8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1441/1900] PING AN 63 -> code=XY1 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1442/1900] PING AN 639 -> code=XVD IMO=20150098 TEU=None status=detail_no_teu
+[group 6 1443/1900] PING AN 669 -> code=WJI IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1444/1900] PING AN 67 -> code=XE9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1445/1900] PING AN 68 -> code=X69 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1446/1900] PING AN 689 -> code=W38 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1447/1900] PING AN 713 -> code=XNL IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1448/1900] PING AN 722 -> code=XNA IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1449/1900] PING AN 7856 -> code=WML IMO=None TEU=None status=detail_no_teu
+[group 6 1450/1900] PING AN 818 -> code=XEH IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1451/1900] PING AN 85 -> code=XAP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1452/1900] PING AN 858 -> code=WQE IMO=999996 TEU=None status=detail_no_teu
+[group 6 1453/1900] PING AN 866 -> code=WG8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1454/1900] PING AN 929 -> code=WRG IMO=999996 TEU=None status=detail_no_teu
+[group 6 1456/1900] PING AN SONG -> code=PAS IMO=9608946 TEU=None status=detail_no_teu
+[group 6 1457/1900] PING NAN 168 -> code=Z8Y IMO=1 TEU=None status=detail_no_teu
+[group 6 1458/1900] PING NAN 338 -> code=XWN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1459/1900] PING NAN DONG SHUN 666 -> code=OUQ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1460/1900] PING NAN DONG SHUN 688 -> code=LTN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1467/1900] PING NAN FU YUE 8298 -> code=OVT IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1470/1900] PING NAN HAI YU 01 -> code=OM6 IMO=9999996 TEU=1 status=ok
+[group 6 1472/1900] PING NAN HAI YU 0325 -> code=WGV IMO=None TEU=None status=detail_no_teu
+[group 6 1473/1900] PING NAN HAI YU 0388 -> code=WBJ IMO=100811000488 TEU=None status=detail_no_teu
+[group 6 1474/1900] PING NAN HAI YU 0398 -> code=WZJ IMO=20150825 TEU=None status=detail_no_teu
+[group 6 1476/1900] PING NAN HAI YU 1668 -> code=WON IMO=None TEU=None status=detail_no_teu
+[group 6 1477/1900] PING NAN HAI YU 2308 -> code=W6F IMO=20160328 TEU=None status=detail_no_teu
+[group 6 1478/1900] PING NAN HAI YU 2363 -> code=WGZ IMO=None TEU=None status=detail_no_teu
+[group 6 1479/1900] PING NAN HAI YU 2379 -> code=WV9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1480/1900] PING NAN HAI YU 2688 -> code=WOO IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1481/1900] PING NAN HAI YU 3266 -> code=WKW IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1482/1900] PING NAN HAI YU 333 -> code=WW4 IMO=100811000421 TEU=None status=detail_no_teu
+[group 6 1483/1900] PING NAN HAI YU 638 -> code=WRJ IMO=None TEU=None status=detail_no_teu
+[group 6 1484/1900] PING NAN HAI YU 6668 -> code=Z5G IMO=1 TEU=None status=detail_no_teu
+[group 6 1485/1900] PING NAN HAI YU 668 -> code=XKU IMO=100808000500 TEU=None status=detail_no_teu
+[group 6 1486/1900] PING NAN HAI YU 999 -> code=WFE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1487/1900] PING NAN HUA SHUN 2288 -> code=LDN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1489/1900] PING NAN HUA SHUN 663 -> code=Z5M IMO=1 TEU=None status=detail_no_teu
+[group 6 1490/1900] PING NAN HUA SHUN 8822 -> code=OQL IMO=9999996 TEU=1 status=ok
+[group 6 1491/1900] PING NAN HUA SHUN 8868 -> code=LM7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1492/1900] PING NAN HUA XIANG 002 -> code=WR6 IMO=100811000456 TEU=None status=detail_no_teu
+[group 6 1493/1900] PING NAN HUA XIANG 063 -> code=LO6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1494/1900] PING NAN HUA XIANG 099 -> code=Z90 IMO=None TEU=None status=detail_no_teu
+[group 6 1495/1900] PING NAN HUA XIANG 168 -> code=XWT IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1496/1900] PING NAN HUA XIANG 228 -> code=XWM IMO=100809000289 TEU=None status=detail_no_teu
+[group 6 1497/1900] PING NAN HUA XIANG 268 -> code=WZ5 IMO=20150157 TEU=None status=detail_no_teu
+[group 6 1498/1900] PING NAN HUA XIANG 339 -> code=WLB IMO=20115300555 TEU=None status=detail_no_teu
+[group 6 1499/1900] PING NAN HUA XIANG 368 -> code=XOH IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1500/1900] PING NAN HUA XIANG 388 -> code=WGN IMO=99999996 TEU=1 status=ok
+[group 6 1501/1900] PING NAN HUA XIANG 389 -> code=LLW IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1502/1900] PING NAN HUA XIANG 689 -> code=W2G IMO=20151211 TEU=None status=detail_no_teu
+[group 6 1503/1900] PING NAN HUA XIANG 698 -> code=WHB IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1504/1900] PING NAN HUA XIANG 699 -> code=LNM IMO=6666669 TEU=None status=detail_no_teu
+[group 6 1506/1900] PING NAN HUA XIANG 780 -> code=Z2F IMO=1 TEU=None status=detail_no_teu
+[group 6 1507/1900] PING NAN HUA XIANG 793 -> code=LQI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1508/1900] PING NAN HUA XIANG 806 -> code=Z3X IMO=1 TEU=None status=detail_no_teu
+[group 6 1509/1900] PING NAN HUA XIANG 826 -> code=W0Q IMO=20160707 TEU=None status=detail_no_teu
+[group 6 1510/1900] PING NAN HUA XIANG 863 -> code=W5W IMO=20160323 TEU=None status=detail_no_teu
+[group 6 1511/1900] PING NAN HUA XIANG 963 -> code=LTP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1512/1900] PING NAN HUA XIANG 969 -> code=WLD IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1513/1900] PING NAN HUA XIANG 980 -> code=WKH IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1516/1900] PING NAN JUN XING 88888 -> code=LRJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1520/1900] PING NAN RONG DA 3589 -> code=OZN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1528/1900] PING NAN RUN FA 2668 -> code=LMZ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1530/1900] PING NAN RUN FA 363 -> code=OBY IMO=9999996 TEU=1 status=ok
+[group 6 1535/1900] PING NAN RUN FA 8888 -> code=LIB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1536/1900] PING NAN SHUN HUI 1668 -> code=LMN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1537/1900] PING NAN SHUN HUI 298 -> code=WPF IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1540/1900] PING NAN SHUN YING 88 -> code=OJI IMO=9999996 TEU=1 status=ok
+[group 6 1541/1900] PING NAN SHUN YING 9888 -> code=OZK IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1542/1900] PING NAN TENG SHUN 138 -> code=LRY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1544/1900] PING NAN TENG SHUN 668 -> code=LGR IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1547/1900] PING NAN TENG SHUN 868 -> code=LGM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1549/1900] PING NAN XIONG LI 08 -> code=LTC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1550/1900] PING NAN XIONG LI 088 -> code=ONQ IMO=9999996 TEU=1 status=ok
+[group 6 1551/1900] PING NAN XIONG LI 136 -> code=LTJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1553/1900] PING NAN XIONG LI 339 -> code=OZ6 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1557/1900] PING NAN XIONG LI 815 -> code=LM5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1558/1900] PING NAN XIONG LI 88 -> code=LKG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1559/1900] PING NAN XIONG LI 889 -> code=LSY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1560/1900] PING NAN XIONG LI 9999 -> code=OWT IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1561/1900] PING NAN YONG JIA 008 -> code=LBH IMO=1 TEU=None status=detail_no_teu
+[group 6 1562/1900] PING NAN YONG JIA 016 -> code=WBX IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1563/1900] PING NAN YONG JIA 018 -> code=WT4 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1564/1900] PING NAN YONG JIA 0388 -> code=WR0 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1565/1900] PING NAN YONG JIA 0389 -> code=WE6 IMO=20150059 TEU=None status=detail_no_teu
+[group 6 1566/1900] PING NAN YONG JIA 0398 -> code=WCE IMO=20150128 TEU=None status=detail_no_teu
+[group 6 1567/1900] PING NAN YONG JIA 0633 -> code=WG6 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1568/1900] PING NAN YONG JIA 088 -> code=WX8 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1569/1900] PING NAN YONG JIA 1268 -> code=W0N IMO=20160701 TEU=None status=detail_no_teu
+[group 6 1570/1900] PING NAN YONG JIA 1388 -> code=WDN IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1571/1900] PING NAN YONG JIA 2222 -> code=WH0 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1572/1900] PING NAN YONG JIA 229 -> code=WCX IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1573/1900] PING NAN YONG JIA 268 -> code=WZ9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1574/1900] PING NAN YONG JIA 288 -> code=W6V IMO=20160407 TEU=None status=detail_no_teu
+[group 6 1575/1900] PING NAN YONG JIA 298 -> code=WTA IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1576/1900] PING NAN YONG JIA 306 -> code=WLE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1577/1900] PING NAN YONG JIA 316 -> code=WB5 IMO=100809000288 TEU=None status=detail_no_teu
+[group 6 1578/1900] PING NAN YONG JIA 3233 -> code=XJQ IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1579/1900] PING NAN YONG JIA 3333 -> code=WFD IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1580/1900] PING NAN YONG JIA 6068 -> code=LB2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1581/1900] PING NAN YONG JIA 6088 -> code=L47 IMO=1 TEU=None status=detail_no_teu
+[group 6 1582/1900] PING NAN YONG JIA 6608 -> code=WXO IMO=20150430 TEU=None status=detail_no_teu
+[group 6 1583/1900] PING NAN YONG JIA 666 -> code=XUJ IMO=20150088 TEU=None status=detail_no_teu
+[group 6 1584/1900] PING NAN YONG JIA 6908 -> code=LKR IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1585/1900] PING NAN YONG JIA 698 -> code=XLX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1587/1900] PING NAN YONG JIA 8228 -> code=Z7I IMO=1 TEU=None status=detail_no_teu
+[group 6 1588/1900] PING NAN YONG JIA 826 -> code=WD7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1589/1900] PING NAN YONG JIA 8288 -> code=WBA IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1590/1900] PING NAN YONG JIA 8668 -> code=Z2Z IMO=1 TEU=None status=detail_no_teu
+[group 6 1591/1900] PING NAN YONG JIA 989 -> code=LJC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1596/1900] PING NAN YUAN DA 5388 -> code=LRW IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1597/1900] PING NAN YUAN DA 6666 -> code=LQM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1600/1900] PING NAN YUAN DA 7889 -> code=OAN IMO=9999996 TEU=1 status=ok
+[group 6 1604/1900] PING NANYUAN DA 9968 -> code=OZJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1606/1900] PING SHAN -> code=YA5 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1607/1900] PING YE 16 -> code=XYC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1609/1900] PING YE 5 -> code=WNR IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1610/1900] PING YE 6 -> code=WNS IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1611/1900] PING YE 7 -> code=WH5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1612/1900] PING YE 8 -> code=WGQ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1613/1900] PING YE 9 -> code=WHF IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1614/1900] PINGANDA008 -> code=2EX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1619/1900] PIONEER STAR -> code=ACS IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1620/1900] PIRA BHUM -> code=A73 IMO=9145293 TEU=628 status=ok
+[group 6 1622/1900] PIRITA -> code=UAU IMO=9108063 TEU=None status=detail_no_teu
+[group 6 1625/1900] PLANET V -> code=UDC IMO=9087532 TEU=None status=detail_no_teu
+[group 6 1629/1900] PO YANG HU 88 -> code=YGL IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1630/1900] POHORJE -> code=SVL IMO=9294824 TEU=4043 status=ok
+[group 6 1631/1900] POL STELLA -> code=UY1 IMO=9457165 TEU=None status=detail_no_teu
+[group 6 1632/1900] POLAR COSTA RICA -> code=PCR IMO=9786786 TEU=None status=detail_no_teu
+[group 6 1634/1900] POLLISUM 1803 -> code=MBC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1635/1900] POLLISUM 2102 -> code=BFI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1636/1900] POLO -> code=UD6 IMO=9261994 TEU=None status=detail_no_teu
+[group 6 1637/1900] POLTAVA -> code=PO4 IMO=1354651 TEU=None status=detail_no_teu
+[group 6 1640/1900] PONL NELSON -> code=SCA IMO=9236212 TEU=1600 status=ok
+[group 6 1643/1900] PORT GDYNIA -> code=PP3 IMO=9334387 TEU=None status=detail_no_teu
+[group 6 1644/1900] PORT KLANG -> code=S2S IMO=9212046 TEU=None status=detail_no_teu
+[group 6 1650/1900] PORTO GERMENO -> code=TBV IMO=9260902 TEU=5928 status=ok
+[group 6 1653/1900] POS CHALLENGE -> code=ZSR IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1655/1900] POS SHALLENG -> code=ZQF IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1656/1900] POSAN -> code=RPF IMO=999996 TEU=None status=detail_no_teu
+[group 6 1657/1900] POSEIDON VII -> code=AT6 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1659/1900] POSITANO -> code=PST IMO=9123037 TEU=None status=detail_no_teu
+[group 6 1660/1900] POTOMAC BRIDGE -> code=SBA IMO=9253296 TEU=3965 status=ok
+[group 6 1661/1900] POTOMAC EXPRESS -> code=RT2 IMO=9349526 TEU=None status=detail_no_teu
+[group 6 1662/1900] POZNAN ALMATY NUMBER 1 -> code=PZ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1663/1900] POZNAN ALMATY NUMBER 2 -> code=PZ2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1664/1900] POZNAN ALMATY RAIL NUMBER 1 -> code=PZ8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1667/1900] PRATIWI SATU -> code=BFP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1670/1900] PRESIDENT CARTER -> code=DEC IMO=9938389 TEU=None status=detail_no_teu
+[group 6 1671/1900] PRESIDENT FD ROOSEVELT -> code=MVU IMO=9400061 TEU=None status=detail_no_teu
+[group 6 1672/1900] PRESIDENT GRANT -> code=DIH IMO=9938339 TEU=None status=detail_no_teu
+[group 6 1677/1900] PRESTIGE -> code=S2Q IMO=9321029 TEU=None status=detail_no_teu
+[group 6 1680/1900] PRETTY RIPPLE -> code=COR IMO=9122332 TEU=420 status=ok
+[group 6 1684/1900] PRIAMOS (NFS) -> code=PS7 IMO=9412532 TEU=None status=detail_no_teu
+[group 6 1685/1900] PRIDE C -> code=D9A IMO=9978640 TEU=None status=detail_no_teu
+[group 6 1690/1900] PROGRESS 3 -> code=A74 IMO=8224535 TEU=126 status=ok
+[group 6 1692/1900] PROGRESS IV -> code=PIV IMO=8358130 TEU=None status=detail_no_teu
+[group 6 1694/1900] PROSPER -> code=PRS IMO=636015121 TEU=None status=detail_no_teu
+[group 6 1699/1900] PROVIDENCE -> code=A75 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1700/1900] PSB 2509 -> code=BC6 IMO=6839 TEU=None status=detail_no_teu
+[group 6 1701/1900] PSB 2510 -> code=BDJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1702/1900] PSB IV -> code=BC7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1705/1900] PU SHUN 158 -> code=XVJ IMO=100809000513 TEU=None status=detail_no_teu
+[group 6 1706/1900] PU SHUN 397 -> code=WRE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1707/1900] PU SHUN 398 -> code=Z9N IMO=1 TEU=None status=detail_no_teu
+[group 6 1708/1900] PU SHUN 789 -> code=W55 IMO=10081000454 TEU=None status=detail_no_teu
+[group 6 1709/1900] PU SHUN 968 -> code=W66 IMO=100810000018 TEU=None status=detail_no_teu
+[group 6 1710/1900] PU TAI HANG YUN 076 -> code=2R0 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1711/1900] PU TRUSTY -> code=AFE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1713/1900] PUELO -> code=QTG IMO=9306172 TEU=None status=detail_no_teu
+[group 6 1714/1900] PUERTO CORTES -> code=AN1 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1716/1900] PUHAI211 -> code=Y2V IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1719/1900] PUHAI215 -> code=RCX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1720/1900] PUHAI216 -> code=V77 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1722/1900] PUHAI218 -> code=YKW IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1724/1900] PUHAI226 -> code=Y3R IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1725/1900] PUHAI227 -> code=RHX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1727/1900] PUHAI229 -> code=RDS IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1728/1900] PULAU HOKI -> code=BCR IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1729/1900] PULAU LAYANG -> code=BDV IMO=9545754 TEU=None status=detail_no_teu
+[group 6 1730/1900] PULAU NUNUKAN -> code=MDO IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1731/1900] PULAU WETAR -> code=BDQ IMO=9592472 TEU=None status=detail_no_teu
+[group 6 1735/1900] PUTAIHANGYUN002 -> code=VB0 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1736/1900] PUTAIHANGYUN003 -> code=VN2 IMO=999999 TEU=None status=detail_no_teu
+[group 6 1737/1900] PUTAIHANGYUN005 -> code=VC5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1738/1900] PUTAIHANGYUN006 -> code=VDA IMO=999999999 TEU=None status=detail_no_teu
+[group 6 1739/1900] PUTAIHANGYUN007 -> code=VAS IMO=999999999 TEU=None status=detail_no_teu
+[group 6 1740/1900] PUTAIHANGYUN008 -> code=VCE IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1741/1900] PUTAIHANGYUN009 -> code=VFN IMO=999999999 TEU=None status=detail_no_teu
+[group 6 1742/1900] PUTAIHANGYUN010 -> code=VUA IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1743/1900] PUTAIHANGYUN011 -> code=V5Y IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1744/1900] PUTAIHANGYUN012 -> code=VUR IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1745/1900] PUTAIHANGYUN013 -> code=2T5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1746/1900] PUTAIHANGYUN015 -> code=2FV IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1747/1900] PUTAIHANGYUN016 -> code=VUT IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1748/1900] PUTAIHANGYUN017 -> code=V9D IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1749/1900] PUTAIHANGYUN018 -> code=VUM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1750/1900] PUTAIHANGYUN019 -> code=VUU IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1751/1900] PUTAIHANGYUN020 -> code=VUQ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1752/1900] PUTAIHANGYUN021 -> code=2IX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1753/1900] PUTAIHANGYUN022 -> code=2Z5 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1754/1900] PUTAIHANGYUN023 -> code=2IY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1755/1900] PUTAIHANGYUN025 -> code=2HI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1756/1900] PUTAIHANGYUN026 -> code=V3T IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1757/1900] PUTAIHANGYUN027 -> code=V4N IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1758/1900] PUTAIHANGYUN028 -> code=V2W IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1759/1900] PUTAIHANGYUN029 -> code=2CI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1760/1900] PUTAIHANGYUN030 -> code=2DC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1762/1900] PUTAIHANGYUN032 -> code=2Z1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1763/1900] PUTAIHANGYUN033 -> code=2GE IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1764/1900] PUTAIHANGYUN035 -> code=2SY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1765/1900] PUTAIHANGYUN036 -> code=2M0 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1766/1900] PUTAIHANGYUN037 -> code=2DI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1767/1900] PUTAIHANGYUN038 -> code=2X3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1768/1900] PUTAIHANGYUN039 -> code=2S7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1769/1900] PUTAIHANGYUN050 -> code=2UQ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1770/1900] PUTAIHANGYUN051 -> code=2ZL IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1771/1900] PUTAIHANGYUN052 -> code=2DF IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1772/1900] PUTAIHANGYUN053 -> code=2ZM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1773/1900] PUTAIHANGYUN055 -> code=2DD IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1774/1900] PUTAIHANGYUN056 -> code=2FU IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1775/1900] PUTAIHANGYUN058 -> code=V8W IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1776/1900] PUTAIHANGYUN059 -> code=2FT IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1777/1900] PUTAIHANGYUN060 -> code=2GF IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1778/1900] PUTAIHANGYUN061 -> code=2U8 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1779/1900] PUTAIHANGYUN062 -> code=2ED IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1780/1900] PUTAIHANGYUN063 -> code=2SF IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1781/1900] PUTAIHANGYUN065 -> code=2LO IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1782/1900] PUTAIHANGYUN066 -> code=V8K IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1783/1900] PUTAIHANGYUN067 -> code=2N1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1784/1900] PUTAIHANGYUN068 -> code=V9G IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1785/1900] PUTAIHANGYUN069 -> code=2EI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1786/1900] PUTAIHANGYUN070 -> code=2LY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1787/1900] PUTAIHANGYUN071 -> code=2SG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1788/1900] PUTAIHANGYUN072 -> code=2LN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1789/1900] PUTAIHANGYUN075 -> code=2UP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1790/1900] PUTAIHANGYUN077 -> code=2E3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1791/1900] PUTAIHANGYUN078 -> code=2I7 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1792/1900] PUTAIHANGYUN079 -> code=2SB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1793/1900] PUTAIHANGYUN080 -> code=2JW IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1794/1900] PUTAIHANGYUN081 -> code=2KK IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1795/1900] PUTAIHANGYUN082 -> code=2EJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1796/1900] PUTAIHANGYUN083 -> code=2SH IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1797/1900] PUTAIHANGYUN085 -> code=2SI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1798/1900] PUTAIHANGYUN086 -> code=2A1 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1799/1900] PUTAIHANGYUN087 -> code=2QL IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1800/1900] PUTAIHANGYUN088 -> code=V9L IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1801/1900] PUTAIHANGYUN089 -> code=2GG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1802/1900] PUTAIHANGYUN090 -> code=2GY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1803/1900] PUTAIHANGYUN091 -> code=2SJ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1804/1900] PUTAIHANGYUN092 -> code=2IH IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1805/1900] PUTAIHANGYUN093 -> code=2TQ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1806/1900] PUTAIHANGYUN095 -> code=2QM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1807/1900] PUTAIHANGYUN096 -> code=21R IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1808/1900] PUTAIHANGYUN100 -> code=2RA IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1810/1900] QI DAO 22 -> code=XG9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1811/1900] QI FA -> code=RBT IMO=769769789 TEU=None status=detail_no_teu
+[group 6 1812/1900] QI HE -> code=QXH IMO=99999945 TEU=None status=detail_no_teu
+[group 6 1814/1900] QI HE 6 -> code=F38 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1815/1900] QI JI 229 -> code=LUO IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1816/1900] QI JI 568 -> code=OYP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1817/1900] QI JI 612 -> code=LBT IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1818/1900] QI JI 632 -> code=LRF IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1819/1900] QI JI 633 -> code=LTG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1820/1900] QI JI 636 -> code=OMP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1821/1900] QI YUN -> code=RPP IMO=568568 TEU=None status=detail_no_teu
+[group 6 1825/1900] QIAN HAI FANG ZHOU -> code=LZX IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1828/1900] QIAN JIN 311 -> code=ZB3 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1829/1900] QIAN JIN 312 -> code=ZB4 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1830/1900] QIAN KUN -> code=UGC IMO=9432165 TEU=1300 status=ok
+[group 6 1831/1900] QIAN KUN 01 -> code=D6D IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1833/1900] QIAN KUN 9999 -> code=MOR IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1835/1900] QIAN KUN RONG YAO -> code=NNR IMO=4138386 TEU=None status=detail_no_teu
+[group 6 1838/1900] QIANGSHENG999 -> code=YVC IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1839/1900] QIANGSHENGHUIHUANG -> code=VY0 IMO=12345678 TEU=None status=detail_no_teu
+[group 6 1840/1900] QIANJIANG166 -> code=THK IMO=67879548 TEU=None status=detail_no_teu
+[group 6 1841/1900] QIANJIANG351 -> code=2P2 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1842/1900] QIANJIANG359 -> code=VSY IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1843/1900] QIANJIANGHUO -> code=Y4Y IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1844/1900] QIANKUN6 -> code=V2B IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1845/1900] QIANKUN666 -> code=20P IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1846/1900] QIANKUN777 -> code=2U3 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1847/1900] QIANKUN8 -> code=VDS IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1848/1900] QIANKUN99 -> code=V2E IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1849/1900] QIANKUN999 -> code=2BN IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1850/1900] QIANKUNHENGSHUN -> code=VPM IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1851/1900] QIANKUNHEXIE -> code=VMB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1852/1900] QIANZHOUZHIXING -> code=2XP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1853/1900] QIAO YANG 1 HAO -> code=X34 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1854/1900] QIAO YANG 16 HAO -> code=LVG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1855/1900] QIAO YANG 18 HAO -> code=LBB IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1857/1900] QIAO YANG 2 HAO -> code=X19 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1858/1900] QIAO YANG 28 -> code=O36 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1859/1900] QIAO YANG 3 HAO -> code=LNA IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1860/1900] QIAO YANG 33 -> code=OLZ IMO=9999996 TEU=220 status=ok
+[group 6 1861/1900] QIAO YANG 6 HAO -> code=XQZ IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1862/1900] QIAO YANG 838 -> code=O27 IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1863/1900] QIAO YANG 9 HAO -> code=WO6 IMO=20150192 TEU=None status=detail_no_teu
+[group 6 1864/1900] QIAOHANG2 -> code=RCF IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1870/1900] QIAOTAI35 -> code=VD7 IMO=99999996 TEU=344 status=ok
+[group 6 1874/1900] QIAOYANG 88 HAO -> code=F3V IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1875/1900] QIAOYANG 89 HAO -> code=F4Z IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1876/1900] QIAOYANG8 -> code=F3C IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1877/1900] QIAOYANG8HAO -> code=S6Z IMO=567585767 TEU=None status=detail_no_teu
+[group 6 1878/1900] QIHAI1 -> code=Y9F IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1879/1900] QIHANG66 -> code=VCI IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1880/1900] QIHE9 -> code=N3F IMO=7547478 TEU=None status=detail_no_teu
+[group 6 1881/1900] QIHERUIAN -> code=2LW IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1882/1900] QIHEYONGJIA -> code=2TC IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1883/1900] QILUHAO -> code=VLU IMO=8686896 TEU=None status=detail_no_teu
+[group 6 1884/1900] QIN LI 1 -> code=WY7 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1885/1900] QING CHUN MEN -> code=AD9 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1886/1900] QING GANG 168 -> code=ZOP IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1887/1900] QING GANG 238 -> code=ZYY IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1888/1900] QING SHAN -> code=ZSL IMO=999999999 TEU=None status=detail_no_teu
+[group 6 1889/1900] QING SHUN 2009 -> code=WM3 IMO=20150223 TEU=None status=detail_no_teu
+[group 6 1890/1900] QING SHUN 2363 -> code=WE4 IMO=20150058 TEU=None status=detail_no_teu
+[group 6 1891/1900] QING SHUN 288 -> code=LSD IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1893/1900] QING SHUN 3073 -> code=ZN2 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1894/1900] QING SHUN 3088 -> code=WZ3 IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1895/1900] QING SHUN 568 -> code=XXR IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1896/1900] QING SHUN 666 -> code=LBK IMO=1 TEU=None status=detail_no_teu
+[group 6 1897/1900] QING SHUN 688 -> code=WCI IMO=99999996 TEU=None status=detail_no_teu
+[group 6 1899/1900] QING SHUN 888 -> code=XVG IMO=9999996 TEU=None status=detail_no_teu
+[group 6 1900/1900] QING XIANG 6 -> code=MMZ IMO=1017957 TEU=1498 status=ok
+group 6: saved xlsx -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_06_result_260311163148.xlsx
+group 6: saved json -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_06_result_260311163148.json

@@ -1,7 +1,0 @@
-start_only_voyages=0
-multi_port_voyages=16
-start_only_port_calls=0
-multi_port_port_calls=153
-added_voyages=[('AEU3', 'CNE', '036W'), ('AEU3', 'CNG', '039W'), ('AEU3', 'CNG', '040W'), ('AEU3', 'CSB', '034W'), ('AEU3', 'CSB', '035W'), ('AEU3', 'CSD', '034W'), ('AEU3', 'CSD', '035W'), ('AEU3', 'CSF', '034W'), ('AEU3', 'CSH', '028W'), ('AEU3', 'CSH', '029W'), ('AEU3', 'CSI', '035W'), ('AEU3', 'CSI', '036W'), ('AEU3', 'MSZ', '006W'), ('AEU3', 'MSZ', '007W'), ('AEU3', 'MTA', '006W'), ('AEU3', 'QIP', '065W')]
-missing_voyages=[]
-assessment=合理：多港查询补充出了起运港查询遗漏的航次。

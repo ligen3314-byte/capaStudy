@@ -119,3 +119,168 @@ Retained port calls: 319
 Batch detail tables saved: D:\Files\demo\capaStudy\MSK FETCH\msk_query\MSK_FETCH_BATCH_DETAIL_260311083948.xlsx
 
 [3/4] Run CSL full query...
+Services to process: ['AEU1', 'AEU2', 'AEU3', 'AEU5', 'AEU6', 'AEU7', 'AEU9', 'AEM1', 'AEM2', 'AEM3', 'AEM6']
+Target service: AEU1
+Query AEU1 / Qingdao
+Result AEU1 / Qingdao: voyages=13, port calls=137
+Query AEU1 / Qingdao
+Result AEU1 / Qingdao: voyages=13, port calls=137
+Query AEU1 / Shanghai
+Result AEU1 / Shanghai: voyages=8, port calls=85
+Query AEU1 / Ningbo
+Result AEU1 / Ningbo: voyages=7, port calls=76
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU1_Qingdao_START_ONLY_260311084012.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU1_MULTIPORT_DEDUPED_260311084113.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU1_COMPARISON_260311084113.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEU2
+Query AEU2 / Ningbo
+Result AEU2 / Ningbo: voyages=14, port calls=128
+Query AEU2 / Ningbo
+Result AEU2 / Ningbo: voyages=14, port calls=128
+Query AEU2 / Shanghai
+Result AEU2 / Shanghai: voyages=9, port calls=81
+Query AEU2 / Yantian
+Result AEU2 / Yantian: voyages=9, port calls=81
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU2_Ningbo_START_ONLY_260311084134.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU2_MULTIPORT_DEDUPED_260311084235.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU2_COMPARISON_260311084235.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEU3
+Query AEU3 / Tianjin
+Result AEU3 / Tianjin: voyages=0, port calls=0
+Query AEU3 / Tianjin
+Result AEU3 / Tianjin: voyages=0, port calls=0
+Query AEU3 / Qingdao
+Result AEU3 / Qingdao: voyages=8, port calls=72
+Query AEU3 / Shanghai
+Result AEU3 / Shanghai: voyages=15, port calls=142
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU3_Tianjin_START_ONLY_260311084255.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU3_MULTIPORT_DEDUPED_260311084354.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU3_COMPARISON_260311084354.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEU5
+Query AEU5 / Qingdao
+Result AEU5 / Qingdao: voyages=18, port calls=186
+Query AEU5 / Qingdao
+Result AEU5 / Qingdao: voyages=18, port calls=186
+Query AEU5 / Shanghai
+Result AEU5 / Shanghai: voyages=10, port calls=98
+Query AEU5 / Ningbo
+Result AEU5 / Ningbo: voyages=10, port calls=98
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU5_Qingdao_START_ONLY_260311084415.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU5_MULTIPORT_DEDUPED_260311084516.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU5_COMPARISON_260311084516.txt
+����ж�: ��������۲�ѯ������˸۲�ѯ���һ�£�δ���ֶ��⺽�Ρ�
+Target service: AEU6
+Query AEU6 / Qingdao
+Result AEU6 / Qingdao: voyages=0, port calls=0
+Query AEU6 / Qingdao
+Result AEU6 / Qingdao: voyages=0, port calls=0
+Query AEU6 / Shanghai
+Result AEU6 / Shanghai: voyages=6, port calls=54
+Query AEU6 / Yantian
+Result AEU6 / Yantian: voyages=6, port calls=54
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU6_Qingdao_START_ONLY_260311084536.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU6_MULTIPORT_DEDUPED_260311084639.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU6_COMPARISON_260311084639.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEU7
+Query AEU7 / Qingdao
+Result AEU7 / Qingdao: voyages=0, port calls=0
+Query AEU7 / Qingdao
+Result AEU7 / Qingdao: voyages=0, port calls=0
+Query AEU7 / Xiamen
+Result AEU7 / Xiamen: voyages=7, port calls=73
+Query AEU7 / Yantian
+Result AEU7 / Yantian: voyages=8, port calls=83
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU7_Qingdao_START_ONLY_260311084659.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU7_MULTIPORT_DEDUPED_260311084802.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU7_COMPARISON_260311084802.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEU9
+Query AEU9 / Tianjin
+Result AEU9 / Tianjin: voyages=0, port calls=0
+Query AEU9 / Tianjin
+Result AEU9 / Tianjin: voyages=0, port calls=0
+Query AEU9 / Ningbo
+Result AEU9 / Ningbo: voyages=9, port calls=107
+Query AEU9 / Yantian
+Result AEU9 / Yantian: voyages=7, port calls=84
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU9_Tianjin_START_ONLY_260311084822.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU9_MULTIPORT_DEDUPED_260311084922.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEU9_COMPARISON_260311084922.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEM1
+Query AEM1 / Qingdao
+Result AEM1 / Qingdao: voyages=14, port calls=179
+Query AEM1 / Qingdao
+Result AEM1 / Qingdao: voyages=14, port calls=179
+Query AEM1 / Shanghai
+Result AEM1 / Shanghai: voyages=11, port calls=138
+Query AEM1 / Yantian
+Result AEM1 / Yantian: voyages=10, port calls=126
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM1_Qingdao_START_ONLY_260311084942.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM1_MULTIPORT_DEDUPED_260311085042.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM1_COMPARISON_260311085042.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEM2
+Query AEM2 / Qingdao
+Result AEM2 / Qingdao: voyages=15, port calls=181
+Query AEM2 / Qingdao
+Result AEM2 / Qingdao: voyages=15, port calls=181
+Query AEM2 / Shanghai
+Result AEM2 / Shanghai: voyages=8, port calls=96
+Query AEM2 / Shekou
+Result AEM2 / Shekou: voyages=9, port calls=108
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM2_Qingdao_START_ONLY_260311085102.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM2_MULTIPORT_DEDUPED_260311085200.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM2_COMPARISON_260311085200.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Target service: AEM3
+Query AEM3 / Shanghai
+Result AEM3 / Shanghai: voyages=13, port calls=123
+Query AEM3 / Shanghai
+Result AEM3 / Shanghai: voyages=7, port calls=67
+Query AEM3 / Ningbo
+Result AEM3 / Ningbo: voyages=9, port calls=83
+Query AEM3 / Shekou
+Result AEM3 / Shekou: voyages=7, port calls=64
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM3_Shanghai_START_ONLY_260311085220.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM3_MULTIPORT_DEDUPED_260311085317.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM3_COMPARISON_260311085317.txt
+����ж�: �����������ȥ�ؽ���������ڽ����˸۽����
+Target service: AEM6
+Query AEM6 / Ningbo
+Result AEM6 / Ningbo: voyages=12, port calls=162
+Query AEM6 / Ningbo
+Result AEM6 / Ningbo: voyages=12, port calls=162
+Query AEM6 / Shanghai
+Result AEM6 / Shanghai: voyages=7, port calls=96
+Query AEM6 / Shekou
+Result AEM6 / Shekou: voyages=7, port calls=96
+�����˸۽���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM6_Ningbo_START_ONLY_260311085336.xlsx
+���˸�+��ѡ��ȥ�ؽ���ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM6_MULTIPORT_DEDUPED_260311085434.xlsx
+����Ա��ѱ���: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_AEM6_COMPARISON_260311085434.txt
+����ж�: ��������۲�ѯ����������˸۲�ѯ��©�ĺ��Ρ�
+Batch summary saved: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_BATCH_SUMMARY_260311085434.xlsx
+Batch detail tables saved: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_BATCH_DETAIL_260311085434.xlsx
+
+[4/4] Merge latest outputs...
+Vessel DB check: 2 missing vessel names. Querying APIs...
+[1/2] CMA CGM APOLLON -> IMO=None MMSI=None TEU=None status=unauthorized
+MyVessel token expired/unauthorized. Please input a new token now.
+MYVESSEL_BEARER_TOKEN=Saved new token to D:\Files\demo\capaStudy\vessels\.env. Retrying missing vessel query...
+[1/2] CMA CGM APOLLON -> IMO=None MMSI=None TEU=None status=unauthorized
+Traceback (most recent call last):
+  File "D:\Files\demo\capaStudy\merge_all_carriers.py", line 15, in <module>
+    main()
+    ~~~~^^
+  File "D:\Files\demo\capaStudy\src\capastudy\merge_all_carriers.py", line 943, in main
+    ensure_vessel_db_coverage(voyages, port_calls)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Files\demo\capaStudy\src\capastudy\merge_all_carriers.py", line 645, in ensure_vessel_db_coverage
+    raise RuntimeError("MyVessel token unauthorized. Please update .env token and rerun.")
+RuntimeError: MyVessel token unauthorized. Please update .env token and rerun.
+[ERROR] Step failed (1): [4/4] Merge latest outputs...
+Log: D:\Files\demo\capaStudy\logs\full_pipeline_260311083657.log

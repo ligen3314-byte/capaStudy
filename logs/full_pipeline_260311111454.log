@@ -1,0 +1,39 @@
+========================================
+[START] Full query pipeline
+Mode: merge
+Base: D:\Files\demo\capaStudy
+Time: 2026-03-11 11:14:54
+Log:  D:\Files\demo\capaStudy\logs\full_pipeline_260311111454.log
+========================================
+
+[1-3/4] Fetch steps skipped for --only-merge.
+
+[4/4] Merge latest outputs...
+Vessel DB check: 8 missing vessel names. Querying APIs...
+[1/8] AFIF -> IMO=9732345 MMSI=211888820 TEU=14993 status=ok
+[2/8] ANGELICA MAERSK -> IMO=9948798 MMSI=219658000 TEU=16200 status=ok
+[3/8] EMMA MAERSK -> IMO=9321483 MMSI=563254800 TEU=17816 status=ok
+[4/8] MAERSK CAMPTON -> IMO=9924211 MMSI=232043367 TEU=15000 status=ok
+[5/8] MANILA EXPRESS -> IMO=9540120 MMSI=218006290 TEU=23660 status=ok
+[6/8] MDV MICHELLE -> IMO=None MMSI=None TEU=None status=api1_no_candidate
+[7/8] MDV NEU1 KURT -> IMO=None MMSI=None TEU=None status=api1_no_candidate
+[8/8] MDV WAF COBAIN -> IMO=None MMSI=None TEU=None status=api1_no_candidate
+Vessel DB updated: 337 rows in vessels sheet.
+Vessel DB debug file: D:\Files\demo\capaStudy\vessels\vessels_update_debug_260311111511.xlsx
+Unresolved new vessels this round: 3
+Selected source files:
+- CSL: D:\Files\demo\capaStudy\CSL FETCH\csl_query\CSL_FETCH_BATCH_DETAIL_260311085434.xlsx
+- MSC: D:\Files\demo\capaStudy\MSC FETCH\msc_query\MSC_FETCH_BATCH_DETAIL_260311083855.xlsx
+- MSK: D:\Files\demo\capaStudy\MSK FETCH\msk_query\MSK_FETCH_BATCH_DETAIL_260311110910.xlsx
+Merged voyages: 460
+Merged port calls: 3857
+Merged output: D:\Files\demo\capaStudy\data\merged\ALL_CARRIERS_MERGED_260311111512.xlsx
+Update current: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_CURRENT.xlsx
+Update history: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_HISTORY.xlsx
+Snapshot output: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_SNAPSHOT_260311111513.xlsx
+Changes output: D:\Files\demo\capaStudy\data\state\ALL_CARRIERS_CHANGES_260311111513.xlsx
+
+========================================
+[DONE] Full query pipeline finished.
+Time: 2026-03-11 11:15:53
+========================================

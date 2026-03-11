@@ -1,0 +1,231 @@
+[group 1 1/1900] A -> code=B11 IMO=None TEU=None status=detail_no_teu
+[group 1 5/1900] A KIBO -> code=NWQ IMO=9444962 TEU=None status=detail_no_teu
+[group 1 10/1900] A SUWA -> code=MXX IMO=9999996 TEU=1096 status=ok
+[group 1 12/1900] A.IDEFIX (DUPLICATED) -> code=ID2 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 15/1900] ABU DHABI -> code=Q46 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 20/1900] ACACIA TAURUS -> code=TDG IMO=9124677 TEU=607 status=ok
+[group 1 23/1900] ACHIEVER -> code=A01 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 24/1900] ACHIM -> code=SQ4 IMO=7618519 TEU=None status=detail_no_teu
+[group 1 25/1900] ACRUX N -> code=N22 IMO=9433066 TEU=None status=detail_no_teu
+[group 1 28/1900] ACX CHERRY -> code=ANY IMO=99999996 TEU=None status=detail_no_teu
+[group 1 29/1900] ACX COSMOS -> code=ASO IMO=9999997 TEU=None status=detail_no_teu
+[group 1 30/1900] ACX CRYSTAL -> code=AOI IMO=9360611 TEU=2858 status=ok
+[group 1 40/1900] ACX MIMOSA -> code=SHZ IMO=9009188 TEU=700 status=ok
+[group 1 48/1900] ADDAN -> code=1AQ IMO=9411410 TEU=None status=detail_no_teu
+[group 1 49/1900] ADDISON -> code=PRG IMO=9337250 TEU=None status=detail_no_teu
+[group 1 50/1900] ADELINA D -> code=Q16 IMO=9306079 TEU=1065 status=ok
+[group 1 52/1900] ADI SEGARA 2501 -> code=A2N IMO=3427030 TEU=None status=detail_no_teu
+[group 1 53/1900] ADILIA I -> code=R23 IMO=9318761 TEU=None status=detail_no_teu
+[group 1 59/1900] ADMIRATION -> code=AIA IMO=9402512 TEU=None status=detail_no_teu
+[group 1 60/1900] ADRIATIC BRIDGE -> code=RDO IMO=9999996 TEU=None status=detail_no_teu
+[group 1 64/1900] AEOLUS -> code=5LB IMO=9088524 TEU=None status=detail_no_teu
+[group 1 65/1900] AESTATICS -> code=R3A IMO=954782 TEU=None status=detail_no_teu
+[group 1 68/1900] AG-26381 -> code=BIW IMO=9999996 TEU=None status=detail_no_teu
+[group 1 69/1900] AG-26395 -> code=BIM IMO=9999996 TEU=None status=detail_no_teu
+[group 1 70/1900] AG-26619 -> code=BJP IMO=9999996 TEU=None status=detail_no_teu
+[group 1 72/1900] AGILITY 1805 -> code=A9W IMO=9999996 TEU=None status=detail_no_teu
+[group 1 78/1900] AILA -> code=AI8 IMO=9354337 TEU=None status=detail_no_teu
+[group 1 79/1900] AIN SNAN -> code=RAY IMO=9525869 TEU=None status=detail_no_teu
+[group 1 80/1900] AISAN STAR -> code=AMY IMO=99999996 TEU=None status=detail_no_teu
+[group 1 83/1900] AKACIA (NFS) -> code=MA5 IMO=931502 TEU=None status=detail_no_teu
+[group 1 86/1900] AKASHIA -> code=BE6 IMO=9288617 TEU=None status=detail_no_teu
+[group 1 89/1900] AKITETA -> code=M66 IMO=9220847 TEU=None status=detail_no_teu
+[group 1 90/1900] AL ABDALI -> code=RNP IMO=9154543 TEU=4101 status=ok
+[group 1 91/1900] AL BATEEN -> code=B4A IMO=9668984 TEU=None status=detail_no_teu
+[group 1 95/1900] AL JUBAIL -> code=UJA IMO=9547219 TEU=None status=detail_no_teu
+[group 1 97/1900] AL LUQTA -> code=ZA7 IMO=9294953 TEU=None status=detail_no_teu
+[group 1 100/1900] AL NOOF -> code=RNN IMO=9149770 TEU=3802 status=ok
+[group 1 106/1900] AL WAAB -> code=1AW IMO=9259642 TEU=None status=detail_no_teu
+[group 1 108/1900] AL YASRA -> code=1AL IMO=9415985 TEU=None status=detail_no_teu
+[group 1 110/1900] ALAM JAYA -> code=ABG IMO=99999996 TEU=None status=detail_no_teu
+[group 1 112/1900] ALASA -> code=PY3 IMO=9162681 TEU=None status=detail_no_teu
+[group 1 113/1900] ALASA (EXPIRED) -> code=U70 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 114/1900] ALDEBARAN -> code=5AB IMO=9301990 TEU=None status=detail_no_teu
+[group 1 119/1900] ALEN -> code=AK7 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 120/1900] ALEX -> code=SQ9 IMO=9012795 TEU=400 status=ok
+[group 1 122/1900] ALEXANDER B (NFS) -> code=PW5 IMO=9328641 TEU=None status=detail_no_teu
+[group 1 127/1900] ALEXIA2 -> code=P66 IMO=9308625 TEU=None status=detail_no_teu
+[group 1 129/1900] ALEXO -> code=PX5 IMO=8020604 TEU=None status=detail_no_teu
+[group 1 130/1900] ALGERIAN EXPRESS -> code=SUV IMO=99999996 TEU=1439 status=ok
+[group 1 131/1900] ALI AGA -> code=PI0 IMO=8121719 TEU=None status=detail_no_teu
+[group 1 132/1900] ALIANCA SINAPORE -> code=SMB IMO=9230086 TEU=None status=detail_no_teu
+[group 1 134/1900] ALINDA -> code=PZ5 IMO=9588378 TEU=None status=detail_no_teu
+[group 1 140/1900] ALLEGRO N -> code=Q6U IMO=9999996 TEU=2466 status=ok
+[group 1 146/1900] ALM ZURICH -> code=CPB IMO=999996 TEU=None status=detail_no_teu
+[group 1 147/1900] ALMA -> code=UDU IMO=9183415 TEU=None status=detail_no_teu
+[group 1 148/1900] ALOPO -> code=UR3 IMO=9329564 TEU=None status=detail_no_teu
+[group 1 149/1900] ALREK -> code=U71 IMO=9330953 TEU=None status=detail_no_teu
+[group 1 150/1900] ALS APOLLO -> code=R3Y IMO=9999800 TEU=4253 status=ok
+[group 1 159/1900] ALS VENUS -> code=4XB IMO=9525948 TEU=None status=detail_no_teu
+[group 1 160/1900] ALS VESTA -> code=APS IMO=9525950 TEU=2546 status=ok
+[group 1 162/1900] ALULA -> code=QF4 IMO=9525883 TEU=None status=detail_no_teu
+[group 1 166/1900] AMAN -> code=UQ8 IMO=9215517 TEU=None status=detail_no_teu
+[group 1 167/1900] AMANDA -> code=AXS IMO=10000000000000000000 TEU=None status=detail_no_teu
+[group 1 168/1900] AMANDA D -> code=RZG IMO=9217565 TEU=None status=detail_no_teu
+[group 1 170/1900] AMAZING F. -> code=SOI IMO=89763 TEU=779 status=ok
+[group 1 171/1900] AMAZON RIVER -> code=ATK IMO=99999996 TEU=None status=detail_no_teu
+[group 1 172/1900] AMAZONAS -> code=SC1 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 173/1900] AMBASSADORBRIDGE -> code=S69 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 175/1900] AMERDIJK (DO NOT USE) -> code=PT6 IMO=9491476 TEU=None status=detail_no_teu
+[group 1 179/1900] AMILCAR -> code=UV8 IMO=9207998 TEU=None status=detail_no_teu
+[group 1 180/1900] AMINA -> code=PO3 IMO=9448683 TEU=1036 status=ok
+[group 1 181/1900] AMINA.. -> code=US5 IMO=348625 TEU=None status=detail_no_teu
+[group 1 182/1900] AMIRA LANA -> code=1MI IMO=9141649 TEU=None status=detail_no_teu
+[group 1 185/1900] AMSTELDIJK -> code=UBE IMO=9274264 TEU=None status=detail_no_teu
+[group 1 186/1900] AMUNDSEN -> code=Q76 IMO=99999997 TEU=None status=detail_no_teu
+[group 1 188/1900] AN DA 105 -> code=Z00 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 189/1900] AN DA 165 -> code=ZBT IMO=99999996 TEU=None status=detail_no_teu
+[group 1 190/1900] AN DA 6229 -> code=LRC IMO=9999996 TEU=None status=detail_no_teu
+[group 1 192/1900] AN DA 6289 -> code=LHZ IMO=9999996 TEU=None status=detail_no_teu
+[group 1 193/1900] AN DA 6619 -> code=LMX IMO=9999996 TEU=None status=detail_no_teu
+[group 1 194/1900] AN DA 666 -> code=OUY IMO=9999996 TEU=None status=detail_no_teu
+[group 1 197/1900] AN DA 6869 -> code=LLS IMO=9999996 TEU=None status=detail_no_teu
+[group 1 198/1900] AN DA 6878 -> code=LMY IMO=9999996 TEU=None status=detail_no_teu
+[group 1 199/1900] AN DA 6999 -> code=OUX IMO=9999996 TEU=None status=detail_no_teu
+[group 1 200/1900] AN DA 8188 -> code=OV9 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 202/1900] AN HANG 288 -> code=O28 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 203/1900] AN HE 9 -> code=F1M IMO=952 TEU=None status=detail_no_teu
+[group 1 204/1900] AN HUA 5 -> code=SLH IMO=9999996 TEU=None status=detail_no_teu
+[group 1 205/1900] AN HUA 8 -> code=YK9 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 206/1900] AN JI 009 -> code=XTL IMO=20150036 TEU=None status=detail_no_teu
+[group 1 207/1900] AN JI 089 -> code=XNI IMO=20150154 TEU=None status=detail_no_teu
+[group 1 208/1900] AN JI 168 -> code=XSZ IMO=20150029 TEU=None status=detail_no_teu
+[group 1 209/1900] AN JI 188 -> code=XUI IMO=20150087 TEU=None status=detail_no_teu
+[group 1 210/1900] AN JI 287 -> code=WD8 IMO=20150055 TEU=None status=detail_no_teu
+[group 1 211/1900] AN JI 288 -> code=WMW IMO=None TEU=None status=detail_no_teu
+[group 1 212/1900] AN JI 289 -> code=XV9 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 213/1900] AN JI 388 -> code=XJL IMO=99999996 TEU=None status=detail_no_teu
+[group 1 214/1900] AN JI 389 -> code=XNR IMO=20150071 TEU=None status=detail_no_teu
+[group 1 215/1900] AN JI 5888 -> code=OWP IMO=9999996 TEU=None status=detail_no_teu
+[group 1 219/1900] AN JI 667 -> code=XUD IMO=20150083 TEU=None status=detail_no_teu
+[group 1 220/1900] AN JI 668 -> code=XZJ IMO=20150042 TEU=None status=detail_no_teu
+[group 1 221/1900] AN JI 669 -> code=WPO IMO=999996 TEU=None status=detail_no_teu
+[group 1 227/1900] AN JI 889 -> code=XYK IMO=20150115 TEU=None status=detail_no_teu
+[group 1 228/1900] AN JI 89 -> code=XZS IMO=20150046 TEU=None status=detail_no_teu
+[group 1 230/1900] AN RONG 1 -> code=ZCR IMO=99999996 TEU=116 status=ok
+[group 1 231/1900] AN SHENG 18 -> code=NGC IMO=9999996 TEU=None status=detail_no_teu
+[group 1 232/1900] AN SHENG 19 -> code=N6A IMO=6144 TEU=None status=detail_no_teu
+[group 1 233/1900] AN SHENG 20 -> code=NGU IMO=9999996 TEU=None status=detail_no_teu
+[group 1 235/1900] AN SHENG 22 -> code=N42 IMO=67588856 TEU=None status=detail_no_teu
+[group 1 239/1900] AN SHUN 0689 -> code=WMX IMO=None TEU=None status=detail_no_teu
+[group 1 240/1900] AN SHUN 188 -> code=W1M IMO=20151102 TEU=None status=detail_no_teu
+[group 1 241/1900] AN SHUN 5 -> code=F5I IMO=2007709 TEU=None status=detail_no_teu
+[group 1 242/1900] AN SHUN 6089 -> code=LP9 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 243/1900] AN SHUN 6099 -> code=LRQ IMO=9999996 TEU=None status=detail_no_teu
+[group 1 248/1900] AN TONG DA LIAN -> code=D9B IMO=9714915 TEU=None status=detail_no_teu
+[group 1 250/1900] AN TONG FU ZHOU -> code=QFB IMO=9714927 TEU=2444 status=ok
+[group 1 257/1900] AN TU 089 -> code=W7G IMO=20160411 TEU=None status=detail_no_teu
+[group 1 258/1900] AN TU 1 -> code=Z8H IMO=1 TEU=None status=detail_no_teu
+[group 1 259/1900] AN TU 1329 -> code=LOX IMO=9999996 TEU=None status=detail_no_teu
+[group 1 260/1900] AN TU 168 -> code=WLW IMO=99999996 TEU=None status=detail_no_teu
+[group 1 261/1900] AN TU 2 -> code=Z3I IMO=1 TEU=None status=detail_no_teu
+[group 1 262/1900] AN TU 208 -> code=W8S IMO=20160505 TEU=None status=detail_no_teu
+[group 1 263/1900] AN TU 228 -> code=W0A IMO=20160623 TEU=None status=detail_no_teu
+[group 1 265/1900] AN TU 2298 -> code=W6Y IMO=20160408 TEU=None status=detail_no_teu
+[group 1 267/1900] AN TU 289 -> code=Z9E IMO=1 TEU=None status=detail_no_teu
+[group 1 269/1900] AN TU 3 -> code=Z3D IMO=1 TEU=None status=detail_no_teu
+[group 1 270/1900] AN TU 328 -> code=Z3J IMO=6524654 TEU=210 status=ok
+[group 1 272/1900] AN TU 333 -> code=LQ2 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 273/1900] AN TU 3366 -> code=LJ3 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 274/1900] AN TU 3602 -> code=Z3L IMO=1 TEU=None status=detail_no_teu
+[group 1 275/1900] AN TU 3603 -> code=Z2B IMO=1 TEU=None status=detail_no_teu
+[group 1 276/1900] AN TU 389 -> code=L60 IMO=1 TEU=None status=detail_no_teu
+[group 1 277/1900] AN TU 6 -> code=LOB IMO=9999996 TEU=None status=detail_no_teu
+[group 1 279/1900] AN TU 638 -> code=OUU IMO=9999996 TEU=None status=detail_no_teu
+[group 1 280/1900] AN TU 639 -> code=OQQ IMO=9999996 TEU=1 status=ok
+[group 1 281/1900] AN TU 66 -> code=LSL IMO=9999996 TEU=None status=detail_no_teu
+[group 1 284/1900] AN TU 733 -> code=OVY IMO=9999996 TEU=None status=detail_no_teu
+[group 1 286/1900] AN TU 852 -> code=LS5 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 287/1900] AN TU 9309 -> code=Z3V IMO=1 TEU=None status=detail_no_teu
+[group 1 288/1900] AN TU 998 -> code=WOA IMO=99999996 TEU=None status=detail_no_teu
+[group 1 290/1900] AN YANG -> code=MQI IMO=8741026 TEU=649 status=ok
+[group 1 292/1900] AN YANG 128 -> code=OHI IMO=9999996 TEU=None status=detail_no_teu
+[group 1 293/1900] AN YANG 66 -> code=DCS IMO=9999996 TEU=None status=detail_no_teu
+[group 1 295/1900] AN YI 5689 -> code=OW9 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 297/1900] AN YI 5899 -> code=OXW IMO=9999996 TEU=None status=detail_no_teu
+[group 1 298/1900] AN YI 8689 -> code=OWA IMO=9999996 TEU=None status=detail_no_teu
+[group 1 300/1900] ANASSA -> code=NAS IMO=9312652 TEU=1740 status=ok
+[group 1 302/1900] ANDA -> code=A03 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 303/1900] ANDALUSIAN EXPRESS -> code=ACX IMO=99999996 TEU=None status=detail_no_teu
+[group 1 305/1900] ANDAMAN STAR -> code=A6A IMO=9999996 TEU=None status=detail_no_teu
+[group 1 308/1900] ANDINO -> code=AY2 IMO=99999996 TEU=None status=detail_no_teu
+[group 1 310/1900] ANDREAS -> code=AZY IMO=9152777 TEU=None status=detail_no_teu
+[group 1 311/1900] ANDROMEDA J -> code=UBY IMO=9355422 TEU=None status=detail_no_teu
+[group 1 314/1900] ANGIE RICKMERS -> code=A2A IMO=9999996 TEU=None status=detail_no_teu
+[group 1 315/1900] ANHUA 1 -> code=RBO IMO=9999996 TEU=None status=detail_no_teu
+[group 1 316/1900] ANHUICHANGHANG601 -> code=2A7 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 317/1900] ANHUICHANGHANG602 -> code=2RG IMO=9999996 TEU=None status=detail_no_teu
+[group 1 318/1900] ANHUICHANGHANG603 -> code=2LJ IMO=9999996 TEU=None status=detail_no_teu
+[group 1 319/1900] ANHUICHANGHANG610 -> code=2WT IMO=9999996 TEU=None status=detail_no_teu
+[group 1 320/1900] ANHUIGANGHANG603 -> code=2KL IMO=9999996 TEU=None status=detail_no_teu
+[group 1 322/1900] ANJA -> code=UA9 IMO=9116187 TEU=None status=detail_no_teu
+[group 1 330/1900] ANJICHUANDA003 -> code=YUQ IMO=99999996 TEU=30 status=ok
+[group 1 340/1900] ANJICHUANDA016 -> code=Y1O IMO=99999996 TEU=48 status=ok
+[group 1 345/1900] ANJICHUANDA021 -> code=Y5N IMO=9999996 TEU=None status=detail_no_teu
+[group 1 346/1900] ANJICHUANDA022 -> code=Y4K IMO=99999996 TEU=None status=detail_no_teu
+[group 1 347/1900] ANJICHUANDA023 -> code=Y3X IMO=99999996 TEU=None status=detail_no_teu
+[group 1 348/1900] ANJICHUANDA026 -> code=Y4I IMO=99999996 TEU=None status=detail_no_teu
+[group 1 349/1900] ANJICHUANDA027 -> code=Y3Y IMO=99999996 TEU=None status=detail_no_teu
+[group 1 350/1900] ANJICHUANDA028 -> code=Y5O IMO=9999996 TEU=None status=detail_no_teu
+[group 1 351/1900] ANJICHUANDA029 -> code=Y7E IMO=9999996 TEU=None status=detail_no_teu
+[group 1 352/1900] ANJICHUANDA030 -> code=V37 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 354/1900] ANJICHUANDA033 -> code=VJT IMO=9999933 TEU=None status=detail_no_teu
+[group 1 356/1900] ANJICHUANDA036 -> code=2DS IMO=9999996 TEU=None status=detail_no_teu
+[group 1 357/1900] ANJICHUANDA037 -> code=2D9 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 358/1900] ANJICHUANDA038 -> code=2Q5 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 359/1900] ANJICHUANDA039 -> code=2Q6 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 360/1900] ANJICHUANDA050 -> code=2Q3 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 361/1900] ANJICHUANDA051 -> code=VPG IMO=9999996 TEU=None status=detail_no_teu
+[group 1 362/1900] ANJICHUANDA052 -> code=VPQ IMO=9999996 TEU=None status=detail_no_teu
+[group 1 363/1900] ANJICHUANDA053 -> code=VQL IMO=9999996 TEU=None status=detail_no_teu
+[group 1 364/1900] ANJICHUANDA055 -> code=VPV IMO=9999996 TEU=None status=detail_no_teu
+[group 1 365/1900] ANJICHUANDA056 -> code=VWK IMO=9999996 TEU=None status=detail_no_teu
+[group 1 366/1900] ANJICHUANDA058 -> code=VWM IMO=9999996 TEU=None status=detail_no_teu
+[group 1 367/1900] ANJICHUANDA059 -> code=V8M IMO=9999996 TEU=None status=detail_no_teu
+[group 1 368/1900] ANJICHUANDA061 -> code=2AB IMO=9999996 TEU=None status=detail_no_teu
+[group 1 369/1900] ANJICHUANDA062 -> code=2AC IMO=9999996 TEU=None status=detail_no_teu
+[group 1 370/1900] ANJICHUANDA063 -> code=2AN IMO=9999996 TEU=None status=detail_no_teu
+[group 1 371/1900] ANJICHUANDA065 -> code=V9T IMO=9999996 TEU=None status=detail_no_teu
+[group 1 372/1900] ANJICHUANDA066 -> code=2F5 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 373/1900] ANJICHUANDA067 -> code=2F6 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 374/1900] ANJICHUANDA068 -> code=2K6 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 375/1900] ANJICHUANDA069 -> code=2H7 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 376/1900] ANJICHUANDA070 -> code=2H9 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 377/1900] ANJICHUANDA071 -> code=2L4 IMO=9999996 TEU=None status=detail_no_teu
+[group 1 378/1900] ANJICHUANDA072 -> code=2EL IMO=9999996 TEU=None status=detail_no_teu
+[group 1 379/1900] ANJICHUANDA073 -> code=V9S IMO=9999996 TEU=None status=detail_no_teu
+[group 1 380/1900] ANJICHUANDA077 -> code=2KJ IMO=9999996 TEU=None status=detail_no_teu
+[group 1 381/1900] ANJICHUANDA078 -> code=2QW IMO=9999996 TEU=None status=detail_no_teu
+[group 1 382/1900] ANJICHUANDA079 -> code=2JP IMO=9999996 TEU=None status=detail_no_teu
+[group 1 383/1900] ANJISHUNDA010 -> code=VII IMO=9999996 TEU=None status=detail_no_teu
+[group 1 386/1900] ANKE EHLER -> code=U87 IMO=9208459 TEU=None status=detail_no_teu
+[group 1 388/1900] ANL BAREGA -> code=N9X IMO=8989898 TEU=None status=detail_no_teu
+[group 1 389/1900] ANL ELANORA -> code=Q8F IMO=9334820 TEU=None status=detail_no_teu
+[group 1 390/1900] ANL EMORA -> code=Q4M IMO=9362700 TEU=1794 status=ok
+[group 1 393/1900] ANL KIEWA -> code=QPC IMO=9999996 TEU=None status=detail_no_teu
+[group 1 398/1900] ANL WALWA -> code=N1X IMO=9317913 TEU=None status=detail_no_teu
+[group 1 400/1900] ANL WANGARATTA -> code=REW IMO=9334167 TEU=4250 status=ok
+[group 1 402/1900] ANL WARATAH -> code=N65 IMO=9326794 TEU=None status=detail_no_teu
+[group 1 407/1900] ANL WOOLAMAI -> code=Q9X IMO=9231793 TEU=None status=detail_no_teu
+[group 1 408/1900] ANL WYONG -> code=QA3 IMO=9334155 TEU=None status=detail_no_teu
+[group 1 409/1900] ANNA -> code=U53 IMO=9126728 TEU=None status=detail_no_teu
+[group 1 410/1900] ANNA G -> code=UBF IMO=9061291 TEU=515 status=ok
+[group 1 413/1900] ANNA MAERSK -> code=MIU IMO=9260421 TEU=None status=detail_no_teu
+[group 1 414/1900] ANNA SOPHIE DEDE -> code=UT7 IMO=3333333 TEU=None status=detail_no_teu
+[group 1 420/1900] ANTHEA -> code=QPN IMO=9999996 TEU=1740 status=ok
+[group 1 422/1900] ANTJE WULFF -> code=AVJ IMO=99999996 TEU=None status=detail_no_teu
+[group 1 426/1900] ANU BHUM -> code=ATM IMO=99999996 TEU=None status=detail_no_teu
+Traceback (most recent call last):
+  File "D:\Files\demo\capaStudy\vessels\update_vessels_from_csl_group.py", line 306, in <module>
+    main()
+    ~~~~^^
+  File "D:\Files\demo\capaStudy\vessels\update_vessels_from_csl_group.py", line 289, in main
+    print(
+    ~~~~~^
+        f"[group {args.group_index} {idx}/{total}] {vessel_name} -> "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        f"code={vessel_code} IMO={imo} TEU={teu} status={status}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+UnicodeEncodeError: 'gbk' codec can't encode character '\xa0' in position 21: illegal multibyte sequence

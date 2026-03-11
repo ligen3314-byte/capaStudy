@@ -1,7 +1,0 @@
-start_only_voyages=10
-multi_port_voyages=18
-start_only_port_calls=105
-multi_port_port_calls=186
-added_voyages=[('AEU5', 'MAG', '1379-013W'), ('AEU5', 'MAG', '1396-014W'), ('AEU5', 'MHG', '1380-012W'), ('AEU5', 'MHG', '1397-013W'), ('AEU5', 'NLM', '1381-025W'), ('AEU5', 'SX5', '1384-017W'), ('AEU5', 'SX6', '1382-016W'), ('AEU5', 'SX6', '1399-017W')]
-missing_voyages=[]
-assessment=合理：多港查询补充出了起运港查询遗漏的航次。

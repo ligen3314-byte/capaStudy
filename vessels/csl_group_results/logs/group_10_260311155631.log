@@ -1,0 +1,270 @@
+[group 10 6/456] ZHONG DA 313 -> code=LHP IMO=9999996 TEU=None status=detail_no_teu
+[group 10 8/456] ZHONG DA 7 -> code=PRD IMO=6866799 TEU=None status=detail_no_teu
+[group 10 10/456] ZHONG DA 89 -> code=V9Q IMO=9999996 TEU=None status=detail_no_teu
+[group 10 13/456] ZHONG FU FA ZHAN -> code=YY2 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 14/456] ZHONG FU JIN BU -> code=YDA IMO=99999996 TEU=None status=detail_no_teu
+[group 10 15/456] ZHONG FU XING SHENG -> code=YAX IMO=99999996 TEU=None status=detail_no_teu
+[group 10 20/456] ZHONG GU 3 -> code=MHI IMO=9999996 TEU=1744 status=ok
+[group 10 23/456] ZHONG GU 9 -> code=DCO IMO=9999996 TEU=None status=detail_no_teu
+[group 10 26/456] ZHONG GU BO HAI -> code=NPG IMO=9842346 TEU=None status=detail_no_teu
+[group 10 27/456] ZHONG GU CHANG CHUN -> code=D52 IMO=9938937 TEU=None status=detail_no_teu
+[group 10 30/456] ZHONG GU DA LIAN -> code=MGN IMO=9809227 TEU=2518 status=ok
+[group 10 40/456] ZHONG GU JI NAN -> code=MIZ IMO=9938872 TEU=4628 status=ok
+[group 10 42/456] ZHONG GU JIN YU -> code=F6Q IMO=978669 TEU=None status=detail_no_teu
+[group 10 45/456] ZHONG GU LIN YI -> code=BJU IMO=9809215 TEU=None status=detail_no_teu
+[group 10 48/456] ZHONG GU NAN JING -> code=DKS IMO=9933808 TEU=None status=detail_no_teu
+[group 10 50/456] ZHONG GU PENG LAI -> code=MLT IMO=9809203 TEU=2518 status=ok
+[group 10 60/456] ZHONG GU ZHU HAI -> code=ZGZ IMO=9810252 TEU=1338 status=ok
+[group 10 61/456] ZHONG HAI 006 -> code=Y8J IMO=99999996 TEU=None status=detail_no_teu
+[group 10 62/456] ZHONG HAI 06 -> code=YFJ IMO=99999996 TEU=None status=detail_no_teu
+[group 10 63/456] ZHONG HAI JI -> code=YKJ IMO=99999996 TEU=None status=detail_no_teu
+[group 10 65/456] ZHONG HANG 028 -> code=LV2 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 66/456] ZHONG HANG 038 -> code=LS7 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 67/456] ZHONG HANG 058 -> code=Z6F IMO=1 TEU=None status=detail_no_teu
+[group 10 70/456] ZHONG HANG 089 -> code=OOJ IMO=9999996 TEU=236 status=ok
+[group 10 71/456] ZHONG HANG 1268 -> code=LUY IMO=9999996 TEU=None status=detail_no_teu
+[group 10 75/456] ZHONG HANG 268 -> code=OER IMO=9999996 TEU=None status=detail_no_teu
+[group 10 79/456] ZHONG HANG 558 -> code=OZ7 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 80/456] ZHONG HANG 589 -> code=OZQ IMO=9999996 TEU=None status=detail_no_teu
+[group 10 82/456] ZHONG HANG 683 -> code=LZV IMO=9999996 TEU=None status=detail_no_teu
+[group 10 86/456] ZHONG HANG 902 -> code=ZP5 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 88/456] ZHONG HANG 905 -> code=XQD IMO=9999996 TEU=None status=detail_no_teu
+[group 10 90/456] ZHONG HANG 908 -> code=ZP8 IMO=9999996 TEU=80 status=ok
+[group 10 92/456] ZHONG HANG 911 -> code=X37 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 98/456] ZHONG HANG 918 -> code=ZYE IMO=9999996 TEU=None status=detail_no_teu
+[group 10 100/456] ZHONG HANG 920 -> code=ZGP IMO=9999996 TEU=118 status=ok
+[group 10 101/456] ZHONG HANG 921 -> code=ZSZ IMO=9999996 TEU=None status=detail_no_teu
+[group 10 102/456] ZHONG HANG 922 -> code=ZZS IMO=9999996 TEU=None status=detail_no_teu
+[group 10 103/456] ZHONG HANG 923 -> code=X2S IMO=9999996 TEU=None status=detail_no_teu
+[group 10 104/456] ZHONG HANG 925 -> code=ZXK IMO=9999996 TEU=None status=detail_no_teu
+[group 10 105/456] ZHONG HANG 926 -> code=ZYV IMO=9999996 TEU=None status=detail_no_teu
+[group 10 106/456] ZHONG HANG 927 -> code=X12 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 107/456] ZHONG HANG 928 -> code=ONW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 108/456] ZHONG HANG 929 -> code=XL7 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 109/456] ZHONG HANG 930 -> code=ZTO IMO=9999996 TEU=None status=detail_no_teu
+[group 10 110/456] ZHONG HANG 932 -> code=ZKA IMO=9999996 TEU=None status=detail_no_teu
+[group 10 111/456] ZHONG HANG 933 -> code=XT4 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 112/456] ZHONG HANG 935 -> code=XNK IMO=9999996 TEU=None status=detail_no_teu
+[group 10 113/456] ZHONG HANG 936 -> code=LC3 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 114/456] ZHONG HANG 937 -> code=LAR IMO=9999996 TEU=None status=detail_no_teu
+[group 10 115/456] ZHONG HANG 938 -> code=OU7 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 116/456] ZHONG HANG 939 -> code=W7S IMO=9999996 TEU=None status=detail_no_teu
+[group 10 117/456] ZHONG HANG HAI 5 -> code=F70 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 120/456] ZHONG HENG SHAN HAI -> code=F9J IMO=1223466 TEU=270 status=ok
+[group 10 121/456] ZHONG HONG 11 -> code=N67 IMO=None TEU=None status=detail_no_teu
+[group 10 122/456] ZHONG HONG 21 -> code=Q7E IMO=413698960 TEU=None status=detail_no_teu
+[group 10 125/456] ZHONG HONG 26 -> code=NJG IMO=413700230 TEU=None status=detail_no_teu
+[group 10 127/456] ZHONG HONG 29 -> code=LRU IMO=9999996 TEU=None status=detail_no_teu
+[group 10 130/456] ZHONG HONG 69 -> code=DIU IMO=9999996 TEU=3004 status=ok
+[group 10 131/456] ZHONG HONG 8 -> code=Q88 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 133/456] ZHONG JIN 336 -> code=XF9 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 134/456] ZHONG JIN 338 -> code=X1O IMO=9999996 TEU=None status=detail_no_teu
+[group 10 135/456] ZHONG JIN 339 -> code=ZTC IMO=9999996 TEU=None status=detail_no_teu
+[group 10 138/456] ZHONG LIAN SHAN TOU -> code=B73 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 140/456] ZHONG LIANG YU XIANG -> code=NLJ IMO=4134533 TEU=None status=detail_no_teu
+[group 10 141/456] ZHONG LUN JI 3002 -> code=NNN IMO=8356478 TEU=None status=detail_no_teu
+[group 10 142/456] ZHONG LUN JI 3008 -> code=NNO IMO=8526522 TEU=None status=detail_no_teu
+[group 10 143/456] ZHONG LUN JI 3011 -> code=NNK IMO=8345623 TEU=None status=detail_no_teu
+[group 10 144/456] ZHONG LUN JI 3017 -> code=NNL IMO=8456142 TEU=None status=detail_no_teu
+[group 10 147/456] ZHONG QI LUN 128 -> code=X1N IMO=None TEU=None status=detail_no_teu
+[group 10 148/456] ZHONG QI LUN 138 -> code=W5M IMO=9999996 TEU=None status=detail_no_teu
+[group 10 149/456] ZHONG RONG DA -> code=LOT IMO=9999996 TEU=None status=detail_no_teu
+[group 10 150/456] ZHONG SHAN 1 HAO -> code=WEM IMO=99999996 TEU=None status=detail_no_teu
+[group 10 151/456] ZHONG SHAN 2 HAO -> code=WPC IMO=99999996 TEU=None status=detail_no_teu
+[group 10 152/456] ZHONG SHAN 3 HAO -> code=WPD IMO=99999996 TEU=None status=detail_no_teu
+[group 10 153/456] ZHONG SHAN 4 HAO -> code=WEP IMO=20150183 TEU=None status=detail_no_teu
+[group 10 155/456] ZHONG SHENG HAI 18 -> code=LZQ IMO=9999996 TEU=None status=detail_no_teu
+[group 10 156/456] ZHONG SHENG HAI 3 -> code=WUK IMO=99999996 TEU=None status=detail_no_teu
+[group 10 157/456] ZHONG SHENG HAI 88 -> code=WH1 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 160/456] ZHONG SHI 108 -> code=XE2 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 161/456] ZHONG SHI 20 -> code=ZND IMO=99999996 TEU=None status=detail_no_teu
+[group 10 162/456] ZHONG SHUN 8 -> code=Z5R IMO=20170406 TEU=None status=detail_no_teu
+[group 10 163/456] ZHONG TAI 9 -> code=YXL IMO=99999996 TEU=None status=detail_no_teu
+[group 10 164/456] ZHONG TONG DA -> code=Z4U IMO=1 TEU=None status=detail_no_teu
+[group 10 165/456] ZHONG TU CHU 8 -> code=ZVZ IMO=99999996 TEU=None status=detail_no_teu
+[group 10 166/456] ZHONG WAI YUN CHANG JIANG 002 -> code=YWO IMO=99999996 TEU=None status=detail_no_teu
+[group 10 167/456] ZHONG WAI YUN CHANG JIANG 003 -> code=1A6 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 170/456] ZHONG WAI YUN NING BO -> code=RR4 IMO=9367956 TEU=847 status=ok
+[group 10 173/456] ZHONG WEI -> code=XL2 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 176/456] ZHONG XIANG YUAN YANG -> code=DBA IMO=9999996 TEU=None status=detail_no_teu
+[group 10 177/456] ZHONG XIN DA -> code=Z2O IMO=1 TEU=None status=detail_no_teu
+[group 10 180/456] ZHONG XING JI 9 -> code=2DG IMO=9999996 TEU=None status=detail_no_teu
+[group 10 182/456] ZHONG YI JI HAI -> code=NNM IMO=3833537 TEU=None status=detail_no_teu
+[group 10 183/456] ZHONG YI JI RUI -> code=NNG IMO=3834876 TEU=None status=detail_no_teu
+[group 10 184/456] ZHONG YI RUN HAI -> code=NNP IMO=3827741 TEU=None status=detail_no_teu
+[group 10 185/456] ZHONG YI RUN YANG -> code=R2F IMO=9999996 TEU=None status=detail_no_teu
+[group 10 188/456] ZHONG YUAN 03 -> code=YY1 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 190/456] ZHONG YUAN 06 -> code=YAH IMO=9999996 TEU=168 status=ok
+[group 10 195/456] ZHONG YUAN 11 -> code=YT7 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 197/456] ZHONG YUAN HAI YUN CHUANG XIN -> code=M57 IMO=9837652 TEU=None status=detail_no_teu
+[group 10 198/456] ZHONG YUAN HAI YUN KAI TUO -> code=MBP IMO=9837640 TEU=None status=detail_no_teu
+[group 10 199/456] ZHONG YUAN HAI YUN LV SHUI 01 -> code=2EM IMO=9999996 TEU=None status=detail_no_teu
+[group 10 200/456] ZHONG YUAN QING DAO -> code=CEQ IMO=9120762 TEU=5446 status=ok
+[group 10 204/456] ZHONG YUN DA -> code=W1Z IMO=20151120 TEU=None status=detail_no_teu
+[group 10 206/456] ZHONGCHEN16 -> code=V42 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 209/456] ZHONGCHENG 66 -> code=YBD IMO=9999995 TEU=None status=detail_no_teu
+[group 10 210/456] ZHONGCHENG 69 -> code=YOB IMO=99999996 TEU=None status=detail_no_teu
+[group 10 211/456] ZHONGCHENG16 -> code=1A8 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 213/456] ZHONGCHENG26 -> code=V36 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 214/456] ZHONGCHENG89 -> code=YVQ IMO=99999996 TEU=None status=detail_no_teu
+[group 10 215/456] ZHONGCHENG99 -> code=YVM IMO=99999996 TEU=None status=detail_no_teu
+[group 10 216/456] ZHONGCHI001 -> code=2VM IMO=9999996 TEU=None status=detail_no_teu
+[group 10 217/456] ZHONGCHI007 -> code=VWG IMO=9999996 TEU=None status=detail_no_teu
+[group 10 218/456] ZHONGCHI066 -> code=2S8 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 219/456] ZHONGCHI068 -> code=2S9 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 220/456] ZHONGFUGUANGYUAN -> code=M89 IMO=9999996 TEU=876 status=ok
+[group 10 221/456] ZHONGFUZHIYUAN -> code=1AT IMO=9999996 TEU=None status=detail_no_teu
+[group 10 222/456] ZHONGGU TAISHAN -> code=QWK IMO=9999993 TEU=None status=detail_no_teu
+[group 10 225/456] ZHONGHAI 588 -> code=YSL IMO=99999996 TEU=None status=detail_no_teu
+[group 10 226/456] ZHONGHAI001 -> code=VD1 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 227/456] ZHONGHAI008 -> code=YYB IMO=99999996 TEU=None status=detail_no_teu
+[group 10 228/456] ZHONGHAI009 -> code=YSS IMO=99999996 TEU=None status=detail_no_teu
+[group 10 229/456] ZHONGHAI016 -> code=V53 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 230/456] ZHONGHAI018 -> code=VB7 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 232/456] ZHONGHAI032 -> code=VG1 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 233/456] ZHONGHAI066 -> code=VGD IMO=56858961 TEU=None status=detail_no_teu
+[group 10 235/456] ZHONGHAI108 -> code=YWD IMO=99999996 TEU=None status=detail_no_teu
+[group 10 236/456] ZHONGHAI1188 -> code=QMI IMO=89789696 TEU=None status=detail_no_teu
+[group 10 237/456] ZHONGHAI156 -> code=YXC IMO=99999996 TEU=None status=detail_no_teu
+[group 10 239/456] ZHONGHAI666 -> code=V3A IMO=None TEU=None status=detail_no_teu
+[group 10 240/456] ZHONGHAI699 -> code=YVO IMO=99999996 TEU=None status=detail_no_teu
+[group 10 241/456] ZHONGHAI899 -> code=VYL IMO=99999996 TEU=None status=detail_no_teu
+[group 10 243/456] ZHONGHAI988 -> code=2YM IMO=9999996 TEU=None status=detail_no_teu
+[group 10 245/456] ZHONGHAIJI29 -> code=VZ2 IMO=999999 TEU=None status=detail_no_teu
+[group 10 246/456] ZHONGHAIJI999 -> code=2BI IMO=9999996 TEU=None status=detail_no_teu
+[group 10 247/456] ZHONGHE066 -> code=2LF IMO=9999996 TEU=None status=detail_no_teu
+[group 10 248/456] ZHONGHE068 -> code=2RN IMO=9999996 TEU=None status=detail_no_teu
+[group 10 249/456] ZHONGHE66 -> code=2R6 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 250/456] ZHONGHE86 -> code=2SS IMO=9999996 TEU=None status=detail_no_teu
+[group 10 251/456] ZHONGHE88 -> code=2Q7 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 252/456] ZHONGHE906 -> code=2RP IMO=9999996 TEU=None status=detail_no_teu
+[group 10 253/456] ZHONGHE908 -> code=2MU IMO=9999996 TEU=None status=detail_no_teu
+[group 10 254/456] ZHONGHE916 -> code=2GH IMO=9999996 TEU=None status=detail_no_teu
+[group 10 255/456] ZHONGHE918 -> code=2IW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 256/456] ZHONGHENG588 -> code=2PL IMO=9999996 TEU=None status=detail_no_teu
+[group 10 257/456] ZHONGKAI 19 -> code=YPW IMO=99999996 TEU=None status=detail_no_teu
+[group 10 258/456] ZHONGKANG88 -> code=V8G IMO=9999996 TEU=None status=detail_no_teu
+[group 10 260/456] ZHONGSHENG 369 -> code=F4I IMO=9999996 TEU=None status=detail_no_teu
+[group 10 261/456] ZHONGSHENG 389 -> code=FCT IMO=9999996 TEU=None status=detail_no_teu
+[group 10 262/456] ZHONGSHENG396 -> code=21D IMO=9999996 TEU=None status=detail_no_teu
+[group 10 269/456] ZHONGWAIYUN TAICANG -> code=QAB IMO=9008524 TEU=None status=detail_no_teu
+[group 10 270/456] ZHONGWAIYUN01 -> code=YF0 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 271/456] ZHONGWAIYUN02 -> code=YFU IMO=99999996 TEU=None status=detail_no_teu
+[group 10 272/456] ZHONGWAIYUN03 -> code=YFK IMO=99999996 TEU=None status=detail_no_teu
+[group 10 273/456] ZHONGWAIYUN101 -> code=YFG IMO=99999996 TEU=None status=detail_no_teu
+[group 10 274/456] ZHONGWAIYUN102 -> code=YFE IMO=999999996 TEU=None status=detail_no_teu
+[group 10 275/456] ZHONGWAIYUN103 -> code=YFR IMO=999999996 TEU=None status=detail_no_teu
+[group 10 276/456] ZHONGWAIYUN105 -> code=YFT IMO=99999996 TEU=None status=detail_no_teu
+[group 10 277/456] ZHONGWAIYUN106 -> code=RGY IMO=9999996 TEU=None status=detail_no_teu
+[group 10 278/456] ZHONGWAIYUN107 -> code=REE IMO=9999996 TEU=None status=detail_no_teu
+[group 10 279/456] ZHONGWAIYUN108 -> code=YGX IMO=99999996 TEU=None status=detail_no_teu
+[group 10 280/456] ZHONGWAIYUN150 -> code=YNA IMO=99999996 TEU=160 status=ok
+[group 10 281/456] ZHONGWAIYUN151 -> code=YJK IMO=99999996 TEU=None status=detail_no_teu
+[group 10 282/456] ZHONGWAIYUNCHANGJIANG001 -> code=YSY IMO=99999996 TEU=None status=detail_no_teu
+[group 10 283/456] ZHONGXINCHENGFENG -> code=2YY IMO=9999996 TEU=None status=detail_no_teu
+[group 10 284/456] ZHONGXING23 -> code=N6C IMO=99999966 TEU=None status=detail_no_teu
+[group 10 286/456] ZHONGXINGTUNAN -> code=2DB IMO=9999996 TEU=None status=detail_no_teu
+[group 10 287/456] ZHONGXINKAIXUAN -> code=2VW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 288/456] ZHONGYIJIDA -> code=2DZ IMO=9999996 TEU=None status=detail_no_teu
+[group 10 289/456] ZHONGYIJITONG -> code=VOW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 290/456] ZHONGYIJIXIANG -> code=VOY IMO=9999996 TEU=None status=detail_no_teu
+[group 10 291/456] ZHONGYIJIYUN1 -> code=YA6 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 292/456] ZHONGYIRUNDA -> code=VEN IMO=99999996 TEU=None status=detail_no_teu
+[group 10 293/456] ZHONGYIRUNJIANG -> code=VEI IMO=99999997 TEU=None status=detail_no_teu
+[group 10 294/456] ZHONGYIRUNTONG -> code=Y7Y IMO=99999996 TEU=None status=detail_no_teu
+[group 10 295/456] ZHONGYIZETAI -> code=1BA IMO=9999996 TEU=None status=detail_no_teu
+[group 10 296/456] ZHONGYUAN20 -> code=VON IMO=9999996 TEU=None status=detail_no_teu
+[group 10 297/456] ZHONGYUANHAIYUNLVSHUI02 -> code=2LC IMO=9999996 TEU=None status=detail_no_teu
+[group 10 298/456] ZHONGYUE28 -> code=VI9 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 299/456] ZHONGZE1 -> code=1AS IMO=9999996 TEU=None status=detail_no_teu
+[group 10 300/456] ZHONGZE2 -> code=NUA IMO=4137735 TEU=None status=detail_no_teu
+[group 10 301/456] ZHONGZE8 -> code=2PR IMO=9999996 TEU=None status=detail_no_teu
+[group 10 302/456] ZHOU RUN 5 -> code=MDL IMO=9999996 TEU=None status=detail_no_teu
+[group 10 305/456] ZHOUCHENGCHJ668 -> code=YCE IMO=9999996 TEU=None status=detail_no_teu
+[group 10 306/456] ZHOUHAICHANGFA -> code=FIF IMO=99999996 TEU=None status=detail_no_teu
+[group 10 307/456] ZHOUHANG 16 -> code=YBS IMO=9999996 TEU=None status=detail_no_teu
+[group 10 308/456] ZHOUHANGJI 188 -> code=YWW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 310/456] ZHU CHUAN 1001 -> code=XS5 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 311/456] ZHU CHUAN 1002 -> code=XEX IMO=9999996 TEU=None status=detail_no_teu
+[group 10 312/456] ZHU CHUAN 1003 -> code=W9P IMO=9999996 TEU=None status=detail_no_teu
+[group 10 313/456] ZHU CHUAN 1005 -> code=WZI IMO=9999996 TEU=None status=detail_no_teu
+[group 10 315/456] ZHU CHUAN 2002 -> code=LRM IMO=9999996 TEU=None status=detail_no_teu
+[group 10 316/456] ZHU CHUAN 2003 -> code=WTF IMO=9999996 TEU=None status=detail_no_teu
+[group 10 318/456] ZHU CHUAN 2006 -> code=WGA IMO=9999996 TEU=None status=detail_no_teu
+[group 10 319/456] ZHU CHUAN 2008 -> code=W2U IMO=9999996 TEU=None status=detail_no_teu
+[group 10 320/456] ZHU CHUAN 2011 -> code=LIC IMO=9999996 TEU=None status=detail_no_teu
+[group 10 321/456] ZHU CHUAN 3001 -> code=LG6 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 322/456] ZHU CHUAN 3002 -> code=LHQ IMO=9999996 TEU=None status=detail_no_teu
+[group 10 324/456] ZHU CHUAN 3005 -> code=LLA IMO=9999996 TEU=None status=detail_no_teu
+[group 10 325/456] ZHU CHUAN 511 -> code=LJW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 326/456] ZHU CHUAN 513 -> code=XA1 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 328/456] ZHU CHUAN 516 -> code=XR8 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 329/456] ZHU CHUAN 901 -> code=WNT IMO=9999996 TEU=None status=detail_no_teu
+[group 10 330/456] ZHU CHUAN 902 -> code=W24 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 331/456] ZHU CHUAN 906 -> code=WJU IMO=9999996 TEU=None status=detail_no_teu
+[group 10 332/456] ZHU CHUAN 908 -> code=WJW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 333/456] ZHU CHUAN 911 -> code=XOC IMO=9999996 TEU=None status=detail_no_teu
+[group 10 334/456] ZHU CHUAN 912 -> code=XYD IMO=9999996 TEU=None status=detail_no_teu
+[group 10 335/456] ZHU CHUAN 991 -> code=XWF IMO=9999996 TEU=None status=detail_no_teu
+[group 10 338/456] ZHU CHUAN 995 -> code=XN8 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 339/456] ZHU CHUAN 996 -> code=W4W IMO=9999996 TEU=None status=detail_no_teu
+[group 10 340/456] ZHU HAI 1 -> code=WFZ IMO=99999996 TEU=None status=detail_no_teu
+[group 10 341/456] ZHU HAI 1 HAO -> code=W0G IMO=20160628 TEU=None status=detail_no_teu
+[group 10 342/456] ZHU HAI 2 HAO -> code=WJE IMO=99999996 TEU=None status=detail_no_teu
+[group 10 344/456] ZHU HANG 329 -> code=OOO IMO=9999996 TEU=None status=detail_no_teu
+[group 10 345/456] ZHU JIANG 1 HAO -> code=WR1 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 346/456] ZHU JIANG 12 HAO -> code=XTX IMO=99999996 TEU=None status=detail_no_teu
+[group 10 347/456] ZHU JIANG 16 HAO -> code=WDO IMO=99999996 TEU=None status=detail_no_teu
+[group 10 348/456] ZHU JIANG 17 HAO -> code=WDP IMO=99999996 TEU=None status=detail_no_teu
+[group 10 349/456] ZHU JIANG 19 HAO -> code=WDQ IMO=99999996 TEU=None status=detail_no_teu
+[group 10 350/456] ZHU JIANG 2 HAO -> code=WR2 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 351/456] ZHU JIANG 222 -> code=LDY IMO=9999996 TEU=None status=detail_no_teu
+[group 10 352/456] ZHU JIANG 23 -> code=XIE IMO=9999996 TEU=None status=detail_no_teu
+[group 10 353/456] ZHU JIANG 28 -> code=XMP IMO=9999996 TEU=None status=detail_no_teu
+[group 10 354/456] ZHU JIANG 3 HAO -> code=WR3 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 355/456] ZHU JIANG 333 -> code=LE3 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 356/456] ZHU JIANG 444 -> code=LEE IMO=9999996 TEU=None status=detail_no_teu
+[group 10 357/456] ZHU JIANG 5 -> code=WBD IMO=99999996 TEU=None status=detail_no_teu
+[group 10 358/456] ZHU JIANG 555 -> code=LEF IMO=9999996 TEU=None status=detail_no_teu
+[group 10 360/456] ZHU JIANG 7 HAO -> code=W2S IMO=20151230 TEU=100 status=ok
+[group 10 361/456] ZHU JIANG 8 HAO -> code=WBH IMO=99999996 TEU=None status=detail_no_teu
+[group 10 362/456] ZHU JIANG XCT01 -> code=LEW IMO=9999996 TEU=None status=detail_no_teu
+[group 10 363/456] ZHU SHENG 2 -> code=ZUE IMO=99999996 TEU=None status=detail_no_teu
+[group 10 364/456] ZHU WAI 105 -> code=ZQ2 IMO=99999996 TEU=None status=detail_no_teu
+[group 10 366/456] ZHU WU 103 -> code=XVR IMO=9999996 TEU=None status=detail_no_teu
+[group 10 367/456] ZHU WU 206 -> code=ZKL IMO=99999996 TEU=None status=detail_no_teu
+[group 10 368/456] ZHU YONG 012 -> code=ZGM IMO=99999996 TEU=None status=detail_no_teu
+[group 10 370/456] ZHU YUN 278 -> code=XMJ IMO=99999996 TEU=None status=detail_no_teu
+[group 10 372/456] ZHUO MEI 21 -> code=O70 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 373/456] ZHUO MEI 23 -> code=O79 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 375/456] ZHUOYUEYUNHE -> code=VUX IMO=9999996 TEU=None status=detail_no_teu
+[group 10 376/456] ZHUOYUEZHIXING -> code=2HD IMO=9999996 TEU=None status=detail_no_teu
+[group 10 377/456] ZI HANG 05 -> code=YDK IMO=9999996 TEU=None status=detail_no_teu
+[group 10 378/456] ZI HANG 06 -> code=YH9 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 380/456] ZI HANG 58 -> code=Y5Y IMO=9999996 TEU=None status=detail_no_teu
+[group 10 381/456] ZI JING SONG -> code=M32 IMO=9608910 TEU=None status=detail_no_teu
+[group 10 382/456] ZIHANG 30 -> code=RBS IMO=9999996 TEU=None status=detail_no_teu
+[group 10 383/456] ZIHANG 8058 -> code=YAQ IMO=999996 TEU=None status=detail_no_teu
+[group 10 384/456] ZIHANG8168 -> code=YF1 IMO=9999996 TEU=None status=detail_no_teu
+[group 10 385/456] ZILLERTAL -> code=UDG IMO=8918734 TEU=None status=detail_no_teu
+[group 10 390/456] ZIM ASIA -> code=S45 IMO=9464716 TEU=4400 status=ok
+[group 10 395/456] ZIM BUENOS AIRES -> code=SV7 IMO=9088512 TEU=None status=detail_no_teu
+[group 10 400/456] ZIM CONDOR -> code=DCH IMO=9960552 TEU=5315 status=ok
+[group 10 403/456] ZIM EMERALD -> code=BKI IMO=9967976 TEU=None status=detail_no_teu
+[group 10 405/456] ZIM EUROPE -> code=PR4 IMO=9189354 TEU=None status=detail_no_teu
+[group 10 410/456] ZIM IBERIA -> code=S51 IMO=9139919 TEU=3429 status=ok
+[group 10 420/456] ZIM MONACO -> code=RBM IMO=9389708 TEU=4253 status=ok
+[group 10 423/456] ZIM MOUNT KILIMANJARO -> code=DBR IMO=9932490 TEU=None status=detail_no_teu
+[group 10 424/456] ZIM MOUNT OLYMPUS -> code=DLC IMO=9932505 TEU=None status=detail_no_teu
+[group 10 425/456] ZIM MOUNT VINSON -> code=DFN IMO=9932531 TEU=None status=detail_no_teu
+[group 10 430/456] ZIM PACIFIC -> code=ND6 IMO=9440837 TEU=4563 status=ok
+[group 10 431/456] ZIM PUSAN I -> code=ST4 IMO=999999 TEU=None status=detail_no_teu
+[group 10 440/456] ZIM THAILAND -> code=D2C IMO=9936513 TEU=None status=detail_no_teu
+[group 10 449/456] ZIRUN9999 -> code=VUF IMO=9999996 TEU=None status=detail_no_teu
+[group 10 450/456] ZIYAHE -> code=CMH IMO=9122629 TEU=764 status=ok
+[group 10 452/456] ZOE GLORY -> code=ACP IMO=99999996 TEU=None status=detail_no_teu
+[group 10 454/456] ZYHY JIN QU -> code=M27 IMO=9846495 TEU=None status=detail_no_teu
+[group 10 455/456] ZYHY LVSHUI 01 -> code=MYH IMO=9999996 TEU=None status=detail_no_teu
+[group 10 456/456] ZYHY LVSHUI 02 -> code=DAI IMO=9999996 TEU=None status=detail_no_teu
+group 10: saved xlsx -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_10_result_260311155928.xlsx
+group 10: saved json -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_10_result_260311155928.json

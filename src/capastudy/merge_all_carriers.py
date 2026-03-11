@@ -2,6 +2,7 @@
 
 import argparse
 import hashlib
+import os
 import shutil
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -626,6 +627,10 @@ def ensure_vessel_db_coverage(voyages: pd.DataFrame, port_calls: pd.DataFrame) -
     referer = env.get("MYVESSEL_REFERER", "https://market.myvessel.cn/")
     record_num = int(env.get("MYVESSEL_RECORD_NUM", "10") or 10)
     timeout = int(env.get("MYVESSEL_TIMEOUT", "30") or 30)
+    non_interactive = str(env.get("MYVESSEL_NON_INTERACTIVE", "")).strip().lower() in {"1", "true", "yes"}
+    if not non_interactive:
+        # In CI, stdin is non-interactive by design.
+        non_interactive = str(os.environ.get("GITHUB_ACTIONS", "")).strip().lower() == "true"
 
     if not token:
         raise RuntimeError(
@@ -641,6 +646,11 @@ def ensure_vessel_db_coverage(voyages: pd.DataFrame, port_calls: pd.DataFrame) -
         all_rows.extend(rows)
         if not unauthorized:
             break
+        if non_interactive:
+            raise RuntimeError(
+                "TOKEN_UNAUTHORIZED: MyVessel token expired/unauthorized in non-interactive mode. "
+                "Please update MYVESSEL_BEARER_TOKEN and rerun merge."
+            )
         if round_idx >= max_rounds:
             raise RuntimeError("MyVessel token unauthorized. Please update .env token and rerun.")
         print("MyVessel token expired/unauthorized. Please input a new token now.")

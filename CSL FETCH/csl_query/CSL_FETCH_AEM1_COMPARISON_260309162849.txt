@@ -1,7 +1,0 @@
-start_only_voyages=9
-multi_port_voyages=18
-start_only_port_calls=119
-multi_port_port_calls=238
-added_voyages=[('AEM1', 'CNC', '033W'), ('AEM1', 'CNC', '034W'), ('AEM1', 'CND', '031W'), ('AEM1', 'CND', '032W'), ('AEM1', 'NIN', '0741-028W'), ('AEM1', 'NQ3', '035W'), ('AEM1', 'NQ3', '036W'), ('AEM1', 'S37', '0736-028W'), ('AEM1', 'S37', '0750-029W')]
-missing_voyages=[]
-assessment=合理：多港查询补充出了起运港查询遗漏的航次。
