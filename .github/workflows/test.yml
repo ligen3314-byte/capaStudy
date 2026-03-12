@@ -1,0 +1,17 @@
+name: Cron Test
+
+on:
+  schedule:
+    # 每 5 分钟运行一次 (UTC 时间)
+    - cron: '*/5 * * * *'
+  # 保留手动触发按钮，方便对比
+  workflow_dispatch:
+
+jobs:
+  check-schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Time
+        run: |
+          echo "测试任务运行时间: $(date)"
+          echo "如果这行字在 Actions 列表中自动出现，说明定时触发器已激活。"
