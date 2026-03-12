@@ -1,0 +1,46 @@
+[group 2 2/878] BF CATANIA -> code=U50 IMO=9123790 TEU=None status=detail_no_teu
+[group 2 3/878] BF CONFIANZA -> code=UC5 IMO=10000000000000000000 TEU=None status=detail_no_teu
+[group 2 5/878] BF FORTALEZA -> code=UE1 IMO=9130432 TEU=None status=detail_no_teu
+[group 2 6/878] BF HAMBURG -> code=BIH IMO=9332861 TEU=None status=detail_no_teu
+[group 2 9/878] BF NILOU2 -> code=PV9 IMO=9999996 TEU=None status=detail_no_teu
+[group 2 10/878] BF PERCH -> code=RAS IMO=9437218 TEU=990 status=ok
+[group 2 12/878] BF VICTORIA -> code=UCR IMO=9165309 TEU=None status=detail_no_teu
+[group 2 16/878] BG EMERALD (OLD) -> code=MFZ IMO=9999922 TEU=None status=detail_no_teu
+[group 2 17/878] BG PACIFIC SUN 1 -> code=BF5 IMO=8699649 TEU=None status=detail_no_teu
+[group 2 20/878] BG. MARCOPOLO 212 -> code=D49 IMO=9999030 TEU=None status=detail_no_teu
+[group 2 21/878] BG. MARCOPOLO 220 -> code=D60 IMO=999945 TEU=None status=detail_no_teu
+[group 2 23/878] BG. MARCOPOLO 802 -> code=DDT IMO=9999802 TEU=None status=detail_no_teu
+[group 2 24/878] BG. MARCOPOLO 910 -> code=BHP IMO=9999996 TEU=None status=detail_no_teu
+[group 2 25/878] BG. SEJAHTERA 3032 -> code=BFO IMO=9999996 TEU=None status=detail_no_teu
+[group 2 26/878] BG. SINAR LESTARI 348 -> code=BFW IMO=9999996 TEU=None status=detail_no_teu
+[group 2 27/878] BG. VISION 201 -> code=DCZ IMO=9999201 TEU=None status=detail_no_teu
+[group 2 28/878] BG. VISION 202 -> code=D55 IMO=9999109 TEU=None status=detail_no_teu
+[group 2 30/878] BHATRA BHUM -> code=AI9 IMO=99999996 TEU=None status=detail_no_teu
+[group 2 32/878] BI SHAN -> code=Y03 IMO=99999996 TEU=None status=detail_no_teu
+[group 2 33/878] BIEN DONG STAR -> code=BDS IMO=9228289 TEU=None status=detail_no_teu
+[group 2 34/878] BIENDONG FORTUNE -> code=A7T IMO=9336323 TEU=None status=detail_no_teu
+[group 2 36/878] BIENDONG NAVIGATOR -> code=AVG IMO=9279226 TEU=None status=detail_no_teu
+[group 2 37/878] BIENDONG_FREIGHTER -> code=A5Z IMO=9336335 TEU=None status=detail_no_teu
+[group 2 40/878] BIMBA 1 -> code=AB6 IMO=99999996 TEU=74 status=ok
+[group 2 43/878] BIN HAI 6666 -> code=OYR IMO=9999996 TEU=None status=detail_no_teu
+[group 2 44/878] BIN HANG 089 -> code=OYL IMO=9999996 TEU=None status=detail_no_teu
+[group 2 49/878] BIN HUA 16 -> code=VAG IMO=99999996 TEU=None status=detail_no_teu
+[group 2 50/878] BIN TENG 2 -> code=OSG IMO=9999996 TEU=None status=detail_no_teu
+[group 2 51/878] BIN TENG 88 -> code=OUB IMO=9999996 TEU=None status=detail_no_teu
+[group 2 52/878] BINA 95 -> code=BIN IMO=9999996 TEU=None status=detail_no_teu
+[group 2 53/878] BINA MARINE 90 -> code=BFV IMO=9999996 TEU=None status=detail_no_teu
+[group 2 55/878] BINGANG601 -> code=2KF IMO=9999996 TEU=None status=detail_no_teu
+[group 2 56/878] BINGANG602 -> code=2LK IMO=9999996 TEU=None status=detail_no_teu
+[group 2 57/878] BINGANG603 -> code=20U IMO=9999996 TEU=None status=detail_no_teu
+[group 2 58/878] BINGANG605 -> code=2VZ IMO=9999996 TEU=None status=detail_no_teu
+[group 2 59/878] BINGANG607 -> code=21L IMO=9999996 TEU=None status=detail_no_teu
+[group 2 60/878] BINGANG609 -> code=2TP IMO=9999996 TEU=None status=detail_no_teu
+[group 2 62/878] BINGANG802 -> code=VOP IMO=9999996 TEU=None status=detail_no_teu
+[group 2 63/878] BINGANG803 -> code=V4C IMO=9999996 TEU=None status=detail_no_teu
+[group 2 64/878] BINGANG805 -> code=V6Z IMO=9999996 TEU=None status=detail_no_teu
+[group 2 65/878] BINGANG806 -> code=VSF IMO=9999996 TEU=None status=detail_no_teu
+[group 2 66/878] BINGANG807 -> code=2BU IMO=9999996 TEU=None status=detail_no_teu
+[group 2 68/878] BINGANG809 -> code=2G3 IMO=9999996 TEU=None status=detail_no_teu
+[group 2 69/878] BINGANG816 -> code=VCH IMO=9999996 TEU=None status=detail_no_teu
+[group 2 70/878] BINGANG817 -> code=VKZ IMO=1326123 TEU=None status=detail_no_teu
+[group 2 72/878] BINGANG819 -> code=VID IMO=9999996 TEU=None status=detail_no_teu

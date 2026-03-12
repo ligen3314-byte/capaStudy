@@ -1,0 +1,610 @@
+[group 18 2/878] X-PRESS KANGCHENJUNGA -> code=PBB IMO=9374595 TEU=None status=detail_no_teu
+[group 18 10/878] X-PRESS MONTE ROSA -> code=NWB IMO=9305934 TEU=707 status=ok
+[group 18 20/878] X-PRESS PYXIS -> code=DH9 IMO=9967536 TEU=None status=detail_no_teu
+[group 18 24/878] X-PRESS SOUSSE -> code=UB7 IMO=9354349 TEU=None status=detail_no_teu
+[group 18 25/878] X-PRESS SUEZ -> code=P4Z IMO=9159658 TEU=None status=detail_no_teu
+[group 18 29/878] XCSJ 0498 -> code=YCQ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 30/878] XEE NUMBER EIGHT -> code=KP8 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 31/878] XEE NUMBER FIVE -> code=KP5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 32/878] XEE NUMBER FOUR -> code=KP4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 33/878] XEE NUMBER NIGHT -> code=KP9 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 34/878] XEE NUMBER ONE -> code=KP1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 35/878] XEE NUMBER SEVEN -> code=KP7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 36/878] XEE NUMBER SIX -> code=KP6 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 37/878] XEE NUMBER THREE -> code=KP3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 38/878] XEE NUMBER TWO -> code=KP2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 39/878] XER NUMBER 2 -> code=CV2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 40/878] XER NUMBER 3 -> code=CV3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 41/878] XER NUMBER 4 -> code=CV4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 42/878] XER NUMBER 5 -> code=CV5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 43/878] XER NUMBER ONE -> code=CV1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 46/878] XHSJ.RONGMAO -> code=YN9 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 47/878] XI BO HONG 1 -> code=WAN IMO=99999996 TEU=None status=detail_no_teu
+[group 18 49/878] XI HANG -> code=ZPK IMO=99999996 TEU=None status=detail_no_teu
+[group 18 50/878] XI HANG 009 -> code=XFB IMO=999996 TEU=None status=detail_no_teu
+[group 18 51/878] XI HANG 029 -> code=XF1 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 52/878] XI HANG 075 -> code=XVO IMO=20150104 TEU=None status=detail_no_teu
+[group 18 53/878] XI HANG 096 -> code=ZXO IMO=99999996 TEU=None status=detail_no_teu
+[group 18 54/878] XI HANG 228 -> code=XOT IMO=99999996 TEU=None status=detail_no_teu
+[group 18 55/878] XI HANG 268 -> code=XER IMO=99999996 TEU=None status=detail_no_teu
+[group 18 56/878] XI HANG 288 -> code=XPK IMO=20150138 TEU=None status=detail_no_teu
+[group 18 57/878] XI HANG 303 -> code=X98 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 58/878] XI HANG 323 -> code=ZXT IMO=99999996 TEU=None status=detail_no_teu
+[group 18 59/878] XI HANG 366 -> code=XAK IMO=99999996 TEU=None status=detail_no_teu
+[group 18 60/878] XI HANG 523 -> code=XJ5 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 61/878] XI HANG 685 -> code=WC2 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 62/878] XI HANG 779 -> code=ZWC IMO=99999996 TEU=None status=detail_no_teu
+[group 18 63/878] XI HANG 798 -> code=XGL IMO=9999996 TEU=None status=detail_no_teu
+[group 18 64/878] XI HANG 806 -> code=XY5 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 65/878] XI HANG 826 -> code=XBU IMO=9999996 TEU=None status=detail_no_teu
+[group 18 66/878] XI HANG 856 -> code=WMA IMO=99999996 TEU=None status=detail_no_teu
+[group 18 67/878] XI HANG 878 -> code=ZZU IMO=99999996 TEU=None status=detail_no_teu
+[group 18 68/878] XI HANG 883 -> code=ZXN IMO=99999996 TEU=None status=detail_no_teu
+[group 18 69/878] XI HANG 8888 -> code=WEL IMO=20150231 TEU=None status=detail_no_teu
+[group 18 70/878] XI HANG 896 -> code=XH3 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 71/878] XI HANG 899 -> code=ZZI IMO=99999996 TEU=None status=detail_no_teu
+[group 18 73/878] XI HANG 928 -> code=ZNY IMO=99999996 TEU=None status=detail_no_teu
+[group 18 74/878] XI HANG 966 -> code=XLI IMO=10080800008 TEU=None status=detail_no_teu
+[group 18 75/878] XI HANG 980 -> code=XXF IMO=99999996 TEU=None status=detail_no_teu
+[group 18 76/878] XI HANG 9999 -> code=WN5 IMO=100811000317 TEU=None status=detail_no_teu
+[group 18 77/878] XI JIANG 5858 -> code=XTI IMO=20150034 TEU=None status=detail_no_teu
+[group 18 79/878] XIAMEN ALMTY RAIL NUMBER 1 -> code=IX1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 80/878] XIAMEN ALMTY RAIL NUMBER 2 -> code=IX2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 81/878] XIAMEN ALMTY RAIL NUMBER 3 -> code=IX3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 82/878] XIAMEN ALMTY RAIL NUMBER 4 -> code=IX4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 83/878] XIAMEN ALMTY RAIL NUMBER 5 -> code=IX5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 84/878] XIAN ALAMATY RAIL NUMBER 1 -> code=OW1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 85/878] XIAN ALAMATY RAIL NUMBER 2 -> code=OW2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 86/878] XIAN ALMATY RAIL NUMBER 3 -> code=OW3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 87/878] XIAN ALMATY RAIL NUMBER 4 -> code=OW4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 88/878] XIAN TASHIGENT RAIL NUMBER 1 -> code=OP1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 89/878] XIAN TASHIGENT RAIL NUMBER 10 -> code=BP1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 90/878] XIAN TASHIGENT RAIL NUMBER 11 -> code=BP2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 91/878] XIAN TASHIGENT RAIL NUMBER 12 -> code=BP3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 92/878] XIAN TASHIGENT RAIL NUMBER 13 -> code=BP4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 93/878] XIAN TASHIGENT RAIL NUMBER 14 -> code=BP5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 94/878] XIAN TASHIGENT RAIL NUMBER 15 -> code=BP6 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 95/878] XIAN TASHIGENT RAIL NUMBER 16 -> code=BP7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 96/878] XIAN TASHIGENT RAIL NUMBER 2 -> code=OP2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 97/878] XIAN TASHIGENT RAIL NUMBER 3 -> code=OP3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 98/878] XIAN TASHIGENT RAIL NUMBER 4 -> code=OP4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 99/878] XIAN TASHIGENT RAIL NUMBER 5 -> code=OP5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 100/878] XIAN TASHIGENT RAIL NUMBER 6 -> code=OP6 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 101/878] XIAN TASHIGENT RAIL NUMBER 7 -> code=OP8 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 102/878] XIAN TASHIGENT RAIL NUMBER 8 -> code=OP9 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 104/878] XIANG AN 228 -> code=XUY IMO=20150096 TEU=None status=detail_no_teu
+[group 18 105/878] XIANG AN 368 -> code=Z9M IMO=1 TEU=None status=detail_no_teu
+[group 18 109/878] XIANG FEI -> code=REZ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 110/878] XIANG FU 1 -> code=XZG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 111/878] XIANG FU 168 -> code=O06 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 112/878] XIANG FU 18 -> code=XXP IMO=9999996 TEU=None status=detail_no_teu
+[group 18 113/878] XIANG FU 2 -> code=XZH IMO=9999996 TEU=None status=detail_no_teu
+[group 18 114/878] XIANG FU 28 -> code=W58 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 116/878] XIANG FU 53 -> code=W53 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 117/878] XIANG FU 6 -> code=XXZ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 118/878] XIANG FU 8 -> code=XXQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 119/878] XIANG FU 9 -> code=W05 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 120/878] XIANG HANG 001 -> code=ODL IMO=9999996 TEU=1 status=ok
+[group 18 126/878] XIANG HONG -> code=XJP IMO=99999996 TEU=None status=detail_no_teu
+[group 18 127/878] XIANG JI 1 -> code=LEI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 128/878] XIANG JI 11 -> code=WKE IMO=9999996 TEU=None status=detail_no_teu
+[group 18 129/878] XIANG JI 13 -> code=WKJ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 130/878] XIANG JI 168 -> code=XRJ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 131/878] XIANG JI 21 -> code=WVQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 132/878] XIANG JI 23 -> code=B64 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 134/878] XIANG JIN -> code=QB1 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 140/878] XIANG PU -> code=QSR IMO=8409367 TEU=None status=detail_no_teu
+[group 18 143/878] XIANG SHENG 8888 -> code=Z5I IMO=20170322 TEU=None status=detail_no_teu
+[group 18 144/878] XIANG SHUI WAN -> code=Q02 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 147/878] XIANG TONG JI YUN -> code=M81 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 150/878] XIANG YI 6 -> code=NMB IMO=9999996 TEU=782 status=ok
+[group 18 154/878] XIANG YI1 -> code=Q41 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 155/878] XIANG YING -> code=RAP IMO=807097890 TEU=None status=detail_no_teu
+[group 18 157/878] XIANG YUAN NO.10 -> code=YW0 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 159/878] XIANG YUAN NO.7 -> code=Y96 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 160/878] XIANG YUAN NO.8 -> code=YD4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 161/878] XIANG YUAN NO.9 -> code=YO6 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 162/878] XIANG YUN 005 -> code=WUN IMO=99999996 TEU=None status=detail_no_teu
+[group 18 163/878] XIANG YUN 010 -> code=LGI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 165/878] XIANG YUN 1111 -> code=LFT IMO=9999996 TEU=None status=detail_no_teu
+[group 18 167/878] XIANG YUN 288 -> code=WY4 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 168/878] XIANG YUN 328 -> code=LJX IMO=9999996 TEU=None status=detail_no_teu
+[group 18 169/878] XIANG YUN 333 -> code=WHQ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 170/878] XIANG YUN 336 -> code=LBU IMO=1 TEU=None status=detail_no_teu
+[group 18 172/878] XIANG YUN 389 -> code=W4N IMO=20160310 TEU=None status=detail_no_teu
+[group 18 174/878] XIANG YUN 6019 -> code=LN5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 175/878] XIANG YUN 6118 -> code=LGP IMO=9999996 TEU=None status=detail_no_teu
+[group 18 176/878] XIANG YUN 6128 -> code=LFF IMO=9999996 TEU=None status=detail_no_teu
+[group 18 180/878] XIANG YUN 6328 -> code=OOQ IMO=9999996 TEU=1 status=ok
+[group 18 182/878] XIANG YUN 666 -> code=LF4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 183/878] XIANG YUN 668 -> code=WHI IMO=99999996 TEU=None status=detail_no_teu
+[group 18 184/878] XIANG YUN 718 -> code=WQH IMO=None TEU=None status=detail_no_teu
+[group 18 185/878] XIANG YUN 8098 -> code=WYD IMO=20150609 TEU=None status=detail_no_teu
+[group 18 187/878] XIANG YUN 928 -> code=OWQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 188/878] XIANG YUN 968 -> code=OUK IMO=9999996 TEU=None status=detail_no_teu
+[group 18 190/878] XIANG YUN HONG SHENG -> code=MME IMO=9999996 TEU=100 status=ok
+[group 18 191/878] XIANG ZHONG -> code=XR4 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 192/878] XIANG ZHU -> code=SGI IMO=9114804 TEU=None status=detail_no_teu
+[group 18 193/878] XIANGCHANGSHAJI0416 -> code=YCZ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 194/878] XIANGCHANGSHAJI0449 -> code=YCY IMO=99999996 TEU=None status=detail_no_teu
+[group 18 195/878] XIANGCHANGSHAJI0450 -> code=YCX IMO=99999996 TEU=None status=detail_no_teu
+[group 18 196/878] XIANGCHANGSHAJI0451 -> code=YU1 IMO=999999996 TEU=None status=detail_no_teu
+[group 18 197/878] XIANGCSJ0259 -> code=Y24 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 198/878] XIANGCSJ0260 -> code=Y25 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 200/878] XIANGHAI NO1 -> code=YCS IMO=99999996 TEU=None status=detail_no_teu
+[group 18 201/878] XIANGHANSHOUJISHENLONG1 -> code=YU7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 204/878] XIANGHUAIHUAHUO1188 -> code=V1N IMO=9999996 TEU=None status=detail_no_teu
+[group 18 205/878] XIANGJI -> code=Z2A IMO=1 TEU=None status=detail_no_teu
+[group 18 206/878] XIANGJI909 -> code=V52 IMO=9999666 TEU=None status=detail_no_teu
+[group 18 207/878] XIANGJIANGLVDIAN001 -> code=2SV IMO=9999996 TEU=None status=detail_no_teu
+[group 18 208/878] XIANGJIANGLVDIAN002 -> code=2YU IMO=9999996 TEU=None status=detail_no_teu
+[group 18 209/878] XIANGJINSHIJI 0175 -> code=YX8 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 210/878] XIANGLONG866 -> code=YBQ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 211/878] XIANGLONG8888 -> code=2PN IMO=9999996 TEU=None status=detail_no_teu
+[group 18 213/878] XIANGLONGHAO666 -> code=2CE IMO=9999996 TEU=None status=detail_no_teu
+[group 18 214/878] XIANGLONGJI777 -> code=V6I IMO=9999996 TEU=None status=detail_no_teu
+[group 18 215/878] XIANGSHUIYUN19 -> code=Y9A IMO=99999996 TEU=None status=detail_no_teu
+[group 18 216/878] XIANGSHUIYUN26 -> code=VOJ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 217/878] XIANGSHUIYUN27 -> code=V2G IMO=9999996 TEU=None status=detail_no_teu
+[group 18 218/878] XIANGSHUIYUN98 -> code=V59 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 219/878] XIANGTANHUO 0029 -> code=YD3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 220/878] XIANGTONGJIANGHAI -> code=V5A IMO=9999996 TEU=None status=detail_no_teu
+[group 18 221/878] XIANGTONGYONGSHUN -> code=VLS IMO=1324555 TEU=None status=detail_no_teu
+[group 18 223/878] XIANGWEI01 -> code=YPX IMO=99999996 TEU=None status=detail_no_teu
+[group 18 224/878] XIANGWEI2HAO -> code=Y2G IMO=99999996 TEU=None status=detail_no_teu
+[group 18 225/878] XIANGXIANGTANHUO 0081 -> code=YK2 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 226/878] XIANGXIANGTANHUO 0082 -> code=YEA IMO=9999999 TEU=None status=detail_no_teu
+[group 18 227/878] XIANGYANG DUISBURG RAIL 1 -> code=DD1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 228/878] XIANGYANG DUISBURG RAIL 2 -> code=DD2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 229/878] XIANGYANG MANHAIMU NUMBER 1 -> code=MR1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 230/878] XIANGYANG MANNHAM RAIL NUMBER -> code=MR2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 231/878] XIANGYANG777 -> code=2RU IMO=9999996 TEU=None status=detail_no_teu
+[group 18 233/878] XIANGYIYANGJI0001 -> code=VU0 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 234/878] XIANGYIYANGJI5368 -> code=VL6 IMO=999999 TEU=None status=detail_no_teu
+[group 18 236/878] XIANGYU101 -> code=2G1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 237/878] XIANGYU102 -> code=2G2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 239/878] XIANGYU88 -> code=VXQ IMO=999999 TEU=None status=detail_no_teu
+[group 18 240/878] XIANGYU98 -> code=VXR IMO=999999 TEU=None status=detail_no_teu
+[group 18 241/878] XIANGYUAN NO.11 -> code=YBZ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 243/878] XIANGYUAN NO.16 -> code=YSI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 244/878] XIANGYUAN1 -> code=Y20 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 245/878] XIANGYUAN16HAO -> code=2W6 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 246/878] XIANGYUAN18 -> code=YSK IMO=99999996 TEU=None status=detail_no_teu
+[group 18 247/878] XIANGYUAN2 -> code=Y21 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 248/878] XIANGYUAN3 -> code=Y22 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 249/878] XIANGYUAN4 -> code=Y23 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 250/878] XIANGYUAN5399 -> code=Y7G IMO=9999996 TEU=402 status=ok
+[group 18 251/878] XIANGYUN99 -> code=YYA IMO=99999996 TEU=None status=detail_no_teu
+[group 18 254/878] XIANGZHOUJINYUN8888 -> code=2YR IMO=9999996 TEU=None status=detail_no_teu
+[group 18 255/878] XIANZHOUHAO -> code=YX4 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 256/878] XIAO HANG JI 002 -> code=2P4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 260/878] XIAO YUAN 29 -> code=FCI IMO=9999996 TEU=768 status=ok
+[group 18 261/878] XIAO YUN -> code=N6E IMO=9766876 TEU=None status=detail_no_teu
+[group 18 262/878] XIAODAJI01 -> code=2P7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 263/878] XIAODAJI06 -> code=V2Z IMO=9999996 TEU=None status=detail_no_teu
+[group 18 265/878] XIAODAJI08 -> code=VFO IMO=9999996 TEU=None status=detail_no_teu
+[group 18 266/878] XIAODAJI09 -> code=VFQ IMO=999999999 TEU=None status=detail_no_teu
+[group 18 267/878] XIAODAJI11 -> code=VVN IMO=9999996 TEU=None status=detail_no_teu
+[group 18 268/878] XIAODAJI28 -> code=V3E IMO=9999996 TEU=None status=detail_no_teu
+[group 18 269/878] XIAOHANGJI001 -> code=VNM IMO=9675686 TEU=None status=detail_no_teu
+[group 18 270/878] XIAOHANGJI003 -> code=VVJ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 271/878] XIAOHANGJI005 -> code=VVD IMO=9999996 TEU=None status=detail_no_teu
+[group 18 272/878] XIAOHANGJI007 -> code=VWV IMO=9999996 TEU=None status=detail_no_teu
+[group 18 273/878] XIAOJIANG -> code=NA6 IMO=9401269 TEU=None status=detail_no_teu
+[group 18 275/878] XIE CHUAN LUN -> code=LWA IMO=9999996 TEU=None status=detail_no_teu
+[group 18 276/878] XIE FAN JIA -> code=LVF IMO=9999996 TEU=None status=detail_no_teu
+[group 18 277/878] XIE FAN JIA 201106 -> code=LRB IMO=9999996 TEU=None status=detail_no_teu
+[group 18 278/878] XIE HAI MING ZHOU -> code=N57 IMO=3104189 TEU=None status=detail_no_teu
+[group 18 279/878] XIE HAI RUI LI -> code=FSP IMO=9999996 TEU=None status=detail_no_teu
+[group 18 280/878] XIE HANG 1 -> code=ZS8 IMO=99999996 TEU=60 status=ok
+[group 18 281/878] XIE HANG 1 HAO -> code=ZHO IMO=99999996 TEU=None status=detail_no_teu
+[group 18 282/878] XIE HANG 1028 -> code=ZZT IMO=9999996 TEU=None status=detail_no_teu
+[group 18 283/878] XIE HANG 1058 -> code=WY9 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 285/878] XIE HANG 11 -> code=ZIK IMO=99999996 TEU=None status=detail_no_teu
+[group 18 288/878] XIE HANG 128 -> code=ZTK IMO=999999996 TEU=None status=detail_no_teu
+[group 18 290/878] XIE HANG 1688 -> code=X56 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 291/878] XIE HANG 189 -> code=ZNE IMO=99999996 TEU=None status=detail_no_teu
+[group 18 292/878] XIE HANG 19 -> code=ZRR IMO=9999996 TEU=None status=detail_no_teu
+[group 18 295/878] XIE HANG 2 HAO -> code=ZLB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 296/878] XIE HANG 22 -> code=ZX5 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 297/878] XIE HANG 258 -> code=X83 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 298/878] XIE HANG 268 -> code=ZMM IMO=9999996 TEU=None status=detail_no_teu
+[group 18 300/878] XIE HANG 288 -> code=ZNB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 302/878] XIE HANG 329 -> code=XLA IMO=9999996 TEU=None status=detail_no_teu
+[group 18 303/878] XIE HANG 330 -> code=XBB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 304/878] XIE HANG 331 -> code=XBH IMO=99999996 TEU=None status=detail_no_teu
+[group 18 306/878] XIE HANG 339 -> code=XA4 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 307/878] XIE HANG 36 -> code=ZWG IMO=99999996 TEU=None status=detail_no_teu
+[group 18 308/878] XIE HANG 399 -> code=ZUX IMO=99999996 TEU=None status=detail_no_teu
+[group 18 309/878] XIE HANG 508 -> code=XE1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 310/878] XIE HANG 528 -> code=X39 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 311/878] XIE HANG 555 -> code=ZXJ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 312/878] XIE HANG 558 -> code=ZKF IMO=9999996 TEU=None status=detail_no_teu
+[group 18 313/878] XIE HANG 588 -> code=ZXZ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 314/878] XIE HANG 6 -> code=XPW IMO=9999996 TEU=None status=detail_no_teu
+[group 18 315/878] XIE HANG 668 -> code=ZMI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 316/878] XIE HANG 818 -> code=ZWH IMO=9999996 TEU=None status=detail_no_teu
+[group 18 317/878] XIE HANG 838 -> code=ZRQ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 318/878] XIE HANG 88 -> code=ZFM IMO=99999996 TEU=None status=detail_no_teu
+[group 18 319/878] XIE HANG 886 -> code=XGQ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 320/878] XIE HANG 89 -> code=ZSX IMO=99999996 TEU=None status=detail_no_teu
+[group 18 321/878] XIE HANG 899 -> code=XO0 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 326/878] XIE HANG 938 -> code=WLZ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 327/878] XIE HANG 956 -> code=XC2 IMO=999999996 TEU=None status=detail_no_teu
+[group 18 328/878] XIE HANG 966 -> code=ZQX IMO=9999996 TEU=None status=detail_no_teu
+[group 18 329/878] XIE HANG 968 -> code=ZIV IMO=99999996 TEU=None status=detail_no_teu
+[group 18 330/878] XIE HANG 98 -> code=ZNP IMO=99999996 TEU=None status=detail_no_teu
+[group 18 331/878] XIE HANG 986 -> code=ZWO IMO=9999996 TEU=None status=detail_no_teu
+[group 18 332/878] XIE HANG 989 -> code=XMS IMO=99999996 TEU=None status=detail_no_teu
+[group 18 333/878] XIE HANG 998 -> code=X10 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 334/878] XIE LI FANG ZHOU -> code=LY7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 337/878] XIEFANJIA2022 -> code=O77 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 338/878] XIEFJ -> code=FMK IMO=9999996 TEU=None status=detail_no_teu
+[group 18 339/878] XIEFJ1 -> code=FMI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 340/878] XIEFJGUITENGXIANHUO0689 -> code=LDG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 341/878] XIHANG 098 -> code=ZWB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 342/878] XIHANG 163 -> code=ZVS IMO=99999996 TEU=None status=detail_no_teu
+[group 18 343/878] XIHANG 816 -> code=ZVF IMO=99999996 TEU=None status=detail_no_teu
+[group 18 344/878] XIHANG 888 -> code=ZVT IMO=99999996 TEU=None status=detail_no_teu
+[group 18 345/878] XIHUHUO208 -> code=VZP IMO=99999999 TEU=None status=detail_no_teu
+[group 18 348/878] XIN AN LONG -> code=ZQV IMO=99999996 TEU=None status=detail_no_teu
+[group 18 349/878] XIN ANYUAN2 -> code=RKM IMO=99999996 TEU=None status=detail_no_teu
+[group 18 350/878] XIN ANYUAN9 -> code=TNA IMO=4300310 TEU=583 status=ok
+[group 18 351/878] XIN BAI HONG 1 -> code=ZMB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 352/878] XIN BAI HONG 2 -> code=X31 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 353/878] XIN BAI HONG 8 -> code=ZHJ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 359/878] XIN BIN JIANG -> code=R4N IMO=98357893 TEU=None status=detail_no_teu
+[group 18 360/878] XIN BIN YUAN -> code=NNT IMO=4132075 TEU=1330 status=ok
+[group 18 361/878] XIN BIN ZHOU -> code=NBK IMO=9185413 TEU=None status=detail_no_teu
+[group 18 362/878] XIN BO HONG 2 -> code=WSK IMO=99999996 TEU=None status=detail_no_teu
+[group 18 364/878] XIN CHANG JIANG -> code=YQQ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 368/878] XIN CHEGN GONG 29 -> code=FQE IMO=990 TEU=None status=detail_no_teu
+[group 18 370/878] XIN CHENG GONG28 -> code=T48 IMO=None TEU=413 status=ok
+[group 18 371/878] XIN CHENGGONG 21 -> code=RXZ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 373/878] XIN CHENGGONG2 -> code=NBT IMO=999998 TEU=None status=detail_no_teu
+[group 18 377/878] XIN CHUN SHUN -> code=STI IMO=910897 TEU=None status=detail_no_teu
+[group 18 380/878] XIN DAN DONG -> code=RIP IMO=9312597 TEU=4250 status=ok
+[group 18 382/878] XIN DONG FANG 1 HAO -> code=YAF IMO=99999996 TEU=None status=detail_no_teu
+[group 18 390/878] XIN FENG TIAN JIN -> code=NLV IMO=413204 TEU=2539 status=ok
+[group 18 393/878] XIN GU 325 -> code=LC4 IMO=20190330 TEU=None status=detail_no_teu
+[group 18 394/878] XIN GU 326 -> code=LKA IMO=2019042 TEU=None status=detail_no_teu
+[group 18 395/878] XIN GU 329 -> code=LC8 IMO=1 TEU=None status=detail_no_teu
+[group 18 396/878] XIN GU 332 -> code=LG8 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 397/878] XIN GU 333 -> code=LCQ IMO=1 TEU=None status=detail_no_teu
+[group 18 398/878] XIN GU 336 -> code=LC5 IMO=20190330 TEU=None status=detail_no_teu
+[group 18 400/878] XIN GUAN NENG 8 -> code=DJ4 IMO=9999996 TEU=720 status=ok
+[group 18 401/878] XIN HAI 328 -> code=ZY0 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 403/878] XIN HAI JI 1 -> code=YBP IMO=9999996 TEU=None status=detail_no_teu
+[group 18 405/878] XIN HAI JI 8 -> code=YBG IMO=99999996 TEU=None status=detail_no_teu
+[group 18 406/878] XIN HAI JI CHANG HONG -> code=YWA IMO=99999996 TEU=None status=detail_no_teu
+[group 18 407/878] XIN HAI JI HE XIE HAO -> code=YPI IMO=99999996 TEU=None status=detail_no_teu
+[group 18 408/878] XIN HAI JI TENG DA -> code=YUI IMO=99999996 TEU=None status=detail_no_teu
+[group 18 410/878] XIN HAI MING -> code=F8L IMO=8169768 TEU=None status=detail_no_teu
+[group 18 412/878] XIN HAI XIN -> code=QZ6 IMO=87689686 TEU=None status=detail_no_teu
+[group 18 413/878] XIN HAI XIU -> code=QQ6 IMO=9431484 TEU=None status=detail_no_teu
+[group 18 415/878] XIN HAI ZHOU22 -> code=RRO IMO=99999996 TEU=None status=detail_no_teu
+[group 18 416/878] XIN HAN 158 -> code=OIA IMO=9999996 TEU=None status=detail_no_teu
+[group 18 419/878] XIN HANG 089 -> code=OV3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 420/878] XIN HANG 1 HAO -> code=XMU IMO=99999996 TEU=None status=detail_no_teu
+[group 18 421/878] XIN HANG 128 -> code=X74 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 423/878] XIN HANG 378 -> code=WLG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 424/878] XIN HANG 689 -> code=OVH IMO=9999996 TEU=None status=detail_no_teu
+[group 18 425/878] XIN HANG 829 -> code=ZUJ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 426/878] XIN HANG 830 -> code=ZPX IMO=9999996 TEU=None status=detail_no_teu
+[group 18 427/878] XIN HANG 921 -> code=XEI IMO=99999996 TEU=None status=detail_no_teu
+[group 18 428/878] XIN HANG HAI 118 -> code=ZMZ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 430/878] XIN HAO 11 -> code=2N5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 431/878] XIN HAO 803 -> code=MYL IMO=9999996 TEU=None status=detail_no_teu
+[group 18 432/878] XIN HAO 805 -> code=MZI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 433/878] XIN HAO JIANG202 -> code=QNL IMO=99999996 TEU=None status=detail_no_teu
+[group 18 434/878] XIN HE CHANG 1 HAO -> code=Q9R IMO=8557576457 TEU=None status=detail_no_teu
+[group 18 435/878] XIN HE DA -> code=F1U IMO=962 TEU=None status=detail_no_teu
+[group 18 436/878] XIN HE SHI BA -> code=RD8 IMO=8501713 TEU=None status=detail_no_teu
+[group 18 440/878] XIN HECHANG1 -> code=RKY IMO=99999996 TEU=None status=detail_no_teu
+[group 18 443/878] XIN HONG 2 -> code=XEN IMO=9999996 TEU=None status=detail_no_teu
+[group 18 444/878] XIN HONG 3 -> code=WNV IMO=9999996 TEU=None status=detail_no_teu
+[group 18 445/878] XIN HONG 328 -> code=WL7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 446/878] XIN HONG 399 -> code=WZA IMO=9999996 TEU=None status=detail_no_teu
+[group 18 447/878] XIN HONG 68 -> code=WUX IMO=99999996 TEU=None status=detail_no_teu
+[group 18 448/878] XIN HONG 69 -> code=WNY IMO=999999996 TEU=None status=detail_no_teu
+[group 18 449/878] XIN HONG 9 -> code=W5G IMO=20160310 TEU=None status=detail_no_teu
+[group 18 450/878] XIN HONG 928 -> code=X50 IMO=9999996 TEU=1 status=ok
+[group 18 451/878] XIN HONG JI 6618 -> code=LGK IMO=9999996 TEU=None status=detail_no_teu
+[group 18 452/878] XIN HONG JI 6668 -> code=LHB IMO=9999996 TEU=None status=detail_no_teu
+[group 18 453/878] XIN HONG JI 6698 -> code=LPT IMO=9999996 TEU=None status=detail_no_teu
+[group 18 454/878] XIN HONG JI 838 -> code=WOK IMO=None TEU=None status=detail_no_teu
+[group 18 455/878] XIN HONG JI 8828 -> code=LHV IMO=9999996 TEU=None status=detail_no_teu
+[group 18 456/878] XIN HONG JI 8838 -> code=LIH IMO=9999996 TEU=None status=detail_no_teu
+[group 18 457/878] XIN HONG JI 8858 -> code=Z6N IMO=1 TEU=None status=detail_no_teu
+[group 18 458/878] XIN HONG JI 8868 -> code=LGU IMO=9999996 TEU=None status=detail_no_teu
+[group 18 459/878] XIN HONG JI 8878 -> code=LOJ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 460/878] XIN HONG JI 8898 -> code=LPQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 461/878] XIN HONG JI 9388 -> code=WYK IMO=20150629 TEU=None status=detail_no_teu
+[group 18 462/878] XIN HONG JI 9889 -> code=Z4M IMO=1 TEU=None status=detail_no_teu
+[group 18 463/878] XIN HONG JI 9938 -> code=W0X IMO=20160720 TEU=None status=detail_no_teu
+[group 18 468/878] XIN HONG XIANG 26 -> code=W6P IMO=20160331 TEU=None status=detail_no_teu
+[group 18 469/878] XIN HONG XIANG 56 -> code=N2Q IMO=89678878 TEU=None status=detail_no_teu
+[group 18 470/878] XIN HONG XIANG 65 -> code=LMP IMO=9999996 TEU=408 status=ok
+[group 18 471/878] XIN HONG XIANG 69 -> code=F1G IMO=941 TEU=None status=detail_no_teu
+[group 18 473/878] XIN HONG XIANG 77 -> code=F1D IMO=929 TEU=None status=detail_no_teu
+[group 18 474/878] XIN HONG XIANG 87 -> code=NBQ IMO=99999999 TEU=None status=detail_no_teu
+[group 18 475/878] XIN HONG XIANG 88 -> code=WSN IMO=99999996 TEU=None status=detail_no_teu
+[group 18 476/878] XIN HONG XIANG 97 -> code=FPL IMO=1233335 TEU=None status=detail_no_teu
+[group 18 477/878] XIN HONGJI 6688 -> code=LNY IMO=9999996 TEU=None status=detail_no_teu
+[group 18 479/878] XIN HONGXIANG66 -> code=RKN IMO=99999996 TEU=None status=detail_no_teu
+[group 18 480/878] XIN HONGXIANG98 -> code=RST IMO=9999996 TEU=None status=detail_no_teu
+[group 18 487/878] XIN HUATAI6 -> code=RDA IMO=99999996 TEU=None status=detail_no_teu
+[group 18 490/878] XIN HUAXING3 -> code=RCY IMO=99999996 TEU=None status=detail_no_teu
+[group 18 491/878] XIN HUI 1 HAO -> code=WRY IMO=99999996 TEU=None status=detail_no_teu
+[group 18 500/878] XIN HUI JI 22 -> code=ZI5 IMO=99999996 TEU=12 status=ok
+[group 18 507/878] XIN JI 16 -> code=OUS IMO=9999996 TEU=None status=detail_no_teu
+[group 18 510/878] XIN JINCHENG1 -> code=QXS IMO=9999996 TEU=None status=detail_no_teu
+[group 18 511/878] XIN JINCHENG12 -> code=QXU IMO=9999996 TEU=None status=detail_no_teu
+[group 18 512/878] XIN JINCHENG2 -> code=QQD IMO=99999996 TEU=None status=detail_no_teu
+[group 18 513/878] XIN JINCHENG9 -> code=QYB IMO=999999918 TEU=None status=detail_no_teu
+[group 18 516/878] XIN KAI LI -> code=QRQ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 517/878] XIN KAIYUAN5 -> code=RRC IMO=99999996 TEU=None status=detail_no_teu
+[group 18 518/878] XIN KE 6 -> code=MJT IMO=9999996 TEU=None status=detail_no_teu
+[group 18 520/878] XIN LIAN CHANG -> code=BJQ IMO=867110 TEU=None status=detail_no_teu
+[group 18 524/878] XIN LONG YUN 16(INACTIVE) -> code=NJH IMO=413700380 TEU=None status=detail_no_teu
+[group 18 530/878] XIN LONG YUN 82 -> code=TMV IMO=4137054 TEU=756 status=ok
+[group 18 531/878] XIN LONG YUN 85 -> code=VSZ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 537/878] XIN LU SHNEG 2 -> code=JYH IMO=5854145 TEU=None status=detail_no_teu
+[group 18 538/878] XIN MAO HAI -> code=MPK IMO=9999996 TEU=None status=detail_no_teu
+[group 18 540/878] XIN MING ZHOU 102 -> code=M94 IMO=9915002 TEU=1868 status=ok
+[group 18 543/878] XIN MING ZHOU 18 -> code=F44 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 547/878] XIN MING ZHOU 70 -> code=N79 IMO=96879568 TEU=None status=detail_no_teu
+[group 18 548/878] XIN MING ZHOU 80 -> code=N8D IMO=8575745 TEU=None status=detail_no_teu
+[group 18 549/878] XIN MING ZHOU 82 -> code=N6J IMO=786854647 TEU=None status=detail_no_teu
+[group 18 550/878] XIN MING ZHOU 86 -> code=NOC IMO=4144004 TEU=1004 status=ok
+[group 18 551/878] XIN MING ZHOU 88 -> code=F3Y IMO=9999996 TEU=None status=detail_no_teu
+[group 18 552/878] XIN MING ZHOU 90 -> code=F3Z IMO=9999996 TEU=None status=detail_no_teu
+[group 18 553/878] XIN MING ZHOU 92 -> code=F4C IMO=9999996 TEU=None status=detail_no_teu
+[group 18 556/878] XIN MING ZHOU76 -> code=NU5 IMO=8685758 TEU=None status=detail_no_teu
+[group 18 558/878] XIN NANTAI68 -> code=RCD IMO=99999996 TEU=None status=detail_no_teu
+[group 18 560/878] XIN NANTAI99 -> code=QER IMO=9999996 TEU=672 status=ok
+[group 18 562/878] XIN O 21 -> code=F1V IMO=961 TEU=None status=detail_no_teu
+[group 18 564/878] XIN OU 17 -> code=F53 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 565/878] XIN OU 3 -> code=FD1 IMO=967867 TEU=None status=detail_no_teu
+[group 18 570/878] XIN QI SHENG 69 -> code=NLO IMO=7660 TEU=1176 status=ok
+[group 18 580/878] XIN RONG SHUN -> code=FQT IMO=139 TEU=300 status=ok
+[group 18 581/878] XIN SANYOU1 -> code=RJL IMO=99999996 TEU=None status=detail_no_teu
+[group 18 584/878] XIN SHENG DA 819 -> code=2L2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 588/878] XIN TAI 8 -> code=ZPW IMO=99999996 TEU=None status=detail_no_teu
+[group 18 590/878] XIN TAI HAI -> code=MOH IMO=9999996 TEU=4504 status=ok
+[group 18 594/878] XIN TONG 6 -> code=Y42 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 595/878] XIN TONG JI 1 HAO -> code=V41 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 596/878] XIN TUAN 16 -> code=QHX IMO=56869868 TEU=None status=detail_no_teu
+[group 18 598/878] XIN WAN LONG -> code=QAI IMO=85685859 TEU=None status=detail_no_teu
+[group 18 599/878] XIN WANFENG -> code=RC2 IMO=None TEU=None status=detail_no_teu
+[group 18 600/878] XIN WEI HAI -> code=Q53 IMO=9312573 TEU=4250 status=ok
+[group 18 610/878] XIN YANG 168 -> code=F9A IMO=9999914 TEU=None status=detail_no_teu
+[group 18 615/878] XIN YI YANG 5 -> code=F4F IMO=9999996 TEU=None status=detail_no_teu
+[group 18 620/878] XIN YONG CHANG 17 -> code=F3I IMO=9999996 TEU=None status=detail_no_teu
+[group 18 623/878] XIN YONG CHANG 6 -> code=S3Y IMO=897897856 TEU=None status=detail_no_teu
+[group 18 627/878] XIN YONG TONG 2 -> code=V8T IMO=9999996 TEU=None status=detail_no_teu
+[group 18 629/878] XIN YUAN 15 -> code=XDT IMO=99999996 TEU=None status=detail_no_teu
+[group 18 630/878] XIN YUAN 16 -> code=W4X IMO=9430595 TEU=269 status=ok
+[group 18 631/878] XIN YUAN 19 -> code=XH2 IMO=80106000079 TEU=None status=detail_no_teu
+[group 18 634/878] XIN YUAN 36 -> code=ZSS IMO=99999999 TEU=None status=detail_no_teu
+[group 18 635/878] XIN YUAN 66 -> code=RRZ IMO=788966896 TEU=None status=detail_no_teu
+[group 18 636/878] XIN YUAN 68 -> code=ZQR IMO=99999996 TEU=None status=detail_no_teu
+[group 18 638/878] XIN YUAN HE 16 -> code=MII IMO=9999996 TEU=None status=detail_no_teu
+[group 18 639/878] XIN YUAN HE 7 -> code=VAB IMO=9999996 TEU=None status=detail_no_teu
+[group 18 640/878] XIN YUAN YONG SHUN -> code=F0D IMO=9999996 TEU=600 status=ok
+[group 18 641/878] XIN YUN TONG 138 -> code=ZRI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 642/878] XIN YUN TONG 238 -> code=XNZ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 643/878] XIN YUN TONG 288 -> code=XMQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 644/878] XIN YUN TONG 388 -> code=WZK IMO=20150826 TEU=None status=detail_no_teu
+[group 18 645/878] XIN YUN TONG 398 -> code=XKD IMO=99999996 TEU=None status=detail_no_teu
+[group 18 647/878] XIN YUN TONG 889 -> code=W1S IMO=9999996 TEU=None status=detail_no_teu
+[group 18 650/878] XIN ZHENG ZHOU -> code=QSH IMO=9523029 TEU=4738 status=ok
+[group 18 651/878] XIN ZHI -> code=ZJM IMO=99999996 TEU=None status=detail_no_teu
+[group 18 652/878] XIN ZHOU 19 -> code=FAP IMO=9999996 TEU=None status=detail_no_teu
+[group 18 654/878] XIN ZHOU 99 -> code=FQF IMO=993 TEU=None status=detail_no_teu
+[group 18 655/878] XIN ZHOU SHAN -> code=NWY IMO=9999996 TEU=None status=detail_no_teu
+[group 18 656/878] XINANYUAN3 -> code=Q2M IMO=856858858 TEU=None status=detail_no_teu
+[group 18 657/878] XINANYUAN6 -> code=QTS IMO=56858687 TEU=None status=detail_no_teu
+[group 18 658/878] XINCHANGFENG717 -> code=VD4 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 660/878] XINCHANGFENG757 -> code=VF4 IMO=99999996 TEU=348 status=ok
+[group 18 661/878] XINCHANGFENG777 -> code=VD8 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 662/878] XINCHASHAN -> code=RCH IMO=8080770 TEU=None status=detail_no_teu
+[group 18 663/878] XINCHUAN6 -> code=RMA IMO=None TEU=None status=detail_no_teu
+[group 18 664/878] XINDA918 -> code=V3C IMO=9999996 TEU=None status=detail_no_teu
+[group 18 665/878] XINDE KEELUNG -> code=UF3 IMO=9159854 TEU=None status=detail_no_teu
+[group 18 666/878] XINDONG001 -> code=2EF IMO=9999996 TEU=None status=detail_no_teu
+[group 18 667/878] XINDONG002 -> code=2V2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 668/878] XINDONG006 -> code=2X2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 669/878] XINDONG666 -> code=2DN IMO=9999996 TEU=None status=detail_no_teu
+[group 18 670/878] XINDONGFANG6 -> code=Y2E IMO=9999996 TEU=None status=detail_no_teu
+[group 18 673/878] XING AN JI 8 -> code=V40 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 674/878] XING ANCHENG -> code=RKL IMO=99999996 TEU=None status=detail_no_teu
+[group 18 675/878] XING DONG 2 -> code=RPK IMO=3692060 TEU=None status=detail_no_teu
+[group 18 677/878] XING DONG 28 -> code=F28 IMO=4136988 TEU=None status=detail_no_teu
+[group 18 679/878] XING DONG 77 -> code=RBB IMO=9999996 TEU=None status=detail_no_teu
+[group 18 680/878] XING FA -> code=ZCB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 681/878] XING FU SONG -> code=MFV IMO=9608958 TEU=None status=detail_no_teu
+[group 18 682/878] XING GAO JI 8 -> code=VH5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 683/878] XING GUI 0066 -> code=L70 IMO=1 TEU=None status=detail_no_teu
+[group 18 684/878] XING GUI 0069 -> code=L05 IMO=1 TEU=None status=detail_no_teu
+[group 18 685/878] XING GUI 1062 -> code=Z9P IMO=1 TEU=None status=detail_no_teu
+[group 18 687/878] XING GUI 1066 -> code=Z5O IMO=1 TEU=None status=detail_no_teu
+[group 18 688/878] XING GUI 1067 -> code=Z4I IMO=1 TEU=None status=detail_no_teu
+[group 18 689/878] XING GUI 1086 -> code=Z4B IMO=1 TEU=None status=detail_no_teu
+[group 18 690/878] XING GUI 1090 -> code=L04 IMO=1 TEU=None status=detail_no_teu
+[group 18 691/878] XING GUI 1091 -> code=Z6C IMO=1 TEU=None status=detail_no_teu
+[group 18 692/878] XING GUI 1092 -> code=Z4T IMO=20170224 TEU=None status=detail_no_teu
+[group 18 693/878] XING GUI 2066 -> code=Z4X IMO=1 TEU=None status=detail_no_teu
+[group 18 694/878] XING GUI 2068 -> code=LJ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 695/878] XING GUI 2069 -> code=Z4W IMO=1 TEU=None status=detail_no_teu
+[group 18 696/878] XING GUI 207 -> code=Z6T IMO=1 TEU=None status=detail_no_teu
+[group 18 697/878] XING GUI 2070 -> code=L11 IMO=1 TEU=None status=detail_no_teu
+[group 18 698/878] XING GUI 2071 -> code=Z7D IMO=1 TEU=None status=detail_no_teu
+[group 18 699/878] XING HAI 338 -> code=ZHA IMO=9999996 TEU=None status=detail_no_teu
+[group 18 700/878] XING HAI 518 -> code=ZWU IMO=99999996 TEU=None status=detail_no_teu
+[group 18 701/878] XING HANG 1 -> code=XES IMO=9999996 TEU=None status=detail_no_teu
+[group 18 702/878] XING HANG 16 -> code=WT7 IMO=20150134 TEU=None status=detail_no_teu
+[group 18 703/878] XING HANG 18 HAO -> code=XET IMO=9999996 TEU=None status=detail_no_teu
+[group 18 704/878] XING HANG 2 -> code=XFZ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 705/878] XING HANG 219 -> code=XI1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 706/878] XING HANG 228 -> code=OI6 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 707/878] XING HANG 268 -> code=WXZ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 708/878] XING HANG 328 -> code=ZZN IMO=9999996 TEU=None status=detail_no_teu
+[group 18 709/878] XING HANG 668 -> code=ZUQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 710/878] XING HANG 68 -> code=XOI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 711/878] XING HANG 921 -> code=GJG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 712/878] XING HANGJI09 -> code=RLC IMO=99999996 TEU=None status=detail_no_teu
+[group 18 714/878] XING LONG -> code=ZJ2 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 715/878] XING LONG WANG SHENG -> code=VXX IMO=9999996 TEU=None status=detail_no_teu
+[group 18 718/878] XING NENG 001 -> code=2P5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 719/878] XING NENG 028 -> code=V8C IMO=9999996 TEU=None status=detail_no_teu
+[group 18 720/878] XING NING 12 -> code=SQJ IMO=9059081 TEU=713 status=ok
+[group 18 722/878] XING TAI 1 -> code=SXF IMO=9999996 TEU=None status=detail_no_teu
+[group 18 724/878] XING TAI 6 -> code=ROV IMO=9798678 TEU=None status=detail_no_teu
+[group 18 725/878] XING YI HANG YUN 008 -> code=VVY IMO=9999996 TEU=None status=detail_no_teu
+[group 18 726/878] XINGANGBAOTOU -> code=TP1 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 727/878] XINGDONG 8 -> code=QTD IMO=9999996 TEU=None status=detail_no_teu
+[group 18 728/878] XINGGANG7777 -> code=2BV IMO=9999996 TEU=None status=detail_no_teu
+[group 18 729/878] XINGHAIJI9 -> code=VYF IMO=999999 TEU=None status=detail_no_teu
+[group 18 730/878] XINGHANGYUAN -> code=F8J IMO=7989999 TEU=None status=detail_no_teu
+[group 18 731/878] XINGHEJI666 -> code=2HK IMO=9999996 TEU=None status=detail_no_teu
+[group 18 733/878] XINGNENG002 -> code=VN3 IMO=999999999 TEU=None status=detail_no_teu
+[group 18 734/878] XINGNENG003 -> code=VD5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 735/878] XINGNENG005 -> code=V87 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 736/878] XINGNENG006 -> code=V88 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 737/878] XINGNENG007 -> code=VQ3 IMO=888888889 TEU=None status=detail_no_teu
+[group 18 738/878] XINGNENG008 -> code=V89 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 739/878] XINGNENG009 -> code=Y8G IMO=9999996 TEU=None status=detail_no_teu
+[group 18 740/878] XINGNENG010 -> code=V90 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 741/878] XINGNENG011 -> code=V91 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 742/878] XINGNENG012 -> code=V92 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 743/878] XINGNENG015 -> code=V93 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 744/878] XINGNENG016 -> code=VD0 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 745/878] XINGNENG018 -> code=VG4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 746/878] XINGNENG019 -> code=VDC IMO=999999999 TEU=None status=detail_no_teu
+[group 18 747/878] XINGNENG020 -> code=VDK IMO=999999999 TEU=None status=detail_no_teu
+[group 18 748/878] XINGNENG021 -> code=VDM IMO=999999999 TEU=None status=detail_no_teu
+[group 18 749/878] XINGNENG022 -> code=VEK IMO=999999999 TEU=None status=detail_no_teu
+[group 18 750/878] XINGNENG023 -> code=VEL IMO=999999999 TEU=None status=detail_no_teu
+[group 18 751/878] XINGNENG025 -> code=VFG IMO=999999999 TEU=None status=detail_no_teu
+[group 18 752/878] XINGNENG026 -> code=VAX IMO=999999999 TEU=None status=detail_no_teu
+[group 18 753/878] XINGNENG027 -> code=VFB IMO=999999999 TEU=None status=detail_no_teu
+[group 18 754/878] XINGNENG029 -> code=2C5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 756/878] XINGNING86 -> code=RAX IMO=98097098 TEU=None status=detail_no_teu
+[group 18 757/878] XINGTONGHAI -> code=F55 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 760/878] XINGWANG916 -> code=Y8Z IMO=99999996 TEU=344 status=ok
+[group 18 761/878] XINGWEN701 -> code=YEF IMO=99999996 TEU=None status=detail_no_teu
+[group 18 762/878] XINGYIHANGYUN001 -> code=Y8E IMO=9999996 TEU=None status=detail_no_teu
+[group 18 763/878] XINGYIHANGYUN002 -> code=V95 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 764/878] XINGYIHANGYUN003 -> code=V96 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 765/878] XINGYIHANGYUN005 -> code=2L5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 766/878] XINGYIHANGYUN006 -> code=V98 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 767/878] XINGYIHANGYUN007 -> code=V99 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 768/878] XINGYIHANGYUN009 -> code=VD6 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 769/878] XINGYIHANGYUN010 -> code=VA2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 770/878] XINGYIHANGYUN011 -> code=VA3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 771/878] XINGYIHANGYUN012 -> code=VA4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 772/878] XINGYIHANGYUN015 -> code=VA5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 773/878] XINGYIHANGYUN016 -> code=VA6 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 774/878] XINGYIHANGYUN017 -> code=VA7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 775/878] XINGYIHANGYUN018 -> code=VA8 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 776/878] XINGYIHANGYUN019 -> code=VW7 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 777/878] XINGYIHANGYUN020 -> code=VA9 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 778/878] XINGZHOU806 -> code=YHN IMO=99999996 TEU=None status=detail_no_teu
+[group 18 779/878] XINGZHOU807 -> code=YGF IMO=99999996 TEU=None status=detail_no_teu
+[group 18 780/878] XINGZHOUFAZHAN -> code=2Y4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 781/878] XINGZHOUJI1 -> code=VYY IMO=99999996 TEU=None status=detail_no_teu
+[group 18 782/878] XINGZHOUJI6 -> code=VYG IMO=99999996 TEU=None status=detail_no_teu
+[group 18 783/878] XINHAIHUIHUANG -> code=2MG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 784/878] XINHAIJI218 -> code=VXD IMO=999999 TEU=None status=detail_no_teu
+[group 18 785/878] XINHAIJI219 -> code=VXT IMO=999999 TEU=None status=detail_no_teu
+[group 18 786/878] XINHAIJI3 -> code=YEE IMO=99999996 TEU=None status=detail_no_teu
+[group 18 787/878] XINHAIJI789 -> code=VNW IMO=7666779 TEU=None status=detail_no_teu
+[group 18 788/878] XINHAIJI9 -> code=VE8 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 789/878] XINHAIJI998 -> code=YQA IMO=99999996 TEU=None status=detail_no_teu
+[group 18 790/878] XINHAIJIFENJIN -> code=YUL IMO=9999996 TEU=None status=detail_no_teu
+[group 18 791/878] XINHAIJIQISHENG -> code=VWI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 792/878] XINHAIJIXIANGYU -> code=VFJ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 794/878] XINHAIQINGYUN -> code=2TL IMO=9999996 TEU=None status=detail_no_teu
+[group 18 795/878] XINHAN001 -> code=V73 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 796/878] XINHANGJI588 -> code=VWD IMO=9999996 TEU=None status=detail_no_teu
+[group 18 797/878] XINHANGJI688 -> code=VWC IMO=9999996 TEU=None status=detail_no_teu
+[group 18 798/878] XINHAO2HAO -> code=V7F IMO=9999996 TEU=None status=detail_no_teu
+[group 18 799/878] XINHAO5HAO -> code=V7G IMO=9999996 TEU=None status=detail_no_teu
+[group 18 800/878] XINHAOTAI8 -> code=2VG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 802/878] XINHONGRUN28 -> code=FTM IMO=9999996 TEU=None status=detail_no_teu
+[group 18 803/878] XINHONGXIANG 28 -> code=NAX IMO=None TEU=None status=detail_no_teu
+[group 18 805/878] XINHONGXIANG86 -> code=QSX IMO=56858888 TEU=None status=detail_no_teu
+[group 18 807/878] XINHUA 91 -> code=YMC IMO=99999996 TEU=None status=detail_no_teu
+[group 18 808/878] XINHUA801 -> code=RXA IMO=8589585 TEU=None status=detail_no_teu
+[group 18 809/878] XINHUA803 -> code=RUL IMO=99999996 TEU=None status=detail_no_teu
+[group 18 810/878] XINJINYU -> code=Y9T IMO=9999996 TEU=None status=detail_no_teu
+[group 18 811/878] XINLIANRONGYAO -> code=2LQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 812/878] XINLINGHANG33 -> code=N3H IMO=99999999 TEU=None status=detail_no_teu
+[group 18 813/878] XINLONG 29 -> code=FJ4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 814/878] XINLONG066 -> code=2V7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 815/878] XINLONG1 -> code=VQF IMO=9999996 TEU=None status=detail_no_teu
+[group 18 816/878] XINLONG18 -> code=2W2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 817/878] XINLONGYUN 28 -> code=FA7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 818/878] XINLONGYUN 29 -> code=QWC IMO=9999996 TEU=None status=detail_no_teu
+[group 18 819/878] XINLONGYUN1 -> code=QMJ IMO=8685878 TEU=None status=detail_no_teu
+[group 18 820/878] XINMINGZHOU72 -> code=FTG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 821/878] XINMINGZHOU78 -> code=FTI IMO=9999996 TEU=None status=detail_no_teu
+[group 18 822/878] XINNANXIANG NO.1 -> code=VRA IMO=99999996 TEU=None status=detail_no_teu
+[group 18 823/878] XINNANXIANG NO.2 -> code=VRB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 824/878] XINOU 9 -> code=R5A IMO=894593467 TEU=None status=detail_no_teu
+[group 18 825/878] XINOU1 -> code=F3M IMO=9999996 TEU=None status=detail_no_teu
+[group 18 826/878] XINOU15 -> code=F49 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 827/878] XINOU29 -> code=VQC IMO=9999996 TEU=None status=detail_no_teu
+[group 18 828/878] XINOU5 -> code=FSC IMO=9999996 TEU=None status=detail_no_teu
+[group 18 829/878] XINOU7 -> code=FSD IMO=9999996 TEU=None status=detail_no_teu
+[group 18 830/878] XINOU8 -> code=FSE IMO=9999996 TEU=None status=detail_no_teu
+[group 18 831/878] XINRONG9 -> code=2H2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 832/878] XINRUIDA005 -> code=2AU IMO=9999996 TEU=None status=detail_no_teu
+[group 18 833/878] XINRUIDA006 -> code=2BG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 834/878] XINRUIDA007 -> code=2D8 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 835/878] XINRUIDA008 -> code=V1Y IMO=9999996 TEU=None status=detail_no_teu
+[group 18 836/878] XINRUIDA011 -> code=2K8 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 837/878] XINRUIDA016 -> code=2L9 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 838/878] XINRUIDA0668 -> code=VVP IMO=9999996 TEU=None status=detail_no_teu
+[group 18 839/878] XINRUIDA088 -> code=2E7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 840/878] XINRUIDA098 -> code=20M IMO=9999996 TEU=None status=detail_no_teu
+[group 18 841/878] XINRUIDA111 -> code=2M4 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 842/878] XINRUIDA868 -> code=V5O IMO=9999996 TEU=None status=detail_no_teu
+[group 18 843/878] XINRUIDA898 -> code=V5U IMO=9999996 TEU=None status=detail_no_teu
+[group 18 844/878] XINRUIDA918 -> code=2H5 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 845/878] XINRUN -> code=VDB IMO=99999996 TEU=None status=detail_no_teu
+[group 18 846/878] XINRUN1 -> code=SNK IMO=9999996 TEU=None status=detail_no_teu
+[group 18 847/878] XINRUNSHUNLONG -> code=VNB IMO=8866779 TEU=None status=detail_no_teu
+[group 18 848/878] XINSHENGDA618 -> code=2XE IMO=9999996 TEU=None status=detail_no_teu
+[group 18 849/878] XINSHENGDA666 -> code=2WW IMO=9999996 TEU=None status=detail_no_teu
+[group 18 850/878] XINSHENGDA668 -> code=2YO IMO=9999996 TEU=None status=detail_no_teu
+[group 18 851/878] XINSHENGDA677 -> code=2WV IMO=9999996 TEU=None status=detail_no_teu
+[group 18 852/878] XINSHENGDA816 -> code=2MQ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 853/878] XINSHENGDA826 -> code=2GS IMO=9999996 TEU=None status=detail_no_teu
+[group 18 854/878] XINSHENGDA828 -> code=2T7 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 855/878] XINSHENGDA829 -> code=2NG IMO=9999996 TEU=None status=detail_no_teu
+[group 18 856/878] XINSHENGDA839 -> code=2WX IMO=9999996 TEU=None status=detail_no_teu
+[group 18 857/878] XINSHENGDA858 -> code=2WN IMO=9999996 TEU=None status=detail_no_teu
+[group 18 858/878] XINSHENGDA866 -> code=2U2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 859/878] XINSHENGDA868 -> code=V8H IMO=9999996 TEU=None status=detail_no_teu
+[group 18 860/878] XINSHENGDA869 -> code=2MB IMO=9999996 TEU=None status=detail_no_teu
+[group 18 861/878] XINSHENGDA886 -> code=2DH IMO=9999996 TEU=None status=detail_no_teu
+[group 18 862/878] XINSHENGDA888 -> code=2S3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 863/878] XINSHENGDA896 -> code=2S2 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 864/878] XINSHENGDA898 -> code=V8J IMO=9999996 TEU=None status=detail_no_teu
+[group 18 865/878] XINSHENGDA899 -> code=2WJ IMO=9999996 TEU=None status=detail_no_teu
+[group 18 866/878] XINSHENGJI06 -> code=VFY IMO=999999999 TEU=None status=detail_no_teu
+[group 18 867/878] XINSHIDAO6 -> code=RLS IMO=8679678 TEU=None status=detail_no_teu
+[group 18 868/878] XINSHUN898 -> code=YAZ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 869/878] XINTAIHAO -> code=YJ3 IMO=9999996 TEU=None status=detail_no_teu
+[group 18 870/878] XINTAISHUN3 -> code=PRW IMO=9847789657 TEU=None status=detail_no_teu
+[group 18 871/878] XINTONGHAI -> code=VEV IMO=9999996 TEU=None status=detail_no_teu
+[group 18 872/878] XINTONGHAO -> code=Y2W IMO=99999996 TEU=None status=detail_no_teu
+[group 18 873/878] XINWANGHAO -> code=VK5 IMO=12345678 TEU=None status=detail_no_teu
+[group 18 875/878] XINXINGLONG -> code=YL5 IMO=99999996 TEU=None status=detail_no_teu
+[group 18 876/878] XINXIUYUNHE -> code=VLV IMO=9999886 TEU=None status=detail_no_teu
+[group 18 877/878] XINYAN333 -> code=VHJ IMO=99999996 TEU=None status=detail_no_teu
+[group 18 878/878] XINYANGJI988 -> code=VP6 IMO=99999996 TEU=None status=detail_no_teu
+group 18: saved xlsx -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_18_result_260312003024.xlsx
+group 18: saved json -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_18_result_260312003024.json

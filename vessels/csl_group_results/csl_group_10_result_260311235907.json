@@ -1,0 +1,7026 @@
+[
+  {
+    "vesselName": "KAM MING NO.38",
+    "vesselCode": "X70",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=X70"
+  },
+  {
+    "vesselName": "KAM SANG 28",
+    "vesselCode": "ZKG",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZKG"
+  },
+  {
+    "vesselName": "KAM SANG NO.33",
+    "vesselCode": "ZKB",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZKB"
+  },
+  {
+    "vesselName": "KAM WUI",
+    "vesselCode": "Z89",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z89"
+  },
+  {
+    "vesselName": "KAM YING 18",
+    "vesselCode": "ZJR",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZJR"
+  },
+  {
+    "vesselName": "KAMA BHUM",
+    "vesselCode": "AG1",
+    "IMO": 9133331,
+    "TEU": 1324,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KANG NAI XIN",
+    "vesselCode": "L89",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L89"
+  },
+  {
+    "vesselName": "KANG QI JIA HONG",
+    "vesselCode": "DAS",
+    "IMO": 1058834,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DAS"
+  },
+  {
+    "vesselName": "KANG SHUN HUI HUANG",
+    "vesselCode": "D5H",
+    "IMO": 1019553,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=D5H"
+  },
+  {
+    "vesselName": "KANGYUANSHENG",
+    "vesselCode": "2I5",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2I5"
+  },
+  {
+    "vesselName": "KANIVU",
+    "vesselCode": "ALU",
+    "IMO": 99999,
+    "TEU": 999,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KANWAY FORTUNE",
+    "vesselCode": "BG2",
+    "IMO": 9923968,
+    "TEU": 1338,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KANWAY GALAXY",
+    "vesselCode": "QVR",
+    "IMO": 9163411,
+    "TEU": 1613,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KANWAY GLOBAL",
+    "vesselCode": "ROX",
+    "IMO": 9167461,
+    "TEU": 1675,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KANWAY LUCKY",
+    "vesselCode": "MVD",
+    "IMO": 9923970,
+    "TEU": 1930,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAPALUA KONTOR",
+    "vesselCode": "Q3E",
+    "IMO": 9395599,
+    "TEU": 1098,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAPITAN AFANASYEV",
+    "vesselCode": "K31",
+    "IMO": 9130133,
+    "TEU": 1726,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAPITAN BYANKIN",
+    "vesselCode": "APC",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=APC"
+  },
+  {
+    "vesselName": "KAPITAN MASLOV",
+    "vesselCode": "AXM",
+    "IMO": 9130157,
+    "TEU": 1726,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAPTAN AYTAC A",
+    "vesselCode": "PD5",
+    "IMO": 9242302,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PD5"
+  },
+  {
+    "vesselName": "KARIN",
+    "vesselCode": "Q64",
+    "IMO": 9220433,
+    "TEU": 1702,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KARIN S",
+    "vesselCode": "UJ3",
+    "IMO": 9327580,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UJ3"
+  },
+  {
+    "vesselName": "KARIN SCHEPERS",
+    "vesselCode": "UAJ",
+    "IMO": 9404077,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UAJ"
+  },
+  {
+    "vesselName": "KARIN SCHULTE",
+    "vesselCode": "Q31",
+    "IMO": 9220433,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Q31"
+  },
+  {
+    "vesselName": "KARMEN",
+    "vesselCode": "QRY",
+    "IMO": 8906731,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=QRY"
+  },
+  {
+    "vesselName": "KARUGA",
+    "vesselCode": "QRA",
+    "IMO": 910778,
+    "TEU": 1659,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KASIF KALKAVAN",
+    "vesselCode": "UBN",
+    "IMO": 100000000000000000000,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UBN"
+  },
+  {
+    "vesselName": "KASUGA 1",
+    "vesselCode": "SN3",
+    "IMO": 7401837,
+    "TEU": 2450,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KATHARINA S",
+    "vesselCode": "KTS",
+    "IMO": 9219343,
+    "TEU": 3100,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KATHARINA SCHEPERS",
+    "vesselCode": "UDX",
+    "IMO": 9584865,
+    "TEU": 1050,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KATHARINA SCHEPERS (NFS)",
+    "vesselCode": "PZ7",
+    "IMO": 789456,
+    "TEU": 1036,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KATHERINE",
+    "vesselCode": "NPQ",
+    "IMO": 9641235,
+    "TEU": 6927,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KATRIN S",
+    "vesselCode": "P15",
+    "IMO": 9106625,
+    "TEU": 1104,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KATSINA",
+    "vesselCode": "AT2",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AT2"
+  },
+  {
+    "vesselName": "KATSURAGI",
+    "vesselCode": "RLJ",
+    "IMO": 8910419,
+    "TEU": 3613,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAWA HENGSHENG",
+    "vesselCode": "KHS",
+    "IMO": 1048669,
+    "TEU": 35000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAWA HONGKONG",
+    "vesselCode": "KWH",
+    "IMO": 1086788,
+    "TEU": 32000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAWA NINGBO",
+    "vesselCode": "KNG",
+    "IMO": 9238179,
+    "TEU": 25000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KAWA XIAMEN",
+    "vesselCode": "KMN",
+    "IMO": 1087225,
+    "TEU": 1656,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KEA TRADER",
+    "vesselCode": "NE8",
+    "IMO": 9701281,
+    "TEU": 2194,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KENO",
+    "vesselCode": "QTP",
+    "IMO": 9330537,
+    "TEU": 2824,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KENT TRADER",
+    "vesselCode": "SKV",
+    "IMO": 9236652,
+    "TEU": 2458,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KEREMCAN",
+    "vesselCode": "KRC",
+    "IMO": 9118288,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=KRC"
+  },
+  {
+    "vesselName": "KERMIT",
+    "vesselCode": "KMT",
+    "IMO": 9134231,
+    "TEU": 25000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KESTREL",
+    "vesselCode": "QHA",
+    "IMO": 9626558,
+    "TEU": 1805,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KETA",
+    "vesselCode": "N7A",
+    "IMO": 9225782,
+    "TEU": 2207,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KHALED IBN AL WALEED",
+    "vesselCode": "SDI",
+    "IMO": 8117249,
+    "TEU": 2211,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KHANH HUY 99",
+    "vesselCode": "BGD",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BGD"
+  },
+  {
+    "vesselName": "KHARIS JUPITER",
+    "vesselCode": "QWL",
+    "IMO": 9187485,
+    "TEU": 834,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KHOLMOGORY",
+    "vesselCode": "UM1",
+    "IMO": 9109081,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UM1"
+  },
+  {
+    "vesselName": "KHUNA BHUM",
+    "vesselCode": "NEQ",
+    "IMO": 9796286,
+    "TEU": 1668,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KI KEE",
+    "vesselCode": "ZEG",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZEG"
+  },
+  {
+    "vesselName": "KIEL TRADER",
+    "vesselCode": "N6G",
+    "IMO": 9261827,
+    "TEU": 2526,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KILIA",
+    "vesselCode": "PM9",
+    "IMO": 9412517,
+    "TEU": 1050,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KILIMANJARO",
+    "vesselCode": "RBV",
+    "IMO": 9318175,
+    "TEU": 4250,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KIMOLOS TRADER",
+    "vesselCode": "A6S",
+    "IMO": 996999,
+    "TEU": 2194,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KIMTRANS 1810",
+    "vesselCode": "AOD",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AOD"
+  },
+  {
+    "vesselName": "KIN WING NO.2",
+    "vesselCode": "ZZJ",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZZJ"
+  },
+  {
+    "vesselName": "KING ADAM",
+    "vesselCode": "NQ6",
+    "IMO": 111111,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NQ6"
+  },
+  {
+    "vesselName": "KING ALFRED",
+    "vesselCode": "AXH",
+    "IMO": 9360269,
+    "TEU": 2741,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KING BASIL",
+    "vesselCode": "UY4",
+    "IMO": 9912345,
+    "TEU": 1710,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KING BYRON",
+    "vesselCode": "UM5",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UM5"
+  },
+  {
+    "vesselName": "KING JACOB",
+    "vesselCode": "TBN",
+    "IMO": 9147215,
+    "TEU": 1102,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KINGSTON",
+    "vesselCode": "RBN",
+    "IMO": 9389693,
+    "TEU": 4253,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KINSHIP BANGA",
+    "vesselCode": "AGT",
+    "IMO": 8018522,
+    "TEU": 350,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KIRSTEN",
+    "vesselCode": "UBJ",
+    "IMO": 9141041,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UBJ"
+  },
+  {
+    "vesselName": "KIRSTEN MAERSK",
+    "vesselCode": "SF6",
+    "IMO": 999999999,
+    "TEU": 6000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KISSAMA",
+    "vesselCode": "AHY",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AHY"
+  },
+  {
+    "vesselName": "KITANO",
+    "vesselCode": "RPQ",
+    "IMO": 8914001,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RPQ"
+  },
+  {
+    "vesselName": "KITI BHUM",
+    "vesselCode": "AH0",
+    "IMO": 99999996,
+    "TEU": 420,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KLARA",
+    "vesselCode": "A2J",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A2J"
+  },
+  {
+    "vesselName": "KLAUS J",
+    "vesselCode": "QB7",
+    "IMO": 9138240,
+    "TEU": 1380,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KLENODEN",
+    "vesselCode": "UAA",
+    "IMO": 8917730,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UAA"
+  },
+  {
+    "vesselName": "KMARIN ATLANTICA",
+    "vesselCode": "QGV",
+    "IMO": 9632507,
+    "TEU": 4532,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC BANGKOK",
+    "vesselCode": "NXW",
+    "IMO": 9772228,
+    "TEU": 1785,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC CHENNAI",
+    "vesselCode": "RP9",
+    "IMO": 9375513,
+    "TEU": 4300,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC COLOMBO",
+    "vesselCode": "RE6",
+    "IMO": 9347437,
+    "TEU": 6500,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC DALIAN",
+    "vesselCode": "NXS",
+    "IMO": 9882229,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NXS"
+  },
+  {
+    "vesselName": "KMTC DELHI",
+    "vesselCode": "N5D",
+    "IMO": 9409182,
+    "TEU": 6572,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC DUBAI",
+    "vesselCode": "S2K",
+    "IMO": 9723928,
+    "TEU": 5466,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC GWANGYANG",
+    "vesselCode": "MQB",
+    "IMO": 9848895,
+    "TEU": 1700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC HAIPHONG",
+    "vesselCode": "MJD",
+    "IMO": 9793806,
+    "TEU": 1822,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC HOCHIMINH",
+    "vesselCode": "QNU",
+    "IMO": 9314923,
+    "TEU": 2824,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC INCHEON",
+    "vesselCode": "QBB",
+    "IMO": 9859911,
+    "TEU": 1675,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC JAKARTA",
+    "vesselCode": "MQY",
+    "IMO": 9217424,
+    "TEU": 1626,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC JEBEL ALI",
+    "vesselCode": "RL4",
+    "IMO": 9375305,
+    "TEU": 4275,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC KEELUNG",
+    "vesselCode": "QQB",
+    "IMO": 9157741,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=QQB"
+  },
+  {
+    "vesselName": "KMTC LAEM CHABANG",
+    "vesselCode": "MJH",
+    "IMO": 9772230,
+    "TEU": 1785,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC MANILA",
+    "vesselCode": "MOX",
+    "IMO": 9375496,
+    "TEU": 4233,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC MUMBAI",
+    "vesselCode": "Q9K",
+    "IMO": 9665695,
+    "TEU": 5466,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC MUNDRA",
+    "vesselCode": "RE7",
+    "IMO": 9347449,
+    "TEU": 6655,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC NAGOYA",
+    "vesselCode": "DGI",
+    "IMO": 9859894,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DGI"
+  },
+  {
+    "vesselName": "KMTC NHAVA SHEVA",
+    "vesselCode": "RP8",
+    "IMO": 9375501,
+    "TEU": 4275,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC NINGBO",
+    "vesselCode": "QEJ",
+    "IMO": 9626405,
+    "TEU": 2778,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC OSAKA",
+    "vesselCode": "MWY",
+    "IMO": 9848883,
+    "TEU": 1700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC PENANG",
+    "vesselCode": "QZ5",
+    "IMO": 9821093,
+    "TEU": 2500,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC QINGDAO",
+    "vesselCode": "ROL",
+    "IMO": 9235593,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ROL"
+  },
+  {
+    "vesselName": "KMTC SEOUL",
+    "vesselCode": "MLK",
+    "IMO": 9882205,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MLK"
+  },
+  {
+    "vesselName": "KMTC SHANGHAI",
+    "vesselCode": "AJF",
+    "IMO": 9274202,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AJF"
+  },
+  {
+    "vesselName": "KMTC SHENZHEN",
+    "vesselCode": "QEK",
+    "IMO": 9626417,
+    "TEU": 2778,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC SHIMIZU",
+    "vesselCode": "NXT",
+    "IMO": 9893591,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NXT"
+  },
+  {
+    "vesselName": "KMTC SURABAYA",
+    "vesselCode": "NUZ",
+    "IMO": 9821081,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NUZ"
+  },
+  {
+    "vesselName": "KMTC TIANJIN",
+    "vesselCode": "A6B",
+    "IMO": 9315848,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A6B"
+  },
+  {
+    "vesselName": "KMTC ULSAN",
+    "vesselCode": "QSS",
+    "IMO": 9131864,
+    "TEU": 1585,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KMTC XIAMEN",
+    "vesselCode": "NZK",
+    "IMO": 9893589,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NZK"
+  },
+  {
+    "vesselName": "KMTC YOKOHAMA",
+    "vesselCode": "NVL",
+    "IMO": 9882217,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NVL"
+  },
+  {
+    "vesselName": "KOBE C",
+    "vesselCode": "RSF",
+    "IMO": 9492701,
+    "TEU": 4520,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOI",
+    "vesselCode": "RTZ",
+    "IMO": 9461489,
+    "TEU": 8330,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOLLMAR",
+    "vesselCode": "R47",
+    "IMO": 9056284,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=R47"
+  },
+  {
+    "vesselName": "KOMET III",
+    "vesselCode": "PX6",
+    "IMO": 8919831,
+    "TEU": 1000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KONG QUE SONG",
+    "vesselCode": "Q9S",
+    "IMO": 9416769,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Q9S"
+  },
+  {
+    "vesselName": "KONRAD",
+    "vesselCode": "UP4",
+    "IMO": 9292125,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UP4"
+  },
+  {
+    "vesselName": "KONSTANTINA",
+    "vesselCode": "Q35",
+    "IMO": 8906755,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Q35"
+  },
+  {
+    "vesselName": "KORNETT",
+    "vesselCode": "PB4",
+    "IMO": 9354428,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PB4"
+  },
+  {
+    "vesselName": "KORONI",
+    "vesselCode": "QS2",
+    "IMO": 9157703,
+    "TEU": 3842,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KORSIKA",
+    "vesselCode": "SIB",
+    "IMO": 9192636,
+    "TEU": 1000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOSOVAK",
+    "vesselCode": "KOS",
+    "IMO": 9211157,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=KOS"
+  },
+  {
+    "vesselName": "KOTA ABADI",
+    "vesselCode": "AVY",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AVY"
+  },
+  {
+    "vesselName": "KOTA AKBAR",
+    "vesselCode": "Q1R",
+    "IMO": 9013294,
+    "TEU": 1267,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA ALAM",
+    "vesselCode": "AS3",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AS3"
+  },
+  {
+    "vesselName": "KOTA ANGGERIK",
+    "vesselCode": "ADE",
+    "IMO": 9175597,
+    "TEU": 1454,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA ANGGUN",
+    "vesselCode": "APE",
+    "IMO": 9175602,
+    "TEU": 1454,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA APL",
+    "vesselCode": "N94",
+    "IMO": 999996,
+    "TEU": 4335,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA BAGUS",
+    "vesselCode": "NKJ",
+    "IMO": 9593660,
+    "TEU": 1400,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA BAHAGIA",
+    "vesselCode": "NZO",
+    "IMO": 9593672,
+    "TEU": 1497,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA BENAR",
+    "vesselCode": "CMV",
+    "IMO": 99999996,
+    "TEU": 764,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA BERANI",
+    "vesselCode": "ABR",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ABR"
+  },
+  {
+    "vesselName": "KOTA BERJAYA",
+    "vesselCode": "AU8",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AU8"
+  },
+  {
+    "vesselName": "KOTA BERLIAN",
+    "vesselCode": "AK9",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AK9"
+  },
+  {
+    "vesselName": "KOTA BINTANG",
+    "vesselCode": "AB2",
+    "IMO": 9638616,
+    "TEU": 1391,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA BISTARI",
+    "vesselCode": "NPB",
+    "IMO": 9695107,
+    "TEU": 1387,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA BUANA",
+    "vesselCode": "AJ3",
+    "IMO": 9638628,
+    "TEU": 1391,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA BUNGA",
+    "vesselCode": "NJV",
+    "IMO": 9638604,
+    "TEU": 1387,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA CABAR",
+    "vesselCode": "S3J",
+    "IMO": 9494606,
+    "TEU": 6606,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA CAHAYA",
+    "vesselCode": "AJ5",
+    "IMO": 9494589,
+    "TEU": 6600,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA CALLAO",
+    "vesselCode": "D90",
+    "IMO": 9967512,
+    "TEU": 7092,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA CANTIK",
+    "vesselCode": "S5J",
+    "IMO": 9494591,
+    "TEU": 6600,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA CARUM",
+    "vesselCode": "S1S",
+    "IMO": 9494577,
+    "TEU": 6606,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA CEMPAKA",
+    "vesselCode": "QUA",
+    "IMO": 9638965,
+    "TEU": 6600,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA CEPAT",
+    "vesselCode": "S4J",
+    "IMO": 9638977,
+    "TEU": 6600,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA DAHLIA",
+    "vesselCode": "ASZ",
+    "IMO": 9408449,
+    "TEU": 628,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA DARJAH",
+    "vesselCode": "AOR",
+    "IMO": 99999996,
+    "TEU": 6245,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA DAYA",
+    "vesselCode": "AJD",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AJD"
+  },
+  {
+    "vesselName": "KOTA DELIMA",
+    "vesselCode": "ANK",
+    "IMO": 9408451,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ANK"
+  },
+  {
+    "vesselName": "KOTA DUTA",
+    "vesselCode": "AUW",
+    "IMO": 9483487,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AUW"
+  },
+  {
+    "vesselName": "KOTA EAGLE",
+    "vesselCode": "D4A",
+    "IMO": 9963700,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=D4A"
+  },
+  {
+    "vesselName": "KOTA EBONY",
+    "vesselCode": "DCB",
+    "IMO": 9968853,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DCB"
+  },
+  {
+    "vesselName": "KOTA EMBUN",
+    "vesselCode": "DDA",
+    "IMO": 9968865,
+    "TEU": 14412,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA EMERALD",
+    "vesselCode": "D5B",
+    "IMO": 9963712,
+    "TEU": 14412,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA GABUNG",
+    "vesselCode": "A3I",
+    "IMO": 9616852,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A3I"
+  },
+  {
+    "vesselName": "KOTA GADANG",
+    "vesselCode": "A3F",
+    "IMO": 9626429,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A3F"
+  },
+  {
+    "vesselName": "KOTA GANTENG",
+    "vesselCode": "RM0",
+    "IMO": 9259393,
+    "TEU": 2607,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA GAYA",
+    "vesselCode": "A3K",
+    "IMO": 9616802,
+    "TEU": 2754,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA GEMAR",
+    "vesselCode": "ROW",
+    "IMO": 9252357,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ROW"
+  },
+  {
+    "vesselName": "KOTA GEMBIRA",
+    "vesselCode": "AL2",
+    "IMO": 9252369,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AL2"
+  },
+  {
+    "vesselName": "KOTA GUNAWAN",
+    "vesselCode": "AOS",
+    "IMO": 9259408,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AOS"
+  },
+  {
+    "vesselName": "KOTA HADIAH",
+    "vesselCode": "ATQ",
+    "IMO": 9151307,
+    "TEU": 1088,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA HALUS",
+    "vesselCode": "S4F",
+    "IMO": 9238612,
+    "TEU": 1080,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA HANDAL",
+    "vesselCode": "BBD",
+    "IMO": 9272981,
+    "TEU": 1080,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA HAPAS",
+    "vesselCode": "ADQ",
+    "IMO": 9238624,
+    "TEU": 1080,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA HARMUNI",
+    "vesselCode": "AJG",
+    "IMO": 9151319,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AJG"
+  },
+  {
+    "vesselName": "KOTA HARTA",
+    "vesselCode": "AJA",
+    "IMO": 9135092,
+    "TEU": 592,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA HARUM",
+    "vesselCode": "A3W",
+    "IMO": 9238636,
+    "TEU": 1080,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA HASIL",
+    "vesselCode": "ANU",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ANU"
+  },
+  {
+    "vesselName": "KOTA HENING",
+    "vesselCode": "ANJ",
+    "IMO": 9278909,
+    "TEU": 1080,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA HORMAT",
+    "vesselCode": "AUV",
+    "IMO": 9245225,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AUV"
+  },
+  {
+    "vesselName": "KOTA INTAN",
+    "vesselCode": "AWK",
+    "IMO": 9358577,
+    "TEU": 295,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA JELITA",
+    "vesselCode": "R3L",
+    "IMO": 9130169,
+    "TEU": 1684,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA JOHAN",
+    "vesselCode": "NZ7",
+    "IMO": 9641003,
+    "TEU": 2034,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA JUTA",
+    "vesselCode": "S98",
+    "IMO": 9226839,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=S98"
+  },
+  {
+    "vesselName": "KOTA KADO",
+    "vesselCode": "SVP",
+    "IMO": 9999996,
+    "TEU": 3081,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA KAMIL",
+    "vesselCode": "RCI",
+    "IMO": 9307413,
+    "TEU": 3081,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA KAYA",
+    "vesselCode": "QZL",
+    "IMO": 9307401,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=QZL"
+  },
+  {
+    "vesselName": "KOTA LAGU",
+    "vesselCode": "RQ5",
+    "IMO": 9322308,
+    "TEU": 4253,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LAMBAI",
+    "vesselCode": "RS7",
+    "IMO": 9351024,
+    "TEU": 4253,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LARIS",
+    "vesselCode": "QGO",
+    "IMO": 9351048,
+    "TEU": 4253,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LATIF",
+    "vesselCode": "RWN",
+    "IMO": 9340764,
+    "TEU": 4253,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LAWA",
+    "vesselCode": "QED",
+    "IMO": 9439709,
+    "TEU": 4250,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LEGIT",
+    "vesselCode": "QVW",
+    "IMO": 9625413,
+    "TEU": 4800,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LEKAS",
+    "vesselCode": "QVL",
+    "IMO": 9625401,
+    "TEU": 4800,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LEMBAH",
+    "vesselCode": "QDZ",
+    "IMO": 9622318,
+    "TEU": 4335,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LESTARI",
+    "vesselCode": "N66",
+    "IMO": 9628348,
+    "TEU": 4335,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LIHAT",
+    "vesselCode": "QDQ",
+    "IMO": 9628324,
+    "TEU": 4335,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LIMA",
+    "vesselCode": "SS1",
+    "IMO": 9267651,
+    "TEU": 5544,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LOCENG",
+    "vesselCode": "QHT",
+    "IMO": 9628336,
+    "TEU": 4335,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LUKIS",
+    "vesselCode": "RVR",
+    "IMO": 9439747,
+    "TEU": 4253,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LUMAYAN",
+    "vesselCode": "ROZ",
+    "IMO": 9494541,
+    "TEU": 4250,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA LUMBA",
+    "vesselCode": "QNX",
+    "IMO": 9439761,
+    "TEU": 4250,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA MAKMUR",
+    "vesselCode": "NN6",
+    "IMO": 9632753,
+    "TEU": 3566,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA MANIS",
+    "vesselCode": "N90",
+    "IMO": 9632741,
+    "TEU": 3560,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA MANZANILLO",
+    "vesselCode": "S6I",
+    "IMO": 9305465,
+    "TEU": 8533,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA MAWAR",
+    "vesselCode": "S7S",
+    "IMO": 1234562,
+    "TEU": 3500,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA MEGAH",
+    "vesselCode": "N2J",
+    "IMO": 9632765,
+    "TEU": 3566,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA MESRA",
+    "vesselCode": "AYW",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AYW"
+  },
+  {
+    "vesselName": "KOTA MEWAH",
+    "vesselCode": "A50",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A50"
+  },
+  {
+    "vesselName": "KOTA MOLEK",
+    "vesselCode": "AFS",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AFS"
+  },
+  {
+    "vesselName": "KOTA MULIA",
+    "vesselCode": "AL8",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AL8"
+  },
+  {
+    "vesselName": "KOTA MUTIARA",
+    "vesselCode": "AN3",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AN3"
+  },
+  {
+    "vesselName": "KOTA NABIL",
+    "vesselCode": "AWP",
+    "IMO": 9356830,
+    "TEU": 1810,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA NAGA",
+    "vesselCode": "AL5",
+    "IMO": 9362293,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AL5"
+  },
+  {
+    "vesselName": "KOTA NALURI",
+    "vesselCode": "ARG",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ARG"
+  },
+  {
+    "vesselName": "KOTA NANHAI",
+    "vesselCode": "AWA",
+    "IMO": 9461635,
+    "TEU": 1810,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA NASRAT",
+    "vesselCode": "APN",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=APN"
+  },
+  {
+    "vesselName": "KOTA NAZAR",
+    "vesselCode": "ASW",
+    "IMO": 9362310,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ASW"
+  },
+  {
+    "vesselName": "KOTA NAZIM",
+    "vesselCode": "AVK",
+    "IMO": 9390240,
+    "TEU": 1810,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA NEBULA",
+    "vesselCode": "AWD",
+    "IMO": 9494632,
+    "TEU": 1810,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA NILAM",
+    "vesselCode": "AWG",
+    "IMO": 9461647,
+    "TEU": 1810,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA NIPAH",
+    "vesselCode": "ARI",
+    "IMO": 9593696,
+    "TEU": 1810,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA ODYSSEY",
+    "vesselCode": "DI8",
+    "IMO": 9977878,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DI8"
+  },
+  {
+    "vesselName": "KOTA PAHLAWAN",
+    "vesselCode": "AKE",
+    "IMO": 99999996,
+    "TEU": 999,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA PEKERANG",
+    "vesselCode": "AMH",
+    "IMO": 123456,
+    "TEU": 1600,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA PELANGI",
+    "vesselCode": "RVV",
+    "IMO": 9786748,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RVV"
+  },
+  {
+    "vesselName": "KOTA PEONY",
+    "vesselCode": "MVG",
+    "IMO": 9473731,
+    "TEU": 13082,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA PERDANA",
+    "vesselCode": "AOT",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AOT"
+  },
+  {
+    "vesselName": "KOTA PERMATA",
+    "vesselCode": "A3U",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A3U"
+  },
+  {
+    "vesselName": "KOTA PERWIRA",
+    "vesselCode": "AL6",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AL6"
+  },
+  {
+    "vesselName": "KOTA PETANI",
+    "vesselCode": "AF0",
+    "IMO": 9793947,
+    "TEU": 11923,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA PLUMBAGO",
+    "vesselCode": "DFM",
+    "IMO": 9475686,
+    "TEU": 13082,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA PRIMROSE",
+    "vesselCode": "MXB",
+    "IMO": 9475674,
+    "TEU": 13082,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA PURI",
+    "vesselCode": "ARQ",
+    "IMO": 9793959,
+    "TEU": 11923,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA PUSAKA",
+    "vesselCode": "SZC",
+    "IMO": 9793961,
+    "TEU": 11923,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA RAHMAT",
+    "vesselCode": "ARO",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ARO"
+  },
+  {
+    "vesselName": "KOTA RAJA",
+    "vesselCode": "MCD",
+    "IMO": 9999996,
+    "TEU": 570,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA RAJIN",
+    "vesselCode": "AFI",
+    "IMO": 9296286,
+    "TEU": 887,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA RAKAN",
+    "vesselCode": "ALM",
+    "IMO": 9359686,
+    "TEU": 274,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA RAKYAT",
+    "vesselCode": "AEI",
+    "IMO": 9296341,
+    "TEU": 943,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA RATNA",
+    "vesselCode": "AE2",
+    "IMO": 9167447,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AE2"
+  },
+  {
+    "vesselName": "KOTA RATU",
+    "vesselCode": "AAO",
+    "IMO": 9167435,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AAO"
+  },
+  {
+    "vesselName": "KOTA RESTU",
+    "vesselCode": "ASM",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ASM"
+  },
+  {
+    "vesselName": "KOTA RIA",
+    "vesselCode": "ADN",
+    "IMO": 9296339,
+    "TEU": 851,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA RUKUN",
+    "vesselCode": "AF2",
+    "IMO": 9167459,
+    "TEU": 777,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SABAS",
+    "vesselCode": "AC4",
+    "IMO": 9645451,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SAHABAT",
+    "vesselCode": "R3U",
+    "IMO": 9645463,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SALAM",
+    "vesselCode": "S7E",
+    "IMO": 9645475,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=S7E"
+  },
+  {
+    "vesselName": "KOTA SANTOS",
+    "vesselCode": "STK",
+    "IMO": 9293765,
+    "TEU": 8463,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SATRIA",
+    "vesselCode": "R1U",
+    "IMO": 9645487,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SEGAR",
+    "vesselCode": "RVE",
+    "IMO": 9681235,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SEJARAH",
+    "vesselCode": "R6U",
+    "IMO": 9681247,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SELAMAT",
+    "vesselCode": "S3O",
+    "IMO": 9681261,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SEMPENA",
+    "vesselCode": "S8E",
+    "IMO": 9681273,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=S8E"
+  },
+  {
+    "vesselName": "KOTA SETIA",
+    "vesselCode": "R5U",
+    "IMO": 9681285,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SINGA",
+    "vesselCode": "AM4",
+    "IMO": 9681314,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SURIA",
+    "vesselCode": "R4U",
+    "IMO": 9681326,
+    "TEU": 3889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA SURIA2",
+    "vesselCode": "AF8",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AF8"
+  },
+  {
+    "vesselName": "KOTA SYDNEY",
+    "vesselCode": "DER",
+    "IMO": 9965356,
+    "TEU": 5348,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA TABAH",
+    "vesselCode": "ABK",
+    "IMO": 9281358,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ABK"
+  },
+  {
+    "vesselName": "KOTA TEGAP",
+    "vesselCode": "A53",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A53"
+  },
+  {
+    "vesselName": "KOTA TEGUH",
+    "vesselCode": "AL9",
+    "IMO": 9247302,
+    "TEU": 728,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA TEMA",
+    "vesselCode": "DDB",
+    "IMO": 9965344,
+    "TEU": 7092,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA TENAGA",
+    "vesselCode": "AVC",
+    "IMO": 9251157,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AVC"
+  },
+  {
+    "vesselName": "KOTA TERAJU",
+    "vesselCode": "AL3",
+    "IMO": 9247297,
+    "TEU": 728,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA WAJAR",
+    "vesselCode": "AGG",
+    "IMO": 9157399,
+    "TEU": 1550,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA WARUNA",
+    "vesselCode": "ASU",
+    "IMO": 9123609,
+    "TEU": 1550,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA WIJAYA",
+    "vesselCode": "AFP",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AFP"
+  },
+  {
+    "vesselName": "KOTA WIRAWAN",
+    "vesselCode": "AO9",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AO9"
+  },
+  {
+    "vesselName": "KOTA WISATA",
+    "vesselCode": "AAD",
+    "IMO": 9071208,
+    "TEU": 1510,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KOTA XXXX",
+    "vesselCode": "A48",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A48"
+  },
+  {
+    "vesselName": "KPO NUMBER FOUR",
+    "vesselCode": "MP4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MP4"
+  },
+  {
+    "vesselName": "KPO NUMBER ONE",
+    "vesselCode": "MP1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MP1"
+  },
+  {
+    "vesselName": "KPO NUMBER THREE",
+    "vesselCode": "MP3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MP3"
+  },
+  {
+    "vesselName": "KPO NUMBER TWO",
+    "vesselCode": "MP2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MP2"
+  },
+  {
+    "vesselName": "KR TASMAN",
+    "vesselCode": "KRT",
+    "IMO": 9208162,
+    "TEU": 900,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KRIPA",
+    "vesselCode": "AI2",
+    "IMO": 7806609,
+    "TEU": 550,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KRISTIN SCHEPERS",
+    "vesselCode": "U22",
+    "IMO": 9404089,
+    "TEU": 803,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KRISTINA",
+    "vesselCode": "NR1",
+    "IMO": 9641223,
+    "TEU": 6927,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KSH KUSU",
+    "vesselCode": "S01",
+    "IMO": 8716083,
+    "TEU": 1674,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KT 1",
+    "vesselCode": "AU5",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AU5"
+  },
+  {
+    "vesselName": "KUALA SIAK 6",
+    "vesselCode": "AH1",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AH1"
+  },
+  {
+    "vesselName": "KUIXIA819",
+    "vesselCode": "YEC",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=YEC"
+  },
+  {
+    "vesselName": "KUIXIA938",
+    "vesselCode": "YED",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=YED"
+  },
+  {
+    "vesselName": "KUMASI",
+    "vesselCode": "MLG",
+    "IMO": 9220859,
+    "TEU": 1718,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUN ZE 6688",
+    "vesselCode": "OKC",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUN ZE 688",
+    "vesselCode": "OKM",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUN ZE 689",
+    "vesselCode": "OJS",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUN ZE 888",
+    "vesselCode": "OJY",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUN ZE 889",
+    "vesselCode": "OKO",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUNHANGHEXIE",
+    "vesselCode": "2BE",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2BE"
+  },
+  {
+    "vesselName": "KUNMINGMENGSAIRAILSERVICE1",
+    "vesselCode": "KS2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=KS2"
+  },
+  {
+    "vesselName": "KUNMINGMENGSAIRAILSERVICE3",
+    "vesselCode": "KS3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=KS3"
+  },
+  {
+    "vesselName": "KUNMINGMENGSAIRAILSERVICE4",
+    "vesselCode": "KS4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=KS4"
+  },
+  {
+    "vesselName": "KUNMINGYANGGUANGRAILSERVICE1",
+    "vesselCode": "KR1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=KR1"
+  },
+  {
+    "vesselName": "KUO CHANG",
+    "vesselCode": "RFJ",
+    "IMO": 9172313,
+    "TEU": 1367,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUO FU",
+    "vesselCode": "RGQ",
+    "IMO": 9101106,
+    "TEU": 1367,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUO HSIUNG",
+    "vesselCode": "RFU",
+    "IMO": 9055448,
+    "TEU": 1169,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUO HUNG",
+    "vesselCode": "KHO",
+    "IMO": null,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=KHO"
+  },
+  {
+    "vesselName": "KUO LIN",
+    "vesselCode": "NBE",
+    "IMO": 9796511,
+    "TEU": 1756,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUO LONG",
+    "vesselCode": "NW8",
+    "IMO": 9796509,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NW8"
+  },
+  {
+    "vesselName": "KUO TAI",
+    "vesselCode": "SKE",
+    "IMO": 9108219,
+    "TEU": 1120,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUO WEI",
+    "vesselCode": "AX0",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AX0"
+  },
+  {
+    "vesselName": "KUO YU",
+    "vesselCode": "RGA",
+    "IMO": 99999,
+    "TEU": 1169,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KUOCHIA",
+    "vesselCode": "ADC",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ADC"
+  },
+  {
+    "vesselName": "KURE",
+    "vesselCode": "N8W",
+    "IMO": 9085522,
+    "TEU": 7403,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KWAI SING NO.2",
+    "vesselCode": "ZYP",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZYP"
+  },
+  {
+    "vesselName": "KWONG TA NO.8",
+    "vesselCode": "ZY4",
+    "IMO": 99999996,
+    "TEU": 132,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KYAUK PHYU STAR",
+    "vesselCode": "S4I",
+    "IMO": 9009188,
+    "TEU": 1551,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KYOTO TOWER",
+    "vesselCode": "QDB",
+    "IMO": 9384887,
+    "TEU": 1708,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "KYOWA ROSE",
+    "vesselCode": "NEW",
+    "IMO": 9464132,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NEW"
+  },
+  {
+    "vesselName": "L AMANDA",
+    "vesselCode": "AVE",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AVE"
+  },
+  {
+    "vesselName": "L22",
+    "vesselCode": "22",
+    "IMO": null,
+    "TEU": 75,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LA-07172",
+    "vesselCode": "BHG",
+    "IMO": 9999996,
+    "TEU": 128,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LABROY 213",
+    "vesselCode": "AZ5",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AZ5"
+  },
+  {
+    "vesselName": "LADY CARINA",
+    "vesselCode": "U54",
+    "IMO": 9201827,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=U54"
+  },
+  {
+    "vesselName": "LADY CLARISSA",
+    "vesselCode": "U55",
+    "IMO": 9201803,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=U55"
+  },
+  {
+    "vesselName": "LADY FATIMA",
+    "vesselCode": "SXL",
+    "IMO": 9151034,
+    "TEU": 524,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LADY JANE",
+    "vesselCode": "QU8",
+    "IMO": 9297474,
+    "TEU": 5047,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LADY MASSA",
+    "vesselCode": "PE3",
+    "IMO": 8215780,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PE3"
+  },
+  {
+    "vesselName": "LADY OF LUCK",
+    "vesselCode": "AYP",
+    "IMO": 9160401,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AYP"
+  },
+  {
+    "vesselName": "LAE CHIEF",
+    "vesselCode": "NTA",
+    "IMO": 9868431,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NTA"
+  },
+  {
+    "vesselName": "LAEM CHABANG EXPRESS",
+    "vesselCode": "D05",
+    "IMO": 9768007,
+    "TEU": 10100,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAGARFOSS",
+    "vesselCode": "UQ4",
+    "IMO": 9641314,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UQ4"
+  },
+  {
+    "vesselName": "LAGOA",
+    "vesselCode": "UI9",
+    "IMO": 9150470,
+    "TEU": 375,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAI DE 5",
+    "vesselCode": "F7U",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F7U"
+  },
+  {
+    "vesselName": "LAILA PROSPERA",
+    "vesselCode": "PLR",
+    "IMO": 9149897,
+    "TEU": 32000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAKONIA",
+    "vesselCode": "Q2W",
+    "IMO": 9248679,
+    "TEU": 2586,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAL BAHADUR SHASTRI",
+    "vesselCode": "AF6",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AF6"
+  },
+  {
+    "vesselName": "LALIT BHUM",
+    "vesselCode": "MKS",
+    "IMO": 9801500,
+    "TEU": 1668,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAMMA 33",
+    "vesselCode": "ZW5",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZW5"
+  },
+  {
+    "vesselName": "LAMPHUN NAVEE",
+    "vesselCode": "AGJ",
+    "IMO": 7930412,
+    "TEU": 612,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAN HAI",
+    "vesselCode": "WLQ",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WLQ"
+  },
+  {
+    "vesselName": "LAN HAI QI HANG",
+    "vesselCode": "M40",
+    "IMO": 9999996,
+    "TEU": 1126,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAN HAI ZHI YUAN",
+    "vesselCode": "H99",
+    "IMO": 1087122,
+    "TEU": 25000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAN SHI 10",
+    "vesselCode": "ZBA",
+    "IMO": 99999996,
+    "TEU": 64,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAN SHI 4",
+    "vesselCode": "Z93",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z93"
+  },
+  {
+    "vesselName": "LAN SHI 5",
+    "vesselCode": "ZDH",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZDH"
+  },
+  {
+    "vesselName": "LAN SHI 6",
+    "vesselCode": "ZCQ",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZCQ"
+  },
+  {
+    "vesselName": "LAN SHI 7",
+    "vesselCode": "ZY7",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZY7"
+  },
+  {
+    "vesselName": "LAN SHI 8",
+    "vesselCode": "ZX8",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZX8"
+  },
+  {
+    "vesselName": "LAN SHI 9",
+    "vesselCode": "ZDG",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZDG"
+  },
+  {
+    "vesselName": "LANA",
+    "vesselCode": "N7R",
+    "IMO": 9484522,
+    "TEU": 4400,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LANCER",
+    "vesselCode": "UL3",
+    "IMO": 9148506,
+    "TEU": 369,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LANGENESS (DUMMY)",
+    "vesselCode": "PU8",
+    "IMO": 9301133,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PU8"
+  },
+  {
+    "vesselName": "LANHAIFANGZHOU",
+    "vesselCode": "2E0",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2E0"
+  },
+  {
+    "vesselName": "LANTAU ACE",
+    "vesselCode": "Q4R",
+    "IMO": 9212010,
+    "TEU": 1216,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LANTAU BEACH",
+    "vesselCode": "AJE",
+    "IMO": 9999996,
+    "TEU": 1049,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LANTAU BREEZE",
+    "vesselCode": "XHM",
+    "IMO": 9999996,
+    "TEU": 1049,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LANTAU BRIDE",
+    "vesselCode": "RW9",
+    "IMO": 9666667,
+    "TEU": 1049,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LARANNA RICKMERS",
+    "vesselCode": "REX",
+    "IMO": 9999996,
+    "TEU": 4241,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LARSD",
+    "vesselCode": "US7",
+    "IMO": 9252797,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=US7"
+  },
+  {
+    "vesselName": "LAS PALMAS",
+    "vesselCode": "UCK",
+    "IMO": 9216834,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UCK"
+  },
+  {
+    "vesselName": "LAS VEGAS",
+    "vesselCode": "NFM",
+    "IMO": 9348699,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NFM"
+  },
+  {
+    "vesselName": "LAURA ANN",
+    "vesselCode": "UCE",
+    "IMO": 9242558,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UCE"
+  },
+  {
+    "vesselName": "LAUSANNE",
+    "vesselCode": "T23",
+    "IMO": 9999994,
+    "TEU": 2826,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LAXFOSS",
+    "vesselCode": "SX7",
+    "IMO": 9086801,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=SX7"
+  },
+  {
+    "vesselName": "LCCM 1",
+    "vesselCode": "AAY",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AAY"
+  },
+  {
+    "vesselName": "LCCM II",
+    "vesselCode": "AY4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AY4"
+  },
+  {
+    "vesselName": "LE CONG",
+    "vesselCode": "MCG",
+    "IMO": 9192686,
+    "TEU": 1089,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LE HAVRE",
+    "vesselCode": "NEU",
+    "IMO": 9307243,
+    "TEU": 9572,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LE HE",
+    "vesselCode": "MFX",
+    "IMO": 9192698,
+    "TEU": 800,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LE LI",
+    "vesselCode": "NG6",
+    "IMO": 9192674,
+    "TEU": 1089,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LE SHAN",
+    "vesselCode": "Y06",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Y06"
+  },
+  {
+    "vesselName": "LE WEN",
+    "vesselCode": "XJK",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XJK"
+  },
+  {
+    "vesselName": "LE WEN 8",
+    "vesselCode": "XOL",
+    "IMO": 5200550144,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XOL"
+  },
+  {
+    "vesselName": "LE YI",
+    "vesselCode": "NH4",
+    "IMO": 9192662,
+    "TEU": 1089,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LE YU QUAN",
+    "vesselCode": "SNG",
+    "IMO": 7715458,
+    "TEU": 288,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LEEVSTEN",
+    "vesselCode": "UX1",
+    "IMO": 9869954,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UX1"
+  },
+  {
+    "vesselName": "LEGEND 2510",
+    "vesselCode": "BF9",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BF9"
+  },
+  {
+    "vesselName": "LEI HANG",
+    "vesselCode": "ZCF",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZCF"
+  },
+  {
+    "vesselName": "LENA",
+    "vesselCode": "L2N",
+    "IMO": 9347750,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L2N"
+  },
+  {
+    "vesselName": "LEO",
+    "vesselCode": "RZM",
+    "IMO": 9363390,
+    "TEU": 2553,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LEO AUTHORITY",
+    "vesselCode": "AIP",
+    "IMO": 915987,
+    "TEU": 1436,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LEO MONO",
+    "vesselCode": "AZE",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AZE"
+  },
+  {
+    "vesselName": "LEO OSAKA",
+    "vesselCode": "RGJ",
+    "IMO": 9275373,
+    "TEU": 2,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LEO PARAMOUNT",
+    "vesselCode": "PNL",
+    "IMO": 9307059,
+    "TEU": 6350,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LEONIE P",
+    "vesselCode": "UF2",
+    "IMO": 9162667,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UF2"
+  },
+  {
+    "vesselName": "LEOPARD",
+    "vesselCode": "A3Y",
+    "IMO": 9144146,
+    "TEU": 1730,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LEOPARD (PLEASE DELETE)",
+    "vesselCode": "LPD",
+    "IMO": 99999997,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LPD"
+  },
+  {
+    "vesselName": "LESOTHO",
+    "vesselCode": "S1I",
+    "IMO": 9162485,
+    "TEU": 6214,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LETO",
+    "vesselCode": "PP4",
+    "IMO": 9311880,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PP4"
+  },
+  {
+    "vesselName": "LEYLA KALKAVAN.",
+    "vesselCode": "KAL",
+    "IMO": 912692,
+    "TEU": 800,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI CHENG 3",
+    "vesselCode": "F10",
+    "IMO": 5758578,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F10"
+  },
+  {
+    "vesselName": "LI CHENG 6",
+    "vesselCode": "R9U",
+    "IMO": 8340116,
+    "TEU": 265,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI DA TONG 2 HAO",
+    "vesselCode": "F0N",
+    "IMO": 3692370,
+    "TEU": 274,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 009",
+    "vesselCode": "LHH",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LHH"
+  },
+  {
+    "vesselName": "LI HANG 089",
+    "vesselCode": "Z4S",
+    "IMO": 20170224,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z4S"
+  },
+  {
+    "vesselName": "LI HANG 16888",
+    "vesselCode": "OZL",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OZL"
+  },
+  {
+    "vesselName": "LI HANG 559",
+    "vesselCode": "OOD",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 6",
+    "vesselCode": "OTU",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 6688",
+    "vesselCode": "OBS",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 7688",
+    "vesselCode": "OSQ",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 869",
+    "vesselCode": "OIY",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 8788",
+    "vesselCode": "ODE",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 89",
+    "vesselCode": "OYN",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OYN"
+  },
+  {
+    "vesselName": "LI HANG 8966",
+    "vesselCode": "OA1",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI HANG 899",
+    "vesselCode": "OVA",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OVA"
+  },
+  {
+    "vesselName": "LI HANG 9368",
+    "vesselCode": "OYW",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OYW"
+  },
+  {
+    "vesselName": "LI JIN",
+    "vesselCode": "Z94",
+    "IMO": 99999996,
+    "TEU": 33,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI JING 1",
+    "vesselCode": "LX9",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI JING 2",
+    "vesselCode": "LJ2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LJ2"
+  },
+  {
+    "vesselName": "LI JING 3",
+    "vesselCode": "W8W",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W8W"
+  },
+  {
+    "vesselName": "LI JING 5",
+    "vesselCode": "W3H",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W3H"
+  },
+  {
+    "vesselName": "LI PENG 7",
+    "vesselCode": "X91",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=X91"
+  },
+  {
+    "vesselName": "LI WEI 36",
+    "vesselCode": "LAS",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LAS"
+  },
+  {
+    "vesselName": "LI WEI 5398",
+    "vesselCode": "Z8E",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z8E"
+  },
+  {
+    "vesselName": "LI WEI 6008",
+    "vesselCode": "LRO",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LRO"
+  },
+  {
+    "vesselName": "LI WEI 6318",
+    "vesselCode": "W0Z",
+    "IMO": 62542561,
+    "TEU": 160,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI WEI 6398",
+    "vesselCode": "LBQ",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LBQ"
+  },
+  {
+    "vesselName": "LI WEI 76",
+    "vesselCode": "LAP",
+    "IMO": null,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LAP"
+  },
+  {
+    "vesselName": "LI WEI 8328",
+    "vesselCode": "LQV",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LQV"
+  },
+  {
+    "vesselName": "LI WEI 8688",
+    "vesselCode": "XRQ",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XRQ"
+  },
+  {
+    "vesselName": "LI WEI 903",
+    "vesselCode": "WC1",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WC1"
+  },
+  {
+    "vesselName": "LI XIN 0086",
+    "vesselCode": "LR6",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI XIN 0088",
+    "vesselCode": "LQ4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LQ4"
+  },
+  {
+    "vesselName": "LI XIN 0588",
+    "vesselCode": "LIK",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LIK"
+  },
+  {
+    "vesselName": "LI XIN 0768",
+    "vesselCode": "OWI",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OWI"
+  },
+  {
+    "vesselName": "LI XIN 0808",
+    "vesselCode": "LTL",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LTL"
+  },
+  {
+    "vesselName": "LI XIN 2028",
+    "vesselCode": "OFG",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI XIN 3913",
+    "vesselCode": "OZH",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OZH"
+  },
+  {
+    "vesselName": "LI XIN 5338",
+    "vesselCode": "OO3",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI XIN 5808",
+    "vesselCode": "LVI",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI XIN 6683",
+    "vesselCode": "OOH",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI XIN 8788",
+    "vesselCode": "LV0",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI XIN 88",
+    "vesselCode": "OC3",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI YUAN 168",
+    "vesselCode": "LTH",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LTH"
+  },
+  {
+    "vesselName": "LI YUAN 201",
+    "vesselCode": "LM8",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LM8"
+  },
+  {
+    "vesselName": "LI YUAN 333",
+    "vesselCode": "LM4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LM4"
+  },
+  {
+    "vesselName": "LI ZHOU 18",
+    "vesselCode": "OUT",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OUT"
+  },
+  {
+    "vesselName": "LI ZHOU 228",
+    "vesselCode": "OS6",
+    "IMO": 9999996,
+    "TEU": 190,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI ZHOU 318",
+    "vesselCode": "LYE",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LYE"
+  },
+  {
+    "vesselName": "LI ZHOU 328",
+    "vesselCode": "LVL",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LVL"
+  },
+  {
+    "vesselName": "LI ZHOU BANG HAN",
+    "vesselCode": "MUO",
+    "IMO": 9999996,
+    "TEU": 1659,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI ZHOU CHANG RONG",
+    "vesselCode": "TMZ",
+    "IMO": 9999996,
+    "TEU": 1258,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI ZHOU JIE HAI",
+    "vesselCode": "TMX",
+    "IMO": 9999996,
+    "TEU": 1216,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI ZHOU JIN XIU",
+    "vesselCode": "M06",
+    "IMO": 9999996,
+    "TEU": 612,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LI ZHOU XING SHENG",
+    "vesselCode": "M13",
+    "IMO": 2233445,
+    "TEU": 1366,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN FA 66",
+    "vesselCode": "ZZ4",
+    "IMO": 99999996,
+    "TEU": 140,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN FA 67",
+    "vesselCode": "ZCN",
+    "IMO": 99999996,
+    "TEU": 140,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN FENG",
+    "vesselCode": "SGN",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=SGN"
+  },
+  {
+    "vesselName": "LIAN GANG 23",
+    "vesselCode": "ZR4",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZR4"
+  },
+  {
+    "vesselName": "LIAN GANG 28",
+    "vesselCode": "ZR5",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZR5"
+  },
+  {
+    "vesselName": "LIAN HE FANG ZHOU",
+    "vesselCode": "LMQ",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LMQ"
+  },
+  {
+    "vesselName": "LIAN HUA SONG",
+    "vesselCode": "LHS",
+    "IMO": 9608829,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LHS"
+  },
+  {
+    "vesselName": "LIAN RONG 01",
+    "vesselCode": "MUJ",
+    "IMO": 9999996,
+    "TEU": 1765,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN SHENG 301",
+    "vesselCode": "ZOY",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZOY"
+  },
+  {
+    "vesselName": "LIAN SHENG 302",
+    "vesselCode": "ZOH",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZOH"
+  },
+  {
+    "vesselName": "LIAN SHENG 333",
+    "vesselCode": "W64",
+    "IMO": 20150004,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W64"
+  },
+  {
+    "vesselName": "LIAN SHENG 358",
+    "vesselCode": "XBM",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XBM"
+  },
+  {
+    "vesselName": "LIAN SHENG 588",
+    "vesselCode": "WL2",
+    "IMO": 100110000063,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WL2"
+  },
+  {
+    "vesselName": "LIAN SHENG 666",
+    "vesselCode": "X6V",
+    "IMO": 9999996,
+    "TEU": 96,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN SHENG 668",
+    "vesselCode": "WF6",
+    "IMO": 99999996,
+    "TEU": 96,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN SHENG 688",
+    "vesselCode": "W2B",
+    "IMO": 20151202,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W2B"
+  },
+  {
+    "vesselName": "LIAN SHENG 698",
+    "vesselCode": "XCF",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XCF"
+  },
+  {
+    "vesselName": "LIAN SHENG 868",
+    "vesselCode": "WRC",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WRC"
+  },
+  {
+    "vesselName": "LIAN SHENG 888",
+    "vesselCode": "WQL",
+    "IMO": 9999996,
+    "TEU": 200,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN SHENG 898",
+    "vesselCode": "WGP",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WGP"
+  },
+  {
+    "vesselName": "LIAN SHENG 968",
+    "vesselCode": "Z1G",
+    "IMO": 20160822,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z1G"
+  },
+  {
+    "vesselName": "LIAN SHENG 988",
+    "vesselCode": "Z3H",
+    "IMO": 65252220,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z3H"
+  },
+  {
+    "vesselName": "LIAN SHENG 998",
+    "vesselCode": "W9Z",
+    "IMO": 20160617,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W9Z"
+  },
+  {
+    "vesselName": "LIAN SHUN 7",
+    "vesselCode": "T45",
+    "IMO": null,
+    "TEU": 402,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAN XING 3001",
+    "vesselCode": "L09",
+    "IMO": 20180508,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L09"
+  },
+  {
+    "vesselName": "LIANG HUI 228",
+    "vesselCode": "OBO",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OBO"
+  },
+  {
+    "vesselName": "LIANG HUI 258",
+    "vesselCode": "ODX",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ODX"
+  },
+  {
+    "vesselName": "LIANG HUI 268",
+    "vesselCode": "OFH",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OFH"
+  },
+  {
+    "vesselName": "LIANG HUI 288",
+    "vesselCode": "OB5",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANG HUI 688",
+    "vesselCode": "O30",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=O30"
+  },
+  {
+    "vesselName": "LIANG SHAN",
+    "vesselCode": "Y04",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Y04"
+  },
+  {
+    "vesselName": "LIANG XIANG 5",
+    "vesselCode": "QD8",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=QD8"
+  },
+  {
+    "vesselName": "LIANG XIANG 7",
+    "vesselCode": "TAL",
+    "IMO": 9999996,
+    "TEU": 389,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANG XIANG 8",
+    "vesselCode": "R5L",
+    "IMO": 3425679879,
+    "TEU": 1113,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANG XIANG 82",
+    "vesselCode": "D8B",
+    "IMO": 9999996,
+    "TEU": 2754,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANG XIANG 85",
+    "vesselCode": "GG8",
+    "IMO": 1043504,
+    "TEU": 45150,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANG XIANG 86",
+    "vesselCode": "FAN",
+    "IMO": 9999996,
+    "TEU": 686,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANG XIANG 88",
+    "vesselCode": "M79",
+    "IMO": 9999996,
+    "TEU": 1976,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANG XIANG 9",
+    "vesselCode": "F9K",
+    "IMO": 9999996,
+    "TEU": 933,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANGANYIHAO",
+    "vesselCode": "2HU",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2HU"
+  },
+  {
+    "vesselName": "LIANHE 23",
+    "vesselCode": "F34",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F34"
+  },
+  {
+    "vesselName": "LIANHE10",
+    "vesselCode": "F46",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F46"
+  },
+  {
+    "vesselName": "LIANHE12",
+    "vesselCode": "F43",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F43"
+  },
+  {
+    "vesselName": "LIANHE16",
+    "vesselCode": "Q4L",
+    "IMO": 675686858,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Q4L"
+  },
+  {
+    "vesselName": "LIANHE18",
+    "vesselCode": "REN",
+    "IMO": 978089,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=REN"
+  },
+  {
+    "vesselName": "LIANHE20",
+    "vesselCode": "F59",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F59"
+  },
+  {
+    "vesselName": "LIANHE21",
+    "vesselCode": "RMH",
+    "IMO": 9789797,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RMH"
+  },
+  {
+    "vesselName": "LIANHE22",
+    "vesselCode": "RJJ",
+    "IMO": 976898,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RJJ"
+  },
+  {
+    "vesselName": "LIANHE25",
+    "vesselCode": "F42",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F42"
+  },
+  {
+    "vesselName": "LIANHE28",
+    "vesselCode": "FST",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=FST"
+  },
+  {
+    "vesselName": "LIANHE30",
+    "vesselCode": "QV7",
+    "IMO": 978349667,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=QV7"
+  },
+  {
+    "vesselName": "LIANHE50",
+    "vesselCode": "F39",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=F39"
+  },
+  {
+    "vesselName": "LIANHE52",
+    "vesselCode": "RQA",
+    "IMO": 6282,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RQA"
+  },
+  {
+    "vesselName": "LIANMENG001HAO",
+    "vesselCode": "VWW",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VWW"
+  },
+  {
+    "vesselName": "LIANMENG002",
+    "vesselCode": "V8L",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V8L"
+  },
+  {
+    "vesselName": "LIANMENG5368",
+    "vesselCode": "2ZZ",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2ZZ"
+  },
+  {
+    "vesselName": "LIANSHUN1001",
+    "vesselCode": "Y4V",
+    "IMO": 99999996,
+    "TEU": 390,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIANSHUN916",
+    "vesselCode": "Y1D",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Y1D"
+  },
+  {
+    "vesselName": "LIANYUNGANG BAKU RAIL NUMBER 3",
+    "vesselCode": "LR3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LR3"
+  },
+  {
+    "vesselName": "LIANYUNGANG BAKU RAIL NUMBER O",
+    "vesselCode": "LR1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LR1"
+  },
+  {
+    "vesselName": "LIANYUNGANG BAKU RAIL NUMBER T",
+    "vesselCode": "LR2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LR2"
+  },
+  {
+    "vesselName": "LIANYUNGANG IZIMIT NUMBER 2",
+    "vesselCode": "LT2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LT2"
+  },
+  {
+    "vesselName": "LIANYUNGANG IZIMIT NUMBER 3",
+    "vesselCode": "LT3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LT3"
+  },
+  {
+    "vesselName": "LIANYUNGANG IZMIT NUMBER 4",
+    "vesselCode": "LT4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LT4"
+  },
+  {
+    "vesselName": "LIANYUNGANG IZMIT NUMBER ONE",
+    "vesselCode": "LT1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LT1"
+  },
+  {
+    "vesselName": "LIANYUNGANG ZAM UDD RAIL 1",
+    "vesselCode": "ZU0",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZU0"
+  },
+  {
+    "vesselName": "LIANZHOU01",
+    "vesselCode": "2UN",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2UN"
+  },
+  {
+    "vesselName": "LIANZHOU03",
+    "vesselCode": "2UO",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2UO"
+  },
+  {
+    "vesselName": "LIAO HE",
+    "vesselCode": "CKN",
+    "IMO": 99999996,
+    "TEU": 1234,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIAO YUAN 1",
+    "vesselCode": "AEL",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AEL"
+  },
+  {
+    "vesselName": "LIBERTAS H",
+    "vesselCode": "UFK",
+    "IMO": 9388388,
+    "TEU": 700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIBERTAS H (IMS)",
+    "vesselCode": "UFL",
+    "IMO": 9388389,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UFL"
+  },
+  {
+    "vesselName": "LIBRA",
+    "vesselCode": "PAD",
+    "IMO": 9137571,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PAD"
+  },
+  {
+    "vesselName": "LIDA003",
+    "vesselCode": "2YL",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2YL"
+  },
+  {
+    "vesselName": "LIDA108",
+    "vesselCode": "2ZA",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2ZA"
+  },
+  {
+    "vesselName": "LIDA15319",
+    "vesselCode": "2YW",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2YW"
+  },
+  {
+    "vesselName": "LIDA168",
+    "vesselCode": "2ZR",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2ZR"
+  },
+  {
+    "vesselName": "LIDA6076",
+    "vesselCode": "2VD",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2VD"
+  },
+  {
+    "vesselName": "LIDER HALIL",
+    "vesselCode": "L1H",
+    "IMO": 9462275,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L1H"
+  },
+  {
+    "vesselName": "LIDIA",
+    "vesselCode": "IAI",
+    "IMO": 9330500,
+    "TEU": 42300,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIFENG DONGHAI",
+    "vesselCode": "T52",
+    "IMO": null,
+    "TEU": 650,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIFENG NANHAI",
+    "vesselCode": "SSD",
+    "IMO": null,
+    "TEU": 650,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIHE 1",
+    "vesselCode": "DEW",
+    "IMO": 1079163,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DEW"
+  },
+  {
+    "vesselName": "LILA ATHENS",
+    "vesselCode": "CII",
+    "IMO": 9214525,
+    "TEU": 1580,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILA BHUM",
+    "vesselCode": "AI7",
+    "IMO": 9143465,
+    "TEU": 889,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILA CANADA",
+    "vesselCode": "N93",
+    "IMO": 9332717,
+    "TEU": 1118,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILA HAREN",
+    "vesselCode": "P21",
+    "IMO": 9238686,
+    "TEU": 1209,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILA HOCHIMINH",
+    "vesselCode": "A9Y",
+    "IMO": 9152600,
+    "TEU": 1645,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILA LONDON",
+    "vesselCode": "SNY",
+    "IMO": 9293454,
+    "TEU": 4014,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILIUM",
+    "vesselCode": "AB0",
+    "IMO": 99999996,
+    "TEU": 387,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILLY SCHULTE",
+    "vesselCode": "QU3",
+    "IMO": 9449106,
+    "TEU": 3651,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LILY QUEEN",
+    "vesselCode": "A6Y",
+    "IMO": 9111462,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A6Y"
+  },
+  {
+    "vesselName": "LILY STAR",
+    "vesselCode": "NKF",
+    "IMO": 9111474,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NKF"
+  },
+  {
+    "vesselName": "LILZHOUJIHAI",
+    "vesselCode": "FQX",
+    "IMO": 9999996,
+    "TEU": 300,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIMA VALERIE",
+    "vesselCode": "BBY",
+    "IMO": 937198,
+    "TEU": 616,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIMARKO BREEZE",
+    "vesselCode": "QTB",
+    "IMO": 9516753,
+    "TEU": 1738,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIMASSOL",
+    "vesselCode": "MEY",
+    "IMO": 937191,
+    "TEU": 618,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIN HAI 103",
+    "vesselCode": "Z96",
+    "IMO": 99999996,
+    "TEU": 54,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIN HAI 108",
+    "vesselCode": "XYP",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XYP"
+  },
+  {
+    "vesselName": "LIN HAI 109",
+    "vesselCode": "ZSJ",
+    "IMO": 99999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIN HAI 228",
+    "vesselCode": "WO9",
+    "IMO": 20150063,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WO9"
+  },
+  {
+    "vesselName": "LIN HAI 288",
+    "vesselCode": "W18",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W18"
+  },
+  {
+    "vesselName": "LIN YUAN",
+    "vesselCode": "SOL",
+    "IMO": 9108908,
+    "TEU": 614,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LINAU 121",
+    "vesselCode": "SZM",
+    "IMO": 330937,
+    "TEU": 248,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LINAU 122",
+    "vesselCode": "P16",
+    "IMO": 330938,
+    "TEU": 248,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LINAU 6",
+    "vesselCode": "BJO",
+    "IMO": 8671001,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BJO"
+  },
+  {
+    "vesselName": "LINDAUNIS",
+    "vesselCode": "PU6",
+    "IMO": 9483333,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PU6"
+  },
+  {
+    "vesselName": "LINDAVIA",
+    "vesselCode": "SMH",
+    "IMO": 9122435,
+    "TEU": 1700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING CHANG HE",
+    "vesselCode": "COS",
+    "IMO": 8509573,
+    "TEU": 377,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HAI 868",
+    "vesselCode": "WRZ",
+    "IMO": 966666,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WRZ"
+  },
+  {
+    "vesselName": "LING HANG 111",
+    "vesselCode": "OGY",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HANG 1618",
+    "vesselCode": "LYI",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HANG 1628",
+    "vesselCode": "LYJ",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HANG 1668",
+    "vesselCode": "OGS",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HANG 179",
+    "vesselCode": "OXZ",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OXZ"
+  },
+  {
+    "vesselName": "LING HANG 222",
+    "vesselCode": "OCK",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OCK"
+  },
+  {
+    "vesselName": "LING HANG 3",
+    "vesselCode": "NMD",
+    "IMO": 4134898,
+    "TEU": 346,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HANG 319",
+    "vesselCode": "OQX",
+    "IMO": 9999996,
+    "TEU": 150,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HANG 333",
+    "vesselCode": "OJ6",
+    "IMO": 9999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING HANG 555",
+    "vesselCode": "OYF",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OYF"
+  },
+  {
+    "vesselName": "LING HANG 65",
+    "vesselCode": "OXT",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OXT"
+  },
+  {
+    "vesselName": "LING HANG 658",
+    "vesselCode": "ODZ",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ODZ"
+  },
+  {
+    "vesselName": "LING HANG 9",
+    "vesselCode": "LBJ",
+    "IMO": 2019022701,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LBJ"
+  },
+  {
+    "vesselName": "LING HANG 988",
+    "vesselCode": "OY5",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OY5"
+  },
+  {
+    "vesselName": "LING JUN SHUN DA",
+    "vesselCode": "MMQ",
+    "IMO": 9999996,
+    "TEU": 848,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING QUAN HE",
+    "vesselCode": "CMU",
+    "IMO": 8110564,
+    "TEU": 672,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING TONG 888",
+    "vesselCode": "XVS",
+    "IMO": 20150218,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XVS"
+  },
+  {
+    "vesselName": "LING YUN HE",
+    "vesselCode": "CIN",
+    "IMO": 9223772,
+    "TEU": 1702,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LING ZHENG",
+    "vesselCode": "DD3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DD3"
+  },
+  {
+    "vesselName": "LING ZHENG 16",
+    "vesselCode": "V8V",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V8V"
+  },
+  {
+    "vesselName": "LINGGANG 18",
+    "vesselCode": "YSX",
+    "IMO": 99999996,
+    "TEU": 184,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LINTAS BARITO",
+    "vesselCode": "LBO",
+    "IMO": 9501069,
+    "TEU": 162,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LINTAS BENGKULU",
+    "vesselCode": "B08",
+    "IMO": 9674579,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=B08"
+  },
+  {
+    "vesselName": "LINTAS HARUAN",
+    "vesselCode": "LHN",
+    "IMO": 9614426,
+    "TEU": 162,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LINTAS MAHAKAM",
+    "vesselCode": "LMA",
+    "IMO": 9389746,
+    "TEU": 311,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LION",
+    "vesselCode": "SKW",
+    "IMO": 9208356,
+    "TEU": 1716,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIONS GATE BRIDGE",
+    "vesselCode": "SD8",
+    "IMO": 9999999,
+    "TEU": 5610,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIPENG11",
+    "vesselCode": "QD2",
+    "IMO": 568558,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=QD2"
+  },
+  {
+    "vesselName": "LIPENG15",
+    "vesselCode": "QV3",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=QV3"
+  },
+  {
+    "vesselName": "LISA (NFS)",
+    "vesselCode": "LSA",
+    "IMO": 9287705,
+    "TEU": 868,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LISBON EXPRESS",
+    "vesselCode": "PK6",
+    "IMO": 9108128,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PK6"
+  },
+  {
+    "vesselName": "LISHUIJI 18",
+    "vesselCode": "YW1",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=YW1"
+  },
+  {
+    "vesselName": "LISSY SCHULTE",
+    "vesselCode": "LIS",
+    "IMO": 566911000,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LIS"
+  },
+  {
+    "vesselName": "LITTLE DOLPHIN",
+    "vesselCode": "MMM",
+    "IMO": 9972127,
+    "TEU": 1781,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LITTLE EMMA",
+    "vesselCode": "U82",
+    "IMO": 9980356,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=U82"
+  },
+  {
+    "vesselName": "LITTLE SYMPHONY",
+    "vesselCode": "DOR",
+    "IMO": 9944730,
+    "TEU": 1800,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LITTLE WARRIOR",
+    "vesselCode": "DEH",
+    "IMO": 9555242,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DEH"
+  },
+  {
+    "vesselName": "LIU CHENG 653",
+    "vesselCode": "Z6U",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z6U"
+  },
+  {
+    "vesselName": "LIU CHENG 655",
+    "vesselCode": "Z6R",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z6R"
+  },
+  {
+    "vesselName": "LIU CHENG 6686",
+    "vesselCode": "L71",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L71"
+  },
+  {
+    "vesselName": "LIU CHENG 708",
+    "vesselCode": "L23",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L23"
+  },
+  {
+    "vesselName": "LIU CHENG 727",
+    "vesselCode": "Z6W",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z6W"
+  },
+  {
+    "vesselName": "LIU CHENG 7699",
+    "vesselCode": "L31",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L31"
+  },
+  {
+    "vesselName": "LIU CHENG 816",
+    "vesselCode": "Z8B",
+    "IMO": 20170812,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z8B"
+  },
+  {
+    "vesselName": "LIU CHENG 822",
+    "vesselCode": "Z8Z",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z8Z"
+  },
+  {
+    "vesselName": "LIU CHENG 826",
+    "vesselCode": "L32",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L32"
+  },
+  {
+    "vesselName": "LIU CHENG 886",
+    "vesselCode": "Z9Q",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z9Q"
+  },
+  {
+    "vesselName": "LIU CHENG 9869",
+    "vesselCode": "L30",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=L30"
+  },
+  {
+    "vesselName": "LIU CHENG 989",
+    "vesselCode": "Z7J",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z7J"
+  },
+  {
+    "vesselName": "LIU CHENG 998",
+    "vesselCode": "Z4K",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z4K"
+  },
+  {
+    "vesselName": "LIU GANG WU LIU 888",
+    "vesselCode": "W2Q",
+    "IMO": null,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W2Q"
+  },
+  {
+    "vesselName": "LIU ZHONG ZHONG CHENG 5999",
+    "vesselCode": "OW8",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OW8"
+  },
+  {
+    "vesselName": "LIU ZHOU 1698",
+    "vesselCode": "Z9R",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z9R"
+  },
+  {
+    "vesselName": "LIU ZHOU 608",
+    "vesselCode": "OUM",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=OUM"
+  },
+  {
+    "vesselName": "LIU ZHOU 678",
+    "vesselCode": "XNH",
+    "IMO": 20150153,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XNH"
+  },
+  {
+    "vesselName": "LIU ZHOU 689",
+    "vesselCode": "Z6M",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z6M"
+  },
+  {
+    "vesselName": "LIU ZHOU GANG JIA 189",
+    "vesselCode": "XNJ",
+    "IMO": 20150155,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XNJ"
+  },
+  {
+    "vesselName": "LIU ZHOU HAI TANG 189",
+    "vesselCode": "XUS",
+    "IMO": 20150093,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XUS"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG CHANG 289",
+    "vesselCode": "W1X",
+    "IMO": 20151113,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=W1X"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG CHANG 555",
+    "vesselCode": "WLS",
+    "IMO": null,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WLS"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG CHANG 567",
+    "vesselCode": "WUM",
+    "IMO": 20150009,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WUM"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG CHANG 666",
+    "vesselCode": "WWM",
+    "IMO": 200150312,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WWM"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG CHANG 686",
+    "vesselCode": "WJN",
+    "IMO": 20112188984,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WJN"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG CHANG 999",
+    "vesselCode": "WWW",
+    "IMO": 200150312,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=WWW"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG CHANG258",
+    "vesselCode": "Z1V",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z1V"
+  },
+  {
+    "vesselName": "LIU ZHOU HENG YUN 288",
+    "vesselCode": "Z7F",
+    "IMO": 1,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z7F"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 218",
+    "vesselCode": "Z72",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z72"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 228",
+    "vesselCode": "Z73",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z73"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 238",
+    "vesselCode": "Z74",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z74"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 268",
+    "vesselCode": "XAG",
+    "IMO": 999999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XAG"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 288",
+    "vesselCode": "ZIA",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZIA"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 289",
+    "vesselCode": "ZIB",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZIB"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 612",
+    "vesselCode": "XHT",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XHT"
+  },
+  {
+    "vesselName": "LIU ZHOU HONG YUN 618",
+    "vesselCode": "XMD",
+    "IMO": 20150011,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XMD"
+  },
+  {
+    "vesselName": "LIU ZHOU ZHONG CHENG 689",
+    "vesselCode": "XKA",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=XKA"
+  },
+  {
+    "vesselName": "LIVERPOOL EXPRESS",
+    "vesselCode": "UEG",
+    "IMO": 9232565,
+    "TEU": 4115,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIWIA P",
+    "vesselCode": "SYE",
+    "IMO": 9232759,
+    "TEU": 2238,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIYUN27",
+    "vesselCode": "V7Y",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V7Y"
+  },
+  {
+    "vesselName": "LIZHIYUANHAI",
+    "vesselCode": "VPH",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VPH"
+  },
+  {
+    "vesselName": "LIZHOU288",
+    "vesselCode": "Y6O",
+    "IMO": 99999996,
+    "TEU": 84,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LIZHOUGUOHANG",
+    "vesselCode": "V31",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V31"
+  },
+  {
+    "vesselName": "LIZHOUGUOYUN",
+    "vesselCode": "Y9V",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Y9V"
+  },
+  {
+    "vesselName": "LIZHOUHUIHUANG",
+    "vesselCode": "VW9",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VW9"
+  },
+  {
+    "vesselName": "LKK NUMBER FIVE",
+    "vesselCode": "LK5",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LK5"
+  },
+  {
+    "vesselName": "LKK NUMBER FOUR",
+    "vesselCode": "LK4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LK4"
+  },
+  {
+    "vesselName": "LKK NUMBER ONE",
+    "vesselCode": "LK1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LK1"
+  },
+  {
+    "vesselName": "LKK NUMBER THREE",
+    "vesselCode": "LK3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LK3"
+  },
+  {
+    "vesselName": "LKK NUMBER TWO",
+    "vesselCode": "LK2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LK2"
+  },
+  {
+    "vesselName": "LKU NUMBER ONE",
+    "vesselCode": "LU1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU1"
+  },
+  {
+    "vesselName": "LKU NUMBER TWO",
+    "vesselCode": "LU2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU2"
+  },
+  {
+    "vesselName": "LL 2502",
+    "vesselCode": "BGK",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BGK"
+  },
+  {
+    "vesselName": "LL 2528",
+    "vesselCode": "DCE",
+    "IMO": 9992528,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DCE"
+  },
+  {
+    "vesselName": "LL LEXXUS",
+    "vesselCode": "BA0",
+    "IMO": 9712072,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BA0"
+  },
+  {
+    "vesselName": "LL MACAN TUTUL 02",
+    "vesselCode": "LMT",
+    "IMO": 9808390,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LMT"
+  },
+  {
+    "vesselName": "LM ARES",
+    "vesselCode": "6AL",
+    "IMO": 9339612,
+    "TEU": 1341,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LOA GLORY",
+    "vesselCode": "NIP",
+    "IMO": 9159878,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NIP"
+  },
+  {
+    "vesselName": "LOA HARMONY",
+    "vesselCode": "HMN",
+    "IMO": 9734214,
+    "TEU": 16000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LOBIVIA",
+    "vesselCode": "A5M",
+    "IMO": 9228564,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A5M"
+  },
+  {
+    "vesselName": "LOH31-QZH",
+    "vesselCode": "TP3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=TP3"
+  },
+  {
+    "vesselName": "LOLA B",
+    "vesselCode": "UCX",
+    "IMO": 9353723,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UCX"
+  },
+  {
+    "vesselName": "LONDON SENATOR",
+    "vesselCode": "SK8",
+    "IMO": 9999996,
+    "TEU": 2850,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONG HE",
+    "vesselCode": "CML",
+    "IMO": 99999996,
+    "TEU": 725,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONG HE 66",
+    "vesselCode": "D09",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=D09"
+  },
+  {
+    "vesselName": "LONG JIA HUI",
+    "vesselCode": "ZKZ",
+    "IMO": 99999996,
+    "TEU": 1,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONG LUN 103",
+    "vesselCode": "ZJH",
+    "IMO": 99999996,
+    "TEU": 52,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONG SHENG 27",
+    "vesselCode": "DIM",
+    "IMO": 9999996,
+    "TEU": 2068,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONG SON 01",
+    "vesselCode": "M97",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=M97"
+  },
+  {
+    "vesselName": "LONG SON 02",
+    "vesselCode": "MHE",
+    "IMO": 9711,
+    "TEU": 128,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONG XUAN QI HANG",
+    "vesselCode": "DAO",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DAO"
+  },
+  {
+    "vesselName": "LONG XUAN YUAN HANG",
+    "vesselCode": "F2T",
+    "IMO": 9999996,
+    "TEU": 360,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONG YUN 901",
+    "vesselCode": "ZEZ",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZEZ"
+  },
+  {
+    "vesselName": "LONGFATENGFEI",
+    "vesselCode": "V1J",
+    "IMO": 9989996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V1J"
+  },
+  {
+    "vesselName": "LONGHAO698",
+    "vesselCode": "VQB",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VQB"
+  },
+  {
+    "vesselName": "LONGHEWULIU10HAO",
+    "vesselCode": "2K4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=2K4"
+  },
+  {
+    "vesselName": "LONGHEWULIU11HAO",
+    "vesselCode": "VAM",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VAM"
+  },
+  {
+    "vesselName": "LONGHEWULIU12HAO",
+    "vesselCode": "VAN",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VAN"
+  },
+  {
+    "vesselName": "LONGHEWULIU13HAO",
+    "vesselCode": "VEY",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VEY"
+  },
+  {
+    "vesselName": "LONGHEWULIU16HAO",
+    "vesselCode": "VIJ",
+    "IMO": 9999996,
+    "TEU": 300,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LONGHEWULIU18HAO",
+    "vesselCode": "V5P",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V5P"
+  },
+  {
+    "vesselName": "LONGHEWULIU19HAO",
+    "vesselCode": "V7O",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V7O"
+  },
+  {
+    "vesselName": "LONGHEWULIU2HAO",
+    "vesselCode": "VDF",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VDF"
+  },
+  {
+    "vesselName": "LONGHEWULIU3HAO",
+    "vesselCode": "VDE",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VDE"
+  },
+  {
+    "vesselName": "LONGHEWULIU7HAO",
+    "vesselCode": "VDW",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VDW"
+  },
+  {
+    "vesselName": "LONGHEWULIU8HAO",
+    "vesselCode": "VDX",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VDX"
+  },
+  {
+    "vesselName": "LONGHEWULIU9HAO",
+    "vesselCode": "VAL",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VAL"
+  },
+  {
+    "vesselName": "LONGXIANGJI6869",
+    "vesselCode": "VAT",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VAT"
+  },
+  {
+    "vesselName": "LONGYUN168",
+    "vesselCode": "VK7",
+    "IMO": 9999996,
+    "TEU": 400,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LORRAINE",
+    "vesselCode": "MDK",
+    "IMO": 9311763,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MDK"
+  },
+  {
+    "vesselName": "LOS ANDES BRIDGE",
+    "vesselCode": "QUM",
+    "IMO": 9451472,
+    "TEU": 2527,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LOTUS",
+    "vesselCode": "PF4",
+    "IMO": 9193525,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PF4"
+  },
+  {
+    "vesselName": "LOTUS A",
+    "vesselCode": "RMM",
+    "IMO": 9461465,
+    "TEU": 8686,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LOUISA SCHULTE",
+    "vesselCode": "UK6",
+    "IMO": 9435674,
+    "TEU": 1736,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LOUISE",
+    "vesselCode": "A3Z",
+    "IMO": 9631137,
+    "TEU": 3200,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LOUISIANA TRADER",
+    "vesselCode": "P04",
+    "IMO": 9357121,
+    "TEU": 2127,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LOW KIM CHUAN 138",
+    "vesselCode": "A9Z",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A9Z"
+  },
+  {
+    "vesselName": "LOW KIM CHUAN 28",
+    "vesselCode": "BA3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BA3"
+  },
+  {
+    "vesselName": "LOW KIM CHUAN NO.1",
+    "vesselCode": "A9T",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A9T"
+  },
+  {
+    "vesselName": "LS CHENGDU RETURN NUMBER 1",
+    "vesselCode": "LS1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LS1"
+  },
+  {
+    "vesselName": "LS CHENGDU RETURN NUMBER 2",
+    "vesselCode": "LS2",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LS2"
+  },
+  {
+    "vesselName": "LT GARLAND",
+    "vesselCode": "SCQ",
+    "IMO": 99999996,
+    "TEU": 3428,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT GENOVA",
+    "vesselCode": "SA1",
+    "IMO": 8818166,
+    "TEU": 2987,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT GIANT",
+    "vesselCode": "S95",
+    "IMO": 99999996,
+    "TEU": 2728,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT GOING",
+    "vesselCode": "SOR",
+    "IMO": 8208244,
+    "TEU": 2728,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT GRAND",
+    "vesselCode": "SJ3",
+    "IMO": 99999996,
+    "TEU": 2728,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT GREET",
+    "vesselCode": "S93",
+    "IMO": 8204523,
+    "TEU": 2728,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT LLOYDIANA",
+    "vesselCode": "SBO",
+    "IMO": 8618437,
+    "TEU": 2511,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT PEARL",
+    "vesselCode": "AE4",
+    "IMO": 99999996,
+    "TEU": 1618,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT POPULAR",
+    "vesselCode": "SCO",
+    "IMO": 7900833,
+    "TEU": 1566,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT POWER",
+    "vesselCode": "A54",
+    "IMO": 9999996,
+    "TEU": 1618,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT TRIESTE",
+    "vesselCode": "S96",
+    "IMO": 8818178,
+    "TEU": 2820,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT ULYSSES",
+    "vesselCode": "SDC",
+    "IMO": 9196955,
+    "TEU": 5652,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT UNICA",
+    "vesselCode": "SCB",
+    "IMO": 9999996,
+    "TEU": 4948,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT UNICORN",
+    "vesselCode": "SEH",
+    "IMO": 99999996,
+    "TEU": 5652,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT UNITED",
+    "vesselCode": "SBB",
+    "IMO": 9999996,
+    "TEU": 5364,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT UNIVERSO",
+    "vesselCode": "SBN",
+    "IMO": 99999996,
+    "TEU": 5346,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT USODIMARE",
+    "vesselCode": "SDB",
+    "IMO": 11111111,
+    "TEU": 4948,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LT UTILE",
+    "vesselCode": "SEF",
+    "IMO": 99999996,
+    "TEU": 5652,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LU HE",
+    "vesselCode": "CBA",
+    "IMO": 9120748,
+    "TEU": 5446,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LU JI NING HUO 3683",
+    "vesselCode": "VFI",
+    "IMO": 689688686,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VFI"
+  },
+  {
+    "vesselName": "LU NUMBER EIGHT",
+    "vesselCode": "LU8",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU8"
+  },
+  {
+    "vesselName": "LU NUMBER FIVE",
+    "vesselCode": "LU5",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU5"
+  },
+  {
+    "vesselName": "LU NUMBER FOUR",
+    "vesselCode": "LU4",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU4"
+  },
+  {
+    "vesselName": "LU NUMBER SEVEN",
+    "vesselCode": "LU7",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU7"
+  },
+  {
+    "vesselName": "LU NUMBER SIX",
+    "vesselCode": "LU6",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU6"
+  },
+  {
+    "vesselName": "LU NUMBER THREE",
+    "vesselCode": "LU3",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=LU3"
+  },
+  {
+    "vesselName": "LU SHENG",
+    "vesselCode": "ZCZ",
+    "IMO": 99999996,
+    "TEU": 127,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUCIA",
+    "vesselCode": "PH3",
+    "IMO": 9138343,
+    "TEU": 719,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUCIEN G A",
+    "vesselCode": "AIF",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AIF"
+  },
+  {
+    "vesselName": "LUCKY DRAGON",
+    "vesselCode": "AT3",
+    "IMO": 9117181,
+    "TEU": 1504,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUDWIG SCHULTE",
+    "vesselCode": "BDN",
+    "IMO": 9435686,
+    "TEU": 1740,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUEN HING 628",
+    "vesselCode": "ZEL",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZEL"
+  },
+  {
+    "vesselName": "LUEN SHING",
+    "vesselCode": "Z98",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z98"
+  },
+  {
+    "vesselName": "LUHAI689",
+    "vesselCode": "VT4",
+    "IMO": 99999996,
+    "TEU": 325,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUJININGHUO6227",
+    "vesselCode": "Y5H",
+    "IMO": 99999996,
+    "TEU": 84,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUJININGJI0008",
+    "vesselCode": "VH2",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VH2"
+  },
+  {
+    "vesselName": "LUMOSO EXPRESS",
+    "vesselCode": "AC3",
+    "IMO": 99999996,
+    "TEU": 138,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUNA CAHAYA",
+    "vesselCode": "A9J",
+    "IMO": 7429451,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A9J"
+  },
+  {
+    "vesselName": "LUNAR RIVER",
+    "vesselCode": "COH",
+    "IMO": 8015582,
+    "TEU": 494,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUNAR STAR",
+    "vesselCode": "RH0",
+    "IMO": 8015582,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RH0"
+  },
+  {
+    "vesselName": "LUNG MUN",
+    "vesselCode": "Q6M",
+    "IMO": 9145621,
+    "TEU": 420,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUNG TANG 18",
+    "vesselCode": "Z99",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=Z99"
+  },
+  {
+    "vesselName": "LUNG TANG 28",
+    "vesselCode": "ZSQ",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=ZSQ"
+  },
+  {
+    "vesselName": "LUO HANG 109",
+    "vesselCode": "YA0",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=YA0"
+  },
+  {
+    "vesselName": "LUO HE",
+    "vesselCode": "CKL",
+    "IMO": 99999996,
+    "TEU": 1234,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUO HE16",
+    "vesselCode": "T99",
+    "IMO": 8108793,
+    "TEU": 1234,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUO SHENG",
+    "vesselCode": "RAU",
+    "IMO": 8319756,
+    "TEU": 680,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUOBAHE",
+    "vesselCode": "CDR",
+    "IMO": 9139062,
+    "TEU": 3400,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LUTETIA",
+    "vesselCode": "NJJ",
+    "IMO": 9246695,
+    "TEU": 3091,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LVDONGYOULIBO0413",
+    "vesselCode": "VZ4",
+    "IMO": 999999,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VZ4"
+  },
+  {
+    "vesselName": "LVDONGYOULIBO1129",
+    "vesselCode": "VZ5",
+    "IMO": 999999,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=VZ5"
+  },
+  {
+    "vesselName": "LVZHOUHEXIE",
+    "vesselCode": "V1O",
+    "IMO": 987456,
+    "TEU": 460,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LVZHOUJIXIANG",
+    "vesselCode": "V2A",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=V2A"
+  },
+  {
+    "vesselName": "LYDIA OLDENDORFF",
+    "vesselCode": "SQI",
+    "IMO": 9161170,
+    "TEU": 1300,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LYKES DELIVERER",
+    "vesselCode": "SEU",
+    "IMO": 9233831,
+    "TEU": 4051,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LYKES EXPLORER",
+    "vesselCode": "SP1",
+    "IMO": 8413277,
+    "TEU": 3026,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LYKES INNOVATOR",
+    "vesselCode": "SP8",
+    "IMO": 9155107,
+    "TEU": 2808,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LYKES PATHFINDER",
+    "vesselCode": "SGS",
+    "IMO": 9003304,
+    "TEU": 2280,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LYME BAY",
+    "vesselCode": "QFA",
+    "IMO": 9631113,
+    "TEU": 3674,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "LYRA",
+    "vesselCode": "RYA",
+    "IMO": 9090905,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RYA"
+  },
+  {
+    "vesselName": "MAAS TRADER",
+    "vesselCode": "RV1",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RV1"
+  },
+  {
+    "vesselName": "MABROOKA",
+    "vesselCode": "CPN",
+    "IMO": 9328613,
+    "TEU": 712,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MACAO STRAIT",
+    "vesselCode": "C06",
+    "IMO": 9362724,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=C06"
+  },
+  {
+    "vesselName": "MACARENA B",
+    "vesselCode": "UCT",
+    "IMO": 9277400,
+    "TEU": 660,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MACARO",
+    "vesselCode": "AZ0",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AZ0"
+  },
+  {
+    "vesselName": "MACKINAC BRIDGE",
+    "vesselCode": "S18",
+    "IMO": 9689603,
+    "TEU": 13900,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MACTAN BRIDGE",
+    "vesselCode": "RJ6",
+    "IMO": null,
+    "TEU": 26,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MADRID BRIDGE",
+    "vesselCode": "NZF",
+    "IMO": 9805453,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NZF"
+  },
+  {
+    "vesselName": "MAENAM 1",
+    "vesselCode": "RPL",
+    "IMO": 9699999,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RPL"
+  },
+  {
+    "vesselName": "MAENAM BRIDGE",
+    "vesselCode": "AI4",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AI4"
+  },
+  {
+    "vesselName": "MAERSK ABERDEEN",
+    "vesselCode": "A8N",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A8N"
+  },
+  {
+    "vesselName": "MAERSK AHRAM",
+    "vesselCode": "UL5",
+    "IMO": 9164225,
+    "TEU": 2000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK AHRAM (IMS)",
+    "vesselCode": "MAM",
+    "IMO": 9164226,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MAM"
+  },
+  {
+    "vesselName": "MAERSK ALABAMA",
+    "vesselCode": "MEB",
+    "IMO": 366873000,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MEB"
+  },
+  {
+    "vesselName": "MAERSK ANDAMAN",
+    "vesselCode": "A5S",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A5S"
+  },
+  {
+    "vesselName": "MAERSK ARIZONA",
+    "vesselCode": "PE5",
+    "IMO": 9164249,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PE5"
+  },
+  {
+    "vesselName": "MAERSK ASIA DECIMO",
+    "vesselCode": "SSL",
+    "IMO": 11119,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=SSL"
+  },
+  {
+    "vesselName": "MAERSK ATLANTIC",
+    "vesselCode": "AZD",
+    "IMO": 99999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AZD"
+  },
+  {
+    "vesselName": "MAERSK BENTONVILLE",
+    "vesselCode": "MBM",
+    "IMO": 9313929,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MBM"
+  },
+  {
+    "vesselName": "MAERSK BROOKLYN",
+    "vesselCode": "QG2",
+    "IMO": 9313931,
+    "TEU": 4054,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK BUFFALO",
+    "vesselCode": "QH3",
+    "IMO": 9313943,
+    "TEU": 4054,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK CHATTOGRAM",
+    "vesselCode": "MDJ",
+    "IMO": 9999996,
+    "TEU": 2323,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK DAKAR",
+    "vesselCode": "MKD",
+    "IMO": 9302449,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MKD"
+  },
+  {
+    "vesselName": "MAERSK DANANG",
+    "vesselCode": "R8M",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=R8M"
+  },
+  {
+    "vesselName": "MAERSK DAUPHIN",
+    "vesselCode": "RRV",
+    "IMO": 9080613,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RRV"
+  },
+  {
+    "vesselName": "MAERSK DELLYS",
+    "vesselCode": "QJY",
+    "IMO": 99999996,
+    "TEU": 5089,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK DIADEMA",
+    "vesselCode": "QD9",
+    "IMO": 9999999,
+    "TEU": 4546,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK DOHA",
+    "vesselCode": "SDQ",
+    "IMO": 99999996,
+    "TEU": 4158,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK DOULA",
+    "vesselCode": "AQD",
+    "IMO": 9999999,
+    "TEU": 999,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK DRISCOLL",
+    "vesselCode": "APW",
+    "IMO": 123456,
+    "TEU": 1500,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK DUNEDIN",
+    "vesselCode": "APU",
+    "IMO": 123456,
+    "TEU": 1200,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK ENFIELD",
+    "vesselCode": "NAF",
+    "IMO": 9463047,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NAF"
+  },
+  {
+    "vesselName": "MAERSK EUPHRATES",
+    "vesselCode": "NWT",
+    "IMO": 9694567,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NWT"
+  },
+  {
+    "vesselName": "MAERSK FELIXSTOWE",
+    "vesselCode": "D18",
+    "IMO": 9969041,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=D18"
+  },
+  {
+    "vesselName": "MAERSK FRANKFURT",
+    "vesselCode": "D19",
+    "IMO": 9969065,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=D19"
+  },
+  {
+    "vesselName": "MAERSK HAI PHONG",
+    "vesselCode": "BB1",
+    "IMO": 985873,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BB1"
+  },
+  {
+    "vesselName": "MAERSK IDAHO",
+    "vesselCode": "AQQ",
+    "IMO": 9193264,
+    "TEU": 4658,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK ITAQUI",
+    "vesselCode": "RN2",
+    "IMO": 9057501,
+    "TEU": 3469,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK ITEA",
+    "vesselCode": "RO1",
+    "IMO": 9057496,
+    "TEU": 3469,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK IYO",
+    "vesselCode": "QDS",
+    "IMO": 9624287,
+    "TEU": 4600,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK JABAL",
+    "vesselCode": "A51",
+    "IMO": 9343077,
+    "TEU": 2824,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK JACKSON",
+    "vesselCode": "RLU",
+    "IMO": 9330513,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RLU"
+  },
+  {
+    "vesselName": "MAERSK JAIPUR",
+    "vesselCode": "S3U",
+    "IMO": 9343974,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=S3U"
+  },
+  {
+    "vesselName": "MAERSK JAKARTA",
+    "vesselCode": "BD2",
+    "IMO": 9865881,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BD2"
+  },
+  {
+    "vesselName": "MAERSK JALAN",
+    "vesselCode": "R5H",
+    "IMO": 9294161,
+    "TEU": 2824,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK JAUN",
+    "vesselCode": "RKH",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RKH"
+  },
+  {
+    "vesselName": "MAERSK JENAZ",
+    "vesselCode": "RKI",
+    "IMO": 9311737,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=RKI"
+  },
+  {
+    "vesselName": "MAERSK JURONG",
+    "vesselCode": "JRG",
+    "IMO": 343089,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=JRG"
+  },
+  {
+    "vesselName": "MAERSK KARACHI",
+    "vesselCode": "MAJ",
+    "IMO": 9162215,
+    "TEU": 6690,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK KARUN",
+    "vesselCode": "R7S",
+    "IMO": 9624299,
+    "TEU": 4600,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK KENTUCKY",
+    "vesselCode": "AQC",
+    "IMO": 99999,
+    "TEU": 9999,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK KINGSTON",
+    "vesselCode": "NOI",
+    "IMO": 9244934,
+    "TEU": 6420,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK KLEVEN",
+    "vesselCode": "UFD",
+    "IMO": 9085546,
+    "TEU": 8044,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK KOTKA",
+    "vesselCode": "UFJ",
+    "IMO": 9085534,
+    "TEU": 8044,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK KOWLOON",
+    "vesselCode": "SMU",
+    "IMO": 9290476,
+    "TEU": 7471,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK KWANGYANG",
+    "vesselCode": "NRN",
+    "IMO": 9858747,
+    "TEU": 2806,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LABERINTO",
+    "vesselCode": "QS4",
+    "IMO": 9526978,
+    "TEU": 8700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LABREA",
+    "vesselCode": "QYV",
+    "IMO": 9527063,
+    "TEU": 8700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LAGUNA",
+    "vesselCode": "QF8",
+    "IMO": 9526942,
+    "TEU": 7450,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LAMANAI",
+    "vesselCode": "Q1N",
+    "IMO": 9527051,
+    "TEU": 8850,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LANCO",
+    "vesselCode": "QGP",
+    "IMO": 9527049,
+    "TEU": 8700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LAUNCESTON",
+    "vesselCode": "QST",
+    "IMO": 9294408,
+    "TEU": 4533,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LAVRAS",
+    "vesselCode": "QY5",
+    "IMO": 9526928,
+    "TEU": 7410,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LEBU",
+    "vesselCode": "QF9",
+    "IMO": 9526930,
+    "TEU": 7410,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LEON",
+    "vesselCode": "QT4",
+    "IMO": 9526966,
+    "TEU": 8850,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LETICIA",
+    "vesselCode": "QM8",
+    "IMO": 9526916,
+    "TEU": 7450,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LIMA",
+    "vesselCode": "QFC",
+    "IMO": 9526875,
+    "TEU": 8850,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LINS",
+    "vesselCode": "QS5",
+    "IMO": 9527025,
+    "TEU": 8700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LIRQUEN",
+    "vesselCode": "QH1",
+    "IMO": 9526887,
+    "TEU": 8850,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LONDRINA",
+    "vesselCode": "QY6",
+    "IMO": 9527037,
+    "TEU": 8700,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK LOTA",
+    "vesselCode": "QG1",
+    "IMO": 9526954,
+    "TEU": 8850,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK MAKUTU",
+    "vesselCode": "RSU",
+    "IMO": 9318319,
+    "TEU": 4650,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK MONGLA",
+    "vesselCode": "BA5",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BA5"
+  },
+  {
+    "vesselName": "MAERSK NADI",
+    "vesselCode": "MNU",
+    "IMO": 9763327,
+    "TEU": 2546,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NAIROBI",
+    "vesselCode": "MN9",
+    "IMO": 9356165,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MN9"
+  },
+  {
+    "vesselName": "MAERSK NANSHA",
+    "vesselCode": "QY1",
+    "IMO": 9385996,
+    "TEU": 2546,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NARVIK",
+    "vesselCode": "BEK",
+    "IMO": 9894648,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BEK"
+  },
+  {
+    "vesselName": "MAERSK NASSJO",
+    "vesselCode": "BEZ",
+    "IMO": 9893876,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BEZ"
+  },
+  {
+    "vesselName": "MAERSK NESNA",
+    "vesselCode": "BF2",
+    "IMO": 9894650,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BF2"
+  },
+  {
+    "vesselName": "MAERSK NEW DELHI",
+    "vesselCode": "Q3V",
+    "IMO": 9402627,
+    "TEU": 2546,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NEWBURY",
+    "vesselCode": "SA6",
+    "IMO": 9231470,
+    "TEU": 2532,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NEWHAVEN",
+    "vesselCode": "DJX",
+    "IMO": 9215880,
+    "TEU": 2556,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NEWPORT",
+    "vesselCode": "UP8",
+    "IMO": 9356127,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=UP8"
+  },
+  {
+    "vesselName": "MAERSK NIAGARA",
+    "vesselCode": "PF9",
+    "IMO": 434906,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PF9"
+  },
+  {
+    "vesselName": "MAERSK NIENBURG",
+    "vesselCode": "PH9",
+    "IMO": 9446104,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PH9"
+  },
+  {
+    "vesselName": "MAERSK NIIGATA",
+    "vesselCode": "SUC",
+    "IMO": 8917778,
+    "TEU": 2440,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NILE",
+    "vesselCode": "QY8",
+    "IMO": 9385972,
+    "TEU": 2546,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NINGBO",
+    "vesselCode": "RWY",
+    "IMO": 9402639,
+    "TEU": 2546,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NITEROI",
+    "vesselCode": "PH8",
+    "IMO": 9434943,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PH8"
+  },
+  {
+    "vesselName": "MAERSK NORBERG",
+    "vesselCode": "M90",
+    "IMO": 9893852,
+    "TEU": 2362,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NORDDAL",
+    "vesselCode": "BEG",
+    "IMO": 9894674,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BEG"
+  },
+  {
+    "vesselName": "MAERSK NORFOLK",
+    "vesselCode": "SBD",
+    "IMO": 99999996,
+    "TEU": 2300,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NORTHAMPTON",
+    "vesselCode": "R3B",
+    "IMO": 9215919,
+    "TEU": 2556,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK NUSANTARA",
+    "vesselCode": "N47",
+    "IMO": 9761011,
+    "TEU": 2754,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK PATRAS",
+    "vesselCode": "SP7",
+    "IMO": 9168221,
+    "TEU": 2890,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK PECEM",
+    "vesselCode": "SYG",
+    "IMO": 1234,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=SYG"
+  },
+  {
+    "vesselName": "MAERSK PEMBROKE",
+    "vesselCode": "QLZ",
+    "IMO": 9168180,
+    "TEU": 2905,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK PENANG",
+    "vesselCode": "QMA",
+    "IMO": 9168192,
+    "TEU": 2890,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK PHUKET",
+    "vesselCode": "SP4",
+    "IMO": 9168219,
+    "TEU": 2890,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK PORT KLANG",
+    "vesselCode": "BHL",
+    "IMO": 9966130,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BHL"
+  },
+  {
+    "vesselName": "MAERSK QINZHOU",
+    "vesselCode": "NTO",
+    "IMO": 9858709,
+    "TEU": 2806,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK RADFORD",
+    "vesselCode": "A2P",
+    "IMO": 9999996,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A2P"
+  },
+  {
+    "vesselName": "MAERSK RIO BLANCO",
+    "vesselCode": "MZY",
+    "IMO": 9348089,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MZY"
+  },
+  {
+    "vesselName": "MAERSK RONNEBY",
+    "vesselCode": "AGW",
+    "IMO": 9332690,
+    "TEU": 1118,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK ROUBAIX",
+    "vesselCode": "PK4",
+    "IMO": 9332688,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PK4"
+  },
+  {
+    "vesselName": "MAERSK SAIGON",
+    "vesselCode": "NCP",
+    "IMO": 9303534,
+    "TEU": 8500,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SALALAH",
+    "vesselCode": "N7Y",
+    "IMO": 9352016,
+    "TEU": 8379,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SALINA",
+    "vesselCode": "N2E",
+    "IMO": 9352030,
+    "TEU": 8379,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SAN CLEMENTE",
+    "vesselCode": "R4P",
+    "IMO": 9699189,
+    "TEU": 9034,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SANA",
+    "vesselCode": "NLK",
+    "IMO": 9289922,
+    "TEU": 8451,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SANTANA",
+    "vesselCode": "NOS",
+    "IMO": 9289934,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NOS"
+  },
+  {
+    "vesselName": "MAERSK SARAT",
+    "vesselCode": "NIZ",
+    "IMO": 9732591,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NIZ"
+  },
+  {
+    "vesselName": "MAERSK SARNIA",
+    "vesselCode": "NAI",
+    "IMO": 9289946,
+    "TEU": 8000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SAVANNAH",
+    "vesselCode": "N1Z",
+    "IMO": 9352028,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=N1Z"
+  },
+  {
+    "vesselName": "MAERSK SEBAROK",
+    "vesselCode": "S6E",
+    "IMO": 9315238,
+    "TEU": 5648,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SELETAR",
+    "vesselCode": "NV6",
+    "IMO": 9315197,
+    "TEU": 7000,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SEMAKAU",
+    "vesselCode": "MWW",
+    "IMO": 9315252,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=MWW"
+  },
+  {
+    "vesselName": "MAERSK SEMBAWANG",
+    "vesselCode": "UGA",
+    "IMO": 9315226,
+    "TEU": 6648,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SENANG",
+    "vesselCode": "S8G",
+    "IMO": 9315240,
+    "TEU": 5648,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SENTOSA",
+    "vesselCode": "S5H",
+    "IMO": 9315202,
+    "TEU": 6648,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SEOUL",
+    "vesselCode": "NFJ",
+    "IMO": 9306550,
+    "TEU": 8400,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SEVILLE",
+    "vesselCode": "NDH",
+    "IMO": 9299927,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NDH"
+  },
+  {
+    "vesselName": "MAERSK SHAMS",
+    "vesselCode": "NVB",
+    "IMO": 9726669,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NVB"
+  },
+  {
+    "vesselName": "MAERSK SHEERNESS",
+    "vesselCode": "NMH",
+    "IMO": 9299939,
+    "TEU": 8450,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SHEKOU",
+    "vesselCode": "R9I",
+    "IMO": 9466984,
+    "TEU": 8814,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SHIVLING",
+    "vesselCode": "PK1",
+    "IMO": 9728253,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PK1"
+  },
+  {
+    "vesselName": "MAERSK SIHANOUKVILLE",
+    "vesselCode": "NME",
+    "IMO": 9840714,
+    "TEU": 2806,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SIRAC",
+    "vesselCode": "NAG",
+    "IMO": 9725718,
+    "TEU": 9962,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SKARSTIND",
+    "vesselCode": "NF7",
+    "IMO": 9740457,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NF7"
+  },
+  {
+    "vesselName": "MAERSK SOFIA",
+    "vesselCode": "N24",
+    "IMO": 9308637,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=N24"
+  },
+  {
+    "vesselName": "MAERSK SONGKHLA",
+    "vesselCode": "A9C",
+    "IMO": 9840726,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=A9C"
+  },
+  {
+    "vesselName": "MAERSK STADELHORN",
+    "vesselCode": "NVF",
+    "IMO": 9726671,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NVF"
+  },
+  {
+    "vesselName": "MAERSK STOCKHOLM",
+    "vesselCode": "N4P",
+    "IMO": 9352042,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=N4P"
+  },
+  {
+    "vesselName": "MAERSK STRALSUND",
+    "vesselCode": "NQS",
+    "IMO": 9303522,
+    "TEU": 8401,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK SYDNEY",
+    "vesselCode": "DJ5",
+    "IMO": 9289958,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=DJ5"
+  },
+  {
+    "vesselName": "MAERSK TAIKUNG",
+    "vesselCode": "PK5",
+    "IMO": 9334662,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PK5"
+  },
+  {
+    "vesselName": "MAERSK TANJONG",
+    "vesselCode": "NIH",
+    "IMO": 9332511,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=NIH"
+  },
+  {
+    "vesselName": "MAERSK TARANAKI",
+    "vesselCode": "SOX",
+    "IMO": 7900041,
+    "TEU": 1202,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK TAURUS",
+    "vesselCode": "N3R",
+    "IMO": 9334674,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=N3R"
+  },
+  {
+    "vesselName": "MAERSK TOBA",
+    "vesselCode": "SIY",
+    "IMO": null,
+    "TEU": 3876,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK TUKANG",
+    "vesselCode": "PK3",
+    "IMO": 9334686,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=PK3"
+  },
+  {
+    "vesselName": "MAERSK UTAH",
+    "vesselCode": "AQS",
+    "IMO": 9305300,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=AQS"
+  },
+  {
+    "vesselName": "MAERSK VALENCIA",
+    "vesselCode": "SQA",
+    "IMO": 9344954,
+    "TEU": 1740,
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "vesselName": "MAERSK VARNA",
+    "vesselCode": "BGM",
+    "IMO": 9411379,
+    "TEU": null,
+    "status": "detail_no_teu",
+    "note": "vesselCode=BGM"
+  },
+  {
+    "vesselName": "MAERSK VERACRUZ",
+    "vesselCode": "CNM",
+    "IMO": 9436173,
+    "TEU": 1740,
+    "status": "ok",
+    "note": ""
+  }
+]

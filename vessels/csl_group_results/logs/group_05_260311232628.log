@@ -1,0 +1,661 @@
+[group 5 1/878] FUFA999 -> code=YEW IMO=99999996 TEU=None status=detail_no_teu
+[group 5 2/878] FUGANG801 -> code=Y08 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 3/878] FUGANG802 -> code=Y09 IMO=9999999 TEU=None status=detail_no_teu
+[group 5 4/878] FUGANG803 -> code=YK3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 5/878] FUGANG805 -> code=Y54 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 6/878] FUGANG806 -> code=YG3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 7/878] FUGANG807 -> code=Y10 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 8/878] FUGANG808 -> code=Y12 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 9/878] FUGANG809 -> code=YG4 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 10/878] FUGANG810 -> code=Y91 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 13/878] FUGANG813 -> code=YG7 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 17/878] FUGANG822 -> code=Y92 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 18/878] FUGANG823 -> code=YC2 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 19/878] FUGANG831 -> code=YHZ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 20/878] FUGANG833 -> code=YZ4 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 21/878] FUGANG835 -> code=YER IMO=99999996 TEU=None status=detail_no_teu
+[group 5 22/878] FUGANG836 -> code=YT9 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 23/878] FUGANG837 -> code=YV1 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 24/878] FUGANG839 -> code=YD2 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 25/878] FUGANG861 -> code=YM7 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 26/878] FUGANG862 -> code=YN3 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 27/878] FUGANG893 -> code=YFA IMO=99999996 TEU=None status=detail_no_teu
+[group 5 28/878] FUGANG896 -> code=YZ5 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 29/878] FUGANG898 -> code=YZ6 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 30/878] FUHAI 118 -> code=YXZ IMO=99999996 TEU=120 status=ok
+[group 5 31/878] FUHAI16 -> code=YTR IMO=9999996 TEU=None status=detail_no_teu
+[group 5 32/878] FUHAI169 -> code=YSB IMO=99999996 TEU=None status=detail_no_teu
+[group 5 33/878] FUHAI666 -> code=YNW IMO=99999996 TEU=None status=detail_no_teu
+[group 5 36/878] FUHAI9HAO -> code=YOE IMO=99999996 TEU=None status=detail_no_teu
+[group 5 37/878] FUHANGZHIXIN -> code=VOS IMO=9999996 TEU=None status=detail_no_teu
+[group 5 38/878] FUHUAJI099 -> code=2VK IMO=9999996 TEU=None status=detail_no_teu
+[group 5 39/878] FUHUAJIYUN02 -> code=NV4 IMO=None TEU=None status=detail_no_teu
+[group 5 40/878] FUHUAJIYUN08 -> code=2GI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 41/878] FUHUAJIYUN09 -> code=2VU IMO=9999996 TEU=None status=detail_no_teu
+[group 5 42/878] FUHUAJIYUN18 -> code=2WB IMO=9999996 TEU=None status=detail_no_teu
+[group 5 43/878] FUHUAJIYUN19 -> code=2FH IMO=9999996 TEU=None status=detail_no_teu
+[group 5 44/878] FUHUAJIYUNO1 -> code=N9L IMO=89755688 TEU=None status=detail_no_teu
+[group 5 45/878] FUJINTENGFEI -> code=2KV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 46/878] FUJINTONGHAI -> code=VQZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 47/878] FUJUN1 -> code=V9W IMO=9999996 TEU=None status=detail_no_teu
+[group 5 48/878] FUJUN667 -> code=2IJ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 49/878] FUJUN668 -> code=2CD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 50/878] FUJUN99999 -> code=2MW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 51/878] FUJUNCHANGHONG -> code=2QJ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 52/878] FUJUNHONGYUAN -> code=2CW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 53/878] FUJUNJI888 -> code=V4K IMO=9999996 TEU=None status=detail_no_teu
+[group 5 54/878] FUJUNJIU -> code=2JD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 55/878] FUJUNSHENGXIN -> code=2TM IMO=9999996 TEU=None status=detail_no_teu
+[group 5 56/878] FUJUNTONGSHENG -> code=2ZF IMO=9999996 TEU=None status=detail_no_teu
+[group 5 57/878] FUJUNXIANGYUN -> code=2RC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 58/878] FUJUNYONGSHENG -> code=2OX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 59/878] FUJUNZHENXIANG888 -> code=2LT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 60/878] FUJUNZHENXIANG999 -> code=2IC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 62/878] FUXIN -> code=VJ3 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 63/878] FUXINCHANGSHENG -> code=2QE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 64/878] FUXING168 -> code=2XG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 65/878] FUYUAN1 -> code=VLB IMO=999999 TEU=None status=detail_no_teu
+[group 5 66/878] FU\xa0HAI\xa0TENG\xa0DA -> code=D3I IMO=9999996 TEU=None status=detail_no_teu
+[group 5 69/878] GABRIEL A (IMS) -> code=MA9 IMO=9300660 TEU=None status=detail_no_teu
+[group 5 70/878] GABRIELA A -> code=FOR IMO=9312432 TEU=2100 status=ok
+[group 5 74/878] GALLANT WAVE -> code=AM3 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 75/878] GAN JI AN HUO 1536 -> code=VKE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 76/878] GAN JI AN HUO 1556 -> code=V1H IMO=9999996 TEU=None status=detail_no_teu
+[group 5 77/878] GAN YUAN 10 -> code=Y35 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 78/878] GAN YUAN 11 -> code=YJ5 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 79/878] GAN YUAN 12 -> code=YJ6 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 80/878] GAN YUAN 8 -> code=Y33 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 81/878] GANFENGCHENGJI NO.9 -> code=YP5 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 82/878] GANFENGCHENGJI5HAO -> code=VL7 IMO=999999 TEU=None status=detail_no_teu
+[group 5 83/878] GANFUZHOUHUO0717 -> code=V7D IMO=9999996 TEU=None status=detail_no_teu
+[group 5 84/878] GANG FENG 1001 -> code=Z4J IMO=1 TEU=None status=detail_no_teu
+[group 5 85/878] GANG FENG 8668 -> code=Z8M IMO=20170913 TEU=None status=detail_no_teu
+[group 5 86/878] GANG HONG 22 -> code=MMA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 87/878] GANG HONG 2688 -> code=W9B IMO=20160513 TEU=None status=detail_no_teu
+[group 5 89/878] GANG HONG 393 -> code=XIH IMO=9999996 TEU=None status=detail_no_teu
+[group 5 90/878] GANG HONG 638 -> code=XPM IMO=20150020 TEU=None status=detail_no_teu
+[group 5 91/878] GANG HONG 678 -> code=XND IMO=20150152 TEU=None status=detail_no_teu
+[group 5 92/878] GANG HONG 688 -> code=XLT IMO=20150179 TEU=None status=detail_no_teu
+[group 5 94/878] GANG HONG 789 -> code=WY0 IMO=100808000627 TEU=None status=detail_no_teu
+[group 5 95/878] GANG HONG 889 -> code=WFC IMO=99999996 TEU=None status=detail_no_teu
+[group 5 96/878] GANG HONG 899 -> code=XYA IMO=20150039 TEU=None status=detail_no_teu
+[group 5 97/878] GANG SHUN 6688 -> code=XQF IMO=99999996 TEU=None status=detail_no_teu
+[group 5 98/878] GANG SHUN 9668 -> code=XNS IMO=20150072 TEU=None status=detail_no_teu
+[group 5 99/878] GANG TONG 003 -> code=XXX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 100/878] GANG TONG 369 -> code=W3X IMO=20160308 TEU=None status=detail_no_teu
+[group 5 101/878] GANG TONG 3698 -> code=WMP IMO=99999996 TEU=None status=detail_no_teu
+[group 5 102/878] GANG TONG 6 -> code=LYC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 103/878] GANG TONG 668 -> code=WOF IMO=99999996 TEU=None status=detail_no_teu
+[group 5 104/878] GANG TONG 7288 -> code=WNJ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 105/878] GANG TONG 888 -> code=WMK IMO=9999999 TEU=None status=detail_no_teu
+[group 5 108/878] GANG XIN 520 -> code=OVG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 110/878] GANG YI 2 -> code=MOB IMO=9999996 TEU=720 status=ok
+[group 5 111/878] GANG YU 2025 -> code=ZOJ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 112/878] GANG YU 2095 -> code=XRC IMO=20150048 TEU=None status=detail_no_teu
+[group 5 114/878] GANG YU 2266 -> code=X03 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 115/878] GANG YU 2298 -> code=XQ0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 116/878] GANG YU 2505 -> code=WD3 IMO=20150054 TEU=None status=detail_no_teu
+[group 5 117/878] GANG YU 2602 -> code=XQK IMO=99999996 TEU=None status=detail_no_teu
+[group 5 118/878] GANG YU 2603 -> code=WJJ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 119/878] GANG YU 2608 -> code=WP3 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 120/878] GANG YU 2628 -> code=XF2 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 121/878] GANG YU 2688 -> code=XSR IMO=20150028 TEU=None status=detail_no_teu
+[group 5 122/878] GANG YU 2788 -> code=W68 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 123/878] GANG YU 2888 -> code=ZN6 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 124/878] GANG YU 3 -> code=LYF IMO=9999996 TEU=None status=detail_no_teu
+[group 5 125/878] GANG YU 3003 -> code=LPS IMO=9999996 TEU=None status=detail_no_teu
+[group 5 126/878] GANG YU 3038 -> code=ZQZ IMO=100811000571 TEU=None status=detail_no_teu
+[group 5 127/878] GANG YU 3058 -> code=ZKY IMO=99999996 TEU=None status=detail_no_teu
+[group 5 128/878] GANG YU 3088 -> code=ZOL IMO=99999996 TEU=None status=detail_no_teu
+[group 5 129/878] GANG YU 3303 -> code=XAE IMO=99999996 TEU=None status=detail_no_teu
+[group 5 130/878] GANG YU 3308 -> code=XU0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 131/878] GANG YU 3318 -> code=ZZX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 132/878] GANG YU 3328 -> code=ZZH IMO=9999996 TEU=None status=detail_no_teu
+[group 5 133/878] GANG YU 3368 -> code=WED IMO=9999996 TEU=None status=detail_no_teu
+[group 5 135/878] GANG YU 3518 -> code=XT5 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 136/878] GANG YU 3528 -> code=XPA IMO=100808000705 TEU=None status=detail_no_teu
+[group 5 137/878] GANG YU 3568 -> code=WCB IMO=99999996 TEU=None status=detail_no_teu
+[group 5 138/878] GANG YU 3588 -> code=XTS IMO=99999996 TEU=None status=detail_no_teu
+[group 5 139/878] GANG YU 3598 -> code=WG0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 140/878] GANG YU 5088 -> code=WN7 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 141/878] GANG YU 6018 -> code=X64 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 142/878] GANG YU 6038 -> code=XJ6 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 143/878] GANG YU 6098 -> code=ZNX IMO=100807000538 TEU=None status=detail_no_teu
+[group 5 144/878] GANG YU 6998 -> code=WNN IMO=99999996 TEU=None status=detail_no_teu
+[group 5 145/878] GANG YU 8818 -> code=ZKK IMO=99999996 TEU=None status=detail_no_teu
+[group 5 146/878] GANG YU 8828 -> code=ZOC IMO=99999996 TEU=None status=detail_no_teu
+[group 5 147/878] GANG YUN 3368 -> code=WDS IMO=99999996 TEU=None status=detail_no_teu
+[group 5 148/878] GANGHANGCHUANTU01 -> code=V9I IMO=9999996 TEU=None status=detail_no_teu
+[group 5 149/878] GANGHANGHUIHUANG -> code=2TG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 150/878] GANGHANGJI01 -> code=VQA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 151/878] GANGHANGJI16 -> code=2BC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 152/878] GANGHANGJI6 -> code=2D2 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 153/878] GANGHANGJI66 -> code=2BT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 154/878] GANGHANGJI668 -> code=2IS IMO=9999996 TEU=None status=detail_no_teu
+[group 5 155/878] GANGHANGJI68 -> code=2BY IMO=9999996 TEU=None status=detail_no_teu
+[group 5 156/878] GANGHANGRUNYANG5001 -> code=2Y3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 157/878] GANGHANGRUNYANG5002 -> code=2M9 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 158/878] GANGHANGRUNYANG5003 -> code=2FB IMO=9999996 TEU=None status=detail_no_teu
+[group 5 159/878] GANGHANGRUNYANG5005 -> code=2FQ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 160/878] GANGHANGRUNYANG5006 -> code=2CL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 161/878] GANGHANGRUNYANG5008 -> code=2CM IMO=9999996 TEU=None status=detail_no_teu
+[group 5 162/878] GANGHANGRUNYANG5010 -> code=2HB IMO=9999996 TEU=None status=detail_no_teu
+[group 5 163/878] GANGHANGRUNYANG5011 -> code=21P IMO=9999996 TEU=None status=detail_no_teu
+[group 5 164/878] GANGHANGRUNYANG5012 -> code=2LM IMO=9999996 TEU=None status=detail_no_teu
+[group 5 165/878] GANGHANGRUNYANG5018 -> code=2XW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 166/878] GANGHANGRUNYANG5020 -> code=2LD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 167/878] GANGHANGRUNYANG6002 -> code=2KN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 168/878] GANGHANGRUNYANG6003 -> code=2IL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 169/878] GANGHANGRUNYANG6005 -> code=2EA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 170/878] GANGHANGRUNYANG6006 -> code=2ZO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 171/878] GANGHANGRUNYANG6007 -> code=2ET IMO=9999996 TEU=None status=detail_no_teu
+[group 5 172/878] GANGHANGRUNYANG6008 -> code=2JF IMO=9999996 TEU=None status=detail_no_teu
+[group 5 173/878] GANGHANGRUNYANG6009 -> code=2FC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 174/878] GANGHANGRUNYANG6010 -> code=2HC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 175/878] GANGHANGRUNYANG6011 -> code=2OJ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 176/878] GANGHANGRUNYANG6018 -> code=20L IMO=9999996 TEU=None status=detail_no_teu
+[group 5 177/878] GANGHANGRUNYANG6020 -> code=2GN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 178/878] GANGHANGRUNYANG6021 -> code=2HL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 179/878] GANGHANGRUNYANG6022 -> code=2ON IMO=9999996 TEU=None status=detail_no_teu
+[group 5 180/878] GANGHANGRUNYANG6023 -> code=2FE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 181/878] GANGHANGRUNYANG6026 -> code=2EU IMO=9999996 TEU=None status=detail_no_teu
+[group 5 182/878] GANGHANGRUNYANG6027 -> code=2FA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 183/878] GANGHANGRUNYANG6029 -> code=2GD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 184/878] GANGHANGRUNYANG6030 -> code=2ES IMO=9999996 TEU=None status=detail_no_teu
+[group 5 185/878] GANGHANGRUNYANG6032 -> code=2GL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 186/878] GANGHANGRUNYANG6033 -> code=2CZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 187/878] GANGHANGRUNYANG6035 -> code=2JC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 188/878] GANGHANGRUNYANG6036 -> code=2EQ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 189/878] GANGHANGRUNYANG6038 -> code=2Z6 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 190/878] GANGHANGRUNYANG6050 -> code=2ER IMO=9999996 TEU=None status=detail_no_teu
+[group 5 191/878] GANGHANGRUNYANG6051 -> code=2Z8 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 192/878] GANGHANGRUNYANG6052 -> code=2ST IMO=9999996 TEU=None status=detail_no_teu
+[group 5 193/878] GANGHANGRUNYANG6053 -> code=2UV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 194/878] GANGHANGRUNYANG6056 -> code=2FK IMO=9999996 TEU=None status=detail_no_teu
+[group 5 195/878] GANGHANGRUNYANG6058 -> code=2GP IMO=9999996 TEU=None status=detail_no_teu
+[group 5 196/878] GANGHANGRUNYANG6059 -> code=2YE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 197/878] GANGHANGRUNYANG6060 -> code=2EB IMO=9999996 TEU=None status=detail_no_teu
+[group 5 198/878] GANGHANGRUNYANG6061 -> code=2X1 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 199/878] GANGHANGRUNYANG6063 -> code=2E4 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 200/878] GANGHANGRUNYANG6065 -> code=2CF IMO=9999996 TEU=None status=detail_no_teu
+[group 5 201/878] GANGHANGRUNYANG6066 -> code=2MR IMO=9999996 TEU=None status=detail_no_teu
+[group 5 202/878] GANGHANGRUNYANG6068 -> code=2GJ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 203/878] GANGHANGRUNYANG6069 -> code=2KI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 204/878] GANGHANGRUNYANG6070 -> code=20N IMO=9999996 TEU=None status=detail_no_teu
+[group 5 205/878] GANGHANGRUNYANG6071 -> code=2HA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 206/878] GANGHANGRUNYANG6075 -> code=2IN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 207/878] GANGHANGRUNYANG6076 -> code=2EO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 208/878] GANGHANGRUNYANG6083 -> code=2GV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 209/878] GANGHANGRUNYANG6090 -> code=2NV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 210/878] GANGHANGRUNYANG6095 -> code=2IM IMO=9999996 TEU=None status=detail_no_teu
+[group 5 211/878] GANGHANGRUNYANG6096 -> code=2GX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 212/878] GANGHANGRUNYANG6098 -> code=2TD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 213/878] GANGHANGRUNYANG6099 -> code=2SO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 214/878] GANGHANGRUNYANG6100 -> code=2QD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 215/878] GANGHANGRUNYANG6101 -> code=2PX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 216/878] GANGHANGRUNYANG6102 -> code=2XY IMO=9999996 TEU=None status=detail_no_teu
+[group 5 217/878] GANGHANGRUNYANG6107 -> code=2PJ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 218/878] GANGHANGRUNYANG6108 -> code=2SL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 219/878] GANGHANGRUNYANG6109 -> code=2TX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 220/878] GANGHANGRUNYANG6110 -> code=2LA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 221/878] GANGHANGRUNYANG6115 -> code=2YP IMO=9999996 TEU=None status=detail_no_teu
+[group 5 222/878] GANGHANGRUNYANG6116 -> code=20I IMO=9999996 TEU=None status=detail_no_teu
+[group 5 223/878] GANGHANGRUNYANG6118 -> code=2KE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 224/878] GANGHANGRUNYANG6120 -> code=2KZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 225/878] GANGHANGRUNYANG6121 -> code=2SU IMO=9999996 TEU=None status=detail_no_teu
+[group 5 226/878] GANGHANGRUNYANG6968 -> code=2JV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 227/878] GANGHANGRUNYANG7001 -> code=2K0 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 228/878] GANGHANGSHIDAI -> code=2DU IMO=9999996 TEU=None status=detail_no_teu
+[group 5 229/878] GANGHANGXIANDAI -> code=2DY IMO=9999996 TEU=None status=detail_no_teu
+[group 5 230/878] GANGHANGYUNJI -> code=2OT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 232/878] GANGNANCHANGHUO1861 -> code=2JS IMO=9999996 TEU=None status=detail_no_teu
+[group 5 233/878] GANGSHENG1000 -> code=YHK IMO=99999996 TEU=None status=detail_no_teu
+[group 5 234/878] GANGSHENG1001 -> code=YJX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 235/878] GANGSHENG1002 -> code=YHS IMO=99999996 TEU=None status=detail_no_teu
+[group 5 239/878] GANGSHENG1009 -> code=YHL IMO=99999996 TEU=None status=detail_no_teu
+[group 5 240/878] GANGSHENG1010 -> code=YIA IMO=99999996 TEU=None status=detail_no_teu
+[group 5 241/878] GANGSHENG1011 -> code=YHO IMO=99999996 TEU=None status=detail_no_teu
+[group 5 242/878] GANGSHENG1012 -> code=YJV IMO=99999996 TEU=None status=detail_no_teu
+[group 5 243/878] GANGSHENG1013 -> code=YJW IMO=99999996 TEU=None status=detail_no_teu
+[group 5 250/878] GANGSHENG1605 -> code=VDP IMO=99999996 TEU=282 status=ok
+[group 5 254/878] GANGSHENG1615 -> code=VFD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 255/878] GANGSHENG1616 -> code=VGI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 256/878] GANGSHENG1618 -> code=VIG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 257/878] GANGSHENG801 -> code=YJY IMO=99999996 TEU=None status=detail_no_teu
+[group 5 258/878] GANGSHENG804 -> code=YJO IMO=99999996 TEU=None status=detail_no_teu
+[group 5 259/878] GANGSHENG805 -> code=YIX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 260/878] GANGSHENG806 -> code=YJG IMO=99999996 TEU=None status=detail_no_teu
+[group 5 261/878] GANGSHENG808 -> code=YJP IMO=99999996 TEU=None status=detail_no_teu
+[group 5 262/878] GANGSHENG809 -> code=YJQ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 263/878] GANGSHENG810 -> code=YJR IMO=99999996 TEU=None status=detail_no_teu
+[group 5 264/878] GANGSHENG811 -> code=YJS IMO=99999996 TEU=None status=detail_no_teu
+[group 5 265/878] GANGSHENG812 -> code=YJT IMO=99999996 TEU=None status=detail_no_teu
+[group 5 266/878] GANGSHENG813 -> code=YJU IMO=99999996 TEU=None status=detail_no_teu
+[group 5 267/878] GANGSHENG820 -> code=YHU IMO=99999996 TEU=None status=detail_no_teu
+[group 5 268/878] GANGSHENG821 -> code=YHV IMO=99999996 TEU=None status=detail_no_teu
+[group 5 269/878] GANGSHENG822 -> code=YIZ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 270/878] GANGSHENG823 -> code=YJZ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 271/878] GANGSHENG906 -> code=YKA IMO=99999996 TEU=None status=detail_no_teu
+[group 5 272/878] GANGSHENG907 -> code=YKB IMO=99999996 TEU=None status=detail_no_teu
+[group 5 273/878] GANGTAI TAIZHOU -> code=QWF IMO=99999996 TEU=None status=detail_no_teu
+[group 5 274/878] GANGTONG 66 -> code=F3T IMO=9999996 TEU=None status=detail_no_teu
+[group 5 275/878] GANGTONG2 -> code=RHV IMO=89798796 TEU=None status=detail_no_teu
+[group 5 276/878] GANGYU 2006 -> code=ZVQ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 277/878] GANGYU 2216 -> code=ZVW IMO=99999996 TEU=None status=detail_no_teu
+[group 5 278/878] GANGYU 2220 -> code=ZVE IMO=99999996 TEU=None status=detail_no_teu
+[group 5 279/878] GANJIANHUO5269 -> code=V4R IMO=9999996 TEU=None status=detail_no_teu
+[group 5 280/878] GANNANCHANGBO0083 -> code=YK0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 281/878] GANNANCHANGBO0090 -> code=YJ9 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 282/878] GANNANCHANGBO0091 -> code=YBX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 283/878] GANNANCHANGHUO 0976 -> code=YFN IMO=99999996 TEU=None status=detail_no_teu
+[group 5 284/878] GANNANCHANGHUO 1389 -> code=Y6K IMO=99999996 TEU=None status=detail_no_teu
+[group 5 285/878] GANNANCHANGHUO0688 -> code=YP2 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 286/878] GANNANCHANGHUO0789 -> code=YAJ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 287/878] GANNANCHANGHUO0818 -> code=YDL IMO=99999996 TEU=None status=detail_no_teu
+[group 5 289/878] GANNANCHANGHUO0918 -> code=VDO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 290/878] GANNANCHANGHUO0939 -> code=YLD IMO=1000023 TEU=None status=detail_no_teu
+[group 5 292/878] GANNANCHANGHUO0968 -> code=Y5U IMO=9999478 TEU=None status=detail_no_teu
+[group 5 294/878] GANNANCHANGHUO1019 -> code=YLI IMO=99999996 TEU=None status=detail_no_teu
+[group 5 295/878] GANNANCHANGHUO1089 -> code=YGY IMO=9999996 TEU=None status=detail_no_teu
+[group 5 296/878] GANNANCHANGHUO1168 -> code=V1I IMO=9999996 TEU=None status=detail_no_teu
+[group 5 297/878] GANNANCHANGHUO1179 -> code=YNK IMO=99999996 TEU=None status=detail_no_teu
+[group 5 298/878] GANNANCHANGHUO1181 -> code=YNN IMO=99999996 TEU=None status=detail_no_teu
+[group 5 299/878] GANNANCHANGHUO1188 -> code=Y5V IMO=99999996 TEU=None status=detail_no_teu
+[group 5 300/878] GANNANCHANGHUO1189 -> code=Y4S IMO=99999996 TEU=None status=detail_no_teu
+[group 5 303/878] GANNANCHANGHUO1599 -> code=V1X IMO=999699 TEU=None status=detail_no_teu
+[group 5 304/878] GANNANCHANGHUO1616 -> code=Y3T IMO=99999996 TEU=None status=detail_no_teu
+[group 5 305/878] GANNANCHANGHUO1663 -> code=V6A IMO=9999996 TEU=None status=detail_no_teu
+[group 5 306/878] GANNANCHANGHUO1678 -> code=VIN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 307/878] GANNANCHANGHUO1709 -> code=VOC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 309/878] GANNANCHANGHUO1730 -> code=VDY IMO=99999996 TEU=None status=detail_no_teu
+[group 5 310/878] GANNANCHANGHUO1755 -> code=2JA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 311/878] GANNANCHANGHUO1760 -> code=VEX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 313/878] GANNANCHANGHUO1850 -> code=2F9 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 314/878] GANNANCHANGHUO1857 -> code=2EP IMO=9999996 TEU=None status=detail_no_teu
+[group 5 315/878] GANNANCHANGHUO1859 -> code=2KW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 316/878] GANNANCHUANGHUO1865 -> code=2LG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 317/878] GANNNACHANGHUO1616 -> code=2V1 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 318/878] GANNNACHANGHUO1865 -> code=2SP IMO=9999996 TEU=None status=detail_no_teu
+[group 5 319/878] GANSHUIYUN98 -> code=2G4 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 320/878] GANTA BHUM -> code=A23 IMO=9315862 TEU=2048 status=ok
+[group 5 321/878] GANYUAN 15 -> code=YS8 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 322/878] GANYUAN 18 -> code=YZ2 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 323/878] GANYUAN 20 -> code=YDX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 325/878] GANYUAN NO.16 -> code=YP4 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 326/878] GANYUAN1 -> code=Y26 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 327/878] GANYUAN17 -> code=YS9 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 328/878] GANYUAN19 -> code=YT0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 329/878] GANYUAN2 -> code=Y27 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 330/878] GANYUAN21 -> code=YFO IMO=99999996 TEU=None status=detail_no_teu
+[group 5 331/878] GANYUAN23 -> code=YOA IMO=99999996 TEU=None status=detail_no_teu
+[group 5 332/878] GANYUAN25 -> code=YRZ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 333/878] GANYUAN26 -> code=YQX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 334/878] GANYUAN27 -> code=YSR IMO=99999996 TEU=None status=detail_no_teu
+[group 5 335/878] GANYUAN28 -> code=YWE IMO=99999996 TEU=None status=detail_no_teu
+[group 5 336/878] GANYUAN29 -> code=YZX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 337/878] GANYUAN3 -> code=Y28 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 338/878] GANYUAN31 -> code=Y7M IMO=99999996 TEU=None status=detail_no_teu
+[group 5 339/878] GANYUAN32 -> code=Y7N IMO=99999996 TEU=None status=detail_no_teu
+[group 5 340/878] GANYUAN36 -> code=YVI IMO=99999996 TEU=None status=detail_no_teu
+[group 5 341/878] GANYUAN37 -> code=Y6L IMO=99999996 TEU=None status=detail_no_teu
+[group 5 342/878] GANYUAN39 -> code=VEZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 343/878] GANYUAN4 -> code=Y29 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 344/878] GANYUAN5 -> code=Y30 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 345/878] GANYUAN6 -> code=Y31 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 346/878] GANYUAN7 -> code=Y32 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 347/878] GANYUAN9 -> code=Y34 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 348/878] GANZHOU MINSK NUMBER 1 -> code=GM1 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 349/878] GANZHOU MINSK NUMBER FOUR -> code=GM4 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 350/878] GANZHOU MINSK NUMBER THREE -> code=GM3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 351/878] GANZHOU MINSK NUMBER TWO -> code=GM2 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 352/878] GANZHOU MOSCOW NUMBER 5 -> code=GM5 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 355/878] GAO HONG SHENG 2 -> code=2K3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 356/878] GAO LAN 801 -> code=LH0 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 357/878] GAO LAN 802 -> code=LH7 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 358/878] GAO LAN 803 -> code=LH5 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 359/878] GAO LAN 806 -> code=LIE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 360/878] GAO LAN 808 -> code=LH8 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 361/878] GAO LAN 811 -> code=LLP IMO=9999996 TEU=None status=detail_no_teu
+[group 5 362/878] GAO LAN 812 -> code=LKI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 363/878] GAO LAN 813 -> code=LKT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 365/878] GAO LAN 818 -> code=LKH IMO=9999996 TEU=None status=detail_no_teu
+[group 5 370/878] GAO LAN 828 -> code=LXD IMO=9999996 TEU=1 status=ok
+[group 5 378/878] GAO LAN 863 -> code=O73 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 380/878] GAO LAN 868 -> code=LY3 IMO=9999996 TEU=1 status=ok
+[group 5 382/878] GAO LAN 882 -> code=O09 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 388/878] GAO LAN 893 -> code=O10 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 390/878] GAO LAN 898 -> code=O81 IMO=9999996 TEU=1 status=ok
+[group 5 391/878] GAO LI 3 -> code=ZIU IMO=99999996 TEU=None status=detail_no_teu
+[group 5 392/878] GAO LI 8 -> code=ZEA IMO=99999996 TEU=None status=detail_no_teu
+[group 5 393/878] GAO MING 111 -> code=W5X IMO=9999996 TEU=None status=detail_no_teu
+[group 5 394/878] GAO MING 13 HAO -> code=X6B IMO=20161028 TEU=None status=detail_no_teu
+[group 5 395/878] GAO MING 3 -> code=X3E IMO=9999996 TEU=None status=detail_no_teu
+[group 5 396/878] GAO MING 333 -> code=LFZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 397/878] GAO MING 6 -> code=X4E IMO=20170103 TEU=None status=detail_no_teu
+[group 5 398/878] GAO MING 666 -> code=Z8Q IMO=9999996 TEU=None status=detail_no_teu
+[group 5 399/878] GAO MING 888 -> code=ODQ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 400/878] GAO MING NO.2 -> code=X76 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 401/878] GAO XIN ZHI ZHOU -> code=DH3 IMO=9576313 TEU=None status=detail_no_teu
+[group 5 402/878] GAO YAO GANG 2 HAO -> code=XT2 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 405/878] GARDEN BRIDGE -> code=S74 IMO=9062972 TEU=None status=detail_no_teu
+[group 5 409/878] GAUNG XING -> code=ZBK IMO=99999996 TEU=None status=detail_no_teu
+[group 5 410/878] GDANSK TRADER -> code=AYT IMO=9149902 TEU=1708 status=ok
+[group 5 411/878] GEE HONG -> code=AP9 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 417/878] GEMMA -> code=GMA IMO=9509097 TEU=None status=detail_no_teu
+[group 5 418/878] GENIKI JOHOR -> code=AR3 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 419/878] GENIKI SARAWAK -> code=AII IMO=99999996 TEU=None status=detail_no_teu
+[group 5 420/878] GENIUS I -> code=RTQ IMO=8200137 TEU=2728 status=ok
+[group 5 424/878] GEORGIA TRADER -> code=PR9 IMO=9357107 TEU=None status=detail_no_teu
+[group 5 425/878] GERD -> code=U92 IMO=9255749 TEU=None status=detail_no_teu
+[group 5 426/878] GERD SIBUM -> code=U91 IMO=9121895 TEU=None status=detail_no_teu
+[group 5 427/878] GERDA. -> code=GH4 IMO=9432234 TEU=None status=detail_no_teu
+[group 5 428/878] GERMAN S -> code=AWR IMO=9999997 TEU=None status=detail_no_teu
+[group 5 429/878] GFS GALAXY -> code=DBP IMO=9401272 TEU=None status=detail_no_teu
+[group 5 430/878] GFS PEARL -> code=NYR IMO=9320051 TEU=2741 status=ok
+[group 5 431/878] GFS PRESTIGE -> code=AZC IMO=9303819 TEU=None status=detail_no_teu
+[group 5 432/878] GFS PRIDE -> code=MKJ IMO=9349045 TEU=None status=detail_no_teu
+[group 5 433/878] GFS PRIME -> code=MHZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 437/878] GHIBLI -> code=GHB IMO=9208186 TEU=None status=detail_no_teu
+[group 5 439/878] GI SIANG -> code=ZIN IMO=99999996 TEU=None status=detail_no_teu
+[group 5 440/878] GIALOVA -> code=NEG IMO=9400306 TEU=4578 status=ok
+[group 5 450/878] GISENG -> code=A32 IMO=99999996 TEU=191 status=ok
+[group 5 456/878] GLOBAL 1 -> code=AS0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 458/878] GLOBAL 5 -> code=JI1 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 459/878] GLOBAL SAMUDERA -> code=A37 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 460/878] GLORY -> code=QYJ IMO=9124378 TEU=None status=detail_no_teu
+[group 5 464/878] GLORY LIGHT -> code=BJY IMO=8593297 TEU=None status=detail_no_teu
+[group 5 468/878] GLS 16 -> code=GLS IMO=None TEU=None status=detail_no_teu
+[group 5 469/878] GLS CUU LONG -> code=BAJ IMO=8754425 TEU=None status=detail_no_teu
+[group 5 470/878] GODSPEED -> code=QQP IMO=9426738 TEU=610 status=ok
+[group 5 471/878] GOETALAND -> code=U40 IMO=9287707 TEU=None status=detail_no_teu
+[group 5 473/878] GOLDEN COMPANION -> code=ADM IMO=99999996 TEU=None status=detail_no_teu
+[group 5 474/878] GOLDEN EXPRESS -> code=ANX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 479/878] GOLDEN MERCHANT -> code=AW8 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 480/878] GOLDEN STAR -> code=AFZ IMO=8952858 TEU=208 status=ok
+[group 5 482/878] GOLDEN TRADE -> code=AW4 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 489/878] GONG SHUN A -> code=NUF IMO=9999996 TEU=None status=detail_no_teu
+[group 5 490/878] GONG SHUN B -> code=WAP IMO=9999996 TEU=1 status=ok
+[group 5 491/878] GONGCHENGHAO -> code=Y38 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 493/878] GOURAYA -> code=PO6 IMO=9393230 TEU=None status=detail_no_teu
+[group 5 497/878] GRAND -> code=SRT IMO=8901925 TEU=None status=detail_no_teu
+[group 5 498/878] GRAND OCEAN -> code=AGI IMO=99999996 TEU=None status=detail_no_teu
+[group 5 500/878] GREAT SHANG -> code=MEP IMO=9766906 TEU=None status=detail_no_teu
+[group 5 501/878] GREAT WOODS -> code=NZS IMO=9419230 TEU=None status=detail_no_teu
+[group 5 502/878] GREAT ZHOU -> code=MEU IMO=9766932 TEU=None status=detail_no_teu
+[group 5 503/878] GREEN AANEKOSKI -> code=DDD IMO=9976082 TEU=None status=detail_no_teu
+[group 5 504/878] GREEN ACE -> code=N5F IMO=9309162 TEU=None status=detail_no_teu
+[group 5 509/878] GREEN FAST -> code=PJ8 IMO=9128544 TEU=None status=detail_no_teu
+[group 5 510/878] GREEN HELSINKI -> code=D5E IMO=9976068 TEU=None status=detail_no_teu
+[group 5 513/878] GREEN ITAJAI -> code=DBD IMO=9976446 TEU=None status=detail_no_teu
+[group 5 514/878] GREEN KOTKA -> code=MZM IMO=9976056 TEU=None status=detail_no_teu
+[group 5 516/878] GREEN NAGOYA -> code=DEN IMO=1027366 TEU=None status=detail_no_teu
+[group 5 519/878] GREEN PACIFIC -> code=BAS IMO=9999996 TEU=None status=detail_no_teu
+[group 5 520/878] GREEN PECEM -> code=DAV IMO=9976484 TEU=None status=detail_no_teu
+[group 5 522/878] GREEN RIZHAO -> code=DFO IMO=9997919 TEU=None status=detail_no_teu
+[group 5 523/878] GREEN SALVADOR -> code=DBU IMO=9976460 TEU=None status=detail_no_teu
+[group 5 524/878] GREEN SEA -> code=NUB IMO=9865996 TEU=None status=detail_no_teu
+[group 5 526/878] GREEN SUAPE -> code=DBT IMO=9976501 TEU=None status=detail_no_teu
+[group 5 528/878] GREEN WAVE -> code=BBR IMO=9867724 TEU=None status=detail_no_teu
+[group 5 530/878] GREETSIEL -> code=P08 IMO=9208693 TEU=511 status=ok
+[group 5 533/878] GROTON -> code=BSL IMO=9246310 TEU=None status=detail_no_teu
+[group 5 539/878] GSL MAMITSA -> code=RKG IMO=9338084 TEU=None status=detail_no_teu
+[group 5 540/878] GSL MANET -> code=N3C IMO=9999996 TEU=2262 status=ok
+[group 5 550/878] GUAN HAI AN 31 -> code=W7W IMO=None TEU=None status=detail_no_teu
+[group 5 551/878] GUAN HAI AN 32 -> code=W8J IMO=20160429 TEU=None status=detail_no_teu
+[group 5 552/878] GUAN HAI AN 323 -> code=X7E IMO=9999996 TEU=None status=detail_no_teu
+[group 5 553/878] GUAN HAI AN 329 -> code=Z9D IMO=9999996 TEU=None status=detail_no_teu
+[group 5 554/878] GUAN HAI AN 98 -> code=LN9 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 557/878] GUAN HANG 218 -> code=Z38 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 558/878] GUAN HANG 228 -> code=XSQ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 559/878] GUAN HANG 233 -> code=XJN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 560/878] GUAN HANG 238 -> code=ZT4 IMO=99999996 TEU=60 status=ok
+[group 5 561/878] GUAN HANG 268 -> code=ZXD IMO=None TEU=None status=detail_no_teu
+[group 5 563/878] GUAN HANG 288 -> code=ZCV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 565/878] GUAN HANG 298 -> code=Z39 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 566/878] GUAN HANG 299 -> code=X62 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 567/878] GUAN HANG 328 -> code=XT3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 568/878] GUAN HANG 361 -> code=XD0 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 570/878] GUAN HANG 363 -> code=WX2 IMO=9999996 TEU=1 status=ok
+[group 5 571/878] GUAN HANG 371 -> code=XU2 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 572/878] GUAN HANG 372 -> code=ZCX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 573/878] GUAN HANG 373 -> code=ZPC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 574/878] GUAN HANG 378 -> code=Z40 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 575/878] GUAN HANG 381 -> code=XW1 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 576/878] GUAN HANG 383 -> code=Z41 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 578/878] GUAN RONG 1211 -> code=V9O IMO=9999996 TEU=None status=detail_no_teu
+[group 5 579/878] GUAN RONG 1221 -> code=2I3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 580/878] GUAN YANG 1258 -> code=OQZ IMO=9999996 TEU=1 status=ok
+[group 5 585/878] GUAN YANG 397 -> code=OVC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 586/878] GUAN YANG 6088 -> code=OXG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 590/878] GUAN YANG 6698 -> code=O50 IMO=9999996 TEU=1 status=ok
+[group 5 593/878] GUAN YANG 7778 -> code=OQ7 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 600/878] GUAN YANG 8898 -> code=LTY IMO=9999996 TEU=1 status=ok
+[group 5 602/878] GUANG BIN JI 78 -> code=W63 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 603/878] GUANG BIN JI 80 -> code=ZFQ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 604/878] GUANG BO YUN 1000 -> code=XAX IMO=9999996 TEU=None status=detail_no_teu
+[group 5 605/878] GUANG BO YUN 1001 -> code=XAT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 606/878] GUANG BO YUN 1002 -> code=XBK IMO=9999996 TEU=None status=detail_no_teu
+[group 5 607/878] GUANG BO YUN 1003 -> code=XBD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 608/878] GUANG BO YUN 1004 -> code=XAL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 609/878] GUANG BO YUN 1005 -> code=XAU IMO=9999996 TEU=None status=detail_no_teu
+[group 5 610/878] GUANG BO YUN 1006 -> code=XAI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 611/878] GUANG BO YUN 1007 -> code=XAR IMO=9999996 TEU=None status=detail_no_teu
+[group 5 612/878] GUANG BO YUN 1008 -> code=XBL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 613/878] GUANG BO YUN 1009 -> code=XAW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 614/878] GUANG BO YUN 1010 -> code=XCY IMO=9999996 TEU=None status=detail_no_teu
+[group 5 615/878] GUANG BO YUN 1011 -> code=XFM IMO=9999996 TEU=None status=detail_no_teu
+[group 5 616/878] GUANG BO YUN 500 -> code=ZLQ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 617/878] GUANG BO YUN 501 -> code=XQ2 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 618/878] GUANG BO YUN 505 -> code=Z43 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 619/878] GUANG BO YUN 508 -> code=XBF IMO=99999996 TEU=None status=detail_no_teu
+[group 5 620/878] GUANG BO YUN 550 -> code=ZDU IMO=99999996 TEU=None status=detail_no_teu
+[group 5 621/878] GUANG BO YUN 551 -> code=ZDW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 622/878] GUANG BO YUN 552 -> code=XBW IMO=99999996 TEU=None status=detail_no_teu
+[group 5 623/878] GUANG BO YUN 553 -> code=ZTT IMO=99999996 TEU=None status=detail_no_teu
+[group 5 624/878] GUANG BO YUN 555 -> code=Z45 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 625/878] GUANG BO YUN 556 -> code=XBG IMO=99999996 TEU=None status=detail_no_teu
+[group 5 626/878] GUANG BO YUN 557 -> code=ZTR IMO=99999996 TEU=None status=detail_no_teu
+[group 5 627/878] GUANG BO YUN 901 -> code=XAH IMO=9999996 TEU=None status=detail_no_teu
+[group 5 628/878] GUANG BO YUN 902 -> code=XFN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 629/878] GUANG DA -> code=ZNL IMO=99999996 TEU=None status=detail_no_teu
+[group 5 630/878] GUANG DA LUN -> code=ZBS IMO=99999996 TEU=45 status=ok
+[group 5 632/878] GUANG HANG 02 -> code=OVU IMO=9999996 TEU=None status=detail_no_teu
+[group 5 634/878] GUANG HUI 666 -> code=L57 IMO=1 TEU=None status=detail_no_teu
+[group 5 635/878] GUANG HUI 888 -> code=L91 IMO=1 TEU=None status=detail_no_teu
+[group 5 636/878] GUANG LIAN 501 -> code=ZIW IMO=99999996 TEU=None status=detail_no_teu
+[group 5 637/878] GUANG LIAN 808 -> code=XG5 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 638/878] GUANG LIAN BO 2 -> code=ZXW IMO=99999996 TEU=None status=detail_no_teu
+[group 5 639/878] GUANG LIAN BO 3 -> code=ZOI IMO=99999996 TEU=None status=detail_no_teu
+[group 5 640/878] GUANG LONG LUN -> code=ZET IMO=99999996 TEU=45 status=ok
+[group 5 641/878] GUANG MING -> code=ZLC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 642/878] GUANG PING -> code=ASI IMO=9546241 TEU=None status=detail_no_teu
+[group 5 643/878] GUANG WANG LUN -> code=ZSE IMO=99999996 TEU=None status=detail_no_teu
+[group 5 644/878] GUANG XI 1 HAO -> code=W0K IMO=20160628 TEU=None status=detail_no_teu
+[group 5 645/878] GUANG XIN 309 -> code=W6G IMO=20160329 TEU=None status=detail_no_teu
+[group 5 646/878] GUANG XING 02 -> code=LMB IMO=9999996 TEU=None status=detail_no_teu
+[group 5 647/878] GUANG XING 1 -> code=L90 IMO=1 TEU=None status=detail_no_teu
+[group 5 648/878] GUANG XING 10 -> code=OUI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 649/878] GUANG XING 16 -> code=LOO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 650/878] GUANG XING 187 -> code=OH1 IMO=9999996 TEU=1 status=ok
+[group 5 652/878] GUANG XING 198 -> code=LJ6 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 653/878] GUANG XING 1988 -> code=LOI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 654/878] GUANG XING 2 -> code=LAE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 656/878] GUANG XING 298 -> code=LN6 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 657/878] GUANG XING 3 -> code=LHC IMO=9999996 TEU=None status=detail_no_teu
+[group 5 659/878] GUANG XING 5 -> code=LH6 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 660/878] GUANG XING 588 -> code=OWX IMO=9999996 TEU=1 status=ok
+[group 5 661/878] GUANG XING 598 -> code=LWP IMO=9999996 TEU=None status=detail_no_teu
+[group 5 663/878] GUANG XING 7 -> code=LI7 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 664/878] GUANG XING 8 -> code=XXL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 665/878] GUANG XING 9 -> code=LQ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 666/878] GUANG XING 918 -> code=OI4 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 667/878] GUANG XING 928 -> code=OH0 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 670/878] GUANG XING 978 -> code=OSV IMO=9999996 TEU=284 status=ok
+[group 5 672/878] GUANG YU LUN -> code=W34 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 673/878] GUANG ZHOU 1 HAO -> code=W0I IMO=20160628 TEU=None status=detail_no_teu
+[group 5 674/878] GUANG ZHOU JIN DA 393 -> code=LLG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 676/878] GUANGZHOU TRADER -> code=NEI IMO=9999910 TEU=None status=detail_no_teu
+[group 5 677/878] GUANRONG -> code=V8D IMO=9999996 TEU=None status=detail_no_teu
+[group 5 679/878] GUANRONG669 -> code=VJP IMO=9999996 TEU=None status=detail_no_teu
+[group 5 680/878] GUANRONG696 -> code=VJG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 682/878] GUDRUN -> code=UB4 IMO=9109079 TEU=None status=detail_no_teu
+[group 5 684/878] GUI AN SHUN 88 -> code=LRS IMO=9999996 TEU=None status=detail_no_teu
+[group 5 686/878] GUI BIN HAI 168 -> code=OYO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 688/878] GUI FENG 168 -> code=XZT IMO=100110000094 TEU=None status=detail_no_teu
+[group 5 689/878] GUI FENG 222 -> code=XPN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 690/878] GUI FENG 228 -> code=XLB IMO=9999996 TEU=None status=detail_no_teu
+[group 5 691/878] GUI FENG 229 -> code=XQN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 692/878] GUI FENG 298 -> code=XV3 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 694/878] GUI FENG 5 -> code=ZPE IMO=99999996 TEU=None status=detail_no_teu
+[group 5 695/878] GUI FENG 6 -> code=ZOT IMO=99999996 TEU=None status=detail_no_teu
+[group 5 696/878] GUI FENG 668 -> code=WAQ IMO=100111000530 TEU=None status=detail_no_teu
+[group 5 698/878] GUI FENG 888 -> code=WCG IMO=9999996 TEU=None status=detail_no_teu
+[group 5 699/878] GUI FENG 998 -> code=WKF IMO=1001111000347 TEU=None status=detail_no_teu
+[group 5 700/878] GUI FENG 999 -> code=W61 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 701/878] GUI GANG 1 HAO -> code=WEV IMO=99999996 TEU=None status=detail_no_teu
+[group 5 703/878] GUI GANG FENG SHUN 089 -> code=LQL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 704/878] GUI GANG FENG SHUN 1088 -> code=WF5 IMO=None TEU=None status=detail_no_teu
+[group 5 705/878] GUI GANG FENG SHUN 1103 -> code=WKQ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 706/878] GUI GANG FENG SHUN 1107 -> code=WGU IMO=99999996 TEU=None status=detail_no_teu
+[group 5 707/878] GUI GANG FENG SHUN 1108 -> code=WAH IMO=20150210 TEU=None status=detail_no_teu
+[group 5 708/878] GUI GANG FENG SHUN 1228 -> code=WBR IMO=99999996 TEU=None status=detail_no_teu
+[group 5 709/878] GUI GANG FENG SHUN 1288 -> code=WIB IMO=100811000131 TEU=None status=detail_no_teu
+[group 5 710/878] GUI GANG FENG SHUN 1368 -> code=OD7 IMO=9999996 TEU=1 status=ok
+[group 5 711/878] GUI GANG FENG SHUN 15 -> code=Z7K IMO=20170715 TEU=None status=detail_no_teu
+[group 5 712/878] GUI GANG FENG SHUN 1688 -> code=LQT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 713/878] GUI GANG FENG SHUN 178 -> code=LZT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 715/878] GUI GANG FENG SHUN 2238 -> code=LHK IMO=9999996 TEU=None status=detail_no_teu
+[group 5 716/878] GUI GANG FENG SHUN 2268 -> code=LCD IMO=1 TEU=None status=detail_no_teu
+[group 5 717/878] GUI GANG FENG SHUN 2288 -> code=LGD IMO=9999996 TEU=None status=detail_no_teu
+[group 5 718/878] GUI GANG FENG SHUN 2298 -> code=LCA IMO=1 TEU=None status=detail_no_teu
+[group 5 720/878] GUI GANG FENG SHUN 6998 -> code=LWZ IMO=9999996 TEU=1 status=ok
+[group 5 721/878] GUI GANG FENG SHUN 888 -> code=LN3 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 722/878] GUI GANG FU HANG 333 -> code=WQI IMO=99999996 TEU=None status=detail_no_teu
+[group 5 726/878] GUI GANG FU HANG 688 -> code=Z5W IMO=1 TEU=None status=detail_no_teu
+[group 5 729/878] GUI GANG FU HANG 866 -> code=LSV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 730/878] GUI GANG FU HANG 888 -> code=Z1J IMO=652576 TEU=200 status=ok
+[group 5 732/878] GUI GANG FU SHENG 128 -> code=LB5 IMO=1 TEU=None status=detail_no_teu
+[group 5 733/878] GUI GANG FU SHENG 2016 -> code=Z3O IMO=1 TEU=None status=detail_no_teu
+[group 5 734/878] GUI GANG FU SHENG 398 -> code=WDK IMO=99999996 TEU=None status=detail_no_teu
+[group 5 736/878] GUI GANG FU SHENG 6898 -> code=LC6 IMO=20190331 TEU=None status=detail_no_teu
+[group 5 737/878] GUI GANG FU SHENG 6899 -> code=W7J IMO=20160411 TEU=None status=detail_no_teu
+[group 5 738/878] GUI GANG FU SHENG 698 -> code=WY5 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 739/878] GUI GANG FU SHENG 778 -> code=OVI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 740/878] GUI GANG FU SHENG 7888 -> code=W7K IMO=20160411 TEU=None status=detail_no_teu
+[group 5 741/878] GUI GANG FU SHENG 8089 -> code=W5Q IMO=20160315 TEU=None status=detail_no_teu
+[group 5 742/878] GUI GANG FU SHENG 8698 -> code=L77 IMO=1 TEU=None status=detail_no_teu
+[group 5 743/878] GUI GANG FU SHENG 888 -> code=W2N IMO=20151225 TEU=None status=detail_no_teu
+[group 5 744/878] GUI GANG FU SHENG 8888 -> code=WHY IMO=None TEU=None status=detail_no_teu
+[group 5 746/878] GUI GANG FU SHENG 8890 -> code=LGY IMO=9999996 TEU=None status=detail_no_teu
+[group 5 747/878] GUI GANG FU SHENG 998 -> code=LJN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 748/878] GUI GANG FU SHUN 308 -> code=XW9 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 749/878] GUI GANG FU SHUN 3668 -> code=WQ0 IMO=100810000333 TEU=None status=detail_no_teu
+[group 5 750/878] GUI GANG FU SHUN 8668 -> code=WHS IMO=99999996 TEU=None status=detail_no_teu
+[group 5 751/878] GUI GANG FU SHUN 933 -> code=WVA IMO=99999996 TEU=None status=detail_no_teu
+[group 5 754/878] GUI GANG GANG TAI 7698 -> code=W3Y IMO=20160308 TEU=None status=detail_no_teu
+[group 5 755/878] GUI GANG GANG TAI 8668 -> code=LTO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 756/878] GUI GANG GANG TAI 8806 -> code=W6U IMO=20160407 TEU=None status=detail_no_teu
+[group 5 758/878] GUI GANG GANG TAI 889 -> code=WKL IMO=99999996 TEU=None status=detail_no_teu
+[group 5 759/878] GUI GANG GANG TAI 9608 -> code=Z5C IMO=1 TEU=None status=detail_no_teu
+[group 5 760/878] GUI GANG GUI BIN HAI 666 -> code=LSO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 762/878] GUI GANG GUI LONG 119 -> code=L14 IMO=1 TEU=None status=detail_no_teu
+[group 5 763/878] GUI GANG GUI LONG 28 -> code=LNZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 765/878] GUI GANG GUI LONG 828 -> code=OYV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 766/878] GUI GANG HAI TAI 005 -> code=LOK IMO=9999996 TEU=None status=detail_no_teu
+[group 5 767/878] GUI GANG HAI TAI 3088 -> code=WDX IMO=99999996 TEU=None status=detail_no_teu
+[group 5 768/878] GUI GANG HAI TAI 698 -> code=WZT IMO=20150922 TEU=None status=detail_no_teu
+[group 5 769/878] GUI GANG HAI TAI 881 -> code=WWU IMO=20150409 TEU=None status=detail_no_teu
+[group 5 770/878] GUI GANG HAI TAI 889 -> code=WHC IMO=99999996 TEU=None status=detail_no_teu
+[group 5 773/878] GUI GANG HANG TAI 199 -> code=OZM IMO=9999996 TEU=None status=detail_no_teu
+[group 5 774/878] GUI GANG HANG TAI 286 -> code=LQ7 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 776/878] GUI GANG HANG TAI 5588 -> code=LIR IMO=9999996 TEU=None status=detail_no_teu
+[group 5 777/878] GUI GANG HANG TAI 688 -> code=LC7 IMO=1 TEU=None status=detail_no_teu
+[group 5 778/878] GUI GANG HANG XUN 001 -> code=OVB IMO=9999996 TEU=None status=detail_no_teu
+[group 5 779/878] GUI GANG HE SHUN 0018 -> code=LKF IMO=9999996 TEU=None status=detail_no_teu
+[group 5 780/878] GUI GANG HE SHUN 0238 -> code=LOL IMO=9999996 TEU=None status=detail_no_teu
+[group 5 781/878] GUI GANG HE SHUN 058 -> code=Z7Y IMO=1 TEU=None status=detail_no_teu
+[group 5 782/878] GUI GANG HE SHUN 268 -> code=LQA IMO=9999996 TEU=None status=detail_no_teu
+[group 5 783/878] GUI GANG HE SHUN 278 -> code=LM9 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 784/878] GUI GANG HE SHUN 39 -> code=LJE IMO=9999996 TEU=None status=detail_no_teu
+[group 5 785/878] GUI GANG HE SHUN 58 -> code=LOQ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 786/878] GUI GANG HE SHUN 658 -> code=WYA IMO=20150526 TEU=None status=detail_no_teu
+[group 5 787/878] GUI GANG HE SHUN 7398 -> code=L13 IMO=1 TEU=None status=detail_no_teu
+[group 5 788/878] GUI GANG HE SHUN 8168 -> code=W7D IMO=20160409 TEU=None status=detail_no_teu
+[group 5 789/878] GUI GANG HE SHUN 968 -> code=Z7U IMO=1 TEU=None status=detail_no_teu
+[group 5 790/878] GUI GANG HENG AN 08 -> code=LYK IMO=9999996 TEU=1 status=ok
+[group 5 792/878] GUI GANG HENG AN 3108 -> code=Z5J IMO=20170327 TEU=None status=detail_no_teu
+[group 5 793/878] GUI GANG HENG AN 3633 -> code=W1R IMO=20151105 TEU=None status=detail_no_teu
+[group 5 794/878] GUI GANG HENG AN 3638 -> code=W5U IMO=20160316 TEU=None status=detail_no_teu
+[group 5 795/878] GUI GANG HENG AN 3668 -> code=Z2Y IMO=1 TEU=None status=detail_no_teu
+[group 5 796/878] GUI GANG HENG AN 3688 -> code=WRR IMO=99999996 TEU=None status=detail_no_teu
+[group 5 797/878] GUI GANG HENG AN 3698 -> code=WPW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 798/878] GUI GANG HENG AN 3699 -> code=Z5B IMO=1 TEU=None status=detail_no_teu
+[group 5 800/878] GUI GANG HENG AN 6168 -> code=OEF IMO=9999996 TEU=1 status=ok
+[group 5 802/878] GUI GANG HENG AN 9798 -> code=Z4C IMO=1 TEU=None status=detail_no_teu
+[group 5 803/878] GUI GANG HENG TAI 3678 -> code=LIZ IMO=9999996 TEU=None status=detail_no_teu
+[group 5 804/878] GUI GANG HENG TAI 8268 -> code=LAT IMO=1 TEU=None status=detail_no_teu
+[group 5 806/878] GUI GANG HONG XIN 168 -> code=WF8 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 807/878] GUI GANG HONG XIN 1688 -> code=WIR IMO=100811000210 TEU=None status=detail_no_teu
+[group 5 808/878] GUI GANG HONG XIN 33 -> code=LT5 IMO=9999996 TEU=None status=detail_no_teu
+[group 5 809/878] GUI GANG HONG XIN 829 -> code=WF7 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 810/878] GUI GANG HONG XIN 8839 -> code=Z5K IMO=1 TEU=None status=detail_no_teu
+[group 5 811/878] GUI GANG HONG XING 58 -> code=OVK IMO=9999996 TEU=None status=detail_no_teu
+[group 5 813/878] GUI GANG HONG YUAN 228 -> code=WFA IMO=99999996 TEU=None status=detail_no_teu
+[group 5 814/878] GUI GANG HONG YUAN 333 -> code=W3T IMO=20160223 TEU=None status=detail_no_teu
+[group 5 815/878] GUI GANG HONG YUN 929 -> code=XIN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 816/878] GUI GANG HUA HAI 002 -> code=WNA IMO=None TEU=None status=detail_no_teu
+[group 5 817/878] GUI GANG HUA HAI 003 -> code=WJ9 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 818/878] GUI GANG HUA HAI 08 -> code=LRI IMO=9999996 TEU=None status=detail_no_teu
+[group 5 819/878] GUI GANG HUA HAI 1378 -> code=LHT IMO=9999996 TEU=None status=detail_no_teu
+[group 5 820/878] GUI GANG HUA HAI 1688 -> code=WIS IMO=None TEU=None status=detail_no_teu
+[group 5 821/878] GUI GANG HUA HAI 2020 -> code=LPV IMO=9999996 TEU=None status=detail_no_teu
+[group 5 822/878] GUI GANG HUA HAI 2288 -> code=W6H IMO=20011012 TEU=None status=detail_no_teu
+[group 5 823/878] GUI GANG HUA HAI 3688 -> code=WKM IMO=None TEU=None status=detail_no_teu
+[group 5 824/878] GUI GANG HUA HAI 668 -> code=WP0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 826/878] GUI GANG HUA HAI 882 -> code=Z2D IMO=1 TEU=None status=detail_no_teu
+[group 5 828/878] GUI GANG HUA HAI 8888 -> code=LDR IMO=9999996 TEU=None status=detail_no_teu
+[group 5 829/878] GUI GANG HUA HAI 889 -> code=WVW IMO=20150225 TEU=None status=detail_no_teu
+[group 5 830/878] GUI GANG HUA SHENG 3 -> code=OUN IMO=9999996 TEU=None status=detail_no_teu
+[group 5 833/878] GUI GANG JI XIANG 01 -> code=OHY IMO=9999996 TEU=None status=detail_no_teu
+[group 5 835/878] GUI GANG JIAN LING 1688 -> code=WHM IMO=100812000401 TEU=None status=detail_no_teu
+[group 5 836/878] GUI GANG JIAN LING 198 -> code=WIW IMO=100812000543 TEU=None status=detail_no_teu
+[group 5 837/878] GUI GANG JIAN NING 168 -> code=W0V IMO=20160720 TEU=None status=detail_no_teu
+[group 5 838/878] GUI GANG JIANG HAI 8693 -> code=WJX IMO=100812000697 TEU=None status=detail_no_teu
+[group 5 839/878] GUI GANG JIN HAI 2288 -> code=W6T IMO=20160407 TEU=None status=detail_no_teu
+[group 5 840/878] GUI GANG LIU SI 398 -> code=W28 IMO=20150050 TEU=None status=detail_no_teu
+[group 5 841/878] GUI GANG LIU SI 788 -> code=XNX IMO=20150073 TEU=None status=detail_no_teu
+[group 5 842/878] GUI GANG LIU SI 8968 -> code=WDL IMO=1008140000611 TEU=None status=detail_no_teu
+[group 5 843/878] GUI GANG MEI OU 028 -> code=WNQ IMO=None TEU=None status=detail_no_teu
+[group 5 844/878] GUI GANG MEI OU 388 -> code=WEC IMO=99999996 TEU=None status=detail_no_teu
+[group 5 845/878] GUI GANG MEI OU 968 -> code=WXF IMO=20150421 TEU=None status=detail_no_teu
+[group 5 846/878] GUI GANG NAN FANG 329 -> code=X63 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 847/878] GUI GANG NAN FANG 3628 -> code=W3C IMO=20160121 TEU=None status=detail_no_teu
+[group 5 848/878] GUI GANG NAN FANG 678 -> code=XJU IMO=999996 TEU=None status=detail_no_teu
+[group 5 849/878] GUI GANG NAN FANG 806 -> code=WGO IMO=99999996 TEU=None status=detail_no_teu
+[group 5 850/878] GUI GANG NAN FANG 8699 -> code=WMV IMO=99999996 TEU=None status=detail_no_teu
+[group 5 851/878] GUI GANG NAN HANG 3608 -> code=LHM IMO=9999996 TEU=None status=detail_no_teu
+[group 5 853/878] GUI GANG NAN HANG 6666 -> code=LHO IMO=9999996 TEU=None status=detail_no_teu
+[group 5 854/878] GUI GANG QI SI 3358 -> code=XOZ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 855/878] GUI GANG QI SI 828 -> code=XJM IMO=999996 TEU=None status=detail_no_teu
+[group 5 856/878] GUI GANG QI SI 8668 -> code=WI0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 858/878] GUI GANG SAN SI 528 -> code=XNP IMO=20150188 TEU=None status=detail_no_teu
+[group 5 859/878] GUI GANG SAN SI 6388 -> code=XUZ IMO=99999996 TEU=None status=detail_no_teu
+[group 5 860/878] GUI GANG SAN SI 6689 -> code=WFF IMO=99999996 TEU=None status=detail_no_teu
+[group 5 862/878] GUI GANG SAN SI 869 -> code=XIY IMO=99999996 TEU=None status=detail_no_teu
+[group 5 863/878] GUI GANG SI SI 1358 -> code=WTV IMO=20150201 TEU=None status=detail_no_teu
+[group 5 864/878] GUI GANG SI SI 4996 -> code=WLK IMO=100812000009 TEU=None status=detail_no_teu
+[group 5 865/878] GUI GANG SI SI 6666 -> code=XWI IMO=20150067 TEU=None status=detail_no_teu
+[group 5 866/878] GUI GANG SI SI 869 -> code=WJV IMO=None TEU=None status=detail_no_teu
+[group 5 867/878] GUI GANG SI SI 8769 -> code=WV2 IMO=20150017 TEU=None status=detail_no_teu
+[group 5 868/878] GUI GANG SI SI 966 -> code=WV1 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 869/878] GUI GANG TIAN YOU 012 -> code=XHJ IMO=999996 TEU=None status=detail_no_teu
+[group 5 870/878] GUI GANG TIAN YOU 033 -> code=XTB IMO=20150031 TEU=None status=detail_no_teu
+[group 5 871/878] GUI GANG TIAN YOU 158 -> code=XPZ IMO=20150023 TEU=None status=detail_no_teu
+[group 5 872/878] GUI GANG TIAN YOU 233 -> code=WYI IMO=20150617 TEU=None status=detail_no_teu
+[group 5 873/878] GUI GANG TIAN YOU 2398 -> code=LFW IMO=9999996 TEU=None status=detail_no_teu
+[group 5 874/878] GUI GANG TIAN YOU 3099 -> code=WXM IMO=20150430 TEU=None status=detail_no_teu
+[group 5 875/878] GUI GANG TIAN YOU 333 -> code=XT0 IMO=99999996 TEU=None status=detail_no_teu
+[group 5 876/878] GUI GANG TIAN YOU 518 -> code=XVE IMO=20150173 TEU=None status=detail_no_teu
+[group 5 877/878] GUI GANG TIAN YOU 818 -> code=WV5 IMO=99999996 TEU=None status=detail_no_teu
+group 5: saved xlsx -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_05_result_260311234245.xlsx
+group 5: saved json -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_05_result_260311234245.json

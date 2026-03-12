@@ -2,8 +2,8 @@ name: capaStudy Daily Pipeline
 
 on:
   schedule:
-    # 08:00 Asia/Shanghai = 00:00 UTC
-    - cron: "0 0 * * *"
+    # 08:45 Asia/Shanghai = 00:45 UTC
+    - cron: "45 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -52,12 +52,12 @@ jobs:
           CSL_HEADLESS=1
           EOF
 
-      - name: Run fetch + merge (CSL BACK flow)
+      - name: Run fetch only (CSL BACK flow)
         id: pipeline
         shell: bash
         run: |
           set +e
-          python run_pipeline.py
+          python run_pipeline.py --only-fetch
           status=$?
           set -e
 
@@ -74,11 +74,6 @@ jobs:
           echo "token_failed=$token_failed" >> "$GITHUB_OUTPUT"
           echo "Pipeline status=$status, token_failed=$token_failed, latest_log=$latest_log"
           exit 0
-
-      - name: Sync current to RDS
-        if: steps.pipeline.outputs.status == '0'
-        run: |
-          python sync_to_rds.py --mode current
 
       - name: Send token-expired email
         if: steps.pipeline.outputs.status != '0' && steps.pipeline.outputs.token_failed == '1'

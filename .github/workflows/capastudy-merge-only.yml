@@ -2,9 +2,12 @@ name: capaStudy Daily Merge Only
 
 on:
   schedule:
-    # 08:30 Asia/Shanghai = 00:30 UTC
-    - cron: "30 0 * * *"
+    # 09:15 Asia/Shanghai = 01:15 UTC
+    - cron: "15 1 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-merge-only:
@@ -78,6 +81,26 @@ jobs:
         if: steps.merge.outputs.status == '0'
         run: |
           python sync_to_rds.py --mode current
+
+      - name: Commit updated vessels_db.xlsx
+        if: steps.merge.outputs.status == '0'
+        shell: bash
+        run: |
+          if [[ ! -f "vessels/vessels_db.xlsx" ]]; then
+            echo "vessels/vessels_db.xlsx not found, skip commit."
+            exit 0
+          fi
+
+          if git diff --quiet -- vessels/vessels_db.xlsx; then
+            echo "No changes in vessels/vessels_db.xlsx, skip commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vessels/vessels_db.xlsx
+          git commit -m "chore(vessels): update vessels_db.xlsx [skip ci]"
+          git push
 
       - name: Send token-expired email
         if: steps.merge.outputs.status != '0' && steps.merge.outputs.token_failed == '1'

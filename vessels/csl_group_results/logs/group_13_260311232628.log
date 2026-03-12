@@ -1,0 +1,522 @@
+[group 13 8/878] ONE MUNCHEN -> code=M11 IMO=9706750 TEU=None status=detail_no_teu
+[group 13 9/878] ONE OLYMPUS -> code=NHX IMO=9312987 TEU=None status=detail_no_teu
+[group 13 10/878] ONE ORPHEUS -> code=NHY IMO=9313008 TEU=8200 status=ok
+[group 13 13/878] ONE REASSURANCE -> code=MRD IMO=9952696 TEU=None status=detail_no_teu
+[group 13 16/878] ONE REINFORCEMENT -> code=MXK IMO=9952725 TEU=None status=detail_no_teu
+[group 13 17/878] ONE RELIABILITY -> code=MXL IMO=9952737 TEU=None status=detail_no_teu
+[group 13 19/878] ONE RESOLUTION -> code=D68 IMO=9952763 TEU=None status=detail_no_teu
+[group 13 20/878] ONE THESEUS -> code=QA5 IMO=9356701 TEU=5704 status=ok
+[group 13 22/878] ONE TREASURE -> code=DC7 IMO=9773222 TEU=None status=detail_no_teu
+[group 13 24/878] ONGPENG66 -> code=S5F IMO=89754647 TEU=None status=detail_no_teu
+[group 13 26/878] ONUR G.A -> code=1WJ IMO=9238076 TEU=None status=detail_no_teu
+[group 13 30/878] OOCL AMBITION -> code=SJJ IMO=9159866 TEU=None status=detail_no_teu
+[group 13 38/878] OOCL BAUHINIA -> code=MZK IMO=9949716 TEU=None status=detail_no_teu
+[group 13 40/878] OOCL BELGIUM -> code=NHG IMO=9169419 TEU=2992 status=ok
+[group 13 50/878] OOCL CHARLESTON -> code=RLI IMO=9461790 TEU=4578 status=ok
+[group 13 53/878] OOCL CHINA -> code=RWS IMO=9108178 TEU=None status=detail_no_teu
+[group 13 59/878] OOCL ENVOY -> code=AGH IMO=99999996 TEU=None status=detail_no_teu
+[group 13 60/878] OOCL EUROPE -> code=SP6 IMO=9300805 TEU=8063 status=ok
+[group 13 64/878] OOCL FIDELITY -> code=RJO IMO=111111111 TEU=None status=detail_no_teu
+[group 13 70/878] OOCL GDYNIA -> code=MHO IMO=9908102 TEU=24188 status=ok
+[group 13 80/878] OOCL ISTANBUL -> code=QNJ IMO=9999996 TEU=4253 status=ok
+[group 13 84/878] OOCL KEELUNG -> code=RG8 IMO=999996 TEU=None status=detail_no_teu
+[group 13 88/878] OOCL KYUSHU -> code=AND IMO=9999996 TEU=None status=detail_no_teu
+[group 13 90/878] OOCL LE HAVRE -> code=QJM IMO=9404857 TEU=4578 status=ok
+[group 13 95/878] OOCL MELBOURNE -> code=RMD IMO=9999996 TEU=None status=detail_no_teu
+[group 13 100/878] OOCL NAGOYA -> code=QDL IMO=9445538 TEU=4578 status=ok
+[group 13 105/878] OOCL NOVGOROD -> code=UBQ IMO=999999999999999 TEU=None status=detail_no_teu
+[group 13 107/878] OOCL PANAMA -> code=RGT IMO=9355769 TEU=None status=detail_no_teu
+[group 13 110/878] OOCL ROTTERDAM -> code=NK8 IMO=9251999 TEU=8063 status=ok
+[group 13 115/878] OOCL SHANGHAI -> code=RWV IMO=9198111 TEU=None status=detail_no_teu
+[group 13 120/878] OOCL SUNFLOWER -> code=DAY IMO=9949728 TEU=None status=detail_no_teu
+[group 13 123/878] OOCL THAILAND -> code=AFK IMO=99999996 TEU=None status=detail_no_teu
+[group 13 130/878] OOCL VERACRUZ -> code=MWF IMO=9979266 TEU=5920 status=ok
+[group 13 132/878] OOCL VIOLET -> code=DD6 IMO=9949778 TEU=None status=detail_no_teu
+[group 13 136/878] OPDR CADIZ -> code=UCJ IMO=9216858 TEU=None status=detail_no_teu
+[group 13 138/878] OPDR LISBON -> code=UBO IMO=999999999 TEU=None status=detail_no_teu
+[group 13 139/878] OPDR TENERIFE -> code=UCL IMO=9216846 TEU=None status=detail_no_teu
+[group 13 140/878] OPHELIA -> code=NDK IMO=9765586 TEU=1559 status=ok
+[group 13 142/878] ORA BHUM -> code=AN5 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 147/878] ORIANNA -> code=BG7 IMO=9261085 TEU=None status=detail_no_teu
+[group 13 149/878] ORIENT ENTERPRISE -> code=AP1 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 150/878] ORIENT EXCELLENCE -> code=AQ6 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 151/878] ORIENT FREEDOM -> code=AN8 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 152/878] ORIENT GRACE -> code=AS1 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 153/878] ORIENT SPIRIT -> code=UV5 IMO=9117777 TEU=None status=detail_no_teu
+[group 13 154/878] ORIENT VICTORY -> code=AK4 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 156/878] ORIENTAL GOLD -> code=BEF IMO=9399870 TEU=None status=detail_no_teu
+[group 13 157/878] ORIENTAL PACIFIC -> code=BCZ IMO=9548964 TEU=None status=detail_no_teu
+[group 13 158/878] ORIENTAL SAMUDRA -> code=BCM IMO=9563964 TEU=None status=detail_no_teu
+[group 13 160/878] ORION -> code=A4F IMO=9143415 TEU=700 status=ok
+[group 13 162/878] ORITA -> code=RKR IMO=9318931 TEU=None status=detail_no_teu
+[group 13 164/878] ORSHA NANCHANG RAIL 1 -> code=OR1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 165/878] ORSHA NANCHANG RAIL 2 -> code=OR2 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 168/878] OS MARMARIS -> code=Q73 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 170/878] OSAKA EXPRESS -> code=SHB IMO=9320697 TEU=8749 status=ok
+[group 13 175/878] OSG BOSSTEC -> code=SPM IMO=9358008 TEU=None status=detail_no_teu
+[group 13 176/878] OSHAIRIJ -> code=OS2 IMO=9416018 TEU=None status=detail_no_teu
+[group 13 177/878] OSLO TRADER -> code=BAB IMO=9817925 TEU=None status=detail_no_teu
+[group 13 178/878] OSNABRUCK -> code=AUY IMO=99999996 TEU=None status=detail_no_teu
+[group 13 180/878] OTANA BHUM -> code=NX1 IMO=9338319 TEU=1022 status=ok
+[group 13 184/878] OUED ZIZ -> code=PD1 IMO=9143855 TEU=None status=detail_no_teu
+[group 13 187/878] P O NEDLLOYD SINGAPORE -> code=AK8 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 188/878] P O NEDLLOYD THEKWINI -> code=AL0 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 190/878] P&O NEDLLOYD -> code=SII IMO=210098 TEU=None status=detail_no_teu
+[group 13 194/878] P&O NEDLLOYD OLINDA -> code=SJN IMO=9210050 TEU=None status=detail_no_teu
+[group 13 196/878] P&O NEDLLOYD SOUTHAMPTON -> code=UD8 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 200/878] PAC AQUIRIUS -> code=PAC IMO=564683000 TEU=None status=detail_no_teu
+[group 13 201/878] PAC ARIES -> code=AXV IMO=9999997 TEU=None status=detail_no_teu
+[group 13 204/878] PAC BANGKA -> code=ABJ IMO=99999996 TEU=None status=detail_no_teu
+[group 13 206/878] PAC CERGAS -> code=A7P IMO=9999996 TEU=None status=detail_no_teu
+[group 13 207/878] PAC EXPRESS -> code=AIT IMO=99999996 TEU=None status=detail_no_teu
+[group 13 208/878] PAC KALIMANTAN -> code=AUQ IMO=9999997 TEU=None status=detail_no_teu
+[group 13 210/878] PAC MAKASSAR -> code=AFG IMO=9999996 TEU=None status=detail_no_teu
+[group 13 211/878] PAC NATUNA -> code=AOY IMO=99999996 TEU=None status=detail_no_teu
+[group 13 212/878] PAC PALAWAN -> code=AFN IMO=99999996 TEU=None status=detail_no_teu
+[group 13 213/878] PAC RUPAT -> code=AKJ IMO=99999996 TEU=None status=detail_no_teu
+[group 13 214/878] PAC SULU -> code=AO0 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 216/878] PACER -> code=AFL IMO=99999996 TEU=None status=detail_no_teu
+[group 13 217/878] PACHUCA -> code=UX3 IMO=9344253 TEU=None status=detail_no_teu
+[group 13 218/878] PACIFIC CONDOR -> code=NFS IMO=9216339 TEU=None status=detail_no_teu
+[group 13 220/878] PACIFIC DIAMOND -> code=AKZ IMO=99999996 TEU=None status=detail_no_teu
+[group 13 222/878] PACIFIC EXPRESS -> code=A71 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 223/878] PACIFIC GLORIA -> code=RD9 IMO=9150858 TEU=None status=detail_no_teu
+[group 13 226/878] PACIFIC MONACO -> code=UH3 IMO=935110 TEU=None status=detail_no_teu
+[group 13 227/878] PACIFIC OSPREY -> code=AID IMO=99999996 TEU=None status=detail_no_teu
+[group 13 228/878] PACIFIC PEARL -> code=RR5 IMO=9150858 TEU=None status=detail_no_teu
+[group 13 230/878] PACIFIC RESOL -> code=AVT IMO=99999996 TEU=None status=detail_no_teu
+[group 13 234/878] PACIFIC SUN 2 -> code=BFD IMO=9999996 TEU=None status=detail_no_teu
+[group 13 235/878] PACIFIC SUN 3 -> code=S7W IMO=525003455 TEU=None status=detail_no_teu
+[group 13 236/878] PACIFIC SUN 5 -> code=S8Y IMO=525003319 TEU=None status=detail_no_teu
+[group 13 240/878] PACON -> code=TCJ IMO=6360205 TEU=1200 status=ok
+[group 13 248/878] PAGO -> code=S3H IMO=8787878 TEU=None status=detail_no_teu
+[group 13 249/878] PAHALA -> code=BD4 IMO=9419589 TEU=None status=detail_no_teu
+[group 13 250/878] PALATIA -> code=RN1 IMO=9999996 TEU=2520 status=ok
+[group 13 252/878] PALEMBANG CARAKA JAYA NIAGA II -> code=NHL IMO=9189562 TEU=None status=detail_no_teu
+[group 13 257/878] PALUNG MAS -> code=ABH IMO=99999996 TEU=None status=detail_no_teu
+[group 13 260/878] PAN HE -> code=CMM IMO=99999996 TEU=725 status=ok
+[group 13 261/878] PAN YUN 117 -> code=ZXE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 262/878] PAN YUN 121 -> code=ZLU IMO=99999996 TEU=None status=detail_no_teu
+[group 13 263/878] PAN YUN 122 -> code=WAD IMO=99999996 TEU=None status=detail_no_teu
+[group 13 264/878] PAN YUN 123 -> code=XYQ IMO=99999996 TEU=None status=detail_no_teu
+[group 13 265/878] PAN YUN 126 -> code=ZKE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 266/878] PAN YUN 178 -> code=W2M IMO=6524745 TEU=None status=detail_no_teu
+[group 13 270/878] PANAY -> code=BGI IMO=9937373 TEU=1338 status=ok
+[group 13 272/878] PANCON AMETHYST -> code=ACK IMO=99999996 TEU=None status=detail_no_teu
+[group 13 274/878] PANCON DIAMOND -> code=ACU IMO=99999996 TEU=None status=detail_no_teu
+[group 13 275/878] PANCON EMERALD -> code=AW7 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 276/878] PANCON EXPRESS -> code=RFB IMO=8301709 TEU=None status=detail_no_teu
+[group 13 277/878] PANCON GRANITE -> code=ABO IMO=99999996 TEU=None status=detail_no_teu
+[group 13 278/878] PANCON JADE -> code=ALF IMO=99999996 TEU=None status=detail_no_teu
+[group 13 279/878] PANCON PROGRESS -> code=AZ9 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 280/878] PANCON RUBY -> code=AQ7 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 281/878] PANCON SUNSHINE -> code=S5T IMO=9749128 TEU=None status=detail_no_teu
+[group 13 282/878] PANCON VICTORY -> code=S4T IMO=9749116 TEU=None status=detail_no_teu
+[group 13 283/878] PANDA 002 -> code=UCP IMO=9328053 TEU=None status=detail_no_teu
+[group 13 284/878] PANDA 003 -> code=UW6 IMO=9968891 TEU=None status=detail_no_teu
+[group 13 286/878] PANG CHEONG -> code=ZW6 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 287/878] PANG CHING 8 -> code=ZSW IMO=99999996 TEU=None status=detail_no_teu
+[group 13 289/878] PANTHER -> code=NF5 IMO=9138276 TEU=None status=detail_no_teu
+[group 13 290/878] PANTONIO -> code=U99 IMO=9440576 TEU=None status=detail_no_teu
+[group 13 295/878] PAPUAN CHIEF -> code=NSZ IMO=9689964 TEU=None status=detail_no_teu
+[group 13 296/878] PAPUAN GULF -> code=R40 IMO=2626 TEU=None status=detail_no_teu
+[group 13 300/878] PARANGA -> code=PRN IMO=8918435 TEU=395 status=ok
+[group 13 302/878] PARKGRACHT -> code=SIE IMO=1011121 TEU=None status=detail_no_teu
+[group 13 303/878] PATHEIN STAR -> code=UH8 IMO=9064762 TEU=None status=detail_no_teu
+[group 13 305/878] PATRICIA SCHULTE -> code=SYH IMO=9294185 TEU=None status=detail_no_teu
+[group 13 306/878] PAUL ABRAO -> code=PQ5 IMO=9135925 TEU=None status=detail_no_teu
+[group 13 308/878] PAVO J -> code=POJ IMO=9355458 TEU=None status=detail_no_teu
+[group 13 310/878] PCE MADEIRA -> code=UE7 IMO=9060273 TEU=None status=detail_no_teu
+[group 13 311/878] PDZ MAJU -> code=ANA IMO=99999996 TEU=None status=detail_no_teu
+[group 13 312/878] PDZ MASYHUR -> code=AUE IMO=9169720 TEU=None status=detail_no_teu
+[group 13 313/878] PDZ MEWAH -> code=AXO IMO=99999996 TEU=None status=detail_no_teu
+[group 13 314/878] PDZ MUTIARA -> code=AUG IMO=99999996 TEU=None status=detail_no_teu
+[group 13 318/878] PEGASUS J -> code=UEC IMO=9355434 TEU=None status=detail_no_teu
+[group 13 320/878] PEGASUS. -> code=PS8 IMO=9387594 TEU=None status=detail_no_teu
+[group 13 323/878] PELAGICA -> code=BF1 IMO=9453781 TEU=None status=detail_no_teu
+[group 13 324/878] PELICAN -> code=A3R IMO=9626560 TEU=None status=detail_no_teu
+[group 13 326/878] PELION -> code=MQM IMO=9967407 TEU=None status=detail_no_teu
+[group 13 328/878] PENAGA WARNI -> code=TMU IMO=6417098 TEU=None status=detail_no_teu
+[group 13 330/878] PENANG SENATOR -> code=SL9 IMO=99999996 TEU=4545 status=ok
+[group 13 333/878] PENG CHENG 6889 -> code=LC0 IMO=1 TEU=None status=detail_no_teu
+[group 13 336/878] PENG SHAN -> code=YK1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 337/878] PENG XIANG 89 -> code=MWQ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 340/878] PENG ZHAN XUAN SHENG -> code=D2H IMO=9999996 TEU=760 status=ok
+[group 13 341/878] PENGALIA -> code=U97 IMO=9440588 TEU=None status=detail_no_teu
+[group 13 343/878] PENGXIANG69 -> code=2E2 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 345/878] PERAK -> code=AC2 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 346/878] PERFECT 22 -> code=A9S IMO=9999996 TEU=None status=detail_no_teu
+[group 13 348/878] PERLA -> code=A6I IMO=9374129 TEU=None status=detail_no_teu
+[group 13 349/878] PERMAI 3 -> code=AY5 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 350/878] PERSEUS -> code=RQD IMO=9371414 TEU=700 status=ok
+[group 13 351/878] PERTH BRIDGE -> code=AL4 IMO=9236341 TEU=None status=detail_no_teu
+[group 13 353/878] PETALIDI -> code=PJ4 IMO=9071272 TEU=None status=detail_no_teu
+[group 13 354/878] PETAR BERON -> code=PH5 IMO=47000026 TEU=None status=detail_no_teu
+[group 13 357/878] PHILEMON -> code=A4L IMO=9999996 TEU=None status=detail_no_teu
+[group 13 358/878] PHILIP -> code=RYX IMO=8908519 TEU=None status=detail_no_teu
+[group 13 359/878] PHOENIX -> code=AGE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 360/878] PHOENIX HUNTER -> code=A3X IMO=9999996 TEU=None status=detail_no_teu
+[group 13 363/878] PHONG CHAU -> code=AC5 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 364/878] PHU MY -> code=AFD IMO=99999996 TEU=None status=detail_no_teu
+[group 13 365/878] PHU TAN -> code=AZ3 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 366/878] PHUC THAI -> code=BA4 IMO=9358527 TEU=None status=detail_no_teu
+[group 13 367/878] PHUOC LONG 10 -> code=PL0 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 368/878] PHUOC LONG 12 -> code=BBB IMO=9999996 TEU=None status=detail_no_teu
+[group 13 370/878] PHUOC LONG 18 -> code=PL1 IMO=None TEU=75 status=ok
+[group 13 380/878] PHUOC LONG 6 -> code=L06 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 383/878] PHUOC LONG 8 -> code=A9G IMO=9999996 TEU=None status=detail_no_teu
+[group 13 386/878] PHUOC THANH 01 -> code=D94 IMO=8953966 TEU=None status=detail_no_teu
+[group 13 390/878] PINE BRIDGE -> code=SKL IMO=9999996 TEU=5551 status=ok
+[group 13 391/878] PING AN 05 -> code=XE3 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 392/878] PING AN 06 -> code=XI7 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 393/878] PING AN 08 -> code=XAM IMO=99999996 TEU=None status=detail_no_teu
+[group 13 394/878] PING AN 089 -> code=XQA IMO=20150080 TEU=None status=detail_no_teu
+[group 13 395/878] PING AN 1318 -> code=WOU IMO=None TEU=None status=detail_no_teu
+[group 13 396/878] PING AN 32 -> code=XEW IMO=9999996 TEU=None status=detail_no_teu
+[group 13 397/878] PING AN 513 -> code=XWP IMO=20150069 TEU=None status=detail_no_teu
+[group 13 398/878] PING AN 517 -> code=XKZ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 399/878] PING AN 518 -> code=XPH IMO=20150018 TEU=None status=detail_no_teu
+[group 13 400/878] PING AN 535 -> code=XLG IMO=20150176 TEU=None status=detail_no_teu
+[group 13 401/878] PING AN 58 -> code=XLN IMO=20150178 TEU=None status=detail_no_teu
+[group 13 402/878] PING AN 589 -> code=XFF IMO=999996 TEU=None status=detail_no_teu
+[group 13 403/878] PING AN 617 -> code=XAA IMO=99999996 TEU=None status=detail_no_teu
+[group 13 404/878] PING AN 626 -> code=XZ8 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 405/878] PING AN 63 -> code=XY1 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 406/878] PING AN 639 -> code=XVD IMO=20150098 TEU=None status=detail_no_teu
+[group 13 407/878] PING AN 669 -> code=WJI IMO=99999996 TEU=None status=detail_no_teu
+[group 13 408/878] PING AN 67 -> code=XE9 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 409/878] PING AN 68 -> code=X69 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 410/878] PING AN 689 -> code=W38 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 411/878] PING AN 713 -> code=XNL IMO=9999996 TEU=None status=detail_no_teu
+[group 13 412/878] PING AN 722 -> code=XNA IMO=9999996 TEU=None status=detail_no_teu
+[group 13 413/878] PING AN 7856 -> code=WML IMO=None TEU=None status=detail_no_teu
+[group 13 414/878] PING AN 818 -> code=XEH IMO=9999996 TEU=None status=detail_no_teu
+[group 13 415/878] PING AN 85 -> code=XAP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 416/878] PING AN 858 -> code=WQE IMO=999996 TEU=None status=detail_no_teu
+[group 13 417/878] PING AN 866 -> code=WG8 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 418/878] PING AN 929 -> code=WRG IMO=999996 TEU=None status=detail_no_teu
+[group 13 420/878] PING AN SONG -> code=PAS IMO=9608946 TEU=None status=detail_no_teu
+[group 13 421/878] PING NAN 168 -> code=Z8Y IMO=1 TEU=None status=detail_no_teu
+[group 13 422/878] PING NAN 338 -> code=XWN IMO=9999996 TEU=None status=detail_no_teu
+[group 13 423/878] PING NAN DONG SHUN 666 -> code=OUQ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 424/878] PING NAN DONG SHUN 688 -> code=LTN IMO=9999996 TEU=None status=detail_no_teu
+[group 13 430/878] PING NAN FU YUE 778 -> code=OSO IMO=9999996 TEU=1 status=ok
+[group 13 431/878] PING NAN FU YUE 8298 -> code=OVT IMO=9999996 TEU=None status=detail_no_teu
+[group 13 436/878] PING NAN HAI YU 0325 -> code=WGV IMO=None TEU=None status=detail_no_teu
+[group 13 437/878] PING NAN HAI YU 0388 -> code=WBJ IMO=100811000488 TEU=None status=detail_no_teu
+[group 13 438/878] PING NAN HAI YU 0398 -> code=WZJ IMO=20150825 TEU=None status=detail_no_teu
+[group 13 440/878] PING NAN HAI YU 1668 -> code=WON IMO=None TEU=None status=detail_no_teu
+[group 13 441/878] PING NAN HAI YU 2308 -> code=W6F IMO=20160328 TEU=None status=detail_no_teu
+[group 13 442/878] PING NAN HAI YU 2363 -> code=WGZ IMO=None TEU=None status=detail_no_teu
+[group 13 443/878] PING NAN HAI YU 2379 -> code=WV9 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 444/878] PING NAN HAI YU 2688 -> code=WOO IMO=99999996 TEU=None status=detail_no_teu
+[group 13 445/878] PING NAN HAI YU 3266 -> code=WKW IMO=99999996 TEU=None status=detail_no_teu
+[group 13 446/878] PING NAN HAI YU 333 -> code=WW4 IMO=100811000421 TEU=None status=detail_no_teu
+[group 13 447/878] PING NAN HAI YU 638 -> code=WRJ IMO=None TEU=None status=detail_no_teu
+[group 13 448/878] PING NAN HAI YU 6668 -> code=Z5G IMO=1 TEU=None status=detail_no_teu
+[group 13 449/878] PING NAN HAI YU 668 -> code=XKU IMO=100808000500 TEU=None status=detail_no_teu
+[group 13 450/878] PING NAN HAI YU 999 -> code=WFE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 451/878] PING NAN HUA SHUN 2288 -> code=LDN IMO=9999996 TEU=None status=detail_no_teu
+[group 13 453/878] PING NAN HUA SHUN 663 -> code=Z5M IMO=1 TEU=None status=detail_no_teu
+[group 13 455/878] PING NAN HUA SHUN 8868 -> code=LM7 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 456/878] PING NAN HUA XIANG 002 -> code=WR6 IMO=100811000456 TEU=None status=detail_no_teu
+[group 13 457/878] PING NAN HUA XIANG 063 -> code=LO6 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 458/878] PING NAN HUA XIANG 099 -> code=Z90 IMO=None TEU=None status=detail_no_teu
+[group 13 459/878] PING NAN HUA XIANG 168 -> code=XWT IMO=99999996 TEU=None status=detail_no_teu
+[group 13 460/878] PING NAN HUA XIANG 228 -> code=XWM IMO=100809000289 TEU=None status=detail_no_teu
+[group 13 461/878] PING NAN HUA XIANG 268 -> code=WZ5 IMO=20150157 TEU=None status=detail_no_teu
+[group 13 462/878] PING NAN HUA XIANG 339 -> code=WLB IMO=20115300555 TEU=None status=detail_no_teu
+[group 13 463/878] PING NAN HUA XIANG 368 -> code=XOH IMO=99999996 TEU=None status=detail_no_teu
+[group 13 465/878] PING NAN HUA XIANG 389 -> code=LLW IMO=9999996 TEU=None status=detail_no_teu
+[group 13 466/878] PING NAN HUA XIANG 689 -> code=W2G IMO=20151211 TEU=None status=detail_no_teu
+[group 13 467/878] PING NAN HUA XIANG 698 -> code=WHB IMO=99999996 TEU=None status=detail_no_teu
+[group 13 468/878] PING NAN HUA XIANG 699 -> code=LNM IMO=6666669 TEU=None status=detail_no_teu
+[group 13 470/878] PING NAN HUA XIANG 780 -> code=Z2F IMO=1 TEU=None status=detail_no_teu
+[group 13 471/878] PING NAN HUA XIANG 793 -> code=LQI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 472/878] PING NAN HUA XIANG 806 -> code=Z3X IMO=1 TEU=None status=detail_no_teu
+[group 13 473/878] PING NAN HUA XIANG 826 -> code=W0Q IMO=20160707 TEU=None status=detail_no_teu
+[group 13 474/878] PING NAN HUA XIANG 863 -> code=W5W IMO=20160323 TEU=None status=detail_no_teu
+[group 13 475/878] PING NAN HUA XIANG 963 -> code=LTP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 476/878] PING NAN HUA XIANG 969 -> code=WLD IMO=99999996 TEU=None status=detail_no_teu
+[group 13 477/878] PING NAN HUA XIANG 980 -> code=WKH IMO=99999996 TEU=None status=detail_no_teu
+[group 13 480/878] PING NAN JUN XING 88888 -> code=LRJ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 484/878] PING NAN RONG DA 3589 -> code=OZN IMO=9999996 TEU=None status=detail_no_teu
+[group 13 490/878] PING NAN RONG DA 8898 -> code=OJQ IMO=9999996 TEU=1 status=ok
+[group 13 492/878] PING NAN RUN FA 2668 -> code=LMZ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 499/878] PING NAN RUN FA 8888 -> code=LIB IMO=9999996 TEU=None status=detail_no_teu
+[group 13 500/878] PING NAN SHUN HUI 1668 -> code=LMN IMO=9999996 TEU=None status=detail_no_teu
+[group 13 501/878] PING NAN SHUN HUI 298 -> code=WPF IMO=9999996 TEU=None status=detail_no_teu
+[group 13 505/878] PING NAN SHUN YING 9888 -> code=OZK IMO=9999996 TEU=None status=detail_no_teu
+[group 13 506/878] PING NAN TENG SHUN 138 -> code=LRY IMO=9999996 TEU=None status=detail_no_teu
+[group 13 508/878] PING NAN TENG SHUN 668 -> code=LGR IMO=9999996 TEU=None status=detail_no_teu
+[group 13 510/878] PING NAN TENG SHUN 8089 -> code=LVK IMO=9999996 TEU=1 status=ok
+[group 13 511/878] PING NAN TENG SHUN 868 -> code=LGM IMO=9999996 TEU=None status=detail_no_teu
+[group 13 513/878] PING NAN XIONG LI 08 -> code=LTC IMO=9999996 TEU=None status=detail_no_teu
+[group 13 515/878] PING NAN XIONG LI 136 -> code=LTJ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 517/878] PING NAN XIONG LI 339 -> code=OZ6 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 520/878] PING NAN XIONG LI 6668 -> code=OF8 IMO=9999996 TEU=1 status=ok
+[group 13 521/878] PING NAN XIONG LI 815 -> code=LM5 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 522/878] PING NAN XIONG LI 88 -> code=LKG IMO=9999996 TEU=None status=detail_no_teu
+[group 13 523/878] PING NAN XIONG LI 889 -> code=LSY IMO=9999996 TEU=None status=detail_no_teu
+[group 13 524/878] PING NAN XIONG LI 9999 -> code=OWT IMO=9999996 TEU=None status=detail_no_teu
+[group 13 525/878] PING NAN YONG JIA 008 -> code=LBH IMO=1 TEU=None status=detail_no_teu
+[group 13 526/878] PING NAN YONG JIA 016 -> code=WBX IMO=99999996 TEU=None status=detail_no_teu
+[group 13 527/878] PING NAN YONG JIA 018 -> code=WT4 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 528/878] PING NAN YONG JIA 0388 -> code=WR0 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 529/878] PING NAN YONG JIA 0389 -> code=WE6 IMO=20150059 TEU=None status=detail_no_teu
+[group 13 530/878] PING NAN YONG JIA 0398 -> code=WCE IMO=20150128 TEU=None status=detail_no_teu
+[group 13 531/878] PING NAN YONG JIA 0633 -> code=WG6 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 532/878] PING NAN YONG JIA 088 -> code=WX8 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 533/878] PING NAN YONG JIA 1268 -> code=W0N IMO=20160701 TEU=None status=detail_no_teu
+[group 13 534/878] PING NAN YONG JIA 1388 -> code=WDN IMO=99999996 TEU=None status=detail_no_teu
+[group 13 535/878] PING NAN YONG JIA 2222 -> code=WH0 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 536/878] PING NAN YONG JIA 229 -> code=WCX IMO=99999996 TEU=None status=detail_no_teu
+[group 13 537/878] PING NAN YONG JIA 268 -> code=WZ9 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 538/878] PING NAN YONG JIA 288 -> code=W6V IMO=20160407 TEU=None status=detail_no_teu
+[group 13 539/878] PING NAN YONG JIA 298 -> code=WTA IMO=99999996 TEU=None status=detail_no_teu
+[group 13 540/878] PING NAN YONG JIA 306 -> code=WLE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 541/878] PING NAN YONG JIA 316 -> code=WB5 IMO=100809000288 TEU=None status=detail_no_teu
+[group 13 542/878] PING NAN YONG JIA 3233 -> code=XJQ IMO=99999996 TEU=None status=detail_no_teu
+[group 13 543/878] PING NAN YONG JIA 3333 -> code=WFD IMO=99999996 TEU=None status=detail_no_teu
+[group 13 544/878] PING NAN YONG JIA 6068 -> code=LB2 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 545/878] PING NAN YONG JIA 6088 -> code=L47 IMO=1 TEU=None status=detail_no_teu
+[group 13 546/878] PING NAN YONG JIA 6608 -> code=WXO IMO=20150430 TEU=None status=detail_no_teu
+[group 13 547/878] PING NAN YONG JIA 666 -> code=XUJ IMO=20150088 TEU=None status=detail_no_teu
+[group 13 548/878] PING NAN YONG JIA 6908 -> code=LKR IMO=9999996 TEU=None status=detail_no_teu
+[group 13 549/878] PING NAN YONG JIA 698 -> code=XLX IMO=9999996 TEU=None status=detail_no_teu
+[group 13 550/878] PING NAN YONG JIA 777 -> code=WAX IMO=99999996 TEU=96 status=ok
+[group 13 551/878] PING NAN YONG JIA 8228 -> code=Z7I IMO=1 TEU=None status=detail_no_teu
+[group 13 552/878] PING NAN YONG JIA 826 -> code=WD7 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 553/878] PING NAN YONG JIA 8288 -> code=WBA IMO=99999996 TEU=None status=detail_no_teu
+[group 13 554/878] PING NAN YONG JIA 8668 -> code=Z2Z IMO=1 TEU=None status=detail_no_teu
+[group 13 555/878] PING NAN YONG JIA 989 -> code=LJC IMO=9999996 TEU=None status=detail_no_teu
+[group 13 560/878] PING NAN YUAN DA 5388 -> code=LRW IMO=9999996 TEU=None status=detail_no_teu
+[group 13 561/878] PING NAN YUAN DA 6666 -> code=LQM IMO=9999996 TEU=None status=detail_no_teu
+[group 13 568/878] PING NANYUAN DA 9968 -> code=OZJ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 570/878] PING SHAN -> code=YA5 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 571/878] PING YE 16 -> code=XYC IMO=9999996 TEU=None status=detail_no_teu
+[group 13 573/878] PING YE 5 -> code=WNR IMO=9999996 TEU=None status=detail_no_teu
+[group 13 574/878] PING YE 6 -> code=WNS IMO=9999996 TEU=None status=detail_no_teu
+[group 13 575/878] PING YE 7 -> code=WH5 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 576/878] PING YE 8 -> code=WGQ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 577/878] PING YE 9 -> code=WHF IMO=9999996 TEU=None status=detail_no_teu
+[group 13 578/878] PINGANDA008 -> code=2EX IMO=9999996 TEU=None status=detail_no_teu
+[group 13 580/878] PINYA STAR -> code=PNY IMO=9101508 TEU=1436 status=ok
+[group 13 583/878] PIONEER STAR -> code=ACS IMO=99999996 TEU=None status=detail_no_teu
+[group 13 586/878] PIRITA -> code=UAU IMO=9108063 TEU=None status=detail_no_teu
+[group 13 589/878] PLANET V -> code=UDC IMO=9087532 TEU=None status=detail_no_teu
+[group 13 590/878] PLATINUM DIAMOND -> code=SLE IMO=None TEU=565 status=ok
+[group 13 593/878] PO YANG HU 88 -> code=YGL IMO=99999996 TEU=None status=detail_no_teu
+[group 13 595/878] POL STELLA -> code=UY1 IMO=9457165 TEU=None status=detail_no_teu
+[group 13 596/878] POLAR COSTA RICA -> code=PCR IMO=9786786 TEU=None status=detail_no_teu
+[group 13 598/878] POLLISUM 1803 -> code=MBC IMO=9999996 TEU=None status=detail_no_teu
+[group 13 599/878] POLLISUM 2102 -> code=BFI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 600/878] POLO -> code=UD6 IMO=9261994 TEU=None status=detail_no_teu
+[group 13 601/878] POLTAVA -> code=PO4 IMO=1354651 TEU=None status=detail_no_teu
+[group 13 607/878] PORT GDYNIA -> code=PP3 IMO=9334387 TEU=None status=detail_no_teu
+[group 13 608/878] PORT KLANG -> code=S2S IMO=9212046 TEU=None status=detail_no_teu
+[group 13 610/878] PORT SAID -> code=T31 IMO=9082362 TEU=1773 status=ok
+[group 13 617/878] POS CHALLENGE -> code=ZSR IMO=99999996 TEU=None status=detail_no_teu
+[group 13 619/878] POS SHALLENG -> code=ZQF IMO=99999996 TEU=None status=detail_no_teu
+[group 13 620/878] POSAN -> code=RPF IMO=999996 TEU=None status=detail_no_teu
+[group 13 621/878] POSEIDON VII -> code=AT6 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 623/878] POSITANO -> code=PST IMO=9123037 TEU=None status=detail_no_teu
+[group 13 625/878] POTOMAC EXPRESS -> code=RT2 IMO=9349526 TEU=None status=detail_no_teu
+[group 13 626/878] POZNAN ALMATY NUMBER 1 -> code=PZ1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 627/878] POZNAN ALMATY NUMBER 2 -> code=PZ2 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 628/878] POZNAN ALMATY RAIL NUMBER 1 -> code=PZ8 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 630/878] PRATIWI RAYA -> code=BJM IMO=5545688 TEU=1200 status=ok
+[group 13 631/878] PRATIWI SATU -> code=BFP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 634/878] PRESIDENT CARTER -> code=DEC IMO=9938389 TEU=None status=detail_no_teu
+[group 13 635/878] PRESIDENT FD ROOSEVELT -> code=MVU IMO=9400061 TEU=None status=detail_no_teu
+[group 13 636/878] PRESIDENT GRANT -> code=DIH IMO=9938339 TEU=None status=detail_no_teu
+[group 13 640/878] PRESIDENT REAGAN -> code=D41 IMO=9938341 TEU=5598 status=ok
+[group 13 641/878] PRESTIGE -> code=S2Q IMO=9321029 TEU=None status=detail_no_teu
+[group 13 648/878] PRIAMOS (NFS) -> code=PS7 IMO=9412532 TEU=None status=detail_no_teu
+[group 13 649/878] PRIDE C -> code=D9A IMO=9978640 TEU=None status=detail_no_teu
+[group 13 650/878] PRIME -> code=R1E IMO=9383522 TEU=954 status=ok
+[group 13 656/878] PROGRESS IV -> code=PIV IMO=8358130 TEU=None status=detail_no_teu
+[group 13 658/878] PROSPER -> code=PRS IMO=636015121 TEU=None status=detail_no_teu
+[group 13 660/878] PROSPERITY BRIDGE -> code=REQ IMO=111111 TEU=4252 status=ok
+[group 13 663/878] PROVIDENCE -> code=A75 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 664/878] PSB 2509 -> code=BC6 IMO=6839 TEU=None status=detail_no_teu
+[group 13 665/878] PSB 2510 -> code=BDJ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 666/878] PSB IV -> code=BC7 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 669/878] PU SHUN 158 -> code=XVJ IMO=100809000513 TEU=None status=detail_no_teu
+[group 13 670/878] PU SHUN 397 -> code=WRE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 671/878] PU SHUN 398 -> code=Z9N IMO=1 TEU=None status=detail_no_teu
+[group 13 672/878] PU SHUN 789 -> code=W55 IMO=10081000454 TEU=None status=detail_no_teu
+[group 13 673/878] PU SHUN 968 -> code=W66 IMO=100810000018 TEU=None status=detail_no_teu
+[group 13 674/878] PU TAI HANG YUN 076 -> code=2R0 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 675/878] PU TRUSTY -> code=AFE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 677/878] PUELO -> code=QTG IMO=9306172 TEU=None status=detail_no_teu
+[group 13 678/878] PUERTO CORTES -> code=AN1 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 680/878] PUHAI211 -> code=Y2V IMO=99999996 TEU=None status=detail_no_teu
+[group 13 683/878] PUHAI215 -> code=RCX IMO=9999996 TEU=None status=detail_no_teu
+[group 13 684/878] PUHAI216 -> code=V77 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 686/878] PUHAI218 -> code=YKW IMO=9999996 TEU=None status=detail_no_teu
+[group 13 688/878] PUHAI226 -> code=Y3R IMO=99999996 TEU=None status=detail_no_teu
+[group 13 689/878] PUHAI227 -> code=RHX IMO=9999996 TEU=None status=detail_no_teu
+[group 13 690/878] PUHAI228 -> code=V39 IMO=99999996 TEU=200 status=ok
+[group 13 691/878] PUHAI229 -> code=RDS IMO=9999996 TEU=None status=detail_no_teu
+[group 13 692/878] PULAU HOKI -> code=BCR IMO=9999996 TEU=None status=detail_no_teu
+[group 13 693/878] PULAU LAYANG -> code=BDV IMO=9545754 TEU=None status=detail_no_teu
+[group 13 694/878] PULAU NUNUKAN -> code=MDO IMO=9999996 TEU=None status=detail_no_teu
+[group 13 695/878] PULAU WETAR -> code=BDQ IMO=9592472 TEU=None status=detail_no_teu
+[group 13 699/878] PUTAIHANGYUN002 -> code=VB0 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 700/878] PUTAIHANGYUN003 -> code=VN2 IMO=999999 TEU=None status=detail_no_teu
+[group 13 701/878] PUTAIHANGYUN005 -> code=VC5 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 702/878] PUTAIHANGYUN006 -> code=VDA IMO=999999999 TEU=None status=detail_no_teu
+[group 13 703/878] PUTAIHANGYUN007 -> code=VAS IMO=999999999 TEU=None status=detail_no_teu
+[group 13 704/878] PUTAIHANGYUN008 -> code=VCE IMO=99999996 TEU=None status=detail_no_teu
+[group 13 705/878] PUTAIHANGYUN009 -> code=VFN IMO=999999999 TEU=None status=detail_no_teu
+[group 13 706/878] PUTAIHANGYUN010 -> code=VUA IMO=9999996 TEU=None status=detail_no_teu
+[group 13 707/878] PUTAIHANGYUN011 -> code=V5Y IMO=9999996 TEU=None status=detail_no_teu
+[group 13 708/878] PUTAIHANGYUN012 -> code=VUR IMO=9999996 TEU=None status=detail_no_teu
+[group 13 709/878] PUTAIHANGYUN013 -> code=2T5 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 710/878] PUTAIHANGYUN015 -> code=2FV IMO=9999996 TEU=None status=detail_no_teu
+[group 13 711/878] PUTAIHANGYUN016 -> code=VUT IMO=9999996 TEU=None status=detail_no_teu
+[group 13 712/878] PUTAIHANGYUN017 -> code=V9D IMO=9999996 TEU=None status=detail_no_teu
+[group 13 713/878] PUTAIHANGYUN018 -> code=VUM IMO=9999996 TEU=None status=detail_no_teu
+[group 13 714/878] PUTAIHANGYUN019 -> code=VUU IMO=9999996 TEU=None status=detail_no_teu
+[group 13 715/878] PUTAIHANGYUN020 -> code=VUQ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 716/878] PUTAIHANGYUN021 -> code=2IX IMO=9999996 TEU=None status=detail_no_teu
+[group 13 717/878] PUTAIHANGYUN022 -> code=2Z5 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 718/878] PUTAIHANGYUN023 -> code=2IY IMO=9999996 TEU=None status=detail_no_teu
+[group 13 719/878] PUTAIHANGYUN025 -> code=2HI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 720/878] PUTAIHANGYUN026 -> code=V3T IMO=9999996 TEU=None status=detail_no_teu
+[group 13 721/878] PUTAIHANGYUN027 -> code=V4N IMO=9999996 TEU=None status=detail_no_teu
+[group 13 722/878] PUTAIHANGYUN028 -> code=V2W IMO=9999996 TEU=None status=detail_no_teu
+[group 13 723/878] PUTAIHANGYUN029 -> code=2CI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 724/878] PUTAIHANGYUN030 -> code=2DC IMO=9999996 TEU=None status=detail_no_teu
+[group 13 726/878] PUTAIHANGYUN032 -> code=2Z1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 727/878] PUTAIHANGYUN033 -> code=2GE IMO=9999996 TEU=None status=detail_no_teu
+[group 13 728/878] PUTAIHANGYUN035 -> code=2SY IMO=9999996 TEU=None status=detail_no_teu
+[group 13 729/878] PUTAIHANGYUN036 -> code=2M0 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 730/878] PUTAIHANGYUN037 -> code=2DI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 731/878] PUTAIHANGYUN038 -> code=2X3 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 732/878] PUTAIHANGYUN039 -> code=2S7 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 733/878] PUTAIHANGYUN050 -> code=2UQ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 734/878] PUTAIHANGYUN051 -> code=2ZL IMO=9999996 TEU=None status=detail_no_teu
+[group 13 735/878] PUTAIHANGYUN052 -> code=2DF IMO=9999996 TEU=None status=detail_no_teu
+[group 13 736/878] PUTAIHANGYUN053 -> code=2ZM IMO=9999996 TEU=None status=detail_no_teu
+[group 13 737/878] PUTAIHANGYUN055 -> code=2DD IMO=9999996 TEU=None status=detail_no_teu
+[group 13 738/878] PUTAIHANGYUN056 -> code=2FU IMO=9999996 TEU=None status=detail_no_teu
+[group 13 739/878] PUTAIHANGYUN058 -> code=V8W IMO=9999996 TEU=None status=detail_no_teu
+[group 13 740/878] PUTAIHANGYUN059 -> code=2FT IMO=9999996 TEU=None status=detail_no_teu
+[group 13 741/878] PUTAIHANGYUN060 -> code=2GF IMO=9999996 TEU=None status=detail_no_teu
+[group 13 742/878] PUTAIHANGYUN061 -> code=2U8 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 743/878] PUTAIHANGYUN062 -> code=2ED IMO=9999996 TEU=None status=detail_no_teu
+[group 13 744/878] PUTAIHANGYUN063 -> code=2SF IMO=9999996 TEU=None status=detail_no_teu
+[group 13 745/878] PUTAIHANGYUN065 -> code=2LO IMO=9999996 TEU=None status=detail_no_teu
+[group 13 746/878] PUTAIHANGYUN066 -> code=V8K IMO=9999996 TEU=None status=detail_no_teu
+[group 13 747/878] PUTAIHANGYUN067 -> code=2N1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 748/878] PUTAIHANGYUN068 -> code=V9G IMO=9999996 TEU=None status=detail_no_teu
+[group 13 749/878] PUTAIHANGYUN069 -> code=2EI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 750/878] PUTAIHANGYUN070 -> code=2LY IMO=9999996 TEU=None status=detail_no_teu
+[group 13 751/878] PUTAIHANGYUN071 -> code=2SG IMO=9999996 TEU=None status=detail_no_teu
+[group 13 752/878] PUTAIHANGYUN072 -> code=2LN IMO=9999996 TEU=None status=detail_no_teu
+[group 13 753/878] PUTAIHANGYUN075 -> code=2UP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 754/878] PUTAIHANGYUN077 -> code=2E3 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 755/878] PUTAIHANGYUN078 -> code=2I7 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 756/878] PUTAIHANGYUN079 -> code=2SB IMO=9999996 TEU=None status=detail_no_teu
+[group 13 757/878] PUTAIHANGYUN080 -> code=2JW IMO=9999996 TEU=None status=detail_no_teu
+[group 13 758/878] PUTAIHANGYUN081 -> code=2KK IMO=9999996 TEU=None status=detail_no_teu
+[group 13 759/878] PUTAIHANGYUN082 -> code=2EJ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 760/878] PUTAIHANGYUN083 -> code=2SH IMO=9999996 TEU=None status=detail_no_teu
+[group 13 761/878] PUTAIHANGYUN085 -> code=2SI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 762/878] PUTAIHANGYUN086 -> code=2A1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 763/878] PUTAIHANGYUN087 -> code=2QL IMO=9999996 TEU=None status=detail_no_teu
+[group 13 764/878] PUTAIHANGYUN088 -> code=V9L IMO=9999996 TEU=None status=detail_no_teu
+[group 13 765/878] PUTAIHANGYUN089 -> code=2GG IMO=9999996 TEU=None status=detail_no_teu
+[group 13 766/878] PUTAIHANGYUN090 -> code=2GY IMO=9999996 TEU=None status=detail_no_teu
+[group 13 767/878] PUTAIHANGYUN091 -> code=2SJ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 768/878] PUTAIHANGYUN092 -> code=2IH IMO=9999996 TEU=None status=detail_no_teu
+[group 13 769/878] PUTAIHANGYUN093 -> code=2TQ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 770/878] PUTAIHANGYUN095 -> code=2QM IMO=9999996 TEU=None status=detail_no_teu
+[group 13 771/878] PUTAIHANGYUN096 -> code=21R IMO=9999996 TEU=None status=detail_no_teu
+[group 13 772/878] PUTAIHANGYUN100 -> code=2RA IMO=9999996 TEU=None status=detail_no_teu
+[group 13 774/878] QI DAO 22 -> code=XG9 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 775/878] QI FA -> code=RBT IMO=769769789 TEU=None status=detail_no_teu
+[group 13 776/878] QI HE -> code=QXH IMO=99999945 TEU=None status=detail_no_teu
+[group 13 778/878] QI HE 6 -> code=F38 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 779/878] QI JI 229 -> code=LUO IMO=9999996 TEU=None status=detail_no_teu
+[group 13 780/878] QI JI 568 -> code=OYP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 781/878] QI JI 612 -> code=LBT IMO=9999996 TEU=None status=detail_no_teu
+[group 13 782/878] QI JI 632 -> code=LRF IMO=9999996 TEU=None status=detail_no_teu
+[group 13 783/878] QI JI 633 -> code=LTG IMO=9999996 TEU=None status=detail_no_teu
+[group 13 784/878] QI JI 636 -> code=OMP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 785/878] QI YUN -> code=RPP IMO=568568 TEU=None status=detail_no_teu
+[group 13 789/878] QIAN HAI FANG ZHOU -> code=LZX IMO=9999996 TEU=None status=detail_no_teu
+[group 13 790/878] QIAN JIN 303 -> code=ZA8 IMO=99999996 TEU=16 status=ok
+[group 13 792/878] QIAN JIN 311 -> code=ZB3 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 793/878] QIAN JIN 312 -> code=ZB4 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 795/878] QIAN KUN 01 -> code=D6D IMO=9999996 TEU=None status=detail_no_teu
+[group 13 797/878] QIAN KUN 9999 -> code=MOR IMO=9999996 TEU=None status=detail_no_teu
+[group 13 799/878] QIAN KUN RONG YAO -> code=NNR IMO=4138386 TEU=None status=detail_no_teu
+[group 13 800/878] QIAN KUN SHENG YUAN -> code=F2Y IMO=9999996 TEU=1 status=ok
+[group 13 802/878] QIANGSHENG999 -> code=YVC IMO=99999996 TEU=None status=detail_no_teu
+[group 13 803/878] QIANGSHENGHUIHUANG -> code=VY0 IMO=12345678 TEU=None status=detail_no_teu
+[group 13 804/878] QIANJIANG166 -> code=THK IMO=67879548 TEU=None status=detail_no_teu
+[group 13 805/878] QIANJIANG351 -> code=2P2 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 806/878] QIANJIANG359 -> code=VSY IMO=9999996 TEU=None status=detail_no_teu
+[group 13 807/878] QIANJIANGHUO -> code=Y4Y IMO=99999996 TEU=None status=detail_no_teu
+[group 13 808/878] QIANKUN6 -> code=V2B IMO=9999996 TEU=None status=detail_no_teu
+[group 13 809/878] QIANKUN666 -> code=20P IMO=9999996 TEU=None status=detail_no_teu
+[group 13 810/878] QIANKUN777 -> code=2U3 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 811/878] QIANKUN8 -> code=VDS IMO=99999996 TEU=None status=detail_no_teu
+[group 13 812/878] QIANKUN99 -> code=V2E IMO=9999996 TEU=None status=detail_no_teu
+[group 13 813/878] QIANKUN999 -> code=2BN IMO=9999996 TEU=None status=detail_no_teu
+[group 13 814/878] QIANKUNHENGSHUN -> code=VPM IMO=9999996 TEU=None status=detail_no_teu
+[group 13 815/878] QIANKUNHEXIE -> code=VMB IMO=9999996 TEU=None status=detail_no_teu
+[group 13 816/878] QIANZHOUZHIXING -> code=2XP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 817/878] QIAO YANG 1 HAO -> code=X34 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 818/878] QIAO YANG 16 HAO -> code=LVG IMO=9999996 TEU=None status=detail_no_teu
+[group 13 819/878] QIAO YANG 18 HAO -> code=LBB IMO=9999996 TEU=None status=detail_no_teu
+[group 13 820/878] QIAO YANG 19 HAO -> code=OA2 IMO=9999996 TEU=1 status=ok
+[group 13 821/878] QIAO YANG 2 HAO -> code=X19 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 822/878] QIAO YANG 28 -> code=O36 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 823/878] QIAO YANG 3 HAO -> code=LNA IMO=9999996 TEU=None status=detail_no_teu
+[group 13 825/878] QIAO YANG 6 HAO -> code=XQZ IMO=9999996 TEU=None status=detail_no_teu
+[group 13 826/878] QIAO YANG 838 -> code=O27 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 827/878] QIAO YANG 9 HAO -> code=WO6 IMO=20150192 TEU=None status=detail_no_teu
+[group 13 828/878] QIAOHANG2 -> code=RCF IMO=99999996 TEU=None status=detail_no_teu
+[group 13 830/878] QIAOTAI28 -> code=V10 IMO=99999996 TEU=350 status=ok
+[group 13 838/878] QIAOYANG 88 HAO -> code=F3V IMO=9999996 TEU=None status=detail_no_teu
+[group 13 839/878] QIAOYANG 89 HAO -> code=F4Z IMO=9999996 TEU=None status=detail_no_teu
+[group 13 840/878] QIAOYANG8 -> code=F3C IMO=9999996 TEU=None status=detail_no_teu
+[group 13 841/878] QIAOYANG8HAO -> code=S6Z IMO=567585767 TEU=None status=detail_no_teu
+[group 13 842/878] QIHAI1 -> code=Y9F IMO=99999996 TEU=None status=detail_no_teu
+[group 13 843/878] QIHANG66 -> code=VCI IMO=9999996 TEU=None status=detail_no_teu
+[group 13 844/878] QIHE9 -> code=N3F IMO=7547478 TEU=None status=detail_no_teu
+[group 13 845/878] QIHERUIAN -> code=2LW IMO=9999996 TEU=None status=detail_no_teu
+[group 13 846/878] QIHEYONGJIA -> code=2TC IMO=9999996 TEU=None status=detail_no_teu
+[group 13 847/878] QILUHAO -> code=VLU IMO=8686896 TEU=None status=detail_no_teu
+[group 13 848/878] QIN LI 1 -> code=WY7 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 849/878] QING CHUN MEN -> code=AD9 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 850/878] QING GANG 168 -> code=ZOP IMO=9999996 TEU=None status=detail_no_teu
+[group 13 851/878] QING GANG 238 -> code=ZYY IMO=99999996 TEU=None status=detail_no_teu
+[group 13 852/878] QING SHAN -> code=ZSL IMO=999999999 TEU=None status=detail_no_teu
+[group 13 853/878] QING SHUN 2009 -> code=WM3 IMO=20150223 TEU=None status=detail_no_teu
+[group 13 854/878] QING SHUN 2363 -> code=WE4 IMO=20150058 TEU=None status=detail_no_teu
+[group 13 855/878] QING SHUN 288 -> code=LSD IMO=9999996 TEU=None status=detail_no_teu
+[group 13 857/878] QING SHUN 3073 -> code=ZN2 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 858/878] QING SHUN 3088 -> code=WZ3 IMO=99999996 TEU=None status=detail_no_teu
+[group 13 859/878] QING SHUN 568 -> code=XXR IMO=99999996 TEU=None status=detail_no_teu
+[group 13 860/878] QING SHUN 666 -> code=LBK IMO=1 TEU=None status=detail_no_teu
+[group 13 861/878] QING SHUN 688 -> code=WCI IMO=99999996 TEU=None status=detail_no_teu
+[group 13 863/878] QING SHUN 888 -> code=XVG IMO=9999996 TEU=None status=detail_no_teu
+[group 13 865/878] QING YUAN 1 -> code=X1C IMO=20160922 TEU=None status=detail_no_teu
+[group 13 866/878] QING YUN 2 HAO -> code=ZRC IMO=99999996 TEU=None status=detail_no_teu
+[group 13 867/878] QING YUN 6 HAO -> code=ZSC IMO=99999996 TEU=None status=detail_no_teu
+[group 13 870/878] QINGDAO -> code=RGL IMO=9359720 TEU=None status=detail_no_teu
+[group 13 871/878] QINGDAO ALMATY RAIL NUMBER 2 -> code=TY2 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 872/878] QINGDAO ALMATY RAIL NUMBER ONE -> code=TY1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 873/878] QINGDAO ALMATY RAIL NUMBER THR -> code=TY3 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 874/878] QINGDAO ALMATY RAIL NUMBER4 -> code=TY4 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 875/878] QINGDAO ATYRAU RAIL NUMBER FOU -> code=OY4 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 876/878] QINGDAO ATYRAU RAIL NUMBER ONE -> code=OY1 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 877/878] QINGDAO ATYRAU RAIL NUMBER THR -> code=OY3 IMO=9999996 TEU=None status=detail_no_teu
+[group 13 878/878] QINGDAO ATYRAU RAIL NUMBER TWO -> code=OY2 IMO=9999996 TEU=None status=detail_no_teu
+group 13: saved xlsx -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_13_result_260312001047.xlsx
+group 13: saved json -> D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_13_result_260312001047.json

@@ -1,0 +1,62 @@
+group 01: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_01_260311232628.json
+group 02: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_02_260311232628.json
+group 03: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_03_260311232628.json
+group 04: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_04_260311232628.json
+group 05: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_05_260311232628.json
+group 06: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_06_260311232628.json
+group 07: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_07_260311232628.json
+group 08: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_08_260311232628.json
+group 09: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_09_260311232628.json
+group 10: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_10_260311232628.json
+group 11: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_11_260311232628.json
+group 12: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_12_260311232628.json
+group 13: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_13_260311232628.json
+group 14: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_14_260311232628.json
+group 15: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_15_260311232628.json
+group 16: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_16_260311232628.json
+group 17: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_17_260311232628.json
+group 18: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_18_260311232628.json
+group 19: size=878 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_19_260311232628.json
+group 20: size=874 file=D:\Files\demo\capaStudy\vessels\csl_group_results\groups\group_20_260311232628.json
+start sequential run: total=17556, group_count=20, group_size=878, cooldown=600s, max_retries=5
+[group 01] run attempt 1/6
+[group 01] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_01_result_260311232945.json
+[group 02] run attempt 1/6
+[group 02] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_02_result_260311233256.json
+[group 03] run attempt 1/6
+[group 03] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_03_result_260311233614.json
+[group 04] run attempt 1/6
+[group 04] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_04_result_260311233932.json
+[group 05] run attempt 1/6
+[group 05] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_05_result_260311234245.json
+[group 06] run attempt 1/6
+[group 06] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_06_result_260311234607.json
+[group 07] run attempt 1/6
+[group 07] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_07_result_260311234924.json
+[group 08] run attempt 1/6
+[group 08] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_08_result_260311235242.json
+[group 09] run attempt 1/6
+[group 09] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_09_result_260311235554.json
+[group 10] run attempt 1/6
+[group 10] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_10_result_260311235907.json
+[group 11] run attempt 1/6
+[group 11] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_11_result_260312000319.json
+[group 12] run attempt 1/6
+[group 12] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_12_result_260312000732.json
+[group 13] run attempt 1/6
+[group 13] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_13_result_260312001047.json
+[group 14] run attempt 1/6
+[group 14] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_14_result_260312001507.json
+[group 15] run attempt 1/6
+[group 15] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_15_result_260312001927.json
+[group 16] run attempt 1/6
+[group 16] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_16_result_260312002341.json
+[group 17] run attempt 1/6
+[group 17] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_17_result_260312002702.json
+[group 18] run attempt 1/6
+[group 18] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_18_result_260312003024.json
+[group 19] run attempt 1/6
+[group 19] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_19_result_260312003347.json
+[group 20] run attempt 1/6
+[group 20] done. result=D:\Files\demo\capaStudy\vessels\csl_group_results\csl_group_20_result_260312003814.json
+all groups finished successfully
