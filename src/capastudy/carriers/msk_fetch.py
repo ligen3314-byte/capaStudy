@@ -2,51 +2,24 @@
 import sys
 import time
 from datetime import date, datetime, timedelta
-from pathlib import Path
 
 import pandas as pd
 import requests
 
+from capastudy.carriers.common import (
+    PORT_CALL_COLUMNS,
+    VOYAGE_COLUMNS,
+    choose_requested_items,
+    ensure_directory,
+    run_item_batch,
+    save_timestamped_voyage_portcall_workbook,
+)
 from capastudy.settings import (
     MSK_PORTS_XLSX as PORTS_XLSX,
     MSK_QUERY_DIR as QUERY_DIR,
 )
 
 PORT_CALLS_URL = 'https://api.maersk.com/synergy/schedules/port-calls'
-
-VOYAGE_COLUMNS = [
-    'LoopAbbrv',
-    'VesselCode',
-    'VesselName',
-    'Voyage',
-    'Direction',
-    'PortCallCount',
-    'FirstPort',
-    'LastPort',
-    'FirstArrDtlocAct',
-    'FirstDepDtlocAct',
-    'LastArrDtlocAct',
-    'LastDepDtlocAct',
-    'FirstArrDtlocCos',
-    'FirstDepDtlocCos',
-    'LastArrDtlocCos',
-    'LastDepDtlocCos',
-    'PortCallPath',
-]
-
-PORT_CALL_COLUMNS = [
-    'LoopAbbrv',
-    'VesselCode',
-    'VesselName',
-    'Voyage',
-    'PortCallSeq',
-    'PortName',
-    'ArrDtlocAct',
-    'DepDtlocAct',
-    'ArrDtlocCos',
-    'DepDtlocCos',
-    'Direction',
-]
 
 HEADERS = {
     'accept': 'application/json',
@@ -87,7 +60,7 @@ def format_iso_datetime(value):
 
 
 def ensure_query_dir():
-    QUERY_DIR.mkdir(parents=True, exist_ok=True)
+    ensure_directory(QUERY_DIR)
 
 
 
@@ -128,12 +101,18 @@ def count_unique_voyages(rows):
 
 
 
-def get_target_ports(port_df):
-    if len(sys.argv) <= 1:
-        return port_df
-    requested = {normalize_text(arg) for arg in sys.argv[1:] if normalize_text(arg)}
-    result = port_df[port_df['city'].map(normalize_text).isin(requested)].copy()
-    missing = requested - set(result['city'].map(normalize_text))
+def get_target_ports(port_df, argv=None):
+    requested = choose_requested_items(
+        port_df['city'].tolist(),
+        argv=argv,
+        normalize=normalize_text,
+        missing_message=lambda missing: f"Ports not found: {', '.join(sorted(missing))}",
+    )
+    if len(requested) == len(port_df):
+        return port_df.reset_index(drop=True)
+    requested_set = {normalize_text(item) for item in requested}
+    result = port_df[port_df['city'].map(normalize_text).isin(requested_set)].copy()
+    missing = requested_set - set(result['city'].map(normalize_text))
     if missing:
         raise ValueError(f'Ports not found: {", ".join(sorted(missing))}')
     return result.reset_index(drop=True)
@@ -213,56 +192,51 @@ def choose_matched_service_and_voyage(item, allowed_services):
 
 
 
-def parse_port_call_rows(port_df, from_date, to_date, allowed_services):
-    rows = []
+def process_port_record(rec, from_date, to_date, allowed_services):
     allowed_services = {normalize_text(x) for x in allowed_services}
-    for rec in port_df.to_dict(orient='records'):
-        city = rec['city']
-        geoid = rec['geoid']
-        print(f'Querying {city} ({geoid})')
-        port_rows = []
-        for item in request_port_calls(geoid, from_date, to_date) or []:
-            matched = choose_matched_service_and_voyage(item, allowed_services)
-            if not matched:
-                continue
-            port_rows.append(
-                {
-                    'LoopAbbrv': matched['service'],
-                    'VesselCode': (item.get('vesselMaerskCode') or '').strip(),
-                    'VesselName': item.get('vesselName'),
-                    'Voyage': matched['voyage'],
-                    'PortCallSeq': None,
-                    'PortName': city,
-                    'ArrDtlocAct': None,
-                    'DepDtlocAct': None,
-                    'ArrDtlocCos': format_iso_datetime(item.get('arrivalTime')),
-                    'DepDtlocCos': format_iso_datetime(item.get('departureTime')),
-                    'Direction': matched['direction'],
-                    'MatchedSide': matched['matched_side'],
-                    'QueryGeoId': geoid,
-                    'ArrivalVoyageNumber': item.get('arrivalVoyageNumber'),
-                    'DepartureVoyageNumber': item.get('departureVoyageNumber'),
-                    'ArrivalServiceName': item.get('arrivalServiceName'),
-                    'ArrivalServiceCode': item.get('arrivalServiceCode'),
-                    'DepartureServiceName': item.get('departureServiceName'),
-                    'DepartureServiceCode': item.get('departureServiceCode'),
-                    'MarineContainerTerminalName': item.get('marineContainerTerminalName'),
-                    'MarineContainerTerminalRKSTCode': item.get('marineContainerTerminalRKSTCode'),
-                    'MarineContainerTerminalGeoCode': item.get('marineContainerTerminalGeoCode'),
-                    'VesselIMONumber': item.get('vesselIMONumber'),
-                }
-            )
-        rows.extend(port_rows)
-        retained_rows = dedupe_port_calls(rows)
-        print(
-            f'Port {city}: '
-            f'queried voyages={count_unique_voyages(port_rows)}, '
-            f'queried port calls={len(port_rows)}, '
-            f'retained voyages={count_unique_voyages(retained_rows)}, '
-            f'retained port calls={len(retained_rows)}'
+    city = rec['city']
+    geoid = rec['geoid']
+    print(f'Querying {city} ({geoid})')
+    port_rows = []
+    for item in request_port_calls(geoid, from_date, to_date) or []:
+        matched = choose_matched_service_and_voyage(item, allowed_services)
+        if not matched:
+            continue
+        port_rows.append(
+            {
+                'LoopAbbrv': matched['service'],
+                'VesselCode': (item.get('vesselMaerskCode') or '').strip(),
+                'VesselName': item.get('vesselName'),
+                'Voyage': matched['voyage'],
+                'PortCallSeq': None,
+                'PortName': city,
+                'ArrDtlocAct': None,
+                'DepDtlocAct': None,
+                'ArrDtlocCos': format_iso_datetime(item.get('arrivalTime')),
+                'DepDtlocCos': format_iso_datetime(item.get('departureTime')),
+                'Direction': matched['direction'],
+                'MatchedSide': matched['matched_side'],
+                'QueryGeoId': geoid,
+                'ArrivalVoyageNumber': item.get('arrivalVoyageNumber'),
+                'DepartureVoyageNumber': item.get('departureVoyageNumber'),
+                'ArrivalServiceName': item.get('arrivalServiceName'),
+                'ArrivalServiceCode': item.get('arrivalServiceCode'),
+                'DepartureServiceName': item.get('departureServiceName'),
+                'DepartureServiceCode': item.get('departureServiceCode'),
+                'MarineContainerTerminalName': item.get('marineContainerTerminalName'),
+                'MarineContainerTerminalRKSTCode': item.get('marineContainerTerminalRKSTCode'),
+                'MarineContainerTerminalGeoCode': item.get('marineContainerTerminalGeoCode'),
+                'VesselIMONumber': item.get('vesselIMONumber'),
+            }
         )
-        time.sleep(1)
-    return rows
+    time.sleep(1)
+    return {
+        'port': city,
+        'queried_voyages': count_unique_voyages(port_rows),
+        'queried_port_calls': len(port_rows),
+        'total_voyages': [],
+        'total_port_calls': port_rows,
+    }
 
 
 def dedupe_port_calls(rows):
@@ -340,17 +314,14 @@ def build_voyage_rows(port_call_rows):
 
 
 def save_detail(voyage_rows, port_call_rows):
-    ensure_query_dir()
-    timestamp = datetime.now().strftime('%y%m%d%H%M%S')
-    output_path = QUERY_DIR / f'MSK_FETCH_BATCH_DETAIL_{timestamp}.xlsx'
-    df_voyages = pd.DataFrame(voyage_rows).reindex(columns=VOYAGE_COLUMNS)
-    df_port_calls = pd.DataFrame(port_call_rows).reindex(columns=PORT_CALL_COLUMNS)
-
-    with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
-        df_voyages.to_excel(writer, index=False, sheet_name='Total Voyages')
-        df_port_calls.to_excel(writer, index=False, sheet_name='Total PortCalls')
-
-    return output_path
+    return save_timestamped_voyage_portcall_workbook(
+        QUERY_DIR,
+        "MSK_FETCH_BATCH_DETAIL",
+        voyage_rows=voyage_rows,
+        port_call_rows=port_call_rows,
+        voyage_sheet_name="Total Voyages",
+        port_call_sheet_name="Total PortCalls",
+    )
 
 
 
@@ -369,7 +340,7 @@ def build_query_window(reference_date=None):
 
 def main():
     port_df = load_ports()
-    target_ports = get_target_ports(port_df)
+    target_ports = get_target_ports(port_df, argv=sys.argv[1:])
     allowed_services = load_allowed_services()
     from_date, to_date, week_start, week_end = build_query_window()
 
@@ -379,8 +350,35 @@ def main():
     print(f'fromDate: {from_date}')
     print(f'toDate: {to_date}')
 
-    port_call_rows = parse_port_call_rows(target_ports, from_date, to_date, allowed_services)
-    port_call_rows = dedupe_port_calls(port_call_rows)
+    def _run_port(rec):
+        return process_port_record(rec, from_date, to_date, allowed_services)
+
+    port_results, _ignored_voyages, raw_port_call_rows = run_item_batch(
+        target_ports.to_dict(orient='records'),
+        _run_port,
+        item_label='Port',
+    )
+    running_rows = []
+    for result in port_results:
+        port_name = result.get('port')
+        if port_name is None:
+            continue
+        matched_rows = [
+            row
+            for row in raw_port_call_rows
+            if normalize_text(row.get('PortName')) == normalize_text(port_name)
+        ]
+        running_rows.extend(matched_rows)
+        retained_rows = dedupe_port_calls(running_rows)
+        print(
+            f"Port {port_name}: "
+            f"queried voyages={result.get('queried_voyages', 0)}, "
+            f"queried port calls={result.get('queried_port_calls', 0)}, "
+            f"retained voyages={count_unique_voyages(retained_rows)}, "
+            f"retained port calls={len(retained_rows)}"
+        )
+
+    port_call_rows = dedupe_port_calls(raw_port_call_rows)
     voyage_rows = build_voyage_rows(port_call_rows)
 
     print(f'Retained voyages: {len(voyage_rows)}')

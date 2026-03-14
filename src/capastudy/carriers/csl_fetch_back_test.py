@@ -1,17 +1,17 @@
 import asyncio
 import json
-from datetime import datetime
-
-import pandas as pd
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
 
+from capastudy.carriers.common import (
+    run_async_item_batch,
+    save_summary_workbook,
+    save_timestamped_voyage_portcall_workbook,
+)
 from capastudy.carriers.csl_fetch import (
-    PORT_CALL_COLUMNS,
     QUERY_DIR,
     RETRY_BASE_DELAY_SECONDS,
     TARGET_URL,
-    VOYAGE_COLUMNS,
     build_query_ports,
     choose_port,
     click_by_text,
@@ -304,9 +304,6 @@ async def main():
     ensure_query_dir()
     print(f"Services to process: {target_services}")
 
-    results = []
-    batch_voyages = []
-    batch_port_calls = []
     cookie_state = {"attempted": False, "accepted": False}
     headless = is_headless_enabled()
 
@@ -327,19 +324,12 @@ async def main():
             await prepare_page(page)
             await open_search_once(page)
             await maybe_accept_cookie_once(page, cookie_state)
-            for service_code in target_services:
-                try:
-                    await ensure_search_root(page, cookie_state)
-                    result = await process_service(page, service_code, service_rules)
-                    batch_voyages.extend(result.pop("total_voyages", []))
-                    batch_port_calls.extend(result.pop("total_port_calls", []))
-                    results.append(result)
-                    await page.wait_for_timeout(800)
-                except Exception as exc:
-                    print(f"Service {service_code} failed: {exc}")
-                    results.append({"service": service_code, "error": str(exc)})
-                    continue
+            async def _run_service(service_code):
+                await ensure_search_root(page, cookie_state)
+                return await process_service(page, service_code, service_rules)
 
+            async def _after_success(service_code, _summary):
+                await page.wait_for_timeout(800)
                 if service_code != target_services[-1]:
                     try:
                         await back_to_service_selection(page)
@@ -349,18 +339,25 @@ async def main():
                         print(f"Warning: service switch back-steps failed after {service_code}: {exc}")
                         await open_search_once(page)
                         await maybe_accept_cookie_once(page, cookie_state)
+
+            results, batch_voyages, batch_port_calls = await run_async_item_batch(
+                target_services,
+                _run_service,
+                item_label="Service",
+                after_success=_after_success,
+            )
         finally:
             await browser.close()
 
-    summary_path = QUERY_DIR / f"CSL_FETCH_BATCH_SUMMARY_BACK_{datetime.now().strftime('%y%m%d%H%M%S')}.xlsx"
-    pd.DataFrame(results).to_excel(summary_path, index=False)
-
-    detail_path = QUERY_DIR / f"CSL_FETCH_BATCH_DETAIL_BACK_{datetime.now().strftime('%y%m%d%H%M%S')}.xlsx"
-    df_voyages = pd.DataFrame(batch_voyages).reindex(columns=VOYAGE_COLUMNS)
-    df_port_calls = pd.DataFrame(batch_port_calls).reindex(columns=PORT_CALL_COLUMNS)
-    with pd.ExcelWriter(detail_path, engine="openpyxl") as writer:
-        df_voyages.to_excel(writer, index=False, sheet_name="Total Voyages")
-        df_port_calls.to_excel(writer, index=False, sheet_name="Total PortCalls")
+    summary_path = save_summary_workbook(QUERY_DIR, "CSL_FETCH_BATCH_SUMMARY_BACK", results)
+    detail_path = save_timestamped_voyage_portcall_workbook(
+        QUERY_DIR,
+        "CSL_FETCH_BATCH_DETAIL_BACK",
+        voyage_rows=batch_voyages,
+        port_call_rows=batch_port_calls,
+        voyage_sheet_name="Total Voyages",
+        port_call_sheet_name="Total PortCalls",
+    )
 
     print(f"Batch summary saved: {summary_path}")
     print(f"Batch detail tables saved: {detail_path}")

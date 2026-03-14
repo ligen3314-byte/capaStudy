@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import asyncio
 import sys
 from pathlib import Path
 
@@ -9,8 +8,8 @@ SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from capastudy.carriers.csl_fetch_reuse_test import main
+from capastudy.cli import main
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    raise SystemExit(main(["fetch", "csl", "--mode", "reload", *sys.argv[1:]]))

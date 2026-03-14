@@ -2,11 +2,18 @@
 import sys
 import time
 from datetime import datetime
-from pathlib import Path
 
 import pandas as pd
 import requests
 
+from capastudy.carriers.common import (
+    PORT_CALL_COLUMNS,
+    VOYAGE_COLUMNS,
+    choose_requested_items,
+    ensure_directory,
+    run_item_batch,
+    save_timestamped_voyage_portcall_workbook,
+)
 from capastudy.settings import (
     MSC_QUERY_DIR as QUERY_DIR,
     MSC_SERVICE_RULES_XLSX as SERVICE_RULES_XLSX_PRIMARY,
@@ -15,40 +22,6 @@ from capastudy.settings import (
 
 SEARCH_URL = "https://www.msc.com/api/feature/tools/SearchSailingRoutes"
 DATA_SOURCE_ID = "{E9CCBD25-6FBA-4C5C-85F6-FC4F9E5A931F}"
-
-VOYAGE_COLUMNS = [
-    "LoopAbbrv",
-    "VesselCode",
-    "VesselName",
-    "Voyage",
-    "Direction",
-    "PortCallCount",
-    "FirstPort",
-    "LastPort",
-    "FirstArrDtlocAct",
-    "FirstDepDtlocAct",
-    "LastArrDtlocAct",
-    "LastDepDtlocAct",
-    "FirstArrDtlocCos",
-    "FirstDepDtlocCos",
-    "LastArrDtlocCos",
-    "LastDepDtlocCos",
-    "PortCallPath",
-]
-
-PORT_CALL_COLUMNS = [
-    "LoopAbbrv",
-    "VesselCode",
-    "VesselName",
-    "Voyage",
-    "PortCallSeq",
-    "PortName",
-    "ArrDtlocAct",
-    "DepDtlocAct",
-    "ArrDtlocCos",
-    "DepDtlocCos",
-    "Direction",
-]
 
 HEADERS = {
     "Accept": "application/json, text/plain, */*",
@@ -106,7 +79,7 @@ def format_route_datetime(route_text):
 
 
 def ensure_query_dir():
-    QUERY_DIR.mkdir(parents=True, exist_ok=True)
+    ensure_directory(QUERY_DIR)
 
 
 def choose_service_rules_file():
@@ -181,14 +154,13 @@ def load_service_rules():
     return rules
 
 
-def get_target_services(service_rules):
-    if len(sys.argv) > 1:
-        requested = [item.strip().upper() for item in sys.argv[1:] if item.strip()]
-        missing = [item for item in requested if item not in service_rules]
-        if missing:
-            raise ValueError(f"Services not found: {', '.join(sorted(missing))}")
-        return requested
-    return list(service_rules.keys())
+def get_target_services(service_rules, argv=None):
+    return choose_requested_items(
+        service_rules.keys(),
+        argv=argv,
+        normalize=lambda value: str(value).strip().upper(),
+        missing_message=lambda missing: f"Services not found: {', '.join(sorted(missing))}",
+    )
 
 
 def dedupe_name_id_pairs(items):
@@ -423,15 +395,14 @@ def dedupe_port_calls(port_call_rows, voyage_rows):
 
 
 def save_detail(voyage_rows, port_call_rows):
-    ensure_query_dir()
-    timestamp = datetime.now().strftime("%y%m%d%H%M%S")
-    output_path = QUERY_DIR / f"MSC_FETCH_BATCH_DETAIL_{timestamp}.xlsx"
-    df_voyages = pd.DataFrame(voyage_rows).reindex(columns=VOYAGE_COLUMNS)
-    df_port_calls = pd.DataFrame(port_call_rows).reindex(columns=PORT_CALL_COLUMNS)
-    with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
-        df_voyages.to_excel(writer, index=False, sheet_name="Total Voyages")
-        df_port_calls.to_excel(writer, index=False, sheet_name="Total PortCalls")
-    return str(output_path)
+    return save_timestamped_voyage_portcall_workbook(
+        QUERY_DIR,
+        "MSC_FETCH_BATCH_DETAIL",
+        voyage_rows=voyage_rows,
+        port_call_rows=port_call_rows,
+        voyage_sheet_name="Total Voyages",
+        port_call_sheet_name="Total PortCalls",
+    )
 
 
 def process_service(service_code, service_rule, from_date):
@@ -463,20 +434,29 @@ def process_service(service_code, service_rule, from_date):
 
 def main():
     service_rules = load_service_rules()
-    target_services = get_target_services(service_rules)
+    target_services = get_target_services(service_rules, argv=sys.argv[1:])
     from_date = datetime.now().strftime("%Y-%m-%d")
     print(f"Services to process: {target_services}")
     print(f"FromDate: {from_date}")
 
-    batch_voyages = []
-    batch_port_calls = []
-    for service_code in target_services:
+    def _run_service(service_code):
         print(f"Target service: {service_code}")
         voyages, port_calls = process_service(service_code, service_rules[service_code], from_date)
         print(f"Retained voyages: {len(voyages)}")
         print(f"Retained port calls: {len(port_calls)}")
-        batch_voyages.extend(voyages)
-        batch_port_calls.extend(port_calls)
+        return {
+            "service": service_code,
+            "retained_voyages": len(voyages),
+            "retained_port_calls": len(port_calls),
+            "total_voyages": voyages,
+            "total_port_calls": port_calls,
+        }
+
+    _results, batch_voyages, batch_port_calls = run_item_batch(
+        target_services,
+        _run_service,
+        item_label="Service",
+    )
 
     detail_path = save_detail(batch_voyages, batch_port_calls)
     print(f"Batch detail tables saved: {detail_path}")

@@ -1,0 +1,7 @@
+openpyxl
+pandas
+playwright
+playwright-stealth
+psycopg
+python-dotenv
+requests

@@ -1,3 +1,17 @@
+Metadata-Version: 2.4
+Name: capastudy
+Version: 0.1.0
+Summary: Carrier schedule fetching, merge, and sync pipeline.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: playwright
+Requires-Dist: playwright-stealth
+Requires-Dist: psycopg
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+
 ﻿# capaStudy Project Structure (Refactored)
 
 ## 1) Code (`src/`)

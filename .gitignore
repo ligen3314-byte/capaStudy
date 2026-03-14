@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+
+# Runtime outputs should live outside the repo.
+logs/
+archive/
+merged_query/
+data/merged/
+data/state/
+CSL FETCH/artifacts/
+CSL FETCH/csl_query/
+MSC FETCH/msc_query/
+MSK FETCH/msk_query/
+vessels/csl_group_results/
+vessels/vessels_db_UPDATED*.xlsx
+vessels/vessels_db_backup*.xlsx
+vessels/vessels_update_debug*.xlsx
+vessels/*_vessels.json
+vessels/csl_vessels.xlsx
+CSL FETCH/*response.json
+MSC FETCH/*response.json
+MSK FETCH/response.json

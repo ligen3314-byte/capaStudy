@@ -3,14 +3,21 @@ import json
 import os
 import re
 import sys
-from datetime import datetime
-from pathlib import Path
 
 import pandas as pd
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
 
+from capastudy.carriers.common import (
+    PORT_CALL_COLUMNS,
+    VOYAGE_COLUMNS,
+    choose_requested_items,
+    ensure_directory,
+    run_async_item_batch,
+    save_summary_workbook,
+    save_timestamped_voyage_portcall_workbook,
+)
 from capastudy.settings import (
     CSL_ARTIFACT_DIR as ARTIFACT_DIR,
     CSL_QUERY_DIR as QUERY_DIR,
@@ -24,48 +31,13 @@ FETCH_RETRY_ATTEMPTS = 5
 RETRY_BASE_DELAY_SECONDS = 2
 HEADLESS_ENV_VAR = "CSL_HEADLESS"
 
-VOYAGE_COLUMNS = [
-    "LoopAbbrv",
-    "VesselCode",
-    "VesselName",
-    "Voyage",
-    "Direction",
-    "PortCallCount",
-    "FirstPort",
-    "LastPort",
-    "FirstArrDtlocAct",
-    "FirstDepDtlocAct",
-    "LastArrDtlocAct",
-    "LastDepDtlocAct",
-    "FirstArrDtlocCos",
-    "FirstDepDtlocCos",
-    "LastArrDtlocCos",
-    "LastDepDtlocCos",
-    "PortCallPath",
-]
-
-PORT_CALL_COLUMNS = [
-    "LoopAbbrv",
-    "VesselCode",
-    "VesselName",
-    "Voyage",
-    "PortCallSeq",
-    "PortName",
-    "ArrDtlocAct",
-    "DepDtlocAct",
-    "ArrDtlocCos",
-    "DepDtlocCos",
-    "Direction",
-]
-
-
 def sanitize_filename(name):
     cleaned = re.sub(r'[\\/:*?"<>|]', "_", str(name)).strip()
     return cleaned or "UNKNOWN"
 
 
 def ensure_query_dir():
-    QUERY_DIR.mkdir(parents=True, exist_ok=True)
+    ensure_directory(QUERY_DIR)
 
 
 def is_headless_enabled():
@@ -116,14 +88,13 @@ def load_service_rules():
     return rules
 
 
-def get_target_services(service_rules):
-    if len(sys.argv) > 1:
-        requested = [item.strip().upper() for item in sys.argv[1:] if item.strip()]
-        missing = [item for item in requested if item not in service_rules]
-        if missing:
-            raise ValueError(f"Services not found in {SERVICE_RULES_XLSX.name}: {', '.join(missing)}")
-        return requested
-    return list(service_rules.keys())
+def get_target_services(service_rules, argv=None):
+    return choose_requested_items(
+        service_rules.keys(),
+        argv=argv,
+        normalize=lambda value: str(value).strip().upper(),
+        missing_message=lambda missing: f"Services not found in {SERVICE_RULES_XLSX.name}: {', '.join(missing)}",
+    )
 
 
 def normalize_service_group(service_code):
@@ -303,30 +274,29 @@ def parse_tables_from_rows(raw_port_calls, service_rules):
 
 def save_tables_to_excel(voyage_rows, port_call_rows, service_code, port_label, suffix):
     ensure_query_dir()
-    df_voyages = pd.DataFrame(voyage_rows).reindex(columns=VOYAGE_COLUMNS)
-    df_port_calls = pd.DataFrame(port_call_rows).reindex(columns=PORT_CALL_COLUMNS)
-    timestamp = datetime.now().strftime("%y%m%d%H%M%S")
-    file_name = (
+    file_prefix = (
         f"CSL_FETCH_{sanitize_filename(service_code)}_{sanitize_filename(port_label)}_"
-        f"{sanitize_filename(suffix)}_{timestamp}.xlsx"
+        f"{sanitize_filename(suffix)}"
     )
-    output_path = QUERY_DIR / file_name
-    with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
-        df_voyages.to_excel(writer, index=False, sheet_name="Voyages")
-        df_port_calls.to_excel(writer, index=False, sheet_name="PortCalls")
-    return str(output_path)
+    return save_timestamped_voyage_portcall_workbook(
+        QUERY_DIR,
+        file_prefix,
+        voyage_rows=voyage_rows,
+        port_call_rows=port_call_rows,
+        voyage_sheet_name="Voyages",
+        port_call_sheet_name="PortCalls",
+    )
 
 
 def save_batch_detail_tables(voyage_rows, port_call_rows):
-    ensure_query_dir()
-    timestamp = datetime.now().strftime("%y%m%d%H%M%S")
-    output_path = QUERY_DIR / f"CSL_FETCH_BATCH_DETAIL_{timestamp}.xlsx"
-    df_voyages = pd.DataFrame(voyage_rows).reindex(columns=VOYAGE_COLUMNS)
-    df_port_calls = pd.DataFrame(port_call_rows).reindex(columns=PORT_CALL_COLUMNS)
-    with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
-        df_voyages.to_excel(writer, index=False, sheet_name="Total Voyages")
-        df_port_calls.to_excel(writer, index=False, sheet_name="Total PortCalls")
-    return str(output_path)
+    return save_timestamped_voyage_portcall_workbook(
+        QUERY_DIR,
+        "CSL_FETCH_BATCH_DETAIL",
+        voyage_rows=voyage_rows,
+        port_call_rows=port_call_rows,
+        voyage_sheet_name="Total Voyages",
+        port_call_sheet_name="Total PortCalls",
+    )
 
 
 async def prepare_page(page):
@@ -594,25 +564,20 @@ async def process_service(service_code, service_rules):
 
 async def main():
     service_rules = load_service_rules()
-    target_services = get_target_services(service_rules)
+    target_services = get_target_services(service_rules, argv=sys.argv[1:])
     ensure_query_dir()
     print(f"Services to process: {target_services}")
 
-    results = []
-    batch_voyages = []
-    batch_port_calls = []
-    for service_code in target_services:
-        try:
-            result = await process_service(service_code, service_rules)
-            batch_voyages.extend(result.pop("total_voyages", []))
-            batch_port_calls.extend(result.pop("total_port_calls", []))
-            results.append(result)
-        except Exception as exc:
-            print(f"Service {service_code} failed: {exc}")
-            results.append({"service": service_code, "error": str(exc)})
+    async def _run_service(service_code):
+        return await process_service(service_code, service_rules)
 
-    summary_path = QUERY_DIR / f"CSL_FETCH_BATCH_SUMMARY_{datetime.now().strftime('%y%m%d%H%M%S')}.xlsx"
-    pd.DataFrame(results).to_excel(summary_path, index=False)
+    results, batch_voyages, batch_port_calls = await run_async_item_batch(
+        target_services,
+        _run_service,
+        item_label="Service",
+    )
+
+    summary_path = save_summary_workbook(QUERY_DIR, "CSL_FETCH_BATCH_SUMMARY", results)
     detail_path = save_batch_detail_tables(batch_voyages, batch_port_calls)
     print(f"Batch summary saved: {summary_path}")
     print(f"Batch detail tables saved: {detail_path}")

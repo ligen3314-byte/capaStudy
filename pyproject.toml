@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capastudy"
+version = "0.1.0"
+description = "Carrier schedule fetching, merge, and sync pipeline."
+readme = "PROJECT_STRUCTURE.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openpyxl",
+  "pandas",
+  "playwright",
+  "playwright-stealth",
+  "psycopg",
+  "python-dotenv",
+  "requests",
+]
+
+[project.scripts]
+capastudy = "capastudy.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
